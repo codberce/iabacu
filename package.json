@@ -1,0 +1,77 @@
+{
+  "name": "iabacu",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Open-source archive and study workspace for Romania's Bacalaureat exams and mathematics olympiads.",
+  "license": "MIT",
+  "homepage": "https://www.iabacu.ro",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codberce/iabacu.git"
+  },
+  "bugs": {
+    "url": "https://github.com/codberce/iabacu/issues"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "packageManager": "pnpm@11.3.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "assets": "node scripts/install-assets.mjs",
+    "assets:verify": "node scripts/verify-local-assets.mjs",
+    "local:prepare": "node scripts/prepare-local.mjs",
+    "lint": "eslint",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "eval:ai": "vitest run src/evals --reporter=verbose",
+    "import:exams": "node scripts/import-exams.mjs",
+    "import:romana": "node scripts/import-romana-exams.mjs",
+    "import:fizica": "node scripts/import-fizica-exams.mjs",
+    "import:informatica": "node scripts/import-informatica-exams.mjs",
+    "import:evaluare-nationala": "node scripts/import-evaluare-nationala-exams.mjs",
+    "import:2026-finals": "node scripts/import-2026-final-subject-exams.mjs",
+    "classify:legacy-variants": "node scripts/classify-legacy-variants.mjs",
+    "import:olympiad": "node scripts/import-olympiad.mjs && node scripts/build-olympiad-index.mjs",
+    "import:olympiad:mate-info": "node scripts/import-olympiad-mate-info.mjs",
+    "import:all-exams": "pnpm import:exams && pnpm import:romana && pnpm import:fizica && pnpm import:informatica",
+    "validate:exams": "node scripts/validate-exams.mjs",
+    "validate:olympiad": "node scripts/validate-olympiad.mjs",
+    "build:olympiad-index": "node scripts/build-olympiad-index.mjs",
+    "check:olympiad-index": "node scripts/build-olympiad-index.mjs --check",
+    "audit:archives": "node scripts/audit-archives.mjs",
+    "check:links:internal": "node scripts/check-internal-links.mjs",
+    "import:olympiad:mate-info:apply": "node scripts/import-olympiad-mate-info.mjs --apply && node scripts/build-olympiad-index.mjs"
+  },
+  "dependencies": {
+    "katex": "^0.17.0",
+    "lucide-react": "^0.577.0",
+    "next": "16.2.11",
+    "pdfjs-dist": "^6.1.200",
+    "react": "19.2.7",
+    "react-dom": "19.2.7",
+    "react-markdown": "^10.1.0",
+    "rehype-katex": "^7.0.1",
+    "remark-gfm": "^4.0.1",
+    "remark-math": "^6.0.0",
+    "sharp": "^0.35.3",
+    "zod": "^4.2.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.2",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@vitejs/plugin-react": "^6.0.3",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.10",
+    "jsdom": "^29.1.1",
+    "tailwindcss": "^4",
+    "typescript": "^6",
+    "vitest": "^4.0.16"
+  }
+}

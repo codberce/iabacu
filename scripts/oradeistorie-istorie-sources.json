@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "subject": "istorie",
+  "publisher": "Ora de Istorie",
+  "publisherUrl": "https://oradeistorie.ro",
+  "label": "Arhivă istorică de subiecte și bareme, completată cu ediții mai vechi",
+  "yearPages": {
+    "2026": "https://oradeistorie.ro/olimpiada-de-istorie-2026-subiecte-si-bareme/",
+    "2025": "https://oradeistorie.ro/olimpiada-de-istorie-2025-subiecte-si-bareme/",
+    "2024": "https://oradeistorie.ro/olimpiada-de-istorie-2024-subiecte-si-bareme/",
+    "2023": "https://oradeistorie.ro/olimpiada-de-istorie-2023-subiecte-si-bareme/",
+    "2020": "https://oradeistorie.ro/olimpiada-de-istorie-2020-subiecte-si-bareme/",
+    "2018": "https://oradeistorie.ro/olimpiada-de-istorie-2018-subiecte-si-bareme/",
+    "2016": "https://oradeistorie.ro/olimpiada-de-istorie-2016-subiecte-si-bareme/",
+    "2015": "https://oradeistorie.ro/olimpiada-de-istorie-2015-subiecte-si-bareme/",
+    "2014": "https://oradeistorie.ro/olimpiada-de-istorie-2014-subiecte-si-bareme/",
+    "2013": "https://oradeistorie.ro/olimpiada-de-istorie-2013-subiecte-si-bareme/",
+    "2012": "https://oradeistorie.ro/olimpiada-de-istorie-2012-subiecte-si-bareme/",
+    "2011": "https://oradeistorie.ro/olimpiada-de-istorie-2011-subiecte-si-bareme/",
+    "2010": "https://oradeistorie.ro/olimpiada-de-istorie-2010-subiecte-si-bareme/",
+    "2009": "https://oradeistorie.ro/olimpiada-de-istorie-2009-subiecte-si-bareme/",
+    "2008": "https://oradeistorie.ro/olimpiada-de-istorie-2008-subiecte-si-bareme/",
+    "2007": "https://oradeistorie.ro/olimpiada-de-istorie-2007-subiecte-si-bareme/",
+    "2006": "https://oradeistorie.ro/olimpiada-de-istorie-2006-subiecte-si-bareme/",
+    "2005": "https://oradeistorie.ro/olimpiada-de-istorie-2005-subiecte-si-bareme/",
+    "2004": "https://oradeistorie.ro/olimpiada-de-istorie-2004-subiecte-si-bareme/",
+    "2003": "https://oradeistorie.ro/olimpiada-de-istorie-2003-subiecte-si-bareme/"
+  },
+  "stageMap": {
+    "locala": "locala",
+    "judeteana": "judeteana",
+    "nationala": "nationala",
+    "scoala": "locala"
+  }
+}

@@ -1,0 +1,1654 @@
+{
+  "version": 2,
+  "subjects": [
+    {
+      "id": "romana",
+      "label": "Limba și literatura română",
+      "coverage": {
+        "locala": {
+          "status": "catalogued"
+        },
+        "judeteana": {
+          "status": "catalogued"
+        },
+        "nationala": {
+          "status": "catalogued"
+        }
+      }
+    },
+    {
+      "id": "matematica",
+      "label": "Matematică",
+      "coverage": {
+        "locala": {
+          "status": "catalogued",
+          "years": [
+            2013,
+            2014,
+            2015,
+            2016,
+            2017,
+            2018,
+            2019,
+            2020,
+            2023,
+            2024,
+            2025,
+            2026
+          ],
+          "note": "Arhivele publicate de mate.info.ro; disponibilitatea fiecărui județ este raportată la import."
+        },
+        "judeteana": {
+          "status": "catalogued",
+          "years": [
+            2013,
+            2014,
+            2015,
+            2016,
+            2017,
+            2018,
+            2019,
+            2021,
+            2022,
+            2023,
+            2024,
+            2025,
+            2026
+          ]
+        },
+        "nationala": {
+          "status": "catalogued",
+          "years": [
+            2013,
+            2014,
+            2016,
+            2017,
+            2018,
+            2019,
+            2021,
+            2022,
+            2023,
+            2024,
+            2025,
+            2026
+          ]
+        }
+      }
+    },
+    {
+      "id": "fizica",
+      "label": "Fizică",
+      "coverage": {
+        "locala": {
+          "status": "catalogued"
+        },
+        "judeteana": {
+          "status": "catalogued"
+        },
+        "nationala": {
+          "status": "catalogued"
+        }
+      }
+    },
+    {
+      "id": "chimie",
+      "label": "Chimie",
+      "coverage": {
+        "locala": {
+          "status": "catalogued"
+        },
+        "judeteana": {
+          "status": "catalogued"
+        },
+        "nationala": {
+          "status": "catalogued"
+        }
+      }
+    },
+    {
+      "id": "biologie",
+      "label": "Biologie",
+      "coverage": {
+        "locala": {
+          "status": "unavailable",
+          "note": "Nu am încă arhive verificate pentru această etapă."
+        },
+        "judeteana": {
+          "status": "catalogued"
+        },
+        "nationala": {
+          "status": "catalogued"
+        }
+      }
+    },
+    {
+      "id": "astronomie-si-astrofizica",
+      "label": "Astronomie și astrofizică",
+      "coverage": {
+        "locala": {
+          "status": "unavailable",
+          "note": "Nu am încă arhive verificate pentru această etapă."
+        },
+        "judeteana": {
+          "status": "catalogued"
+        },
+        "nationala": {
+          "status": "catalogued"
+        }
+      }
+    },
+    {
+      "id": "geografie",
+      "label": "Geografie",
+      "coverage": {
+        "locala": {
+          "status": "catalogued"
+        },
+        "judeteana": {
+          "status": "catalogued"
+        },
+        "nationala": {
+          "status": "catalogued"
+        }
+      }
+    },
+    {
+      "id": "istorie",
+      "label": "Istorie",
+      "coverage": {
+        "locala": {
+          "status": "catalogued"
+        },
+        "judeteana": {
+          "status": "catalogued"
+        },
+        "nationala": {
+          "status": "catalogued"
+        }
+      }
+    },
+    {
+      "id": "stiinte-socio-umane",
+      "label": "Științe socio-umane",
+      "coverage": {
+        "locala": {
+          "status": "unavailable",
+          "note": "Nu am încă arhive verificate pentru această etapă."
+        },
+        "judeteana": {
+          "status": "catalogued"
+        },
+        "nationala": {
+          "status": "catalogued"
+        }
+      }
+    },
+    {
+      "id": "limba-engleza",
+      "label": "Limba engleză",
+      "coverage": {
+        "locala": {
+          "status": "catalogued"
+        },
+        "judeteana": {
+          "status": "catalogued"
+        },
+        "nationala": {
+          "status": "catalogued"
+        }
+      }
+    },
+    {
+      "id": "limba-franceza",
+      "label": "Limba franceză",
+      "coverage": {
+        "locala": {
+          "status": "catalogued"
+        },
+        "judeteana": {
+          "status": "catalogued"
+        },
+        "nationala": {
+          "status": "catalogued"
+        }
+      }
+    },
+    {
+      "id": "limba-germana-moderna",
+      "label": "Limba germană modernă",
+      "coverage": {
+        "locala": {
+          "status": "unavailable",
+          "note": "Nu am încă arhive verificate pentru această etapă."
+        },
+        "judeteana": {
+          "status": "catalogued"
+        },
+        "nationala": {
+          "status": "unavailable",
+          "note": "Nu am încă arhive verificate pentru această etapă."
+        }
+      }
+    },
+    {
+      "id": "limbi-romanice",
+      "label": "Limbi romanice",
+      "coverage": {
+        "locala": {
+          "status": "unavailable",
+          "note": "Nu am încă arhive verificate pentru această etapă."
+        },
+        "judeteana": {
+          "status": "catalogued"
+        },
+        "nationala": {
+          "status": "catalogued"
+        }
+      }
+    },
+    {
+      "id": "lingvistica",
+      "label": "Lingvistică",
+      "coverage": {
+        "locala": {
+          "status": "unavailable",
+          "note": "Nu am încă arhive verificate pentru această etapă."
+        },
+        "judeteana": {
+          "status": "catalogued"
+        },
+        "nationala": {
+          "status": "catalogued"
+        }
+      }
+    },
+    {
+      "id": "stiinte-pentru-juniori",
+      "label": "Științe pentru Juniori",
+      "coverage": {
+        "locala": {
+          "status": "unavailable",
+          "note": "Nu am încă arhive verificate pentru această etapă."
+        },
+        "judeteana": {
+          "status": "catalogued"
+        },
+        "nationala": {
+          "status": "unavailable",
+          "note": "Nu am încă arhive verificate pentru această etapă."
+        }
+      }
+    },
+    {
+      "id": "stiintele-pamantului",
+      "label": "Științele Pământului",
+      "coverage": {
+        "locala": {
+          "status": "unavailable",
+          "note": "Nu am încă arhive verificate pentru această etapă."
+        },
+        "judeteana": {
+          "status": "catalogued"
+        },
+        "nationala": {
+          "status": "catalogued"
+        }
+      }
+    },
+    {
+      "id": "tehnologia-informatiei-si-comunicatiilor",
+      "label": "Tehnologia informației și comunicațiilor",
+      "coverage": {
+        "locala": {
+          "status": "unavailable",
+          "note": "Nu am încă arhive verificate pentru această etapă."
+        },
+        "judeteana": {
+          "status": "catalogued"
+        },
+        "nationala": {
+          "status": "catalogued"
+        }
+      }
+    },
+    {
+      "id": "memoria-holocaustului",
+      "label": "Concursul național Memoria Holocaustului",
+      "coverage": {
+        "locala": {
+          "status": "unavailable",
+          "note": "Concursul se desfășoară doar pe etapele județeană și națională."
+        },
+        "judeteana": {
+          "status": "catalogued"
+        },
+        "nationala": {
+          "status": "catalogued"
+        }
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "oficial-2026-romana-judeteana",
+      "subject": "romana",
+      "stage": "judeteana",
+      "year": 2026,
+      "adapter": "html-links",
+      "url": "https://subiecte.edu.ro/2026/olimpiade/index.html",
+      "hrefPattern": "/OJ_2026_Limba_si_literatura_romana\\.zip$",
+      "provenance": {
+        "publisher": "Ministerul Educației și Cercetării",
+        "label": "Pachet oficial etapa județeană 2026"
+      }
+    },
+    {
+      "id": "oficial-2026-matematica-judeteana",
+      "subject": "matematica",
+      "stage": "judeteana",
+      "year": 2026,
+      "adapter": "html-links",
+      "url": "https://subiecte.edu.ro/2026/olimpiade/index.html",
+      "hrefPattern": "/OJ_2026_Matematica\\.zip$",
+      "provenance": {
+        "publisher": "Ministerul Educației și Cercetării",
+        "label": "Pachet oficial etapa județeană 2026"
+      }
+    },
+    {
+      "id": "oficial-2026-fizica-judeteana",
+      "subject": "fizica",
+      "stage": "judeteana",
+      "year": 2026,
+      "adapter": "html-links",
+      "url": "https://subiecte.edu.ro/2026/olimpiade/index.html",
+      "hrefPattern": "/OJ_2026_Fizica\\.zip$",
+      "provenance": {
+        "publisher": "Ministerul Educației și Cercetării",
+        "label": "Pachet oficial etapa județeană 2026"
+      }
+    },
+    {
+      "id": "oficial-2026-chimie-judeteana",
+      "subject": "chimie",
+      "stage": "judeteana",
+      "year": 2026,
+      "adapter": "html-links",
+      "url": "https://subiecte.edu.ro/2026/olimpiade/index.html",
+      "hrefPattern": "/OJ_2026_Chimie\\.zip$",
+      "provenance": {
+        "publisher": "Ministerul Educației și Cercetării",
+        "label": "Pachet oficial etapa județeană 2026"
+      }
+    },
+    {
+      "id": "oficial-2026-biologie-judeteana",
+      "subject": "biologie",
+      "stage": "judeteana",
+      "year": 2026,
+      "adapter": "html-links",
+      "url": "https://subiecte.edu.ro/2026/olimpiade/index.html",
+      "hrefPattern": "/OJ_2026_Biologie\\.zip$",
+      "provenance": {
+        "publisher": "Ministerul Educației și Cercetării",
+        "label": "Pachet oficial etapa județeană 2026"
+      }
+    },
+    {
+      "id": "oficial-2026-astronomie-judeteana",
+      "subject": "astronomie-si-astrofizica",
+      "stage": "judeteana",
+      "year": 2026,
+      "adapter": "direct",
+      "url": "https://subiecte.edu.ro/2026/olimpiade/OJ_2026_Astronomie_Astrofizica.zip",
+      "provenance": {
+        "publisher": "Ministerul Educației și Cercetării",
+        "label": "Pachet oficial etapa județeană 2026"
+      }
+    },
+    {
+      "id": "oficial-2026-geografie-judeteana",
+      "subject": "geografie",
+      "stage": "judeteana",
+      "year": 2026,
+      "adapter": "html-links",
+      "url": "https://subiecte.edu.ro/2026/olimpiade/index.html",
+      "hrefPattern": "/OJ_2026_Geografie\\.zip$",
+      "provenance": {
+        "publisher": "Ministerul Educației și Cercetării",
+        "label": "Pachet oficial etapa județeană 2026"
+      }
+    },
+    {
+      "id": "oficial-2026-istorie-judeteana",
+      "subject": "istorie",
+      "stage": "judeteana",
+      "year": 2026,
+      "adapter": "html-links",
+      "url": "https://subiecte.edu.ro/2026/olimpiade/index.html",
+      "hrefPattern": "/OJ_2026_Istorie\\.zip$",
+      "provenance": {
+        "publisher": "Ministerul Educației și Cercetării",
+        "label": "Pachet oficial etapa județeană 2026"
+      }
+    },
+    {
+      "id": "oficial-2026-socio-umane-judeteana",
+      "subject": "stiinte-socio-umane",
+      "stage": "judeteana",
+      "year": 2026,
+      "adapter": "html-links",
+      "url": "https://subiecte.edu.ro/2026/olimpiade/index.html",
+      "hrefPattern": "/OJ_2026_Socio_Umane\\.zip$",
+      "provenance": {
+        "publisher": "Ministerul Educației și Cercetării",
+        "label": "Pachet oficial etapa județeană 2026"
+      }
+    },
+    {
+      "id": "oficial-2026-engleza-judeteana",
+      "subject": "limba-engleza",
+      "stage": "judeteana",
+      "year": 2026,
+      "adapter": "html-links",
+      "url": "https://subiecte.edu.ro/2026/olimpiade/index.html",
+      "hrefPattern": "/OJ_2026_Lb_Engleza\\.zip$",
+      "provenance": {
+        "publisher": "Ministerul Educației și Cercetării",
+        "label": "Pachet oficial etapa județeană 2026"
+      }
+    },
+    {
+      "id": "oficial-2026-franceza-judeteana",
+      "subject": "limba-franceza",
+      "stage": "judeteana",
+      "year": 2026,
+      "adapter": "html-links",
+      "url": "https://subiecte.edu.ro/2026/olimpiade/index.html",
+      "hrefPattern": "/OJ_2026_Lb_Franceza\\.zip$",
+      "provenance": {
+        "publisher": "Ministerul Educației și Cercetării",
+        "label": "Pachet oficial etapa județeană 2026"
+      }
+    },
+    {
+      "id": "oficial-2026-limbi-romanice-judeteana",
+      "subject": "limbi-romanice",
+      "stage": "judeteana",
+      "year": 2026,
+      "adapter": "html-links",
+      "url": "https://subiecte.edu.ro/2026/olimpiade/index.html",
+      "hrefPattern": "/OJ_2026_Lb_romanice\\.zip$",
+      "provenance": {
+        "publisher": "Ministerul Educației și Cercetării",
+        "label": "Pachet oficial etapa județeană 2026"
+      }
+    },
+    {
+      "id": "oficial-2026-lingvistica-judeteana",
+      "subject": "lingvistica",
+      "stage": "judeteana",
+      "year": 2026,
+      "adapter": "html-links",
+      "url": "https://subiecte.edu.ro/2026/olimpiade/index.html",
+      "hrefPattern": "/OJ_2026_Lingvistica_Solomon_Marcus\\.zip$",
+      "provenance": {
+        "publisher": "Ministerul Educației și Cercetării",
+        "label": "Pachet oficial etapa județeană 2026"
+      }
+    },
+    {
+      "id": "oficial-2026-stiintele-pamantului-judeteana",
+      "subject": "stiintele-pamantului",
+      "stage": "judeteana",
+      "year": 2026,
+      "adapter": "html-links",
+      "url": "https://subiecte.edu.ro/2026/olimpiade/index.html",
+      "hrefPattern": "/OJ_2026_Stiintele_Pamantului\\.zip$",
+      "provenance": {
+        "publisher": "Ministerul Educației și Cercetării",
+        "label": "Pachet oficial etapa județeană 2026"
+      }
+    },
+    {
+      "id": "oficial-2026-tic-judeteana",
+      "subject": "tehnologia-informatiei-si-comunicatiilor",
+      "stage": "judeteana",
+      "year": 2026,
+      "adapter": "html-links",
+      "url": "https://subiecte.edu.ro/2026/olimpiade/index.html",
+      "hrefPattern": "/OJ_2026_Tehnologia_informatiei\\.zip$",
+      "provenance": {
+        "publisher": "Ministerul Educației și Cercetării",
+        "label": "Pachet oficial etapa județeană 2026"
+      }
+    },
+    {
+      "id": "olimpiade-ro-romana",
+      "subject": "romana",
+      "adapter": "html-paginated-search",
+      "url": "https://www.olimpiade.ro/materiale?q=olimpiada%20limba%20romana",
+      "titlePattern": "olimpiada.*(?:limba|literatura).*rom",
+      "provenance": {
+        "publisher": "Olimpiade.ro",
+        "label": "Arhivă istorică de subiecte și bareme"
+      }
+    },
+    {
+      "id": "olimpiade-ro-fizica",
+      "subject": "fizica",
+      "adapter": "html-paginated-search",
+      "url": "https://www.olimpiade.ro/materiale?q=olimpiada%20fizica",
+      "titlePattern": "^olimpiada(?: na[țţt]ională)? de fizic",
+      "provenance": {
+        "publisher": "Olimpiade.ro",
+        "label": "Arhivă istorică de subiecte și bareme"
+      }
+    },
+    {
+      "id": "olimpiade-ro-chimie",
+      "subject": "chimie",
+      "adapter": "html-paginated-search",
+      "url": "https://www.olimpiade.ro/materiale?q=olimpiada%20chimie",
+      "titlePattern": "^olimpiada(?: na[țţt]ională)? de chimi",
+      "provenance": {
+        "publisher": "Olimpiade.ro",
+        "label": "Arhivă istorică de subiecte și bareme"
+      }
+    },
+    {
+      "id": "olimpiade-ro-biologie",
+      "subject": "biologie",
+      "adapter": "html-paginated-search",
+      "url": "https://www.olimpiade.ro/materiale?q=olimpiada%20biologie",
+      "titlePattern": "^olimpiada(?: na[țţt]ională)? de biolog",
+      "provenance": {
+        "publisher": "Olimpiade.ro",
+        "label": "Arhivă istorică de subiecte și bareme"
+      }
+    },
+    {
+      "id": "olimpiade-ro-astronomie",
+      "subject": "astronomie-si-astrofizica",
+      "adapter": "html-paginated-search",
+      "url": "https://www.olimpiade.ro/materiale?q=olimpiada%20astronomie",
+      "titlePattern": "^olimpiada(?: na[țţt]ională)? de astronom",
+      "provenance": {
+        "publisher": "Olimpiade.ro",
+        "label": "Arhivă istorică de subiecte și bareme"
+      }
+    },
+    {
+      "id": "olimpiade-ro-geografie",
+      "subject": "geografie",
+      "adapter": "html-paginated-search",
+      "url": "https://www.olimpiade.ro/materiale?q=olimpiada%20geografie",
+      "titlePattern": "^olimpiada(?: na[țţt]ională)? de geograf",
+      "provenance": {
+        "publisher": "Olimpiade.ro",
+        "label": "Arhivă istorică de subiecte și bareme"
+      }
+    },
+    {
+      "id": "olimpiade-ro-istorie",
+      "subject": "istorie",
+      "adapter": "html-paginated-search",
+      "url": "https://www.olimpiade.ro/materiale?q=olimpiada%20istorie",
+      "titlePattern": "olimpiada.*istor",
+      "provenance": {
+        "publisher": "Olimpiade.ro",
+        "label": "Arhivă istorică de subiecte și bareme"
+      }
+    },
+    {
+      "id": "olimpiade-ro-socio-umane",
+      "subject": "stiinte-socio-umane",
+      "adapter": "html-paginated-search",
+      "url": "https://www.olimpiade.ro/materiale?q=olimpiada%20socio%20umane",
+      "titlePattern": "olimpiada.*(?:socio|logic|psiholog|economie|filosof)",
+      "provenance": {
+        "publisher": "Olimpiade.ro",
+        "label": "Arhivă istorică de subiecte și bareme"
+      }
+    },
+    {
+      "id": "olimpiade-ro-engleza",
+      "subject": "limba-engleza",
+      "adapter": "html-paginated-search",
+      "url": "https://www.olimpiade.ro/materiale?q=olimpiada%20engleza",
+      "titlePattern": "^olimpiada(?: na[țţt]ional[aă])? de (?:limb[aă] )?englez",
+      "provenance": {
+        "publisher": "Olimpiade.ro",
+        "label": "Arhivă istorică de subiecte și bareme"
+      }
+    },
+    {
+      "id": "olimpiade-ro-franceza",
+      "subject": "limba-franceza",
+      "adapter": "html-paginated-search",
+      "url": "https://www.olimpiade.ro/materiale?q=olimpiada%20franceza",
+      "titlePattern": "^olimpiada(?: na[țţt]ional[aă])? de (?:limb[aă] )?francez",
+      "provenance": {
+        "publisher": "Olimpiade.ro",
+        "label": "Arhivă istorică de subiecte și bareme"
+      }
+    },
+    {
+      "id": "olimpiade-ro-germana-moderna",
+      "subject": "limba-germana-moderna",
+      "adapter": "html-paginated-search",
+      "url": "https://www.olimpiade.ro/materiale?q=olimpiada%20germana%20moderna",
+      "titlePattern": "olimpiada.*german.*modern",
+      "provenance": {
+        "publisher": "Olimpiade.ro",
+        "label": "Arhivă istorică de subiecte și bareme"
+      }
+    },
+    {
+      "id": "germana-moderna-2026-gimnaziu",
+      "subject": "limba-germana-moderna",
+      "stage": "judeteana",
+      "year": 2026,
+      "kind": "combined",
+      "pairKey": "standard",
+      "title": "Clasele VII–VIII · Subiect și barem",
+      "adapter": "template",
+      "urlTemplate": "https://www.scoala11galati.ro/wp-content/uploads/2026/03/Barem-gimnaziu_judet_2026.pdf",
+      "dimensions": {
+        "grade": [
+          7,
+          8
+        ]
+      },
+      "provenance": {
+        "publisher": "Școala Gimnazială Mihail Sadoveanu Galați",
+        "label": "Subiect și barem OLGM 2026, gimnaziu"
+      }
+    },
+    {
+      "id": "germana-moderna-2026-liceu",
+      "subject": "limba-germana-moderna",
+      "stage": "judeteana",
+      "year": 2026,
+      "kind": "combined",
+      "pairKey": "standard",
+      "title": "Clasele IX–XII · Subiect și barem",
+      "adapter": "template",
+      "urlTemplate": "https://www.scoala11galati.ro/wp-content/uploads/2026/03/Barem-liceu_judet_2026-1.pdf",
+      "dimensions": {
+        "grade": [
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      "provenance": {
+        "publisher": "Școala Gimnazială Mihail Sadoveanu Galați",
+        "label": "Subiect și barem OLGM 2026, liceu"
+      }
+    },
+    {
+      "id": "olimpiade-ro-limbi-romanice",
+      "subject": "limbi-romanice",
+      "adapter": "html-paginated-search",
+      "url": "https://www.olimpiade.ro/materiale?q=olimpiada%20limbi%20romanice",
+      "titlePattern": "olimpiada.*limbi.*romanice",
+      "provenance": {
+        "publisher": "Olimpiade.ro",
+        "label": "Arhivă istorică de subiecte și bareme"
+      }
+    },
+    {
+      "id": "olimpiade-ro-lingvistica",
+      "subject": "lingvistica",
+      "adapter": "html-paginated-search",
+      "url": "https://www.olimpiade.ro/materiale?q=olimpiada%20lingvistica",
+      "titlePattern": "olimpiada.*lingvistic",
+      "provenance": {
+        "publisher": "Olimpiade.ro",
+        "label": "Arhivă istorică de subiecte și bareme"
+      }
+    },
+    {
+      "id": "olimpiade-ro-stiinte-juniori",
+      "subject": "stiinte-pentru-juniori",
+      "adapter": "html-paginated-search",
+      "url": "https://www.olimpiade.ro/materiale?q=olimpiada%20stiinte%20juniori",
+      "titlePattern": "olimpiada.*(?:ș|ş|s)tiin(?:ț|ţ|t)e.*junior",
+      "provenance": {
+        "publisher": "Olimpiade.ro",
+        "label": "Arhivă istorică de subiecte și bareme"
+      }
+    },
+    {
+      "id": "olimpiade-ro-stiintele-pamantului",
+      "subject": "stiintele-pamantului",
+      "adapter": "html-paginated-search",
+      "url": "https://www.olimpiade.ro/materiale?q=olimpiada%20stiintele%20pamantului",
+      "titlePattern": "olimpiada.*(?:ș|ş|s)tiin(?:ț|ţ|t)ele.*p(?:ă|a)m(?:â|a)ntului",
+      "provenance": {
+        "publisher": "Olimpiade.ro",
+        "label": "Arhivă istorică de subiecte și bareme"
+      }
+    },
+    {
+      "id": "olimpiade-ro-tic",
+      "subject": "tehnologia-informatiei-si-comunicatiilor",
+      "adapter": "html-paginated-search",
+      "url": "https://www.olimpiade.ro/materiale?q=olimpiada%20tehnologia%20informatiei",
+      "titlePattern": "olimpiada.*(?:TIC|tehnologia.*informatiei)",
+      "provenance": {
+        "publisher": "Olimpiade.ro",
+        "label": "Arhivă istorică de subiecte și bareme"
+      }
+    },
+    {
+      "id": "mate-info-locala",
+      "subject": "matematica",
+      "stage": "locala",
+      "adapter": "html-links",
+      "url": "https://mate.info.ro/Stirea-813-subiectele-olm-2026-2025-2024-2023-2020-2019-2018-2017-2016-2015-2014-2013-din-toate-judetele.html",
+      "hrefPattern": "/OLM/OLM20[0-9]{2}/[^?#]+\\.(zip|rar)$",
+      "provenance": {
+        "publisher": "mate.info.ro",
+        "label": "Arhive locale pe ani și județe, sursă folosită de importatorul existent"
+      }
+    },
+    {
+      "id": "ssmr-nationala-2013-2014",
+      "subject": "matematica",
+      "stage": "nationala",
+      "kind": "combined",
+      "adapter": "template",
+      "urlTemplate": "https://ssmr.ro/files/onm{year}/faza_nationala/subiecte/solutii_{grade}.pdf",
+      "dimensions": {
+        "year": [
+          2013,
+          2014
+        ],
+        "grade": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      "provenance": {
+        "publisher": "Societatea de Științe Matematice din România",
+        "label": "Arhivă ONM națională"
+      }
+    },
+    {
+      "id": "ssmr-nationala-2016-2019",
+      "subject": "matematica",
+      "stage": "nationala",
+      "kind": "combined",
+      "adapter": "template",
+      "urlTemplate": "https://ssmr.ro/files/onm{year}/subiecte/ONM_{year}_Clasa_{grade}.pdf",
+      "dimensions": {
+        "year": [
+          2016,
+          2017,
+          2018,
+          2019
+        ],
+        "grade": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      "valueMaps": {
+        "grade": {
+          "5": "V",
+          "6": "VI",
+          "7": "VII",
+          "8": "VIII",
+          "9": "IX",
+          "10": "X",
+          "11": "XI",
+          "12": "XII"
+        }
+      },
+      "provenance": {
+        "publisher": "Societatea de Științe Matematice din România",
+        "label": "Arhivă ONM națională"
+      }
+    },
+    {
+      "id": "ssmr-nationala-2021-subiect",
+      "subject": "matematica",
+      "stage": "nationala",
+      "year": 2021,
+      "kind": "subject",
+      "adapter": "template",
+      "urlTemplate": "https://ssmr.ro/files/onm2021/etapa_3/subiecte/Subiecte_cl_{grade}.pdf",
+      "dimensions": {
+        "grade": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      "provenance": {
+        "publisher": "Societatea de Științe Matematice din România",
+        "label": "Arhivă ONM națională"
+      }
+    },
+    {
+      "id": "ssmr-nationala-2021-barem",
+      "subject": "matematica",
+      "stage": "nationala",
+      "year": 2021,
+      "kind": "solution",
+      "adapter": "template",
+      "urlTemplate": "https://ssmr.ro/files/onm2021/etapa_3/subiecte/Barem_solutii_{grade}.pdf",
+      "dimensions": {
+        "grade": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      "provenance": {
+        "publisher": "Societatea de Științe Matematice din România",
+        "label": "Arhivă ONM națională"
+      }
+    },
+    {
+      "id": "ssmr-nationala-2022",
+      "subject": "matematica",
+      "stage": "nationala",
+      "year": 2022,
+      "kind": "combined",
+      "adapter": "template",
+      "urlTemplate": "https://ssmr.ro/files/onm2022/finala/cl{grade}_nationala.pdf",
+      "dimensions": {
+        "grade": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      "provenance": {
+        "publisher": "Societatea de Științe Matematice din România",
+        "label": "Arhivă ONM națională"
+      }
+    },
+    {
+      "id": "ssmr-nationala-2023-2026",
+      "subject": "matematica",
+      "stage": "nationala",
+      "kind": "combined",
+      "adapter": "template",
+      "urlTemplate": "https://ssmr.ro/files/onm{year}/faza_nationala/{grade}_solutii_bareme_ONM_{year}.pdf",
+      "dimensions": {
+        "year": [
+          2023,
+          2024,
+          2025,
+          2026
+        ],
+        "grade": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      "valueMaps": {
+        "grade": {
+          "5": "05",
+          "6": "06",
+          "7": "07",
+          "8": "08",
+          "9": "09",
+          "10": "10",
+          "11": "11",
+          "12": "12"
+        }
+      },
+      "provenance": {
+        "publisher": "Societatea de Științe Matematice din România",
+        "label": "Arhivă ONM națională"
+      }
+    },
+    {
+      "id": "ssmr-judeteana-2013",
+      "subject": "matematica",
+      "stage": "judeteana",
+      "year": 2013,
+      "kind": "combined",
+      "adapter": "template",
+      "urlTemplate": "https://ssmr.ro/files/onm2013/faza_judet/solutii/clasa_{grade}_2013_sol.pdf",
+      "dimensions": {
+        "grade": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      "provenance": {
+        "publisher": "Societatea de Științe Matematice din România",
+        "label": "Arhivă OJM"
+      }
+    },
+    {
+      "id": "ssmr-judeteana-2014-2026",
+      "subject": "matematica",
+      "stage": "judeteana",
+      "kind": "combined",
+      "adapter": "template",
+      "urlTemplate": "https://ssmr.ro/files/onm{year}/faza_municipiu/barem_clasa{grade}.pdf",
+      "dimensions": {
+        "year": [
+          2014,
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2023,
+          2024,
+          2025,
+          2026
+        ],
+        "grade": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      "provenance": {
+        "publisher": "Societatea de Științe Matematice din România",
+        "label": "Arhivă OJM folosită de importatorul existent"
+      }
+    },
+    {
+      "id": "ssmr-judeteana-2021-subiect",
+      "subject": "matematica",
+      "stage": "judeteana",
+      "year": 2021,
+      "kind": "subject",
+      "adapter": "template",
+      "urlTemplate": "https://ssmr.ro/files/onm2021/etapa_2/cl_{grade}_enunturi.pdf",
+      "dimensions": {
+        "grade": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      "provenance": {
+        "publisher": "Societatea de Științe Matematice din România",
+        "label": "Arhivă OJM"
+      }
+    },
+    {
+      "id": "ssmr-judeteana-2021-barem",
+      "subject": "matematica",
+      "stage": "judeteana",
+      "year": 2021,
+      "kind": "solution",
+      "adapter": "template",
+      "urlTemplate": "https://ssmr.ro/files/onm2021/etapa_2/cl_{grade}_raspunsuri.pdf",
+      "dimensions": {
+        "grade": [
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      "provenance": {
+        "publisher": "Societatea de Științe Matematice din România",
+        "label": "Arhivă OJM"
+      }
+    },
+    {
+      "id": "ssmr-judeteana-2022",
+      "subject": "matematica",
+      "stage": "judeteana",
+      "year": 2022,
+      "kind": "combined",
+      "adapter": "template",
+      "urlTemplate": "https://ssmr.ro/files/onm2022/judet/{grade}_solutii_bareme_OJM_2022.pdf",
+      "dimensions": {
+        "grade": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      "valueMaps": {
+        "grade": {
+          "5": "05",
+          "6": "06",
+          "7": "07",
+          "8": "08",
+          "9": "09",
+          "10": "10",
+          "11": "11",
+          "12": "12"
+        }
+      },
+      "provenance": {
+        "publisher": "Societatea de Științe Matematice din România",
+        "label": "Arhivă OJM"
+      }
+    },
+    {
+      "id": "oradeistorie-istorie-2003",
+      "subject": "istorie",
+      "year": 2003,
+      "adapter": "html-row-downloads",
+      "url": "https://oradeistorie.ro/olimpiada-de-istorie-2003-subiecte-si-bareme/",
+      "olympiadName": "Olimpiada de Istorie",
+      "stageMap": {
+        "locala": "locala",
+        "judeteana": "judeteana",
+        "nationala": "nationala",
+        "scoala": "locala"
+      },
+      "provenance": {
+        "publisher": "Ora de Istorie",
+        "label": "Arhivă istorică de subiecte și bareme, completată cu ediții mai vechi"
+      }
+    },
+    {
+      "id": "oradeistorie-istorie-2004",
+      "subject": "istorie",
+      "year": 2004,
+      "adapter": "html-row-downloads",
+      "url": "https://oradeistorie.ro/olimpiada-de-istorie-2004-subiecte-si-bareme/",
+      "olympiadName": "Olimpiada de Istorie",
+      "stageMap": {
+        "locala": "locala",
+        "judeteana": "judeteana",
+        "nationala": "nationala",
+        "scoala": "locala"
+      },
+      "provenance": {
+        "publisher": "Ora de Istorie",
+        "label": "Arhivă istorică de subiecte și bareme, completată cu ediții mai vechi"
+      }
+    },
+    {
+      "id": "oradeistorie-istorie-2005",
+      "subject": "istorie",
+      "year": 2005,
+      "adapter": "html-row-downloads",
+      "url": "https://oradeistorie.ro/olimpiada-de-istorie-2005-subiecte-si-bareme/",
+      "olympiadName": "Olimpiada de Istorie",
+      "stageMap": {
+        "locala": "locala",
+        "judeteana": "judeteana",
+        "nationala": "nationala",
+        "scoala": "locala"
+      },
+      "provenance": {
+        "publisher": "Ora de Istorie",
+        "label": "Arhivă istorică de subiecte și bareme, completată cu ediții mai vechi"
+      }
+    },
+    {
+      "id": "oradeistorie-istorie-2006",
+      "subject": "istorie",
+      "year": 2006,
+      "adapter": "html-row-downloads",
+      "url": "https://oradeistorie.ro/olimpiada-de-istorie-2006-subiecte-si-bareme/",
+      "olympiadName": "Olimpiada de Istorie",
+      "stageMap": {
+        "locala": "locala",
+        "judeteana": "judeteana",
+        "nationala": "nationala",
+        "scoala": "locala"
+      },
+      "provenance": {
+        "publisher": "Ora de Istorie",
+        "label": "Arhivă istorică de subiecte și bareme, completată cu ediții mai vechi"
+      }
+    },
+    {
+      "id": "oradeistorie-istorie-2007",
+      "subject": "istorie",
+      "year": 2007,
+      "adapter": "html-row-downloads",
+      "url": "https://oradeistorie.ro/olimpiada-de-istorie-2007-subiecte-si-bareme/",
+      "olympiadName": "Olimpiada de Istorie",
+      "stageMap": {
+        "locala": "locala",
+        "judeteana": "judeteana",
+        "nationala": "nationala",
+        "scoala": "locala"
+      },
+      "provenance": {
+        "publisher": "Ora de Istorie",
+        "label": "Arhivă istorică de subiecte și bareme, completată cu ediții mai vechi"
+      }
+    },
+    {
+      "id": "oradeistorie-istorie-2008",
+      "subject": "istorie",
+      "year": 2008,
+      "adapter": "html-row-downloads",
+      "url": "https://oradeistorie.ro/olimpiada-de-istorie-2008-subiecte-si-bareme/",
+      "olympiadName": "Olimpiada de Istorie",
+      "stageMap": {
+        "locala": "locala",
+        "judeteana": "judeteana",
+        "nationala": "nationala",
+        "scoala": "locala"
+      },
+      "provenance": {
+        "publisher": "Ora de Istorie",
+        "label": "Arhivă istorică de subiecte și bareme, completată cu ediții mai vechi"
+      }
+    },
+    {
+      "id": "oradeistorie-istorie-2009",
+      "subject": "istorie",
+      "year": 2009,
+      "adapter": "html-row-downloads",
+      "url": "https://oradeistorie.ro/olimpiada-de-istorie-2009-subiecte-si-bareme/",
+      "olympiadName": "Olimpiada de Istorie",
+      "stageMap": {
+        "locala": "locala",
+        "judeteana": "judeteana",
+        "nationala": "nationala",
+        "scoala": "locala"
+      },
+      "provenance": {
+        "publisher": "Ora de Istorie",
+        "label": "Arhivă istorică de subiecte și bareme, completată cu ediții mai vechi"
+      }
+    },
+    {
+      "id": "oradeistorie-istorie-2010",
+      "subject": "istorie",
+      "year": 2010,
+      "adapter": "html-row-downloads",
+      "url": "https://oradeistorie.ro/olimpiada-de-istorie-2010-subiecte-si-bareme/",
+      "olympiadName": "Olimpiada de Istorie",
+      "stageMap": {
+        "locala": "locala",
+        "judeteana": "judeteana",
+        "nationala": "nationala",
+        "scoala": "locala"
+      },
+      "provenance": {
+        "publisher": "Ora de Istorie",
+        "label": "Arhivă istorică de subiecte și bareme, completată cu ediții mai vechi"
+      }
+    },
+    {
+      "id": "oradeistorie-istorie-2011",
+      "subject": "istorie",
+      "year": 2011,
+      "adapter": "html-row-downloads",
+      "url": "https://oradeistorie.ro/olimpiada-de-istorie-2011-subiecte-si-bareme/",
+      "olympiadName": "Olimpiada de Istorie",
+      "stageMap": {
+        "locala": "locala",
+        "judeteana": "judeteana",
+        "nationala": "nationala",
+        "scoala": "locala"
+      },
+      "provenance": {
+        "publisher": "Ora de Istorie",
+        "label": "Arhivă istorică de subiecte și bareme, completată cu ediții mai vechi"
+      }
+    },
+    {
+      "id": "oradeistorie-istorie-2012",
+      "subject": "istorie",
+      "year": 2012,
+      "adapter": "html-row-downloads",
+      "url": "https://oradeistorie.ro/olimpiada-de-istorie-2012-subiecte-si-bareme/",
+      "olympiadName": "Olimpiada de Istorie",
+      "stageMap": {
+        "locala": "locala",
+        "judeteana": "judeteana",
+        "nationala": "nationala",
+        "scoala": "locala"
+      },
+      "provenance": {
+        "publisher": "Ora de Istorie",
+        "label": "Arhivă istorică de subiecte și bareme, completată cu ediții mai vechi"
+      }
+    },
+    {
+      "id": "oradeistorie-istorie-2013",
+      "subject": "istorie",
+      "year": 2013,
+      "adapter": "html-row-downloads",
+      "url": "https://oradeistorie.ro/olimpiada-de-istorie-2013-subiecte-si-bareme/",
+      "olympiadName": "Olimpiada de Istorie",
+      "stageMap": {
+        "locala": "locala",
+        "judeteana": "judeteana",
+        "nationala": "nationala",
+        "scoala": "locala"
+      },
+      "provenance": {
+        "publisher": "Ora de Istorie",
+        "label": "Arhivă istorică de subiecte și bareme, completată cu ediții mai vechi"
+      }
+    },
+    {
+      "id": "oradeistorie-istorie-2014",
+      "subject": "istorie",
+      "year": 2014,
+      "adapter": "html-row-downloads",
+      "url": "https://oradeistorie.ro/olimpiada-de-istorie-2014-subiecte-si-bareme/",
+      "olympiadName": "Olimpiada de Istorie",
+      "stageMap": {
+        "locala": "locala",
+        "judeteana": "judeteana",
+        "nationala": "nationala",
+        "scoala": "locala"
+      },
+      "provenance": {
+        "publisher": "Ora de Istorie",
+        "label": "Arhivă istorică de subiecte și bareme, completată cu ediții mai vechi"
+      }
+    },
+    {
+      "id": "oradeistorie-istorie-2015",
+      "subject": "istorie",
+      "year": 2015,
+      "adapter": "html-row-downloads",
+      "url": "https://oradeistorie.ro/olimpiada-de-istorie-2015-subiecte-si-bareme/",
+      "olympiadName": "Olimpiada de Istorie",
+      "stageMap": {
+        "locala": "locala",
+        "judeteana": "judeteana",
+        "nationala": "nationala",
+        "scoala": "locala"
+      },
+      "provenance": {
+        "publisher": "Ora de Istorie",
+        "label": "Arhivă istorică de subiecte și bareme, completată cu ediții mai vechi"
+      }
+    },
+    {
+      "id": "oradeistorie-istorie-2016",
+      "subject": "istorie",
+      "year": 2016,
+      "adapter": "html-row-downloads",
+      "url": "https://oradeistorie.ro/olimpiada-de-istorie-2016-subiecte-si-bareme/",
+      "olympiadName": "Olimpiada de Istorie",
+      "stageMap": {
+        "locala": "locala",
+        "judeteana": "judeteana",
+        "nationala": "nationala",
+        "scoala": "locala"
+      },
+      "provenance": {
+        "publisher": "Ora de Istorie",
+        "label": "Arhivă istorică de subiecte și bareme, completată cu ediții mai vechi"
+      }
+    },
+    {
+      "id": "oradeistorie-istorie-2018",
+      "subject": "istorie",
+      "year": 2018,
+      "adapter": "html-row-downloads",
+      "url": "https://oradeistorie.ro/olimpiada-de-istorie-2018-subiecte-si-bareme/",
+      "olympiadName": "Olimpiada de Istorie",
+      "stageMap": {
+        "locala": "locala",
+        "judeteana": "judeteana",
+        "nationala": "nationala",
+        "scoala": "locala"
+      },
+      "provenance": {
+        "publisher": "Ora de Istorie",
+        "label": "Arhivă istorică de subiecte și bareme, completată cu ediții mai vechi"
+      }
+    },
+    {
+      "id": "oradeistorie-istorie-2020",
+      "subject": "istorie",
+      "year": 2020,
+      "adapter": "html-row-downloads",
+      "url": "https://oradeistorie.ro/olimpiada-de-istorie-2020-subiecte-si-bareme/",
+      "olympiadName": "Olimpiada de Istorie",
+      "stageMap": {
+        "locala": "locala",
+        "judeteana": "judeteana",
+        "nationala": "nationala",
+        "scoala": "locala"
+      },
+      "provenance": {
+        "publisher": "Ora de Istorie",
+        "label": "Arhivă istorică de subiecte și bareme, completată cu ediții mai vechi"
+      }
+    },
+    {
+      "id": "oradeistorie-istorie-2023",
+      "subject": "istorie",
+      "year": 2023,
+      "adapter": "html-row-downloads",
+      "url": "https://oradeistorie.ro/olimpiada-de-istorie-2023-subiecte-si-bareme/",
+      "olympiadName": "Olimpiada de Istorie",
+      "stageMap": {
+        "locala": "locala",
+        "judeteana": "judeteana",
+        "nationala": "nationala",
+        "scoala": "locala"
+      },
+      "provenance": {
+        "publisher": "Ora de Istorie",
+        "label": "Arhivă istorică de subiecte și bareme, completată cu ediții mai vechi"
+      }
+    },
+    {
+      "id": "oradeistorie-istorie-2024",
+      "subject": "istorie",
+      "year": 2024,
+      "adapter": "html-row-downloads",
+      "url": "https://oradeistorie.ro/olimpiada-de-istorie-2024-subiecte-si-bareme/",
+      "olympiadName": "Olimpiada de Istorie",
+      "stageMap": {
+        "locala": "locala",
+        "judeteana": "judeteana",
+        "nationala": "nationala",
+        "scoala": "locala"
+      },
+      "provenance": {
+        "publisher": "Ora de Istorie",
+        "label": "Arhivă istorică de subiecte și bareme, completată cu ediții mai vechi"
+      }
+    },
+    {
+      "id": "oradeistorie-istorie-2025",
+      "subject": "istorie",
+      "year": 2025,
+      "adapter": "html-row-downloads",
+      "url": "https://oradeistorie.ro/olimpiada-de-istorie-2025-subiecte-si-bareme/",
+      "olympiadName": "Olimpiada de Istorie",
+      "stageMap": {
+        "locala": "locala",
+        "judeteana": "judeteana",
+        "nationala": "nationala",
+        "scoala": "locala"
+      },
+      "provenance": {
+        "publisher": "Ora de Istorie",
+        "label": "Arhivă istorică de subiecte și bareme, completată cu ediții mai vechi"
+      }
+    },
+    {
+      "id": "oradeistorie-istorie-2026",
+      "subject": "istorie",
+      "year": 2026,
+      "adapter": "html-row-downloads",
+      "url": "https://oradeistorie.ro/olimpiada-de-istorie-2026-subiecte-si-bareme/",
+      "olympiadName": "Olimpiada de Istorie",
+      "stageMap": {
+        "locala": "locala",
+        "judeteana": "judeteana",
+        "nationala": "nationala",
+        "scoala": "locala"
+      },
+      "provenance": {
+        "publisher": "Ora de Istorie",
+        "label": "Arhivă istorică de subiecte și bareme, completată cu ediții mai vechi"
+      }
+    },
+    {
+      "id": "oradeistorie-memoria-holocaustului-2024",
+      "year": 2024,
+      "stage": "judeteana",
+      "kind": "combined",
+      "grade": 11,
+      "title": "Subiect și barem · Etapa județeană",
+      "url": "https://oradeistorie.ro/wp-content/uploads/concurs-national-memoria-holocaustului-2024.pdf",
+      "provenance": {
+        "publisher": "Ora de Istorie",
+        "label": "Arhivă cu subiect și barem de la etapa județeană 2024"
+      },
+      "subject": "memoria-holocaustului",
+      "adapter": "direct",
+      "olympiadName": "Memoria Holocaustului"
+    },
+    {
+      "id": "olimpiade-ro-memoria-holocaustului-2024-judeteana-v1",
+      "year": 2024,
+      "stage": "judeteana",
+      "kind": "subject",
+      "grade": 11,
+      "title": "Subiect · Varianta 1",
+      "url": "https://static.olimpiade.ro/uploads/attach_data/74/18/11/cnmh_2024_judetean_cls_11_subiecte_varianta_1.pdf",
+      "provenance": {
+        "publisher": "Olimpiade.ro",
+        "label": "Concursul Național „Memoria Holocaustului\" 2024 · Etapa județeană · Varianta 1"
+      },
+      "subject": "memoria-holocaustului",
+      "adapter": "direct",
+      "olympiadName": "Memoria Holocaustului"
+    },
+    {
+      "id": "olimpiade-ro-memoria-holocaustului-2024-judeteana-v2",
+      "year": 2024,
+      "stage": "judeteana",
+      "kind": "subject",
+      "grade": 11,
+      "title": "Subiect · Varianta 2",
+      "url": "https://static.olimpiade.ro/uploads/attach_data/107/30/33/cnmh_2024_judetean_cls_11_subiecte_varianta_2.pdf",
+      "provenance": {
+        "publisher": "Olimpiade.ro",
+        "label": "Concursul Național „Memoria Holocaustului\" 2024 · Etapa județeană · Varianta 2"
+      },
+      "subject": "memoria-holocaustului",
+      "adapter": "direct",
+      "olympiadName": "Memoria Holocaustului"
+    },
+    {
+      "id": "olimpiade-ro-memoria-holocaustului-2024-judeteana-v3",
+      "year": 2024,
+      "stage": "judeteana",
+      "kind": "subject",
+      "grade": 11,
+      "title": "Subiect · Varianta 3",
+      "url": "https://static.olimpiade.ro/uploads/attach_data/55/51/22/cnmh_2024_judetean_cls_11_subiecte_varianta_3.pdf",
+      "provenance": {
+        "publisher": "Olimpiade.ro",
+        "label": "Concursul Național „Memoria Holocaustului\" 2024 · Etapa județeană · Varianta 3"
+      },
+      "subject": "memoria-holocaustului",
+      "adapter": "direct",
+      "olympiadName": "Memoria Holocaustului"
+    },
+    {
+      "id": "olimpiade-ro-memoria-holocaustului-2024-judeteana-barem-v1",
+      "year": 2024,
+      "stage": "judeteana",
+      "kind": "solution",
+      "grade": 11,
+      "title": "Barem · Varianta 1",
+      "url": "https://static.olimpiade.ro/uploads/attach_data/67/28/6/cnmh_2024_judetean_cls_11_barem_varianta_1.pdf",
+      "provenance": {
+        "publisher": "Olimpiade.ro",
+        "label": "Concursul Național „Memoria Holocaustului\" 2024 · Etapa județeană · Barem Varianta 1"
+      },
+      "subject": "memoria-holocaustului",
+      "adapter": "direct",
+      "olympiadName": "Memoria Holocaustului"
+    },
+    {
+      "id": "olimpiade-ro-memoria-holocaustului-2024-judeteana-barem-v2",
+      "year": 2024,
+      "stage": "judeteana",
+      "kind": "solution",
+      "grade": 11,
+      "title": "Barem · Varianta 2",
+      "url": "https://static.olimpiade.ro/uploads/attach_data/7/13/9/cnmh_2024_judetean_cls_11_barem_varianta_2.pdf",
+      "provenance": {
+        "publisher": "Olimpiade.ro",
+        "label": "Concursul Național „Memoria Holocaustului\" 2024 · Etapa județeană · Barem Varianta 2"
+      },
+      "subject": "memoria-holocaustului",
+      "adapter": "direct",
+      "olympiadName": "Memoria Holocaustului"
+    },
+    {
+      "id": "olimpiade-ro-memoria-holocaustului-2024-judeteana-barem-v3",
+      "year": 2024,
+      "stage": "judeteana",
+      "kind": "solution",
+      "grade": 11,
+      "title": "Barem · Varianta 3",
+      "url": "https://static.olimpiade.ro/uploads/attach_data/6/1/3/cnmh_2024_judetean_cls_11_barem_varianta_3.pdf",
+      "provenance": {
+        "publisher": "Olimpiade.ro",
+        "label": "Concursul Național „Memoria Holocaustului\" 2024 · Etapa județeană · Barem Varianta 3"
+      },
+      "subject": "memoria-holocaustului",
+      "adapter": "direct",
+      "olympiadName": "Memoria Holocaustului"
+    },
+    {
+      "id": "olimpiade-ro-memoria-holocaustului-2024-nationala-subiect",
+      "year": 2024,
+      "stage": "nationala",
+      "kind": "subject",
+      "grade": 11,
+      "title": "Subiect · Proba scrisă",
+      "url": "https://static.olimpiade.ro/uploads/attach_data/59/36/23/cnmh_2024_national_cls_11_subiecte_proba_scrisa.pdf",
+      "provenance": {
+        "publisher": "Olimpiade.ro",
+        "label": "Concursul Național „Memoria Holocaustului\" 2024 · Etapa națională · Proba scrisă"
+      },
+      "subject": "memoria-holocaustului",
+      "adapter": "direct",
+      "olympiadName": "Memoria Holocaustului"
+    },
+    {
+      "id": "olimpiade-ro-memoria-holocaustului-2024-nationala-barem",
+      "year": 2024,
+      "stage": "nationala",
+      "kind": "solution",
+      "grade": 11,
+      "title": "Barem · Proba scrisă",
+      "url": "https://static.olimpiade.ro/uploads/attach_data/118/32/28/cnmh_2024_national_cls_11_barem_proba_scrisa.pdf",
+      "provenance": {
+        "publisher": "Olimpiade.ro",
+        "label": "Concursul Național „Memoria Holocaustului\" 2024 · Etapa națională · Barem Proba scrisă"
+      },
+      "subject": "memoria-holocaustului",
+      "adapter": "direct",
+      "olympiadName": "Memoria Holocaustului"
+    },
+    {
+      "id": "scoala7galati-memoria-holocaustului-2025-subiect",
+      "year": 2025,
+      "stage": "judeteana",
+      "kind": "subject",
+      "grade": 11,
+      "title": "Subiect",
+      "url": "https://scoala7galati.ro/images/sampledata/cassiopeia/concursul_memoria_holocaustului/Subiect_MH_2025.pdf",
+      "provenance": {
+        "publisher": "Școala Gimnazială Nr. 7 Galați",
+        "label": "Concursul Național „Memoria Holocaustului\" 2025 · Subiect"
+      },
+      "subject": "memoria-holocaustului",
+      "adapter": "direct",
+      "olympiadName": "Memoria Holocaustului"
+    },
+    {
+      "id": "scoala7galati-memoria-holocaustului-2025-barem",
+      "year": 2025,
+      "stage": "judeteana",
+      "kind": "solution",
+      "grade": 11,
+      "title": "Barem",
+      "url": "https://scoala7galati.ro/images/sampledata/cassiopeia/concursul_memoria_holocaustului/Barem_MH_2025.pdf",
+      "provenance": {
+        "publisher": "Școala Gimnazială Nr. 7 Galați",
+        "label": "Concursul Național „Memoria Holocaustului\" 2025 · Barem"
+      },
+      "subject": "memoria-holocaustului",
+      "adapter": "direct",
+      "olympiadName": "Memoria Holocaustului"
+    },
+    {
+      "id": "cnvais-memoria-holocaustului-2026-subiect",
+      "year": 2026,
+      "stage": "judeteana",
+      "kind": "subject",
+      "grade": 11,
+      "title": "Subiect",
+      "url": "https://www.cnvais.ro/sites/default/files/articol/2026/05/subiect-memoria-holocaustului.pdf",
+      "provenance": {
+        "publisher": "Colegiul Național „Al. I. Cuza\" Focșani",
+        "label": "Concursul Național „Memoria Holocaustului\" 2026 · Subiect"
+      },
+      "subject": "memoria-holocaustului",
+      "adapter": "direct",
+      "olympiadName": "Memoria Holocaustului"
+    },
+    {
+      "id": "scoala12galati-memoria-holocaustului-2026-barem",
+      "year": 2026,
+      "stage": "judeteana",
+      "kind": "solution",
+      "grade": 11,
+      "title": "Barem",
+      "url": "https://scoala12galati.ro/wp-content/uploads/2026/05/Barem-subiect-Holocaust-2026.pdf",
+      "provenance": {
+        "publisher": "Școala Gimnazială Nr. 12 Galați",
+        "label": "Concursul Național „Memoria Holocaustului\" 2026 · Barem"
+      },
+      "subject": "memoria-holocaustului",
+      "adapter": "direct",
+      "olympiadName": "Memoria Holocaustului"
+    }
+  ]
+}

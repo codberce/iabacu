@@ -1,0 +1,183 @@
+{
+  "version": 1,
+  "subject": "memoria-holocaustului",
+  "publisher": "Ministerul Educației / INSHR-EW",
+  "publisherUrl": "https://www.edu.ro",
+  "label": "Arhivă cu subiecte și bareme de la Concursul Național „Memoria Holocaustului\"",
+  "defaultGrade": 11,
+  "stageMap": {
+    "judeteana": "judeteana",
+    "nationala": "nationala"
+  },
+  "sources": [
+    {
+      "id": "oradeistorie-memoria-holocaustului-2024",
+      "year": 2024,
+      "stage": "judeteana",
+      "kind": "combined",
+      "grade": 11,
+      "title": "Subiect și barem · Etapa județeană",
+      "url": "https://oradeistorie.ro/wp-content/uploads/concurs-national-memoria-holocaustului-2024.pdf",
+      "provenance": {
+        "publisher": "Ora de Istorie",
+        "label": "Arhivă cu subiect și barem de la etapa județeană 2024"
+      }
+    },
+    {
+      "id": "olimpiade-ro-memoria-holocaustului-2024-judeteana-v1",
+      "year": 2024,
+      "stage": "judeteana",
+      "kind": "subject",
+      "grade": 11,
+      "title": "Subiect · Varianta 1",
+      "url": "https://static.olimpiade.ro/uploads/attach_data/74/18/11/cnmh_2024_judetean_cls_11_subiecte_varianta_1.pdf",
+      "provenance": {
+        "publisher": "Olimpiade.ro",
+        "label": "Concursul Național „Memoria Holocaustului\" 2024 · Etapa județeană · Varianta 1"
+      }
+    },
+    {
+      "id": "olimpiade-ro-memoria-holocaustului-2024-judeteana-v2",
+      "year": 2024,
+      "stage": "judeteana",
+      "kind": "subject",
+      "grade": 11,
+      "title": "Subiect · Varianta 2",
+      "url": "https://static.olimpiade.ro/uploads/attach_data/107/30/33/cnmh_2024_judetean_cls_11_subiecte_varianta_2.pdf",
+      "provenance": {
+        "publisher": "Olimpiade.ro",
+        "label": "Concursul Național „Memoria Holocaustului\" 2024 · Etapa județeană · Varianta 2"
+      }
+    },
+    {
+      "id": "olimpiade-ro-memoria-holocaustului-2024-judeteana-v3",
+      "year": 2024,
+      "stage": "judeteana",
+      "kind": "subject",
+      "grade": 11,
+      "title": "Subiect · Varianta 3",
+      "url": "https://static.olimpiade.ro/uploads/attach_data/55/51/22/cnmh_2024_judetean_cls_11_subiecte_varianta_3.pdf",
+      "provenance": {
+        "publisher": "Olimpiade.ro",
+        "label": "Concursul Național „Memoria Holocaustului\" 2024 · Etapa județeană · Varianta 3"
+      }
+    },
+    {
+      "id": "olimpiade-ro-memoria-holocaustului-2024-judeteana-barem-v1",
+      "year": 2024,
+      "stage": "judeteana",
+      "kind": "solution",
+      "grade": 11,
+      "title": "Barem · Varianta 1",
+      "url": "https://static.olimpiade.ro/uploads/attach_data/67/28/6/cnmh_2024_judetean_cls_11_barem_varianta_1.pdf",
+      "provenance": {
+        "publisher": "Olimpiade.ro",
+        "label": "Concursul Național „Memoria Holocaustului\" 2024 · Etapa județeană · Barem Varianta 1"
+      }
+    },
+    {
+      "id": "olimpiade-ro-memoria-holocaustului-2024-judeteana-barem-v2",
+      "year": 2024,
+      "stage": "judeteana",
+      "kind": "solution",
+      "grade": 11,
+      "title": "Barem · Varianta 2",
+      "url": "https://static.olimpiade.ro/uploads/attach_data/7/13/9/cnmh_2024_judetean_cls_11_barem_varianta_2.pdf",
+      "provenance": {
+        "publisher": "Olimpiade.ro",
+        "label": "Concursul Național „Memoria Holocaustului\" 2024 · Etapa județeană · Barem Varianta 2"
+      }
+    },
+    {
+      "id": "olimpiade-ro-memoria-holocaustului-2024-judeteana-barem-v3",
+      "year": 2024,
+      "stage": "judeteana",
+      "kind": "solution",
+      "grade": 11,
+      "title": "Barem · Varianta 3",
+      "url": "https://static.olimpiade.ro/uploads/attach_data/6/1/3/cnmh_2024_judetean_cls_11_barem_varianta_3.pdf",
+      "provenance": {
+        "publisher": "Olimpiade.ro",
+        "label": "Concursul Național „Memoria Holocaustului\" 2024 · Etapa județeană · Barem Varianta 3"
+      }
+    },
+    {
+      "id": "olimpiade-ro-memoria-holocaustului-2024-nationala-subiect",
+      "year": 2024,
+      "stage": "nationala",
+      "kind": "subject",
+      "grade": 11,
+      "title": "Subiect · Proba scrisă",
+      "url": "https://static.olimpiade.ro/uploads/attach_data/59/36/23/cnmh_2024_national_cls_11_subiecte_proba_scrisa.pdf",
+      "provenance": {
+        "publisher": "Olimpiade.ro",
+        "label": "Concursul Național „Memoria Holocaustului\" 2024 · Etapa națională · Proba scrisă"
+      }
+    },
+    {
+      "id": "olimpiade-ro-memoria-holocaustului-2024-nationala-barem",
+      "year": 2024,
+      "stage": "nationala",
+      "kind": "solution",
+      "grade": 11,
+      "title": "Barem · Proba scrisă",
+      "url": "https://static.olimpiade.ro/uploads/attach_data/118/32/28/cnmh_2024_national_cls_11_barem_proba_scrisa.pdf",
+      "provenance": {
+        "publisher": "Olimpiade.ro",
+        "label": "Concursul Național „Memoria Holocaustului\" 2024 · Etapa națională · Barem Proba scrisă"
+      }
+    },
+    {
+      "id": "scoala7galati-memoria-holocaustului-2025-subiect",
+      "year": 2025,
+      "stage": "judeteana",
+      "kind": "subject",
+      "grade": 11,
+      "title": "Subiect",
+      "url": "https://scoala7galati.ro/images/sampledata/cassiopeia/concursul_memoria_holocaustului/Subiect_MH_2025.pdf",
+      "provenance": {
+        "publisher": "Școala Gimnazială Nr. 7 Galați",
+        "label": "Concursul Național „Memoria Holocaustului\" 2025 · Subiect"
+      }
+    },
+    {
+      "id": "scoala7galati-memoria-holocaustului-2025-barem",
+      "year": 2025,
+      "stage": "judeteana",
+      "kind": "solution",
+      "grade": 11,
+      "title": "Barem",
+      "url": "https://scoala7galati.ro/images/sampledata/cassiopeia/concursul_memoria_holocaustului/Barem_MH_2025.pdf",
+      "provenance": {
+        "publisher": "Școala Gimnazială Nr. 7 Galați",
+        "label": "Concursul Național „Memoria Holocaustului\" 2025 · Barem"
+      }
+    },
+    {
+      "id": "cnvais-memoria-holocaustului-2026-subiect",
+      "year": 2026,
+      "stage": "judeteana",
+      "kind": "subject",
+      "grade": 11,
+      "title": "Subiect",
+      "url": "https://www.cnvais.ro/sites/default/files/articol/2026/05/subiect-memoria-holocaustului.pdf",
+      "provenance": {
+        "publisher": "Colegiul Național „Al. I. Cuza\" Focșani",
+        "label": "Concursul Național „Memoria Holocaustului\" 2026 · Subiect"
+      }
+    },
+    {
+      "id": "scoala12galati-memoria-holocaustului-2026-barem",
+      "year": 2026,
+      "stage": "judeteana",
+      "kind": "solution",
+      "grade": 11,
+      "title": "Barem",
+      "url": "https://scoala12galati.ro/wp-content/uploads/2026/05/Barem-subiect-Holocaust-2026.pdf",
+      "provenance": {
+        "publisher": "Școala Gimnazială Nr. 12 Galați",
+        "label": "Concursul Național „Memoria Holocaustului\" 2026 · Barem"
+      }
+    }
+  ]
+}

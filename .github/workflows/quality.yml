@@ -1,0 +1,62 @@
+name: Quality
+
+on:
+  pull_request:
+  push:
+    branches: [master]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: quality-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v7
+      - uses: pnpm/action-setup@v6
+        with:
+          version: 11.3.0
+          run_install: false
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm lint
+      - run: pnpm test
+      - run: pnpm validate:exams
+      - run: pnpm validate:olympiad
+      - run: pnpm check:olympiad-index
+      - run: pnpm audit:archives -- --json=archive-audit.json
+      - run: pnpm check:links:internal -- --json=internal-links.json
+      - uses: actions/upload-artifact@v7
+        with:
+          name: archive-audit
+          path: |
+            archive-audit.json
+            internal-links.json
+      - run: pnpm local:prepare
+      - run: pnpm local:prepare
+
+  launchers:
+    name: Launcher (${{ matrix.os }})
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 5
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+      - if: runner.os != 'Windows'
+        run: ./start.sh --check
+      - if: runner.os == 'Windows'
+        run: ./start-windows.bat --check
+        shell: cmd

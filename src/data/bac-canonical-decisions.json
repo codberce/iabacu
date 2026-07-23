@@ -1,0 +1,2026 @@
+{
+  "version": 1,
+  "generatedAt": "2026-07-15T00:00:00.000Z",
+  "records": [
+    {
+      "localId": "romana-2026-model-model-oficial",
+      "externalId": "archive-romana-1054",
+      "canonicalId": "romana-2026-model-model-oficial",
+      "decision": "manual-review",
+      "reason": "metadata-candidate",
+      "decidedAt": "2026-07-15",
+      "evidence": {
+        "candidateKey": "romana|2026|model|realtehnologic",
+        "localSha256": {
+          "subject": "b07d297a0d9a454122a697145e71910aadef4f6b0ffbccb9919353f6a348cf42",
+          "rubric": "c02fca898e3fce1518d39d76b7120eb551e753ab1dc00756c695ca62bbc7dfcd"
+        },
+        "externalSha256": {
+          "subject": "0000000000000000000000000000000000000000000000000000000000000000",
+          "rubric": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "note": "Metadata alone cannot establish a merge; this record remains pending review until immutable hashes or page-text fingerprints are compared."
+      }
+    },
+    {
+      "localId": "romana-2026-simulation-simulare-nationala",
+      "externalId": "archive-romana-1233",
+      "canonicalId": "romana-2026-simulation-simulare-nationala",
+      "decision": "manual-review",
+      "reason": "metadata-candidate",
+      "decidedAt": "2026-07-15",
+      "evidence": {
+        "candidateKey": "romana|2026|simulation|realtehnologic",
+        "localSha256": {
+          "subject": "6b3b7e7478234a8ba4a933839e2f9181bc0dcb325b17721e9e15bc1db283ce9a",
+          "rubric": "ef25f5b13b7e3ae777ffd21d5fdbf018eb2f569a066590f30ae52b7623d2c36c"
+        },
+        "externalSha256": {
+          "subject": "0000000000000000000000000000000000000000000000000000000000000000",
+          "rubric": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "note": "Metadata alone cannot establish a merge; this record remains pending review until immutable hashes or page-text fingerprints are compared."
+      }
+    },
+    {
+      "localId": "romana-2025-model-model-oficial",
+      "externalId": "archive-romana-629",
+      "canonicalId": "romana-2025-model-model-oficial",
+      "decision": "manual-review",
+      "reason": "metadata-candidate",
+      "decidedAt": "2026-07-15",
+      "evidence": {
+        "candidateKey": "romana|2025|model|realtehnologic",
+        "localSha256": {
+          "subject": "0c16e848184c295a2b99b17315b8b9e6c8b9a8fa2498a717971e772bb82e669a",
+          "rubric": "48957b2b03ccdaa7f7b47a7d71847b1eaac47ae680829d05cf18bbe7498ccb7b"
+        },
+        "externalSha256": {
+          "subject": "0000000000000000000000000000000000000000000000000000000000000000",
+          "rubric": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "note": "Metadata alone cannot establish a merge; this record remains pending review until immutable hashes or page-text fingerprints are compared."
+      }
+    },
+    {
+      "localId": "romana-2025-simulation-simulare-nationala",
+      "externalId": "archive-romana-998",
+      "canonicalId": "romana-2025-simulation-simulare-nationala",
+      "decision": "manual-review",
+      "reason": "metadata-candidate",
+      "decidedAt": "2026-07-15",
+      "evidence": {
+        "candidateKey": "romana|2025|simulation|realtehnologic",
+        "localSha256": {
+          "subject": "1fd8dc2b04956ff927dad4c939f13fcf5b91edc03a99ada962571b503f02f017",
+          "rubric": "d904b619bf6d14c1f27515f3c0985c55e9386d148f13a38092a0057107d0dcd2"
+        },
+        "externalSha256": {
+          "subject": "0000000000000000000000000000000000000000000000000000000000000000",
+          "rubric": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "note": "Metadata alone cannot establish a merge; this record remains pending review until immutable hashes or page-text fingerprints are compared."
+      }
+    },
+    {
+      "localId": "romana-2025-special-sesiunea-speciala",
+      "externalId": "archive-romana-1022",
+      "canonicalId": "romana-2025-special-sesiunea-speciala",
+      "decision": "manual-review",
+      "reason": "metadata-candidate",
+      "decidedAt": "2026-07-15",
+      "evidence": {
+        "candidateKey": "romana|2025|special|realtehnologic",
+        "localSha256": {
+          "subject": "72b48a38b805da20049378571e1c863eb05f4ceff43f211a16f712bbcf5330d0",
+          "rubric": "7510476ade7eacfd8ad1d953c13db2dfa274d90a497ed22cd211ff8ce5137686"
+        },
+        "externalSha256": {
+          "subject": "0000000000000000000000000000000000000000000000000000000000000000",
+          "rubric": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "note": "Metadata alone cannot establish a merge; this record remains pending review until immutable hashes or page-text fingerprints are compared."
+      }
+    },
+    {
+      "localId": "romana-2025-final-sesiunea-iunie-iulie",
+      "externalId": "archive-romana-1025",
+      "canonicalId": "romana-2025-final-sesiunea-iunie-iulie",
+      "decision": "manual-review",
+      "reason": "metadata-candidate",
+      "decidedAt": "2026-07-15",
+      "evidence": {
+        "candidateKey": "romana|2025|final|realtehnologic",
+        "localSha256": {
+          "subject": "42cc3de271f0a0d32bd333390fe7965e7a37b67440ae52839a17f41d3619ea17",
+          "rubric": "cdca2fea8b097d0dd1269fc2691c4cfdd21161f27dfac8a2f4835508079539c6"
+        },
+        "externalSha256": {
+          "subject": "0000000000000000000000000000000000000000000000000000000000000000",
+          "rubric": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "note": "Metadata alone cannot establish a merge; this record remains pending review until immutable hashes or page-text fingerprints are compared."
+      }
+    },
+    {
+      "localId": "romana-2024-special-sesiunea-speciala",
+      "externalId": "archive-romana-637",
+      "canonicalId": "romana-2024-special-sesiunea-speciala",
+      "decision": "manual-review",
+      "reason": "metadata-candidate",
+      "decidedAt": "2026-07-15",
+      "evidence": {
+        "candidateKey": "romana|2024|special|realtehnologic",
+        "localSha256": {
+          "subject": "950a0d8799b12d40a711e5b0ed5cbc7d8ab0ad9d4c9d9c2ff2f0c7038013630d",
+          "rubric": "3b60f0015db31b974b05c8672ba567955a8bb6b11f6f09f3831cb27c21e7cd8a"
+        },
+        "externalSha256": {
+          "subject": "0000000000000000000000000000000000000000000000000000000000000000",
+          "rubric": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "note": "Metadata alone cannot establish a merge; this record remains pending review until immutable hashes or page-text fingerprints are compared."
+      }
+    },
+    {
+      "localId": "romana-2024-final-sesiunea-iunie-iulie",
+      "externalId": "archive-romana-633",
+      "canonicalId": "romana-2024-final-sesiunea-iunie-iulie",
+      "decision": "manual-review",
+      "reason": "metadata-candidate",
+      "decidedAt": "2026-07-15",
+      "evidence": {
+        "candidateKey": "romana|2024|final|realtehnologic",
+        "localSha256": {
+          "subject": "3c92974f46736131663773e6c368e8fb595c50dc0876b4d10ebf2374a9815b65",
+          "rubric": "a1dbccb9072aa013d4470fe6219e4444a6e1abc749dc5274b1df85f61f38a1c1"
+        },
+        "externalSha256": {
+          "subject": "0000000000000000000000000000000000000000000000000000000000000000",
+          "rubric": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "note": "Metadata alone cannot establish a merge; this record remains pending review until immutable hashes or page-text fingerprints are compared."
+      }
+    },
+    {
+      "localId": "romana-2024-autumn-sesiunea-august",
+      "externalId": "archive-romana-635",
+      "canonicalId": "romana-2024-autumn-sesiunea-august",
+      "decision": "manual-review",
+      "reason": "metadata-candidate",
+      "decidedAt": "2026-07-15",
+      "evidence": {
+        "candidateKey": "romana|2024|autumn|realtehnologic",
+        "localSha256": {
+          "subject": "2e638ec8966a6a3e43a6e40ac6a1c0e8ac9e44878faf3026fb3bb161741592fe",
+          "rubric": "036f2813c127c8606d323db4c625402db1bc2b0ede528248679796930ef80c1c"
+        },
+        "externalSha256": {
+          "subject": "0000000000000000000000000000000000000000000000000000000000000000",
+          "rubric": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "note": "Metadata alone cannot establish a merge; this record remains pending review until immutable hashes or page-text fingerprints are compared."
+      }
+    },
+    {
+      "localId": "romana-2023-special-sesiunea-speciala",
+      "externalId": "archive-romana-649",
+      "canonicalId": "romana-2023-special-sesiunea-speciala",
+      "decision": "manual-review",
+      "reason": "metadata-candidate",
+      "decidedAt": "2026-07-15",
+      "evidence": {
+        "candidateKey": "romana|2023|special|realtehnologic",
+        "localSha256": {
+          "subject": "75cbc80262305658b10d4a8fbe3d43c892c55b386ff09a5e33c37378658d6962",
+          "rubric": "53a21d9c3c9cade520666ef922c20685371ff68cc29dfeb3db5cbaadf1e9427e"
+        },
+        "externalSha256": {
+          "subject": "0000000000000000000000000000000000000000000000000000000000000000",
+          "rubric": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "note": "Metadata alone cannot establish a merge; this record remains pending review until immutable hashes or page-text fingerprints are compared."
+      }
+    },
+    {
+      "localId": "romana-2023-final-sesiunea-iunie-iulie",
+      "externalId": "archive-romana-645",
+      "canonicalId": "romana-2023-final-sesiunea-iunie-iulie",
+      "decision": "manual-review",
+      "reason": "metadata-candidate",
+      "decidedAt": "2026-07-15",
+      "evidence": {
+        "candidateKey": "romana|2023|final|realtehnologic",
+        "localSha256": {
+          "subject": "eea209038421b61ea57f416f382f68657b9484c79e35ac66e62c40315985831e",
+          "rubric": "c7e655bbf0ffb511b148fdee6e63dfd66f06cf13092bc8aaf59bf83c02a41d86"
+        },
+        "externalSha256": {
+          "subject": "0000000000000000000000000000000000000000000000000000000000000000",
+          "rubric": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "note": "Metadata alone cannot establish a merge; this record remains pending review until immutable hashes or page-text fingerprints are compared."
+      }
+    },
+    {
+      "localId": "romana-2023-autumn-sesiunea-august",
+      "externalId": "archive-romana-647",
+      "canonicalId": "romana-2023-autumn-sesiunea-august",
+      "decision": "manual-review",
+      "reason": "metadata-candidate",
+      "decidedAt": "2026-07-15",
+      "evidence": {
+        "candidateKey": "romana|2023|autumn|realtehnologic",
+        "localSha256": {
+          "subject": "d924fd347933d60aa09b7a0ceaafddae8ac2371beb8321d5e5a1e62b9ed26769",
+          "rubric": "ba6d5070bb49234a691d68b999427792d2103f14f7e9599bf36b010cadf3f12a"
+        },
+        "externalSha256": {
+          "subject": "0000000000000000000000000000000000000000000000000000000000000000",
+          "rubric": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "note": "Metadata alone cannot establish a merge; this record remains pending review until immutable hashes or page-text fingerprints are compared."
+      }
+    },
+    {
+      "localId": "romana-2022-special-sesiunea-speciala",
+      "externalId": "archive-romana-264",
+      "canonicalId": "romana-2022-special-sesiunea-speciala",
+      "decision": "manual-review",
+      "reason": "metadata-candidate",
+      "decidedAt": "2026-07-15",
+      "evidence": {
+        "candidateKey": "romana|2022|special|realtehnologic",
+        "localSha256": {
+          "subject": "ffd0f4d27a5e29ce88db2138121fb4e3d3ce90b6b33f2b2646abeb459fcfd39f",
+          "rubric": "0d8533bc8ee31ae22b5047e55777fe6323e09f4d9937d95162f03e38ead30642"
+        },
+        "externalSha256": {
+          "subject": "0000000000000000000000000000000000000000000000000000000000000000",
+          "rubric": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "note": "Metadata alone cannot establish a merge; this record remains pending review until immutable hashes or page-text fingerprints are compared."
+      }
+    },
+    {
+      "localId": "romana-2022-final-sesiunea-iunie-iulie",
+      "externalId": "archive-romana-262",
+      "canonicalId": "romana-2022-final-sesiunea-iunie-iulie",
+      "decision": "manual-review",
+      "reason": "metadata-candidate",
+      "decidedAt": "2026-07-15",
+      "evidence": {
+        "candidateKey": "romana|2022|final|realtehnologic",
+        "localSha256": {
+          "subject": "2fb71ffd6f3d62789bf5204770d44f5a1fd83a13b19efd5b7b4cf6c9771a2646",
+          "rubric": "612b1906137eda148fbe98494604c94b615ad37da792ccd90d1bd1eace128134"
+        },
+        "externalSha256": {
+          "subject": "0000000000000000000000000000000000000000000000000000000000000000",
+          "rubric": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "note": "Metadata alone cannot establish a merge; this record remains pending review until immutable hashes or page-text fingerprints are compared."
+      }
+    },
+    {
+      "localId": "romana-2022-autumn-sesiunea-august",
+      "externalId": "archive-romana-266",
+      "canonicalId": "romana-2022-autumn-sesiunea-august",
+      "decision": "manual-review",
+      "reason": "metadata-candidate",
+      "decidedAt": "2026-07-15",
+      "evidence": {
+        "candidateKey": "romana|2022|autumn|realtehnologic",
+        "localSha256": {
+          "subject": "be5e5e8e21e30afece4f4b1d5d54091406d531fe93bf80695d49fc9e2bd08b73",
+          "rubric": "ba13bf0b8d0b78b3367e7b606142f4ea5fe88dccc6008498c9de2c82711e1e95"
+        },
+        "externalSha256": {
+          "subject": "0000000000000000000000000000000000000000000000000000000000000000",
+          "rubric": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "note": "Metadata alone cannot establish a merge; this record remains pending review until immutable hashes or page-text fingerprints are compared."
+      }
+    },
+    {
+      "localId": "romana-2021-special-sesiunea-speciala",
+      "externalId": "archive-romana-270",
+      "canonicalId": "romana-2021-special-sesiunea-speciala",
+      "decision": "manual-review",
+      "reason": "metadata-candidate",
+      "decidedAt": "2026-07-15",
+      "evidence": {
+        "candidateKey": "romana|2021|special|realtehnologic",
+        "localSha256": {
+          "subject": "1cb702da53101077fd5bb63cccb2bc81aadb7f83a49bd89671aff27fc24a650c",
+          "rubric": "c221bafee7b4b0de9196adaa1b49f111dd622ed5feadc42278c91747850c82a0"
+        },
+        "externalSha256": {
+          "subject": "0000000000000000000000000000000000000000000000000000000000000000",
+          "rubric": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "note": "Metadata alone cannot establish a merge; this record remains pending review until immutable hashes or page-text fingerprints are compared."
+      }
+    },
+    {
+      "localId": "romana-2021-final-sesiunea-iunie-iulie",
+      "externalId": "archive-romana-268",
+      "canonicalId": "romana-2021-final-sesiunea-iunie-iulie",
+      "decision": "manual-review",
+      "reason": "metadata-candidate",
+      "decidedAt": "2026-07-15",
+      "evidence": {
+        "candidateKey": "romana|2021|final|realtehnologic",
+        "localSha256": {
+          "subject": "7b6e1d0c05a9e63c9d893977136c0aa6beb6c48c45ec0201d62e1279d77a149d",
+          "rubric": "07a9e1c2179659577d2ae086ea211f372c38e4d87c1f16a0cb71dbd2b3050d54"
+        },
+        "externalSha256": {
+          "subject": "0000000000000000000000000000000000000000000000000000000000000000",
+          "rubric": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "note": "Metadata alone cannot establish a merge; this record remains pending review until immutable hashes or page-text fingerprints are compared."
+      }
+    },
+    {
+      "localId": "romana-2021-autumn-sesiunea-august",
+      "externalId": "archive-romana-271",
+      "canonicalId": "romana-2021-autumn-sesiunea-august",
+      "decision": "manual-review",
+      "reason": "metadata-candidate",
+      "decidedAt": "2026-07-15",
+      "evidence": {
+        "candidateKey": "romana|2021|autumn|realtehnologic",
+        "localSha256": {
+          "subject": "964007ffee924f6c70cc422c8ef00987cab1087caad1e77e56a174d2f9fb578e",
+          "rubric": "ff7d440fe2f41827f04475a96d27979068c53740396fe0a2fc015c5abae2ebc5"
+        },
+        "externalSha256": {
+          "subject": "0000000000000000000000000000000000000000000000000000000000000000",
+          "rubric": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "note": "Metadata alone cannot establish a merge; this record remains pending review until immutable hashes or page-text fingerprints are compared."
+      }
+    },
+    {
+      "localId": "romana-2020-special-sesiunea-speciala",
+      "externalId": "archive-romana-275",
+      "canonicalId": "romana-2020-special-sesiunea-speciala",
+      "decision": "manual-review",
+      "reason": "metadata-candidate",
+      "decidedAt": "2026-07-15",
+      "evidence": {
+        "candidateKey": "romana|2020|special|realtehnologic",
+        "localSha256": {
+          "subject": "6863034fc9535fd0d2f3b4a528de762b99d94c21ba3b1f6993dab067d542db2b",
+          "rubric": "710415dc0175e094374c2ac01d20c688820c01c27e458532d20ba45f5d1d9a68"
+        },
+        "externalSha256": {
+          "subject": "0000000000000000000000000000000000000000000000000000000000000000",
+          "rubric": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "note": "Metadata alone cannot establish a merge; this record remains pending review until immutable hashes or page-text fingerprints are compared."
+      }
+    },
+    {
+      "localId": "romana-2020-final-sesiunea-iunie-iulie",
+      "externalId": "archive-romana-273",
+      "canonicalId": "romana-2020-final-sesiunea-iunie-iulie",
+      "decision": "manual-review",
+      "reason": "metadata-candidate",
+      "decidedAt": "2026-07-15",
+      "evidence": {
+        "candidateKey": "romana|2020|final|realtehnologic",
+        "localSha256": {
+          "subject": "73393171f1a3c47b509fb0178b463bb45b05573c5b0366f83913c34fdda6f68d",
+          "rubric": "ae3b75766465b4713a0e415aaed2920e0d899695f65543cf329973b2ab2590d0"
+        },
+        "externalSha256": {
+          "subject": "0000000000000000000000000000000000000000000000000000000000000000",
+          "rubric": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "note": "Metadata alone cannot establish a merge; this record remains pending review until immutable hashes or page-text fingerprints are compared."
+      }
+    },
+    {
+      "localId": "romana-2020-autumn-sesiunea-august",
+      "externalId": "archive-romana-277",
+      "canonicalId": "romana-2020-autumn-sesiunea-august",
+      "decision": "manual-review",
+      "reason": "metadata-candidate",
+      "decidedAt": "2026-07-15",
+      "evidence": {
+        "candidateKey": "romana|2020|autumn|realtehnologic",
+        "localSha256": {
+          "subject": "0a02970d5e7387f2f1f0e81e596f3ec7975367554481e637ce0abe6099f1b3fb",
+          "rubric": "44677764065e92a2270a12bddc5f983a6dc4922322818bf44045a7948b0f788f"
+        },
+        "externalSha256": {
+          "subject": "0000000000000000000000000000000000000000000000000000000000000000",
+          "rubric": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "note": "Metadata alone cannot establish a merge; this record remains pending review until immutable hashes or page-text fingerprints are compared."
+      }
+    },
+    {
+      "localId": "romana-2019-special-sesiunea-speciala",
+      "externalId": "archive-romana-281",
+      "canonicalId": "romana-2019-special-sesiunea-speciala",
+      "decision": "manual-review",
+      "reason": "metadata-candidate",
+      "decidedAt": "2026-07-15",
+      "evidence": {
+        "candidateKey": "romana|2019|special|realtehnologic",
+        "localSha256": {
+          "subject": "1b11f281f5ad38896b262c43d286558a12bff31d6e05c523b171bd5ca05b8e3d",
+          "rubric": "6c305b9d48b61ec3f0580d0113ef6996e387b6102f99bca020315299a3013686"
+        },
+        "externalSha256": {
+          "subject": "0000000000000000000000000000000000000000000000000000000000000000",
+          "rubric": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "note": "Metadata alone cannot establish a merge; this record remains pending review until immutable hashes or page-text fingerprints are compared."
+      }
+    },
+    {
+      "localId": "romana-2019-final-sesiunea-iunie-iulie",
+      "externalId": "archive-romana-279",
+      "canonicalId": "romana-2019-final-sesiunea-iunie-iulie",
+      "decision": "manual-review",
+      "reason": "metadata-candidate",
+      "decidedAt": "2026-07-15",
+      "evidence": {
+        "candidateKey": "romana|2019|final|realtehnologic",
+        "localSha256": {
+          "subject": "da6f7bc5d370f82b62e526b8ca121994e37bd677278e148d677e312897f52d2b",
+          "rubric": "67b91f7783abf5e1943fd74d0fe38d9740429e96bdd9c5ff325d398bd85aefad"
+        },
+        "externalSha256": {
+          "subject": "0000000000000000000000000000000000000000000000000000000000000000",
+          "rubric": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "note": "Metadata alone cannot establish a merge; this record remains pending review until immutable hashes or page-text fingerprints are compared."
+      }
+    },
+    {
+      "localId": "romana-2019-autumn-sesiunea-august",
+      "externalId": "archive-romana-283",
+      "canonicalId": "romana-2019-autumn-sesiunea-august",
+      "decision": "manual-review",
+      "reason": "metadata-candidate",
+      "decidedAt": "2026-07-15",
+      "evidence": {
+        "candidateKey": "romana|2019|autumn|realtehnologic",
+        "localSha256": {
+          "subject": "e1ab7bc18523386507cc9957371a9e97b4e2c02139766b3c58bc46e42e68199a",
+          "rubric": "14a38b2f32b8cbbf09d9e38cce9a9e6f6c524cdd97efca08f25f7e084ce7f4a5"
+        },
+        "externalSha256": {
+          "subject": "0000000000000000000000000000000000000000000000000000000000000000",
+          "rubric": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "note": "Metadata alone cannot establish a merge; this record remains pending review until immutable hashes or page-text fingerprints are compared."
+      }
+    },
+    {
+      "localId": "romana-2018-special-sesiunea-speciala",
+      "externalId": "archive-romana-287",
+      "canonicalId": "romana-2018-special-sesiunea-speciala",
+      "decision": "manual-review",
+      "reason": "metadata-candidate",
+      "decidedAt": "2026-07-15",
+      "evidence": {
+        "candidateKey": "romana|2018|special|realtehnologic",
+        "localSha256": {
+          "subject": "2ae84af9405a387ae4cccd44e0933dea86e1565f0db611b28b91ea5c6432a3f8",
+          "rubric": "b93cb6b3a905f7df284b84f451c4309e7696623a90bea4bfce542f3013abfb50"
+        },
+        "externalSha256": {
+          "subject": "0000000000000000000000000000000000000000000000000000000000000000",
+          "rubric": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "note": "Metadata alone cannot establish a merge; this record remains pending review until immutable hashes or page-text fingerprints are compared."
+      }
+    },
+    {
+      "localId": "romana-2018-final-sesiunea-iunie-iulie",
+      "externalId": "archive-romana-285",
+      "canonicalId": "romana-2018-final-sesiunea-iunie-iulie",
+      "decision": "manual-review",
+      "reason": "metadata-candidate",
+      "decidedAt": "2026-07-15",
+      "evidence": {
+        "candidateKey": "romana|2018|final|realtehnologic",
+        "localSha256": {
+          "subject": "ec18f388ef2d3a6352caec360ebc84748a25017e7679755ffb997c162c4cb16a",
+          "rubric": "ed8c93fccc0faf993102e69018c8454dcbf17dbfe427f492148cc70ea0e0ccc5"
+        },
+        "externalSha256": {
+          "subject": "0000000000000000000000000000000000000000000000000000000000000000",
+          "rubric": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "note": "Metadata alone cannot establish a merge; this record remains pending review until immutable hashes or page-text fingerprints are compared."
+      }
+    },
+    {
+      "localId": "romana-2018-autumn-sesiunea-august",
+      "externalId": "archive-romana-289",
+      "canonicalId": "romana-2018-autumn-sesiunea-august",
+      "decision": "manual-review",
+      "reason": "metadata-candidate",
+      "decidedAt": "2026-07-15",
+      "evidence": {
+        "candidateKey": "romana|2018|autumn|realtehnologic",
+        "localSha256": {
+          "subject": "4e1e1287b30e571934a3e2ed92b658aa8e4dfa7891a792eb5fb040b6fb3594a7",
+          "rubric": "4e12f7cb32c6ce141b21f1cfb7bea22f74f4c0a177a063e38075b4bedc7c80af"
+        },
+        "externalSha256": {
+          "subject": "0000000000000000000000000000000000000000000000000000000000000000",
+          "rubric": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "note": "Metadata alone cannot establish a merge; this record remains pending review until immutable hashes or page-text fingerprints are compared."
+      }
+    },
+    {
+      "localId": "romana-2017-special-sesiunea-speciala",
+      "externalId": "archive-romana-293",
+      "canonicalId": "romana-2017-special-sesiunea-speciala",
+      "decision": "manual-review",
+      "reason": "metadata-candidate",
+      "decidedAt": "2026-07-15",
+      "evidence": {
+        "candidateKey": "romana|2017|special|realtehnologic",
+        "localSha256": {
+          "subject": "70ae4dd70935e0dd8a76c95dd657a468a0d12bdead219e605eca3221cbce4bd1",
+          "rubric": "b9ea6646de6f7f74180e534c1b6b954a6409e47d8ba4693c40d1b1d4c4885778"
+        },
+        "externalSha256": {
+          "subject": "0000000000000000000000000000000000000000000000000000000000000000",
+          "rubric": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "note": "Metadata alone cannot establish a merge; this record remains pending review until immutable hashes or page-text fingerprints are compared."
+      }
+    },
+    {
+      "localId": "romana-2017-final-sesiunea-iunie-iulie",
+      "externalId": "archive-romana-291",
+      "canonicalId": "romana-2017-final-sesiunea-iunie-iulie",
+      "decision": "manual-review",
+      "reason": "metadata-candidate",
+      "decidedAt": "2026-07-15",
+      "evidence": {
+        "candidateKey": "romana|2017|final|realtehnologic",
+        "localSha256": {
+          "subject": "2d4555f87121913ab5550a6a373c645869a97ae5ba04f22778a7161945fbf0ad",
+          "rubric": "ceeb0df5b986195dc00d8a57bcf42e7885d4f7432c1db5de1bfe0d272a7fb393"
+        },
+        "externalSha256": {
+          "subject": "0000000000000000000000000000000000000000000000000000000000000000",
+          "rubric": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "note": "Metadata alone cannot establish a merge; this record remains pending review until immutable hashes or page-text fingerprints are compared."
+      }
+    },
+    {
+      "localId": "romana-2017-autumn-sesiunea-august",
+      "externalId": "archive-romana-295",
+      "canonicalId": "romana-2017-autumn-sesiunea-august",
+      "decision": "manual-review",
+      "reason": "metadata-candidate",
+      "decidedAt": "2026-07-15",
+      "evidence": {
+        "candidateKey": "romana|2017|autumn|realtehnologic",
+        "localSha256": {
+          "subject": "cf924753285502c2a310f936bdaf5594cc3f5df17aeae3de09b6b22646aab71d",
+          "rubric": "d68a70ded3c8546cb0774941edf6efc654239a50b0353a9f6d5b396d2aa14471"
+        },
+        "externalSha256": {
+          "subject": "0000000000000000000000000000000000000000000000000000000000000000",
+          "rubric": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "note": "Metadata alone cannot establish a merge; this record remains pending review until immutable hashes or page-text fingerprints are compared."
+      }
+    },
+    {
+      "localId": "romana-2016-final-sesiunea-iunie-iulie",
+      "externalId": "archive-romana-297",
+      "canonicalId": "romana-2016-final-sesiunea-iunie-iulie",
+      "decision": "manual-review",
+      "reason": "metadata-candidate",
+      "decidedAt": "2026-07-15",
+      "evidence": {
+        "candidateKey": "romana|2016|final|realtehnologic",
+        "localSha256": {
+          "subject": "826423e89fb9a4bcef77b169287fe8d1c4e16ad6d4d37e3839100abb3bb88495",
+          "rubric": "5754a0c0e505f7698ef24127d64cb08247b022e7f6fd8b2e7541beb6209b6716"
+        },
+        "externalSha256": {
+          "subject": "0000000000000000000000000000000000000000000000000000000000000000",
+          "rubric": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "note": "Metadata alone cannot establish a merge; this record remains pending review until immutable hashes or page-text fingerprints are compared."
+      }
+    },
+    {
+      "localId": "romana-2015-special-sesiunea-speciala",
+      "externalId": "archive-romana-301",
+      "canonicalId": "romana-2015-special-sesiunea-speciala",
+      "decision": "manual-review",
+      "reason": "metadata-candidate",
+      "decidedAt": "2026-07-15",
+      "evidence": {
+        "candidateKey": "romana|2015|special|realtehnologic",
+        "localSha256": {
+          "subject": "2967fdfbeae96d6d72ae28c60d91bfad6ac16e191dd2e75dc2c12b83b44cf8fb",
+          "rubric": "1704e10fdc0e8300a2f67f9cd3afaebc7bafb67f6b416941c698277a98300c4d"
+        },
+        "externalSha256": {
+          "subject": "0000000000000000000000000000000000000000000000000000000000000000",
+          "rubric": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "note": "Metadata alone cannot establish a merge; this record remains pending review until immutable hashes or page-text fingerprints are compared."
+      }
+    },
+    {
+      "localId": "romana-2015-final-sesiunea-iunie-iulie",
+      "externalId": "archive-romana-299",
+      "canonicalId": "romana-2015-final-sesiunea-iunie-iulie",
+      "decision": "manual-review",
+      "reason": "metadata-candidate",
+      "decidedAt": "2026-07-15",
+      "evidence": {
+        "candidateKey": "romana|2015|final|realtehnologic",
+        "localSha256": {
+          "subject": "35b8f92d03602fae29131673311054f39df6374f19fbdd4352b75c9738f4b33e",
+          "rubric": "53636a43456b33a2f5ccdaf567e14769f981e71e1cca4f196d528029034c2b00"
+        },
+        "externalSha256": {
+          "subject": "0000000000000000000000000000000000000000000000000000000000000000",
+          "rubric": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "note": "Metadata alone cannot establish a merge; this record remains pending review until immutable hashes or page-text fingerprints are compared."
+      }
+    },
+    {
+      "localId": "romana-2014-special-sesiunea-speciala",
+      "externalId": "archive-romana-305",
+      "canonicalId": "romana-2014-special-sesiunea-speciala",
+      "decision": "manual-review",
+      "reason": "metadata-candidate",
+      "decidedAt": "2026-07-15",
+      "evidence": {
+        "candidateKey": "romana|2014|special|realtehnologic",
+        "localSha256": {
+          "subject": "867343d1b90f2fe3e8e9abd3cd3a086859ac4f169737cae070e65650d7237189",
+          "rubric": "1d4ee2e457ef3d8b3a31dac217a6442d1b72cda9a5cf78b6b40a390f1e682bfa"
+        },
+        "externalSha256": {
+          "subject": "0000000000000000000000000000000000000000000000000000000000000000",
+          "rubric": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "note": "Metadata alone cannot establish a merge; this record remains pending review until immutable hashes or page-text fingerprints are compared."
+      }
+    },
+    {
+      "localId": "romana-2014-final-sesiunea-iunie-iulie",
+      "externalId": "archive-romana-304",
+      "canonicalId": "romana-2014-final-sesiunea-iunie-iulie",
+      "decision": "manual-review",
+      "reason": "metadata-candidate",
+      "decidedAt": "2026-07-15",
+      "evidence": {
+        "candidateKey": "romana|2014|final|realtehnologic",
+        "localSha256": {
+          "subject": "2c76edc7bcabdbb7eda5ab38679571c92adf4abe45a2e717cb2a51dfd2f2f206",
+          "rubric": "7e6fdf0fec846b77adcf41846704be070618d8ffa9526ce71d295193d2552a57"
+        },
+        "externalSha256": {
+          "subject": "0000000000000000000000000000000000000000000000000000000000000000",
+          "rubric": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "note": "Metadata alone cannot establish a merge; this record remains pending review until immutable hashes or page-text fingerprints are compared."
+      }
+    },
+    {
+      "localId": "romana-2014-autumn-sesiunea-august",
+      "externalId": "archive-romana-307",
+      "canonicalId": "romana-2014-autumn-sesiunea-august",
+      "decision": "manual-review",
+      "reason": "metadata-candidate",
+      "decidedAt": "2026-07-15",
+      "evidence": {
+        "candidateKey": "romana|2014|autumn|realtehnologic",
+        "localSha256": {
+          "subject": "3c2026ca84b9285807d598e22188c132733d65a48f120a4ba7a3d1182085094d",
+          "rubric": "48f92635874691786d7c6e2fcc1a9e48d562673012e33ef7427662834e820f61"
+        },
+        "externalSha256": {
+          "subject": "0000000000000000000000000000000000000000000000000000000000000000",
+          "rubric": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "note": "Metadata alone cannot establish a merge; this record remains pending review until immutable hashes or page-text fingerprints are compared."
+      }
+    },
+    {
+      "localId": "informatica-2026-model-model-oficial",
+      "externalId": "archive-informatica-1239",
+      "canonicalId": "informatica-2026-model-model-oficial",
+      "decision": "manual-review",
+      "reason": "metadata-candidate",
+      "decidedAt": "2026-07-15",
+      "evidence": {
+        "candidateKey": "informatica|2026|model|mateinfomicc",
+        "localSha256": {
+          "subject": "64726ea5935d471ff44365504403c6021e77944958992c863798d31020e02ccb",
+          "rubric": "82e91db18e0b6615dafae9b3061338f222703b0bc7a74e1c7fb772c6f0d1fa92"
+        },
+        "externalSha256": {
+          "subject": "0000000000000000000000000000000000000000000000000000000000000000",
+          "rubric": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "note": "Metadata alone cannot establish a merge; this record remains pending review until immutable hashes or page-text fingerprints are compared."
+      }
+    },
+    {
+      "localId": "informatica-2026-simulation-simulare-nationala",
+      "externalId": "archive-informatica-1236",
+      "canonicalId": "informatica-2026-simulation-simulare-nationala",
+      "decision": "manual-review",
+      "reason": "metadata-candidate",
+      "decidedAt": "2026-07-15",
+      "evidence": {
+        "candidateKey": "informatica|2026|simulation|mateinfomicc",
+        "localSha256": {
+          "subject": "1d5f95622cb7fa32d9661bccb7b7ede3be547426ce8d4dbea029ffd17c364bdb",
+          "rubric": "d46ce51381c5568efa54aa8bfb458b60cb37f01794674c317f773ac00cb9b544"
+        },
+        "externalSha256": {
+          "subject": "0000000000000000000000000000000000000000000000000000000000000000",
+          "rubric": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "note": "Metadata alone cannot establish a merge; this record remains pending review until immutable hashes or page-text fingerprints are compared."
+      }
+    },
+    {
+      "localId": "informatica-2025-model-model-oficial",
+      "externalId": "archive-informatica-321",
+      "canonicalId": "informatica-2025-model-model-oficial",
+      "decision": "manual-review",
+      "reason": "metadata-candidate",
+      "decidedAt": "2026-07-15",
+      "evidence": {
+        "candidateKey": "informatica|2025|model|mateinfomicc",
+        "localSha256": {
+          "subject": "59fda73b9eee8755ef4dbbd090adc4f67b23ceceb028318ee81869b9f3bde785",
+          "rubric": "f25bdef3714f1a9d00ed9a0b2f50fe51c5d641db898d5b68b73cb38796a5cec4"
+        },
+        "externalSha256": {
+          "subject": "0000000000000000000000000000000000000000000000000000000000000000",
+          "rubric": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "note": "Metadata alone cannot establish a merge; this record remains pending review until immutable hashes or page-text fingerprints are compared."
+      }
+    },
+    {
+      "localId": "informatica-2025-simulation-simulare-nationala",
+      "externalId": "archive-informatica-1002",
+      "canonicalId": "informatica-2025-simulation-simulare-nationala",
+      "decision": "manual-review",
+      "reason": "metadata-candidate",
+      "decidedAt": "2026-07-15",
+      "evidence": {
+        "candidateKey": "informatica|2025|simulation|mateinfomicc",
+        "localSha256": {
+          "subject": "088043dbc49ebc589417a7a7b1a6390bb5dfa28916ac1edfd7e4d7fe0b72d2d0",
+          "rubric": "4a8541c7cb72d7c755d182fa3c6c804e7746615492657b0a20e2f61a8244c453"
+        },
+        "externalSha256": {
+          "subject": "0000000000000000000000000000000000000000000000000000000000000000",
+          "rubric": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "note": "Metadata alone cannot establish a merge; this record remains pending review until immutable hashes or page-text fingerprints are compared."
+      }
+    },
+    {
+      "localId": "informatica-2025-special-sesiunea-speciala",
+      "externalId": "archive-informatica-1241",
+      "canonicalId": "informatica-2025-special-sesiunea-speciala",
+      "decision": "manual-review",
+      "reason": "metadata-candidate",
+      "decidedAt": "2026-07-15",
+      "evidence": {
+        "candidateKey": "informatica|2025|special|mateinfomicc",
+        "localSha256": {
+          "subject": "e4a76779763d19e7dd0afe6a809ce13b3e61c96b54066b92b875641da87a41ad",
+          "rubric": "a012bc5d49448a3e5845ba5eb10cb150cb05b44689a1db46a24ac4c3b59a0655"
+        },
+        "externalSha256": {
+          "subject": "0000000000000000000000000000000000000000000000000000000000000000",
+          "rubric": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "note": "Metadata alone cannot establish a merge; this record remains pending review until immutable hashes or page-text fingerprints are compared."
+      }
+    },
+    {
+      "localId": "informatica-2025-final-sesiunea-iunie-iulie",
+      "externalId": "archive-informatica-1242",
+      "canonicalId": "informatica-2025-final-sesiunea-iunie-iulie",
+      "decision": "manual-review",
+      "reason": "metadata-candidate",
+      "decidedAt": "2026-07-15",
+      "evidence": {
+        "candidateKey": "informatica|2025|final|mateinfomicc",
+        "localSha256": {
+          "subject": "76ebb9daf094b6ec02f88ccdc919160a6805229a4efd1af08a6e34e6542cf0f5",
+          "rubric": "710aa56a1ef7e420199909b8b9663db7a15e1166b68b011984823a6aee5c4fb6"
+        },
+        "externalSha256": {
+          "subject": "0000000000000000000000000000000000000000000000000000000000000000",
+          "rubric": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "note": "Metadata alone cannot establish a merge; this record remains pending review until immutable hashes or page-text fingerprints are compared."
+      }
+    },
+    {
+      "localId": "informatica-2025-final-sesiunea-iunie-iulie",
+      "externalId": "archive-informatica-1244",
+      "canonicalId": "informatica-2025-final-sesiunea-iunie-iulie",
+      "decision": "manual-review",
+      "reason": "metadata-candidate",
+      "decidedAt": "2026-07-15",
+      "evidence": {
+        "candidateKey": "informatica|2025|final|mateinfomicc",
+        "localSha256": {
+          "subject": "76ebb9daf094b6ec02f88ccdc919160a6805229a4efd1af08a6e34e6542cf0f5",
+          "rubric": "710aa56a1ef7e420199909b8b9663db7a15e1166b68b011984823a6aee5c4fb6"
+        },
+        "externalSha256": {
+          "subject": "0000000000000000000000000000000000000000000000000000000000000000",
+          "rubric": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "note": "Metadata alone cannot establish a merge; this record remains pending review until immutable hashes or page-text fingerprints are compared."
+      }
+    },
+    {
+      "localId": "informatica-2025-autumn-sesiunea-august",
+      "externalId": "archive-informatica-1248",
+      "canonicalId": "informatica-2025-autumn-sesiunea-august",
+      "decision": "manual-review",
+      "reason": "metadata-candidate",
+      "decidedAt": "2026-07-15",
+      "evidence": {
+        "candidateKey": "informatica|2025|autumn|mateinfomicc",
+        "localSha256": {
+          "subject": "cff828bc250b853c8f374d5061f1979f50e3df5583d592550e192c88095d393a",
+          "rubric": "0399dd60cd20120e4b48fd693b8de7cd23f07f5c2f6bf8a518175c03f1aa60f4"
+        },
+        "externalSha256": {
+          "subject": "0000000000000000000000000000000000000000000000000000000000000000",
+          "rubric": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "note": "Metadata alone cannot establish a merge; this record remains pending review until immutable hashes or page-text fingerprints are compared."
+      }
+    },
+    {
+      "localId": "informatica-2024-model-model-oficial",
+      "externalId": "archive-informatica-327",
+      "canonicalId": "informatica-2024-model-model-oficial",
+      "decision": "manual-review",
+      "reason": "metadata-candidate",
+      "decidedAt": "2026-07-15",
+      "evidence": {
+        "candidateKey": "informatica|2024|model|mateinfomicc",
+        "localSha256": {
+          "subject": "57baccf1c8febf63ceb44b97770930e593a9e7d616b3b9e3e3c4bf97a1ba58d1",
+          "rubric": "df4eef6c55ab20db98a87275026b70bc05ae9a1b69602b7f01dba00b32ae8652"
+        },
+        "externalSha256": {
+          "subject": "0000000000000000000000000000000000000000000000000000000000000000",
+          "rubric": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "note": "Metadata alone cannot establish a merge; this record remains pending review until immutable hashes or page-text fingerprints are compared."
+      }
+    },
+    {
+      "localId": "informatica-2024-simulation-simulare-nationala",
+      "externalId": "archive-informatica-326",
+      "canonicalId": "informatica-2024-simulation-simulare-nationala",
+      "decision": "manual-review",
+      "reason": "metadata-candidate",
+      "decidedAt": "2026-07-15",
+      "evidence": {
+        "candidateKey": "informatica|2024|simulation|mateinfomicc",
+        "localSha256": {
+          "subject": "da0dbce2d946140860e4d2c845db2b6e0fc2519eae59a11fbf1696a235b621a7",
+          "rubric": "3338f2606e390492fc7957a1bc2a2cb2b5bee3046ccb1d3264a40a8c3b0f9d73"
+        },
+        "externalSha256": {
+          "subject": "0000000000000000000000000000000000000000000000000000000000000000",
+          "rubric": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "note": "Metadata alone cannot establish a merge; this record remains pending review until immutable hashes or page-text fingerprints are compared."
+      }
+    },
+    {
+      "localId": "informatica-2024-special-sesiunea-speciala",
+      "externalId": "archive-informatica-325",
+      "canonicalId": "informatica-2024-special-sesiunea-speciala",
+      "decision": "manual-review",
+      "reason": "metadata-candidate",
+      "decidedAt": "2026-07-15",
+      "evidence": {
+        "candidateKey": "informatica|2024|special|mateinfomicc",
+        "localSha256": {
+          "subject": "b9860418874d5944d7d249f853cb5345ab38b7c74071f3fa1f1a1a1d27bf0b90",
+          "rubric": "83f9800178f8abc3f83588d99ac12dbc959055ab73e4a7395933e29f0fc1609b"
+        },
+        "externalSha256": {
+          "subject": "0000000000000000000000000000000000000000000000000000000000000000",
+          "rubric": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "note": "Metadata alone cannot establish a merge; this record remains pending review until immutable hashes or page-text fingerprints are compared."
+      }
+    },
+    {
+      "localId": "informatica-2024-final-sesiunea-iunie-iulie",
+      "externalId": "archive-informatica-323",
+      "canonicalId": "informatica-2024-final-sesiunea-iunie-iulie",
+      "decision": "manual-review",
+      "reason": "metadata-candidate",
+      "decidedAt": "2026-07-15",
+      "evidence": {
+        "candidateKey": "informatica|2024|final|mateinfomicc",
+        "localSha256": {
+          "subject": "5d6802c0151cf46c9bb20a74813defbb797a2257719482b539748640552478ee",
+          "rubric": "7122811231d3052fdf0ea9053371d225b0f22e783d6c509252818c0358d3e47b"
+        },
+        "externalSha256": {
+          "subject": "0000000000000000000000000000000000000000000000000000000000000000",
+          "rubric": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "note": "Metadata alone cannot establish a merge; this record remains pending review until immutable hashes or page-text fingerprints are compared."
+      }
+    },
+    {
+      "localId": "informatica-2024-autumn-sesiunea-august",
+      "externalId": "archive-informatica-324",
+      "canonicalId": "informatica-2024-autumn-sesiunea-august",
+      "decision": "manual-review",
+      "reason": "metadata-candidate",
+      "decidedAt": "2026-07-15",
+      "evidence": {
+        "candidateKey": "informatica|2024|autumn|mateinfomicc",
+        "localSha256": {
+          "subject": "0cf9f871cccdd86c7249f783c322cba721067acc0e41fd17670d2790d30908b3",
+          "rubric": "4d9e62e722e51d2eb02a8405fb522a280393e7f9fcce42032a3f60d8ff1ee053"
+        },
+        "externalSha256": {
+          "subject": "0000000000000000000000000000000000000000000000000000000000000000",
+          "rubric": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "note": "Metadata alone cannot establish a merge; this record remains pending review until immutable hashes or page-text fingerprints are compared."
+      }
+    },
+    {
+      "localId": "informatica-2023-model-model-oficial",
+      "externalId": "archive-informatica-336",
+      "canonicalId": "informatica-2023-model-model-oficial",
+      "decision": "manual-review",
+      "reason": "metadata-candidate",
+      "decidedAt": "2026-07-15",
+      "evidence": {
+        "candidateKey": "informatica|2023|model|mateinfomicc",
+        "localSha256": {
+          "subject": "9c3062047b2dbf7545ab27438a7ebd7d86eedb508e6b8f5f4a0796fa54d37347",
+          "rubric": "0a1c613241ac70e19e5281e87c69c395eabb96ce5c3a1f11e16a59ec8b0b8e8c"
+        },
+        "externalSha256": {
+          "subject": "0000000000000000000000000000000000000000000000000000000000000000",
+          "rubric": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "note": "Metadata alone cannot establish a merge; this record remains pending review until immutable hashes or page-text fingerprints are compared."
+      }
+    },
+    {
+      "localId": "informatica-2023-simulation-simulare-nationala",
+      "externalId": "archive-informatica-335",
+      "canonicalId": "informatica-2023-simulation-simulare-nationala",
+      "decision": "manual-review",
+      "reason": "metadata-candidate",
+      "decidedAt": "2026-07-15",
+      "evidence": {
+        "candidateKey": "informatica|2023|simulation|mateinfomicc",
+        "localSha256": {
+          "subject": "8ee57682f25e9ea8719707e6398f6fdfcf4581fa44cc025767bd68d885af1df8",
+          "rubric": "758a764b753ba37e825a22a12f1b2250496f9d53f3dce8941b297531bcd9d6e9"
+        },
+        "externalSha256": {
+          "subject": "0000000000000000000000000000000000000000000000000000000000000000",
+          "rubric": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "note": "Metadata alone cannot establish a merge; this record remains pending review until immutable hashes or page-text fingerprints are compared."
+      }
+    },
+    {
+      "localId": "informatica-2023-special-sesiunea-speciala",
+      "externalId": "archive-informatica-334",
+      "canonicalId": "informatica-2023-special-sesiunea-speciala",
+      "decision": "manual-review",
+      "reason": "metadata-candidate",
+      "decidedAt": "2026-07-15",
+      "evidence": {
+        "candidateKey": "informatica|2023|special|mateinfomicc",
+        "localSha256": {
+          "subject": "7861ab1a6cee3d00b4f59e6612da5b22b685f0202878bd5382a51e521d5ae8a1",
+          "rubric": "a49ac7e7bac274dc8ab9820b6911048dc15c972a27e3e53c7041f741d8e2b29e"
+        },
+        "externalSha256": {
+          "subject": "0000000000000000000000000000000000000000000000000000000000000000",
+          "rubric": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "note": "Metadata alone cannot establish a merge; this record remains pending review until immutable hashes or page-text fingerprints are compared."
+      }
+    },
+    {
+      "localId": "informatica-2023-final-sesiunea-iunie-iulie",
+      "externalId": "archive-informatica-332",
+      "canonicalId": "informatica-2023-final-sesiunea-iunie-iulie",
+      "decision": "manual-review",
+      "reason": "metadata-candidate",
+      "decidedAt": "2026-07-15",
+      "evidence": {
+        "candidateKey": "informatica|2023|final|mateinfomicc",
+        "localSha256": {
+          "subject": "c77c402f3aa43afd6b450e4c9b9745ed52909f55f489008a1735cf83826e24d8",
+          "rubric": "6072a7a76bc4948baa628d1bd0c0dcd89966f254430573d064ba0ca35eb61673"
+        },
+        "externalSha256": {
+          "subject": "0000000000000000000000000000000000000000000000000000000000000000",
+          "rubric": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "note": "Metadata alone cannot establish a merge; this record remains pending review until immutable hashes or page-text fingerprints are compared."
+      }
+    },
+    {
+      "localId": "informatica-2023-autumn-sesiunea-august",
+      "externalId": "archive-informatica-333",
+      "canonicalId": "informatica-2023-autumn-sesiunea-august",
+      "decision": "manual-review",
+      "reason": "metadata-candidate",
+      "decidedAt": "2026-07-15",
+      "evidence": {
+        "candidateKey": "informatica|2023|autumn|mateinfomicc",
+        "localSha256": {
+          "subject": "cafc9c67197892941c461087b2d9ffc83bef2414c33545d0fc14d1ec5b460fdd",
+          "rubric": "ddb21ef5355c360037a2abd4602d92c629129c4974badf433cb89c9cc3e33ed7"
+        },
+        "externalSha256": {
+          "subject": "0000000000000000000000000000000000000000000000000000000000000000",
+          "rubric": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "note": "Metadata alone cannot establish a merge; this record remains pending review until immutable hashes or page-text fingerprints are compared."
+      }
+    },
+    {
+      "localId": "informatica-2022-model-model-oficial",
+      "externalId": "archive-informatica-345",
+      "canonicalId": "informatica-2022-model-model-oficial",
+      "decision": "manual-review",
+      "reason": "metadata-candidate",
+      "decidedAt": "2026-07-15",
+      "evidence": {
+        "candidateKey": "informatica|2022|model|mateinfomicc",
+        "localSha256": {
+          "subject": "fceea921715b921d8a89d755c7d2e6e07ee50610615c24a57f35f75e303a3bdb",
+          "rubric": "c0e55ac5c6de8f702c3a0b551c58ea4ba37ce1c178337defe0f867cf7012f8d1"
+        },
+        "externalSha256": {
+          "subject": "0000000000000000000000000000000000000000000000000000000000000000",
+          "rubric": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "note": "Metadata alone cannot establish a merge; this record remains pending review until immutable hashes or page-text fingerprints are compared."
+      }
+    },
+    {
+      "localId": "informatica-2022-simulation-simulare-nationala",
+      "externalId": "archive-informatica-344",
+      "canonicalId": "informatica-2022-simulation-simulare-nationala",
+      "decision": "manual-review",
+      "reason": "metadata-candidate",
+      "decidedAt": "2026-07-15",
+      "evidence": {
+        "candidateKey": "informatica|2022|simulation|mateinfomicc",
+        "localSha256": {
+          "subject": "12d9af4b1d5d9329ff5a306b8f47cbf72aa68936d9b369b3faeaef059752167a",
+          "rubric": "65bb978163889f623e2d059c716e88b1c1dd8094559d7751803cc57ab96a6c60"
+        },
+        "externalSha256": {
+          "subject": "0000000000000000000000000000000000000000000000000000000000000000",
+          "rubric": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "note": "Metadata alone cannot establish a merge; this record remains pending review until immutable hashes or page-text fingerprints are compared."
+      }
+    },
+    {
+      "localId": "informatica-2022-special-sesiunea-speciala",
+      "externalId": "archive-informatica-343",
+      "canonicalId": "informatica-2022-special-sesiunea-speciala",
+      "decision": "manual-review",
+      "reason": "metadata-candidate",
+      "decidedAt": "2026-07-15",
+      "evidence": {
+        "candidateKey": "informatica|2022|special|mateinfomicc",
+        "localSha256": {
+          "subject": "dd2150eed8f1dff16bbe087e374aea1ed47bab80eb5c861357e348b6a41e1940",
+          "rubric": "6b24a3141a47f33c350ae7e745d027741d748eca4d1c37e149de5914a73a91ec"
+        },
+        "externalSha256": {
+          "subject": "0000000000000000000000000000000000000000000000000000000000000000",
+          "rubric": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "note": "Metadata alone cannot establish a merge; this record remains pending review until immutable hashes or page-text fingerprints are compared."
+      }
+    },
+    {
+      "localId": "informatica-2022-final-sesiunea-iunie-iulie",
+      "externalId": "archive-informatica-341",
+      "canonicalId": "informatica-2022-final-sesiunea-iunie-iulie",
+      "decision": "manual-review",
+      "reason": "metadata-candidate",
+      "decidedAt": "2026-07-15",
+      "evidence": {
+        "candidateKey": "informatica|2022|final|mateinfomicc",
+        "localSha256": {
+          "subject": "a13a7968b08d8c4c8937c7163c25157d6cff09edb73fe56a94f1cfe1db65b23e",
+          "rubric": "31916be1e39e1b04f98d90199b467209ba72f4ebbd48e220de8243ae4122bb0f"
+        },
+        "externalSha256": {
+          "subject": "0000000000000000000000000000000000000000000000000000000000000000",
+          "rubric": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "note": "Metadata alone cannot establish a merge; this record remains pending review until immutable hashes or page-text fingerprints are compared."
+      }
+    },
+    {
+      "localId": "informatica-2022-autumn-sesiunea-august",
+      "externalId": "archive-informatica-342",
+      "canonicalId": "informatica-2022-autumn-sesiunea-august",
+      "decision": "manual-review",
+      "reason": "metadata-candidate",
+      "decidedAt": "2026-07-15",
+      "evidence": {
+        "candidateKey": "informatica|2022|autumn|mateinfomicc",
+        "localSha256": {
+          "subject": "ca24196e7b97a308e9826f14fa60cc43816e84abb5dced5054218ab5543c93b6",
+          "rubric": "0c1e067a777bf20f62dc3db96aa396b0294cb69714e3ee1de4a98472feb03deb"
+        },
+        "externalSha256": {
+          "subject": "0000000000000000000000000000000000000000000000000000000000000000",
+          "rubric": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "note": "Metadata alone cannot establish a merge; this record remains pending review until immutable hashes or page-text fingerprints are compared."
+      }
+    },
+    {
+      "localId": "informatica-2021-model-model-oficial",
+      "externalId": "archive-informatica-354",
+      "canonicalId": "informatica-2021-model-model-oficial",
+      "decision": "manual-review",
+      "reason": "metadata-candidate",
+      "decidedAt": "2026-07-15",
+      "evidence": {
+        "candidateKey": "informatica|2021|model|mateinfomicc",
+        "localSha256": {
+          "subject": "b8e311b7177c126e28b896c899cc94dd3e2b1fbabe875257bdc0a40d1776e6be",
+          "rubric": "b8236cea2e3bd48f8a6e0b460312503a6856ed5cad9dc822ffdbce6083d4490d"
+        },
+        "externalSha256": {
+          "subject": "0000000000000000000000000000000000000000000000000000000000000000",
+          "rubric": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "note": "Metadata alone cannot establish a merge; this record remains pending review until immutable hashes or page-text fingerprints are compared."
+      }
+    },
+    {
+      "localId": "informatica-2021-simulation-simulare-nationala",
+      "externalId": "archive-informatica-353",
+      "canonicalId": "informatica-2021-simulation-simulare-nationala",
+      "decision": "manual-review",
+      "reason": "metadata-candidate",
+      "decidedAt": "2026-07-15",
+      "evidence": {
+        "candidateKey": "informatica|2021|simulation|mateinfomicc",
+        "localSha256": {
+          "subject": "2eb53b2d9f00aedfa4f18f920cf5f0199f164fd0fc1ec6874eeb671019410aab",
+          "rubric": "ca3aad9947e51a9383ba49e93e7806a0c2324eeaab21985961183cfee220a7e3"
+        },
+        "externalSha256": {
+          "subject": "0000000000000000000000000000000000000000000000000000000000000000",
+          "rubric": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "note": "Metadata alone cannot establish a merge; this record remains pending review until immutable hashes or page-text fingerprints are compared."
+      }
+    },
+    {
+      "localId": "informatica-2021-special-sesiunea-speciala",
+      "externalId": "archive-informatica-352",
+      "canonicalId": "informatica-2021-special-sesiunea-speciala",
+      "decision": "manual-review",
+      "reason": "metadata-candidate",
+      "decidedAt": "2026-07-15",
+      "evidence": {
+        "candidateKey": "informatica|2021|special|mateinfomicc",
+        "localSha256": {
+          "subject": "b0f51a2b18be4345b19c7bed407a07d4ae261e980302ee14119ba3a60c889173",
+          "rubric": "057165b326276614270bb883b9652d650704133070742464980c117679ddd6fa"
+        },
+        "externalSha256": {
+          "subject": "0000000000000000000000000000000000000000000000000000000000000000",
+          "rubric": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "note": "Metadata alone cannot establish a merge; this record remains pending review until immutable hashes or page-text fingerprints are compared."
+      }
+    },
+    {
+      "localId": "informatica-2021-final-sesiunea-iunie-iulie",
+      "externalId": "archive-informatica-350",
+      "canonicalId": "informatica-2021-final-sesiunea-iunie-iulie",
+      "decision": "manual-review",
+      "reason": "metadata-candidate",
+      "decidedAt": "2026-07-15",
+      "evidence": {
+        "candidateKey": "informatica|2021|final|mateinfomicc",
+        "localSha256": {
+          "subject": "e5cdf01c56b371d74932018dfe978d5270d98837214205da5684e04393a83175",
+          "rubric": "c9f2884a93409703edaf5a4e5f186b56badd6f1b04d01b4ef79cf73189636108"
+        },
+        "externalSha256": {
+          "subject": "0000000000000000000000000000000000000000000000000000000000000000",
+          "rubric": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "note": "Metadata alone cannot establish a merge; this record remains pending review until immutable hashes or page-text fingerprints are compared."
+      }
+    },
+    {
+      "localId": "informatica-2021-autumn-sesiunea-august",
+      "externalId": "archive-informatica-351",
+      "canonicalId": "informatica-2021-autumn-sesiunea-august",
+      "decision": "manual-review",
+      "reason": "metadata-candidate",
+      "decidedAt": "2026-07-15",
+      "evidence": {
+        "candidateKey": "informatica|2021|autumn|mateinfomicc",
+        "localSha256": {
+          "subject": "23c5d1d18197b8af25c9b421c5ed1db860eb0c9ffec50af172d094c03a380f29",
+          "rubric": "a51cf45ad940cf350198ec290de6702507d8860d1deac8f17f390f62daab154d"
+        },
+        "externalSha256": {
+          "subject": "0000000000000000000000000000000000000000000000000000000000000000",
+          "rubric": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "note": "Metadata alone cannot establish a merge; this record remains pending review until immutable hashes or page-text fingerprints are compared."
+      }
+    },
+    {
+      "localId": "informatica-2020-model-model-oficial",
+      "externalId": "archive-informatica-362",
+      "canonicalId": "informatica-2020-model-model-oficial",
+      "decision": "manual-review",
+      "reason": "metadata-candidate",
+      "decidedAt": "2026-07-15",
+      "evidence": {
+        "candidateKey": "informatica|2020|model|mateinfomicc",
+        "localSha256": {
+          "subject": "599faec5ac7e3e74025821edd1bc672028b3fa9083f4cb7612e6b95a35fae2fd",
+          "rubric": "a256f25400736632d9257691b319044b1d4e3f5f3e52eafa13d45fb4102219b7"
+        },
+        "externalSha256": {
+          "subject": "0000000000000000000000000000000000000000000000000000000000000000",
+          "rubric": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "note": "Metadata alone cannot establish a merge; this record remains pending review until immutable hashes or page-text fingerprints are compared."
+      }
+    },
+    {
+      "localId": "informatica-2020-special-sesiunea-speciala",
+      "externalId": "archive-informatica-361",
+      "canonicalId": "informatica-2020-special-sesiunea-speciala",
+      "decision": "manual-review",
+      "reason": "metadata-candidate",
+      "decidedAt": "2026-07-15",
+      "evidence": {
+        "candidateKey": "informatica|2020|special|mateinfomicc",
+        "localSha256": {
+          "subject": "6b95ebc449d98761c434742942c21eeccdccbde03c6a8f3f1261abb9ca2f0d60",
+          "rubric": "d799fe9e468699a0de6e9598cd7fd67eff62bee2212f5739c845a1b92d5937bb"
+        },
+        "externalSha256": {
+          "subject": "0000000000000000000000000000000000000000000000000000000000000000",
+          "rubric": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "note": "Metadata alone cannot establish a merge; this record remains pending review until immutable hashes or page-text fingerprints are compared."
+      }
+    },
+    {
+      "localId": "informatica-2020-final-sesiunea-iunie-iulie",
+      "externalId": "archive-informatica-359",
+      "canonicalId": "informatica-2020-final-sesiunea-iunie-iulie",
+      "decision": "manual-review",
+      "reason": "metadata-candidate",
+      "decidedAt": "2026-07-15",
+      "evidence": {
+        "candidateKey": "informatica|2020|final|mateinfomicc",
+        "localSha256": {
+          "subject": "4af7befec88c1d6131c12bf5a681da2c8a98dd5d006343307da8981ad281e0ae",
+          "rubric": "45db5221d830ac36005936f49410c46c29850e19344c9214d7002a7ac32c4bdd"
+        },
+        "externalSha256": {
+          "subject": "0000000000000000000000000000000000000000000000000000000000000000",
+          "rubric": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "note": "Metadata alone cannot establish a merge; this record remains pending review until immutable hashes or page-text fingerprints are compared."
+      }
+    },
+    {
+      "localId": "informatica-2020-autumn-sesiunea-august",
+      "externalId": "archive-informatica-360",
+      "canonicalId": "informatica-2020-autumn-sesiunea-august",
+      "decision": "manual-review",
+      "reason": "metadata-candidate",
+      "decidedAt": "2026-07-15",
+      "evidence": {
+        "candidateKey": "informatica|2020|autumn|mateinfomicc",
+        "localSha256": {
+          "subject": "d97227dd7451ce5b9562583be7b1555725cf105726c6bf867bbf7826a0733e71",
+          "rubric": "39a74875aa8ec876230e88940dd3c10082e672325865afcceb5cf2325255a6ec"
+        },
+        "externalSha256": {
+          "subject": "0000000000000000000000000000000000000000000000000000000000000000",
+          "rubric": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "note": "Metadata alone cannot establish a merge; this record remains pending review until immutable hashes or page-text fingerprints are compared."
+      }
+    },
+    {
+      "localId": "informatica-2019-model-model-oficial",
+      "externalId": "archive-informatica-370",
+      "canonicalId": "informatica-2019-model-model-oficial",
+      "decision": "manual-review",
+      "reason": "metadata-candidate",
+      "decidedAt": "2026-07-15",
+      "evidence": {
+        "candidateKey": "informatica|2019|model|mateinfomicc",
+        "localSha256": {
+          "subject": "b509e99c2d97e31740beb3afedaa399be943aad4f6c8e514515dac1238d4b1aa",
+          "rubric": "e9a1c5437a307d5ce82e923c475ed91d3887644d11204827e2182e9873abd6d2"
+        },
+        "externalSha256": {
+          "subject": "0000000000000000000000000000000000000000000000000000000000000000",
+          "rubric": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "note": "Metadata alone cannot establish a merge; this record remains pending review until immutable hashes or page-text fingerprints are compared."
+      }
+    },
+    {
+      "localId": "informatica-2019-simulation-simulare-nationala",
+      "externalId": "archive-informatica-369",
+      "canonicalId": "informatica-2019-simulation-simulare-nationala",
+      "decision": "manual-review",
+      "reason": "metadata-candidate",
+      "decidedAt": "2026-07-15",
+      "evidence": {
+        "candidateKey": "informatica|2019|simulation|mateinfomicc",
+        "localSha256": {
+          "subject": "7f3ab4693ad1b1109df80c8ee265ccab848b167edfc470c590444cf4d7ead305",
+          "rubric": "615d34ccccc009117a800fc3e6119e0004cbdc3cbed52ed9a4466946d1af199c"
+        },
+        "externalSha256": {
+          "subject": "0000000000000000000000000000000000000000000000000000000000000000",
+          "rubric": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "note": "Metadata alone cannot establish a merge; this record remains pending review until immutable hashes or page-text fingerprints are compared."
+      }
+    },
+    {
+      "localId": "informatica-2019-special-sesiunea-speciala",
+      "externalId": "archive-informatica-368",
+      "canonicalId": "informatica-2019-special-sesiunea-speciala",
+      "decision": "manual-review",
+      "reason": "metadata-candidate",
+      "decidedAt": "2026-07-15",
+      "evidence": {
+        "candidateKey": "informatica|2019|special|mateinfomicc",
+        "localSha256": {
+          "subject": "627fd4cecdae28cf855625bb7d382960980b6bcb174adbcf59fac1a16fbdaaa8",
+          "rubric": "99d61848e008ae71f581b1c09f63e255da6870326f07009c097fb3f7a15d41d5"
+        },
+        "externalSha256": {
+          "subject": "0000000000000000000000000000000000000000000000000000000000000000",
+          "rubric": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "note": "Metadata alone cannot establish a merge; this record remains pending review until immutable hashes or page-text fingerprints are compared."
+      }
+    },
+    {
+      "localId": "informatica-2019-final-sesiunea-iunie-iulie",
+      "externalId": "archive-informatica-366",
+      "canonicalId": "informatica-2019-final-sesiunea-iunie-iulie",
+      "decision": "manual-review",
+      "reason": "metadata-candidate",
+      "decidedAt": "2026-07-15",
+      "evidence": {
+        "candidateKey": "informatica|2019|final|mateinfomicc",
+        "localSha256": {
+          "subject": "eb9dc53afd5f1f80f9b26981f2fce51413c0121a0daac05565a0d910c4e3113c",
+          "rubric": "ccdd47f0eca9dde25438408a812a57c81c688bd653f6b177cc0095676b59f70e"
+        },
+        "externalSha256": {
+          "subject": "0000000000000000000000000000000000000000000000000000000000000000",
+          "rubric": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "note": "Metadata alone cannot establish a merge; this record remains pending review until immutable hashes or page-text fingerprints are compared."
+      }
+    },
+    {
+      "localId": "informatica-2019-autumn-sesiunea-august",
+      "externalId": "archive-informatica-367",
+      "canonicalId": "informatica-2019-autumn-sesiunea-august",
+      "decision": "manual-review",
+      "reason": "metadata-candidate",
+      "decidedAt": "2026-07-15",
+      "evidence": {
+        "candidateKey": "informatica|2019|autumn|mateinfomicc",
+        "localSha256": {
+          "subject": "5d3dec9da60ddce2e9a61c20f15252c8126a46681529ef7fbe65e1896203b102",
+          "rubric": "2eaa459a68b3b8671fe00b519e3b7c10cbf31f65a830acbc4411dd6015db5819"
+        },
+        "externalSha256": {
+          "subject": "0000000000000000000000000000000000000000000000000000000000000000",
+          "rubric": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "note": "Metadata alone cannot establish a merge; this record remains pending review until immutable hashes or page-text fingerprints are compared."
+      }
+    },
+    {
+      "localId": "informatica-2018-model-model-oficial",
+      "externalId": "archive-informatica-380",
+      "canonicalId": "informatica-2018-model-model-oficial",
+      "decision": "manual-review",
+      "reason": "metadata-candidate",
+      "decidedAt": "2026-07-15",
+      "evidence": {
+        "candidateKey": "informatica|2018|model|mateinfomicc",
+        "localSha256": {
+          "subject": "46ece8ea7fec95fac1c5088ef2f6e11edec56d58e143eff1c0132d230f4984cc",
+          "rubric": "8e969ead223e4e423ef4ce9208d071270a847e06b07ca0596476c84e75df68b5"
+        },
+        "externalSha256": {
+          "subject": "0000000000000000000000000000000000000000000000000000000000000000",
+          "rubric": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "note": "Metadata alone cannot establish a merge; this record remains pending review until immutable hashes or page-text fingerprints are compared."
+      }
+    },
+    {
+      "localId": "informatica-2018-simulation-simulare-nationala",
+      "externalId": "archive-informatica-379",
+      "canonicalId": "informatica-2018-simulation-simulare-nationala",
+      "decision": "manual-review",
+      "reason": "metadata-candidate",
+      "decidedAt": "2026-07-15",
+      "evidence": {
+        "candidateKey": "informatica|2018|simulation|mateinfomicc",
+        "localSha256": {
+          "subject": "c2a68574f2f6a93e44ea9a52177622db7bc8086608fae89314f90d45c80fba61",
+          "rubric": "4d6b6865d0d1583c31d8c85a15abc44fab2f1a7d0b7e4e7e6a2840dce3972de0"
+        },
+        "externalSha256": {
+          "subject": "0000000000000000000000000000000000000000000000000000000000000000",
+          "rubric": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "note": "Metadata alone cannot establish a merge; this record remains pending review until immutable hashes or page-text fingerprints are compared."
+      }
+    },
+    {
+      "localId": "informatica-2018-special-sesiunea-speciala",
+      "externalId": "archive-informatica-378",
+      "canonicalId": "informatica-2018-special-sesiunea-speciala",
+      "decision": "manual-review",
+      "reason": "metadata-candidate",
+      "decidedAt": "2026-07-15",
+      "evidence": {
+        "candidateKey": "informatica|2018|special|mateinfomicc",
+        "localSha256": {
+          "subject": "65780a9b6f4b874d372603093a9676bbf9e2529b446ef46bdd68942681d7fe98",
+          "rubric": "5f10ef467fd0bc9051fad473b74be996be02b13d01b3cdac688161a50f546b82"
+        },
+        "externalSha256": {
+          "subject": "0000000000000000000000000000000000000000000000000000000000000000",
+          "rubric": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "note": "Metadata alone cannot establish a merge; this record remains pending review until immutable hashes or page-text fingerprints are compared."
+      }
+    },
+    {
+      "localId": "informatica-2018-final-sesiunea-iunie-iulie",
+      "externalId": "archive-informatica-376",
+      "canonicalId": "informatica-2018-final-sesiunea-iunie-iulie",
+      "decision": "manual-review",
+      "reason": "metadata-candidate",
+      "decidedAt": "2026-07-15",
+      "evidence": {
+        "candidateKey": "informatica|2018|final|mateinfomicc",
+        "localSha256": {
+          "subject": "41530c79adbc923c52e7f852f5802bb41bc3ad7034d77ab1d43b3e48696c8751",
+          "rubric": "09e38e6f0aeb09a68b34f2d61c8027f6797b02dbb2c50b48a6f7d525160c47ef"
+        },
+        "externalSha256": {
+          "subject": "0000000000000000000000000000000000000000000000000000000000000000",
+          "rubric": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "note": "Metadata alone cannot establish a merge; this record remains pending review until immutable hashes or page-text fingerprints are compared."
+      }
+    },
+    {
+      "localId": "informatica-2018-autumn-sesiunea-august",
+      "externalId": "archive-informatica-377",
+      "canonicalId": "informatica-2018-autumn-sesiunea-august",
+      "decision": "manual-review",
+      "reason": "metadata-candidate",
+      "decidedAt": "2026-07-15",
+      "evidence": {
+        "candidateKey": "informatica|2018|autumn|mateinfomicc",
+        "localSha256": {
+          "subject": "4c9025cb16cc654bcdc80eabfadf653b00df55437ef44df8850b395cb8651824",
+          "rubric": "c0adbef1e85662505db5d5a74e3fe3996d7b8bb40244b900ec69805f60488604"
+        },
+        "externalSha256": {
+          "subject": "0000000000000000000000000000000000000000000000000000000000000000",
+          "rubric": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "note": "Metadata alone cannot establish a merge; this record remains pending review until immutable hashes or page-text fingerprints are compared."
+      }
+    },
+    {
+      "localId": "informatica-2017-model-model-oficial",
+      "externalId": "archive-informatica-389",
+      "canonicalId": "informatica-2017-model-model-oficial",
+      "decision": "manual-review",
+      "reason": "metadata-candidate",
+      "decidedAt": "2026-07-15",
+      "evidence": {
+        "candidateKey": "informatica|2017|model|mateinfomicc",
+        "localSha256": {
+          "subject": "6a5cb3a6d4ecdab09925b5ae0e82731486d51ac426fa282b016d2830b350df78",
+          "rubric": "afd39572c6efeba5a09e4985e6063b8983f9c411e382d60b119497e1cef4a285"
+        },
+        "externalSha256": {
+          "subject": "0000000000000000000000000000000000000000000000000000000000000000",
+          "rubric": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "note": "Metadata alone cannot establish a merge; this record remains pending review until immutable hashes or page-text fingerprints are compared."
+      }
+    },
+    {
+      "localId": "informatica-2017-simulation-simulare-nationala",
+      "externalId": "archive-informatica-388",
+      "canonicalId": "informatica-2017-simulation-simulare-nationala",
+      "decision": "manual-review",
+      "reason": "metadata-candidate",
+      "decidedAt": "2026-07-15",
+      "evidence": {
+        "candidateKey": "informatica|2017|simulation|mateinfomicc",
+        "localSha256": {
+          "subject": "47f75d5e747ceb8b51894751165ffc0385b45c5f09b6b6035de2ab6b348035f3",
+          "rubric": "17a9404817ee86db68300832587a43f0a82792c54575da304d7b852d94367c40"
+        },
+        "externalSha256": {
+          "subject": "0000000000000000000000000000000000000000000000000000000000000000",
+          "rubric": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "note": "Metadata alone cannot establish a merge; this record remains pending review until immutable hashes or page-text fingerprints are compared."
+      }
+    },
+    {
+      "localId": "informatica-2017-special-sesiunea-speciala",
+      "externalId": "archive-informatica-387",
+      "canonicalId": "informatica-2017-special-sesiunea-speciala",
+      "decision": "manual-review",
+      "reason": "metadata-candidate",
+      "decidedAt": "2026-07-15",
+      "evidence": {
+        "candidateKey": "informatica|2017|special|mateinfomicc",
+        "localSha256": {
+          "subject": "200264bb8e9f488bc13b8afd06678ac99bcee8640fba79f99d50ae4cd5218155",
+          "rubric": "d5f96c288ea80a72872944b9ef1e1a37b2d58e4264d1644173908b3845dcfe15"
+        },
+        "externalSha256": {
+          "subject": "0000000000000000000000000000000000000000000000000000000000000000",
+          "rubric": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "note": "Metadata alone cannot establish a merge; this record remains pending review until immutable hashes or page-text fingerprints are compared."
+      }
+    },
+    {
+      "localId": "informatica-2017-final-sesiunea-iunie-iulie",
+      "externalId": "archive-informatica-385",
+      "canonicalId": "informatica-2017-final-sesiunea-iunie-iulie",
+      "decision": "manual-review",
+      "reason": "metadata-candidate",
+      "decidedAt": "2026-07-15",
+      "evidence": {
+        "candidateKey": "informatica|2017|final|mateinfomicc",
+        "localSha256": {
+          "subject": "89db594732c5c40c34b7df84c3778094c4751baf5fbc7271f473fa3e7d0d44e4",
+          "rubric": "d28de3c7a560a6ea1c1b5791ee0a9729b99715d684519a2776cf771732da3adc"
+        },
+        "externalSha256": {
+          "subject": "0000000000000000000000000000000000000000000000000000000000000000",
+          "rubric": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "note": "Metadata alone cannot establish a merge; this record remains pending review until immutable hashes or page-text fingerprints are compared."
+      }
+    },
+    {
+      "localId": "informatica-2017-autumn-sesiunea-august",
+      "externalId": "archive-informatica-386",
+      "canonicalId": "informatica-2017-autumn-sesiunea-august",
+      "decision": "manual-review",
+      "reason": "metadata-candidate",
+      "decidedAt": "2026-07-15",
+      "evidence": {
+        "candidateKey": "informatica|2017|autumn|mateinfomicc",
+        "localSha256": {
+          "subject": "64dabef4dc9a0d374976344b1c784020a96add4a8401a35642fd6ce4fc0c7f35",
+          "rubric": "c745c900ee8548af673d932fc775af13a91917f96344ecb26284af5894f3141e"
+        },
+        "externalSha256": {
+          "subject": "0000000000000000000000000000000000000000000000000000000000000000",
+          "rubric": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "note": "Metadata alone cannot establish a merge; this record remains pending review until immutable hashes or page-text fingerprints are compared."
+      }
+    },
+    {
+      "localId": "informatica-2016-model-model-oficial",
+      "externalId": "archive-informatica-396",
+      "canonicalId": "informatica-2016-model-model-oficial",
+      "decision": "manual-review",
+      "reason": "metadata-candidate",
+      "decidedAt": "2026-07-15",
+      "evidence": {
+        "candidateKey": "informatica|2016|model|mateinfomicc",
+        "localSha256": {
+          "subject": "7318bfdbdbeccfca4c5d0cb16249f88c5d9876836dfbdb1c444f1335d366d363",
+          "rubric": "af41a6900356bb8f400deb73fb442d1ae7bf1979ffdb54d861740894d6edd735"
+        },
+        "externalSha256": {
+          "subject": "0000000000000000000000000000000000000000000000000000000000000000",
+          "rubric": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "note": "Metadata alone cannot establish a merge; this record remains pending review until immutable hashes or page-text fingerprints are compared."
+      }
+    },
+    {
+      "localId": "informatica-2016-simulation-simulare-nationala",
+      "externalId": "archive-informatica-395",
+      "canonicalId": "informatica-2016-simulation-simulare-nationala",
+      "decision": "manual-review",
+      "reason": "metadata-candidate",
+      "decidedAt": "2026-07-15",
+      "evidence": {
+        "candidateKey": "informatica|2016|simulation|mateinfomicc",
+        "localSha256": {
+          "subject": "28edf26a2d0757c8514fa4f5c59f24022f218e03c7cd44ab8d2e87bb9667bb5b",
+          "rubric": "90bcd6fafdfe08ad564faa7eaf0b63b8380d8e6805206fbab814cb90b5257200"
+        },
+        "externalSha256": {
+          "subject": "0000000000000000000000000000000000000000000000000000000000000000",
+          "rubric": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "note": "Metadata alone cannot establish a merge; this record remains pending review until immutable hashes or page-text fingerprints are compared."
+      }
+    },
+    {
+      "localId": "informatica-2016-special-sesiunea-speciala",
+      "externalId": "archive-informatica-394",
+      "canonicalId": "informatica-2016-special-sesiunea-speciala",
+      "decision": "manual-review",
+      "reason": "metadata-candidate",
+      "decidedAt": "2026-07-15",
+      "evidence": {
+        "candidateKey": "informatica|2016|special|mateinfomicc",
+        "localSha256": {
+          "subject": "6c51df045de3532ed2bc671227b30160e0d255c74c6616d2c71f8edda094a64e",
+          "rubric": "79bfa982e65b41c9446f2a7852f20246e0ec74cfb8848a7a070e1368c40c6968"
+        },
+        "externalSha256": {
+          "subject": "0000000000000000000000000000000000000000000000000000000000000000",
+          "rubric": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "note": "Metadata alone cannot establish a merge; this record remains pending review until immutable hashes or page-text fingerprints are compared."
+      }
+    },
+    {
+      "localId": "informatica-2016-final-sesiunea-iunie-iulie",
+      "externalId": "archive-informatica-392",
+      "canonicalId": "informatica-2016-final-sesiunea-iunie-iulie",
+      "decision": "manual-review",
+      "reason": "metadata-candidate",
+      "decidedAt": "2026-07-15",
+      "evidence": {
+        "candidateKey": "informatica|2016|final|mateinfomicc",
+        "localSha256": {
+          "subject": "ed1fb6d7ca4824b27dce4215aee7bd0a3c1d2d64b01b39c659a288defd875555",
+          "rubric": "06459f1ea3174bd717e50406bae93c8147efae95a3d63906bd56b36427de2ff8"
+        },
+        "externalSha256": {
+          "subject": "0000000000000000000000000000000000000000000000000000000000000000",
+          "rubric": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "note": "Metadata alone cannot establish a merge; this record remains pending review until immutable hashes or page-text fingerprints are compared."
+      }
+    },
+    {
+      "localId": "informatica-2016-autumn-sesiunea-august",
+      "externalId": "archive-informatica-393",
+      "canonicalId": "informatica-2016-autumn-sesiunea-august",
+      "decision": "manual-review",
+      "reason": "metadata-candidate",
+      "decidedAt": "2026-07-15",
+      "evidence": {
+        "candidateKey": "informatica|2016|autumn|mateinfomicc",
+        "localSha256": {
+          "subject": "6b399e9c5a9af766f22c613ebf72d99e9effa044bb2d03f5509c84993107b692",
+          "rubric": "7f0e8cc111bc312bc16c6973a763143f12c34b7b9b5fefa2d317f95209e3d4a2"
+        },
+        "externalSha256": {
+          "subject": "0000000000000000000000000000000000000000000000000000000000000000",
+          "rubric": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "note": "Metadata alone cannot establish a merge; this record remains pending review until immutable hashes or page-text fingerprints are compared."
+      }
+    },
+    {
+      "localId": "informatica-2015-model-model-oficial",
+      "externalId": "archive-informatica-404",
+      "canonicalId": "informatica-2015-model-model-oficial",
+      "decision": "manual-review",
+      "reason": "metadata-candidate",
+      "decidedAt": "2026-07-15",
+      "evidence": {
+        "candidateKey": "informatica|2015|model|mateinfomicc",
+        "localSha256": {
+          "subject": "ed056ecd33dc0e37f2cd06ada368b830a2fd27bfd8c0e68c7636a5615eba90c9",
+          "rubric": "983587a9823a03ea6116fb862169c68cde246c666466c3118c9092222e5ebd7e"
+        },
+        "externalSha256": {
+          "subject": "0000000000000000000000000000000000000000000000000000000000000000",
+          "rubric": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "note": "Metadata alone cannot establish a merge; this record remains pending review until immutable hashes or page-text fingerprints are compared."
+      }
+    },
+    {
+      "localId": "informatica-2015-simulation-simulare-nationala",
+      "externalId": "archive-informatica-403",
+      "canonicalId": "informatica-2015-simulation-simulare-nationala",
+      "decision": "manual-review",
+      "reason": "metadata-candidate",
+      "decidedAt": "2026-07-15",
+      "evidence": {
+        "candidateKey": "informatica|2015|simulation|mateinfomicc",
+        "localSha256": {
+          "subject": "2ccbfa6e28becd8a7e21205e59e22faeb8dd0f22821d397c45083e94809de187",
+          "rubric": "4d2231e407a2d29e4977b8b384356be6257dd3a8e328aaaa6c1a7d63e10c9908"
+        },
+        "externalSha256": {
+          "subject": "0000000000000000000000000000000000000000000000000000000000000000",
+          "rubric": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "note": "Metadata alone cannot establish a merge; this record remains pending review until immutable hashes or page-text fingerprints are compared."
+      }
+    },
+    {
+      "localId": "informatica-2015-special-sesiunea-speciala",
+      "externalId": "archive-informatica-402",
+      "canonicalId": "informatica-2015-special-sesiunea-speciala",
+      "decision": "manual-review",
+      "reason": "metadata-candidate",
+      "decidedAt": "2026-07-15",
+      "evidence": {
+        "candidateKey": "informatica|2015|special|mateinfomicc",
+        "localSha256": {
+          "subject": "c760d8fc870fe0dffe6370e0eeb5a739b9c2728035dd5c97ab8ab6b6787f6ecf",
+          "rubric": "1ed8d3f4885714e9d2751e1e93b3d507054ba3413a7f4d7acfa111a73967e481"
+        },
+        "externalSha256": {
+          "subject": "0000000000000000000000000000000000000000000000000000000000000000",
+          "rubric": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "note": "Metadata alone cannot establish a merge; this record remains pending review until immutable hashes or page-text fingerprints are compared."
+      }
+    },
+    {
+      "localId": "informatica-2015-final-sesiunea-iunie-iulie",
+      "externalId": "archive-informatica-400",
+      "canonicalId": "informatica-2015-final-sesiunea-iunie-iulie",
+      "decision": "manual-review",
+      "reason": "metadata-candidate",
+      "decidedAt": "2026-07-15",
+      "evidence": {
+        "candidateKey": "informatica|2015|final|mateinfomicc",
+        "localSha256": {
+          "subject": "5faf805bb8be2b66669c4acbbe298bbb91dd01308d652fd53817cf0af284f077",
+          "rubric": "b8a4e55d8b743fd646bac34467f21afb88f88ca2fade1018385efde42019b4b6"
+        },
+        "externalSha256": {
+          "subject": "0000000000000000000000000000000000000000000000000000000000000000",
+          "rubric": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "note": "Metadata alone cannot establish a merge; this record remains pending review until immutable hashes or page-text fingerprints are compared."
+      }
+    },
+    {
+      "localId": "informatica-2015-autumn-sesiunea-august",
+      "externalId": "archive-informatica-401",
+      "canonicalId": "informatica-2015-autumn-sesiunea-august",
+      "decision": "manual-review",
+      "reason": "metadata-candidate",
+      "decidedAt": "2026-07-15",
+      "evidence": {
+        "candidateKey": "informatica|2015|autumn|mateinfomicc",
+        "localSha256": {
+          "subject": "143c610daf44e8e19ffa092d533da8edf9ddf244e0b96202f5c1799e71b05016",
+          "rubric": "88cb3d94e7a50c6c836c0068ca017b7d839e7c88a04f0111a26b94f096145fe7"
+        },
+        "externalSha256": {
+          "subject": "0000000000000000000000000000000000000000000000000000000000000000",
+          "rubric": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "note": "Metadata alone cannot establish a merge; this record remains pending review until immutable hashes or page-text fingerprints are compared."
+      }
+    },
+    {
+      "localId": "informatica-2014-model-model-oficial",
+      "externalId": "archive-informatica-413",
+      "canonicalId": "informatica-2014-model-model-oficial",
+      "decision": "manual-review",
+      "reason": "metadata-candidate",
+      "decidedAt": "2026-07-15",
+      "evidence": {
+        "candidateKey": "informatica|2014|model|mateinfomicc",
+        "localSha256": {
+          "subject": "855f6848d042687601bbad9146531f4347f866f7bd73ed40b0951cc485a97f22",
+          "rubric": "e46535b240167d7e99242a44cab5ec181d896ec4fe9a9a6f4008128778d6f2d3"
+        },
+        "externalSha256": {
+          "subject": "0000000000000000000000000000000000000000000000000000000000000000",
+          "rubric": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "note": "Metadata alone cannot establish a merge; this record remains pending review until immutable hashes or page-text fingerprints are compared."
+      }
+    },
+    {
+      "localId": "informatica-2014-simulation-simulare-nationala",
+      "externalId": "archive-informatica-412",
+      "canonicalId": "informatica-2014-simulation-simulare-nationala",
+      "decision": "manual-review",
+      "reason": "metadata-candidate",
+      "decidedAt": "2026-07-15",
+      "evidence": {
+        "candidateKey": "informatica|2014|simulation|mateinfomicc",
+        "localSha256": {
+          "subject": "6b4088446fb9265d6d8c346965f24379679d0e0163d5cd02452d9d9909f626f0",
+          "rubric": "738f55ba0f2d6784d2c62a3aa456575ec1c3fd0bc6adaa92e2d3879312a353d1"
+        },
+        "externalSha256": {
+          "subject": "0000000000000000000000000000000000000000000000000000000000000000",
+          "rubric": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "note": "Metadata alone cannot establish a merge; this record remains pending review until immutable hashes or page-text fingerprints are compared."
+      }
+    },
+    {
+      "localId": "informatica-2014-special-sesiunea-speciala",
+      "externalId": "archive-informatica-411",
+      "canonicalId": "informatica-2014-special-sesiunea-speciala",
+      "decision": "manual-review",
+      "reason": "metadata-candidate",
+      "decidedAt": "2026-07-15",
+      "evidence": {
+        "candidateKey": "informatica|2014|special|mateinfomicc",
+        "localSha256": {
+          "subject": "af65c4a5edab7ab1884a697ef497c14491fa98e34c559cf6023b6e8720dc9bbb",
+          "rubric": "ec029496569f251620a3e3ed093d51218f096d268c6cf3fc4e39c50877d59676"
+        },
+        "externalSha256": {
+          "subject": "0000000000000000000000000000000000000000000000000000000000000000",
+          "rubric": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "note": "Metadata alone cannot establish a merge; this record remains pending review until immutable hashes or page-text fingerprints are compared."
+      }
+    },
+    {
+      "localId": "informatica-2014-final-sesiunea-iunie-iulie",
+      "externalId": "archive-informatica-409",
+      "canonicalId": "informatica-2014-final-sesiunea-iunie-iulie",
+      "decision": "manual-review",
+      "reason": "metadata-candidate",
+      "decidedAt": "2026-07-15",
+      "evidence": {
+        "candidateKey": "informatica|2014|final|mateinfomicc",
+        "localSha256": {
+          "subject": "7b9565643879b729317a4d7868f16897f235c930f83c631c2bbae542992cba97",
+          "rubric": "f93f9266e0d6d23a048252c804629d15d99033167580024d2458098a2b24e423"
+        },
+        "externalSha256": {
+          "subject": "0000000000000000000000000000000000000000000000000000000000000000",
+          "rubric": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "note": "Metadata alone cannot establish a merge; this record remains pending review until immutable hashes or page-text fingerprints are compared."
+      }
+    },
+    {
+      "localId": "informatica-2014-autumn-sesiunea-august",
+      "externalId": "archive-informatica-410",
+      "canonicalId": "informatica-2014-autumn-sesiunea-august",
+      "decision": "manual-review",
+      "reason": "metadata-candidate",
+      "decidedAt": "2026-07-15",
+      "evidence": {
+        "candidateKey": "informatica|2014|autumn|mateinfomicc",
+        "localSha256": {
+          "subject": "c03f2cb7a95a029db21d6f8e8cf53c6a7c54023869cc76a1b43b43c4e473f604",
+          "rubric": "723da5e21be5c7d31ff622374fa885e2e03edbb3712d54819a9a96046b30df1f"
+        },
+        "externalSha256": {
+          "subject": "0000000000000000000000000000000000000000000000000000000000000000",
+          "rubric": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "note": "Metadata alone cannot establish a merge; this record remains pending review until immutable hashes or page-text fingerprints are compared."
+      }
+    },
+    {
+      "localId": "informatica-2013-model-model-oficial",
+      "externalId": "archive-informatica-419",
+      "canonicalId": "informatica-2013-model-model-oficial",
+      "decision": "manual-review",
+      "reason": "metadata-candidate",
+      "decidedAt": "2026-07-15",
+      "evidence": {
+        "candidateKey": "informatica|2013|model|mateinfomicc",
+        "localSha256": {
+          "subject": "eb60a604e740f0089f87ca031f58d598976664aa3e968aa570a2ee1bcefafbc3",
+          "rubric": "b70807aafcd3d2afa3a9e37e01b286392083b399d28f889c26827b8f44ba2d19"
+        },
+        "externalSha256": {
+          "subject": "0000000000000000000000000000000000000000000000000000000000000000",
+          "rubric": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "note": "Metadata alone cannot establish a merge; this record remains pending review until immutable hashes or page-text fingerprints are compared."
+      }
+    },
+    {
+      "localId": "informatica-2013-final-sesiunea-iunie-iulie",
+      "externalId": "archive-informatica-416",
+      "canonicalId": "informatica-2013-final-sesiunea-iunie-iulie",
+      "decision": "manual-review",
+      "reason": "metadata-candidate",
+      "decidedAt": "2026-07-15",
+      "evidence": {
+        "candidateKey": "informatica|2013|final|mateinfomicc",
+        "localSha256": {
+          "subject": "6e6480ae9d3a1d3553aa0d4515155154f5b084d77f081132a16b17d57a8655d2",
+          "rubric": "660a1c2f9e7498d3613543edba50296cd56c7b9ce39902d958116d56096b03f8"
+        },
+        "externalSha256": {
+          "subject": "0000000000000000000000000000000000000000000000000000000000000000",
+          "rubric": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "note": "Metadata alone cannot establish a merge; this record remains pending review until immutable hashes or page-text fingerprints are compared."
+      }
+    },
+    {
+      "localId": "informatica-2013-autumn-sesiunea-august",
+      "externalId": "archive-informatica-417",
+      "canonicalId": "informatica-2013-autumn-sesiunea-august",
+      "decision": "manual-review",
+      "reason": "metadata-candidate",
+      "decidedAt": "2026-07-15",
+      "evidence": {
+        "candidateKey": "informatica|2013|autumn|mateinfomicc",
+        "localSha256": {
+          "subject": "56e9126a720463df308bd28d8499b838c88791053f22c9787eb93ec26a1aab60",
+          "rubric": "14ceb65a8428165217ce0e7bc3e8deb51ceb46d05feadb2f27fdd6a8c9f96ee7"
+        },
+        "externalSha256": {
+          "subject": "0000000000000000000000000000000000000000000000000000000000000000",
+          "rubric": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "note": "Metadata alone cannot establish a merge; this record remains pending review until immutable hashes or page-text fingerprints are compared."
+      }
+    }
+  ]
+}

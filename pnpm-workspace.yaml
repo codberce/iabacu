@@ -1,0 +1,8 @@
+allowBuilds:
+  esbuild: false
+  sharp: true
+  unrs-resolver: true
+
+overrides:
+  # GHSA-qx2v-qp2m-jg93: Next.js otherwise resolves PostCSS 8.4.31.
+  postcss: 8.5.16

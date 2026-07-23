@@ -1,0 +1,1486 @@
+[
+  {
+    "id": "en-romana-2026-model-model",
+    "category": "evaluare-nationala",
+    "subject": "romana",
+    "year": 2026,
+    "order": 0,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "model",
+    "sessionLabel": "Model",
+    "dateLabel": "2026",
+    "title": "Model 2026",
+    "examPdfPath": "/exams/evaluare-nationala/romana/2026/en-romana-2026-model-model-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/romana/2026/en-romana-2026-model-model-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/romana/en-romana-2026-model-model.json",
+    "sourceKind": "ministry",
+    "sourceUrl": "https://subiecte.edu.ro/2026/evaluarenationala/modeledesubiecte/EN_VIII_2026_Limba_romana_modele.zip#subiect",
+    "baremSourceUrl": "https://subiecte.edu.ro/2026/evaluarenationala/modeledesubiecte/EN_VIII_2026_Limba_romana_modele.zip#barem",
+    "sha256": {
+      "exam": "926f670994fcbf8ac3a13fee91b71f11de4dde20a3d54ea8535f20a67ca54c4c",
+      "barem": "f891e85580d2ee322e3c4c9eefbac1c40e9cdafbb252b718e2f7364ea4a145f9"
+    },
+    "verification": {
+      "subject": "official-source",
+      "barem": "official-source"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-romana-2026-simulation-nationala-martie",
+    "category": "evaluare-nationala",
+    "subject": "romana",
+    "year": 2026,
+    "order": 1,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "simulation",
+    "sessionLabel": "Simulare",
+    "dateLabel": "16 martie 2026",
+    "title": "Simulare 2026",
+    "examPdfPath": "/exams/evaluare-nationala/romana/2026/en-romana-2026-simulation-nationala-martie-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/romana/2026/en-romana-2026-simulation-nationala-martie-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/romana/en-romana-2026-simulation-nationala-martie.json",
+    "sourceKind": "ministry",
+    "sourceUrl": "https://subiecte.edu.ro/2026/simulare/simulare_en_VIII/EN_VIII_2026_Limba_romana_Simulare.zip#subiect",
+    "baremSourceUrl": "https://subiecte.edu.ro/2026/simulare/simulare_en_VIII/EN_VIII_2026_Limba_romana_Simulare.zip#barem",
+    "sha256": {
+      "exam": "ca9cc5e134a39dae6023f8f47d372c4e1d8ef6e83f572d66ff70a3c5462523f5",
+      "barem": "dc57ff532faba81081da063767e0873e233d6204ca14c2e961c836671e79ff36"
+    },
+    "verification": {
+      "subject": "official-source",
+      "barem": "official-source"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-romana-2026-simulation-nationala-aprilie",
+    "category": "evaluare-nationala",
+    "subject": "romana",
+    "year": 2026,
+    "order": 2,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "simulation",
+    "sessionLabel": "Simulare",
+    "dateLabel": "27 aprilie 2026",
+    "title": "Simulare 2026",
+    "examPdfPath": "/exams/evaluare-nationala/romana/2026/en-romana-2026-simulation-nationala-aprilie-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/romana/2026/en-romana-2026-simulation-nationala-aprilie-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/romana/en-romana-2026-simulation-nationala-aprilie.json",
+    "sourceKind": "ministry",
+    "sourceUrl": "https://subiecte.edu.ro/2026/simulare/simulare_en_VIII/EN_VIII_2026_Lb_romana_Simulare_2.zip#subiect",
+    "baremSourceUrl": "https://subiecte.edu.ro/2026/simulare/simulare_en_VIII/EN_VIII_2026_Lb_romana_Simulare_2.zip#barem",
+    "sha256": {
+      "exam": "e8a718968a4fb281d29ddf077b757e8285b7ba9d04075bcaee2c0f13e99c04d1",
+      "barem": "c2337ed18939207741e6b7205e9a149f0fd31ec2f39b02a15d8b09a67cdb2748"
+    },
+    "verification": {
+      "subject": "official-source",
+      "barem": "official-source"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-romana-2026-final-03",
+    "category": "evaluare-nationala",
+    "subject": "romana",
+    "year": 2026,
+    "order": 3,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "final",
+    "sessionLabel": "Sesiunea iunie/iulie",
+    "dateLabel": "22 iunie 2026",
+    "title": "Sesiunea iunie/iulie 2026",
+    "examPdfPath": "/exams/evaluare-nationala/romana/2026/en-romana-2026-final-03-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/romana/2026/en-romana-2026-final-03-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/romana/en-romana-2026-final-03.json",
+    "sourceKind": "ministry",
+    "sourceUrl": "https://subiecte.edu.ro/2026/evaluarenationala/Subiecte_si_bareme/EN_VIII_2026_Lb_Romana.zip#subiect",
+    "baremSourceUrl": "https://subiecte.edu.ro/2026/evaluarenationala/Subiecte_si_bareme/EN_VIII_2026_Lb_Romana.zip#barem",
+    "sha256": {
+      "exam": "d82aed695d973d20d0fb8839c86ea90c674df435200ab69b9f9d29b20d3778cf",
+      "barem": "55359ad3b56bb720b8208d1e4a76e7c8b3feb43827e8ea651f48080b1bc0b115"
+    },
+    "verification": {
+      "subject": "official-source",
+      "barem": "official-source"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-romana-2026-reserve-05",
+    "category": "evaluare-nationala",
+    "subject": "romana",
+    "year": 2026,
+    "order": 4,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "reserve",
+    "sessionLabel": "Rezerva",
+    "dateLabel": "22 iunie 2026",
+    "title": "Rezerva 2026",
+    "examPdfPath": "/exams/evaluare-nationala/romana/2026/en-romana-2026-reserve-05-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/romana/2026/en-romana-2026-reserve-05-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/romana/en-romana-2026-reserve-05.json",
+    "sourceKind": "ministry",
+    "sourceUrl": "https://subiecte.edu.ro/2026/evaluarenationala/Subiecte_si_bareme/EN_VIII_2026_Lb_Romana_rezerva.zip#subiect",
+    "baremSourceUrl": "https://subiecte.edu.ro/2026/evaluarenationala/Subiecte_si_bareme/EN_VIII_2026_Lb_Romana_rezerva.zip#barem",
+    "sha256": {
+      "exam": "b6496709b30cd46e3715d602755918a632b54873f1e55a376f5c36c9280787ba",
+      "barem": "eb7ab14b6b52089f60a1f9d91254ab8cc20294cbf41929f11bc6229cc267f7d6"
+    },
+    "verification": {
+      "subject": "official-source",
+      "barem": "official-source"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-romana-2025-final-07",
+    "category": "evaluare-nationala",
+    "subject": "romana",
+    "year": 2025,
+    "order": 5,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "final",
+    "sessionLabel": "Sesiunea iunie/iulie",
+    "dateLabel": "2025",
+    "title": "Sesiunea iunie/iulie 2025",
+    "examPdfPath": "/exams/evaluare-nationala/romana/2025/en-romana-2025-final-07-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/romana/2025/en-romana-2025-final-07-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/romana/en-romana-2025-final-07.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://www.arhivabac.com/evaluare-nationala/romana/1077-romana-2025-vara#subiect",
+    "baremSourceUrl": "https://www.arhivabac.com/evaluare-nationala/romana/1077-romana-2025-vara#barem",
+    "sha256": {
+      "exam": "32c4fe1d92e86bdabaf56d2d5d07a85ca6862120907d42c5c7bb9a373a7bd35d",
+      "barem": "a2a8f69234631bbc1b6015cf62b5fbdfa6c6031ea11ca68d93872949e94370ab"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-romana-2025-special-01",
+    "category": "evaluare-nationala",
+    "subject": "romana",
+    "year": 2025,
+    "order": 6,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "special",
+    "sessionLabel": "Sesiunea specială",
+    "dateLabel": "2025",
+    "title": "Sesiunea specială 2025",
+    "examPdfPath": "/exams/evaluare-nationala/romana/2025/en-romana-2025-special-01-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/romana/2025/en-romana-2025-special-01-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/romana/en-romana-2025-special-01.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://www.arhivabac.com/evaluare-nationala/romana/1079-romana-2025-speciala#subiect",
+    "baremSourceUrl": "https://www.arhivabac.com/evaluare-nationala/romana/1079-romana-2025-speciala#barem",
+    "sha256": {
+      "exam": "521467010277dbd9ec6a60114c7f91cea104ee514c93c8a1f3e4e2840b72e0dc",
+      "barem": "a726c559e51e095541c2e5768594278126e3747573ac438a33af4a72da1f5412"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-romana-2025-reserve-02",
+    "category": "evaluare-nationala",
+    "subject": "romana",
+    "year": 2025,
+    "order": 7,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "reserve",
+    "sessionLabel": "Rezerva",
+    "dateLabel": "2025",
+    "title": "Rezerva 2025",
+    "examPdfPath": "/exams/evaluare-nationala/romana/2025/en-romana-2025-reserve-02-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/romana/2025/en-romana-2025-reserve-02-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/romana/en-romana-2025-reserve-02.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://www.arhivabac.com/evaluare-nationala/romana/1088-romana-2025-rezerva#subiect",
+    "baremSourceUrl": "https://www.arhivabac.com/evaluare-nationala/romana/1088-romana-2025-rezerva#barem",
+    "sha256": {
+      "exam": "88eb02dff0f44059ccb095e3707c48e3d46a73786e95b6b4b74537b6f51a87ae",
+      "barem": "2e86be915a7332c4ab63e109c42d3675ddf83aaf4deb27939e3e359f1cb0a8b8"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-romana-2025-model-model",
+    "category": "evaluare-nationala",
+    "subject": "romana",
+    "year": 2025,
+    "order": 8,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "model",
+    "sessionLabel": "Model",
+    "dateLabel": "2025",
+    "title": "Model 2025",
+    "examPdfPath": "/exams/evaluare-nationala/romana/2025/en-romana-2025-model-model-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/romana/2025/en-romana-2025-model-model-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/romana/en-romana-2025-model-model.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://www.arhivabac.com/evaluare-nationala/romana/1090-romana-2025-model#subiect",
+    "baremSourceUrl": "https://www.arhivabac.com/evaluare-nationala/romana/1090-romana-2025-model#barem",
+    "sha256": {
+      "exam": "ce03efba0068dc207adeecacc7c8bc69992777a8bb1362230c19694bcf60491c",
+      "barem": "cfd22309528c4060643758cfc6758d067b3291221441cc439305e1e6352a22b2"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-romana-2024-model-model",
+    "category": "evaluare-nationala",
+    "subject": "romana",
+    "year": 2024,
+    "order": 9,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "model",
+    "sessionLabel": "Model",
+    "dateLabel": "2024",
+    "title": "Model 2024",
+    "examPdfPath": "/exams/evaluare-nationala/romana/2024/en-romana-2024-model-model-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/romana/2024/en-romana-2024-model-model-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/romana/en-romana-2024-model-model.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://www.arhivabac.com/evaluare-nationala/romana/1082-romana-2024-model#subiect",
+    "baremSourceUrl": "https://www.arhivabac.com/evaluare-nationala/romana/1082-romana-2024-model#barem",
+    "sha256": {
+      "exam": "56cbe70b914aaff4f858b22fe1c2bf9fa0a0ee987da42ea9e353573da3130c0d",
+      "barem": "3cdb833bcb6e1011c90de6453db5d6bb3251d4b18cfed427124db55439794f87"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-romana-2024-final-03",
+    "category": "evaluare-nationala",
+    "subject": "romana",
+    "year": 2024,
+    "order": 10,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "final",
+    "sessionLabel": "Sesiunea iunie/iulie",
+    "dateLabel": "2024",
+    "title": "Sesiunea iunie/iulie 2024",
+    "examPdfPath": "/exams/evaluare-nationala/romana/2024/en-romana-2024-final-03-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/romana/2024/en-romana-2024-final-03-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/romana/en-romana-2024-final-03.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://www.arhivabac.com/evaluare-nationala/romana/1084-romana-2024-vara#subiect",
+    "baremSourceUrl": "https://www.arhivabac.com/evaluare-nationala/romana/1084-romana-2024-vara#barem",
+    "sha256": {
+      "exam": "87f9546b3c42d0e2fe155c0835fb27f95fa8c70f45d3eddd9bac5cb419bf9e54",
+      "barem": "96b187b3ad6552ac2b70c2ebedd95e27fe292a6907b562a801b2c0c332fe2270"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-romana-2024-reserve-07",
+    "category": "evaluare-nationala",
+    "subject": "romana",
+    "year": 2024,
+    "order": 11,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "reserve",
+    "sessionLabel": "Rezerva",
+    "dateLabel": "2024",
+    "title": "Rezerva 2024",
+    "examPdfPath": "/exams/evaluare-nationala/romana/2024/en-romana-2024-reserve-07-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/romana/2024/en-romana-2024-reserve-07-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/romana/en-romana-2024-reserve-07.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://www.arhivabac.com/evaluare-nationala/romana/1085-romana-2024-rezerva#subiect",
+    "baremSourceUrl": "https://www.arhivabac.com/evaluare-nationala/romana/1085-romana-2024-rezerva#barem",
+    "sha256": {
+      "exam": "420274a3635927cc3b6644c519338e72beefb7dbd5286b34c9905a30b58b507b",
+      "barem": "57323264bffff08d561a697babb87bb25bc976788558576668585da4fc864088"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-romana-2023-model-model",
+    "category": "evaluare-nationala",
+    "subject": "romana",
+    "year": 2023,
+    "order": 12,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "model",
+    "sessionLabel": "Model",
+    "dateLabel": "2023",
+    "title": "Model 2023",
+    "examPdfPath": "/exams/evaluare-nationala/romana/2023/en-romana-2023-model-model-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/romana/2023/en-romana-2023-model-model-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/romana/en-romana-2023-model-model.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://www.arhivabac.com/evaluare-nationala/romana/1073-romana-2023-model#subiect",
+    "baremSourceUrl": "https://www.arhivabac.com/evaluare-nationala/romana/1073-romana-2023-model#barem",
+    "sha256": {
+      "exam": "4ca2138950f466440e7f2f2281264a6b224ed72454746ad58ffc2d32d3b0179e",
+      "barem": "b1264ab89a31d093a95c021cc93a5a1c381808f1041bf2f71863e4189973f59b"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-romana-2023-final-04",
+    "category": "evaluare-nationala",
+    "subject": "romana",
+    "year": 2023,
+    "order": 13,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "final",
+    "sessionLabel": "Sesiunea iunie/iulie",
+    "dateLabel": "2023",
+    "title": "Sesiunea iunie/iulie 2023",
+    "examPdfPath": "/exams/evaluare-nationala/romana/2023/en-romana-2023-final-04-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/romana/2023/en-romana-2023-final-04-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/romana/en-romana-2023-final-04.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://www.arhivabac.com/evaluare-nationala/romana/1075-romana-2023-vara#subiect",
+    "baremSourceUrl": "https://www.arhivabac.com/evaluare-nationala/romana/1075-romana-2023-vara#barem",
+    "sha256": {
+      "exam": "04e7fa34fc6b18d8a45369df5a8449a0423063149d1c55b465df7b87b0ccdcdd",
+      "barem": "f3870519582bbf59c80e3a589cd9550cde27c12b3602b018fa75c27fb5e3c03f"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-romana-2022-final-principal",
+    "category": "evaluare-nationala",
+    "subject": "romana",
+    "year": 2022,
+    "order": 14,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "final",
+    "sessionLabel": "Sesiunea iunie/iulie",
+    "dateLabel": "14 iunie 2022",
+    "title": "Sesiunea iunie/iulie 2022",
+    "examPdfPath": "/exams/evaluare-nationala/romana/2022/en-romana-2022-final-principal-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/romana/2022/en-romana-2022-final-principal-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/romana/en-romana-2022-final-principal.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://profesorjitaruionel.com/wp-content/uploads/2022/06/EN_VIII_2022_Limba_si_literatura_romana_var_04-1.pdf#subiect",
+    "baremSourceUrl": "https://profesorjitaruionel.com/wp-content/uploads/2022/06/EN_VIII_2022_Limba_si_literatura_romana_var_04-1.pdf#barem",
+    "sha256": {
+      "exam": "67def9384fdb73f9a1ef09ad732d2af952fd226ca340ac3137ca95208e68e057",
+      "barem": "4fedf9cdb1eb796b8dcc0174258508fb32385833b3ae13ea585d3a8cc3acf8b6"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-romana-2022-reserve-05",
+    "category": "evaluare-nationala",
+    "subject": "romana",
+    "year": 2022,
+    "order": 15,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "reserve",
+    "sessionLabel": "Rezerva",
+    "dateLabel": "18 iunie 2022",
+    "title": "Rezerva 2022",
+    "examPdfPath": "/exams/evaluare-nationala/romana/2022/en-romana-2022-reserve-05-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/romana/2022/en-romana-2022-reserve-05-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/romana/en-romana-2022-reserve-05.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://profesorjitaruionel.com/wp-content/uploads/2022/06/EN_VIII_2022_Limba_si_literatura_romana_var_05.pdf#subiect",
+    "baremSourceUrl": "https://profesorjitaruionel.com/wp-content/uploads/2022/06/EN_VIII_2022_Limba_si_literatura_romana_var_05.pdf#barem",
+    "sha256": {
+      "exam": "2f8197540518b15534ed45260e3bc6cb8fdccc0d0121caba5f4f66d82e3765cd",
+      "barem": "068bd341efd48de6507b0e016c1341b5f993d61179493e2dc497821a3c468e48"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-romana-2022-model-model",
+    "category": "evaluare-nationala",
+    "subject": "romana",
+    "year": 2022,
+    "order": 16,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "model",
+    "sessionLabel": "Model",
+    "dateLabel": "2022",
+    "title": "Model 2022",
+    "examPdfPath": "/exams/evaluare-nationala/romana/2022/en-romana-2022-model-model-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/romana/2022/en-romana-2022-model-model-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/romana/en-romana-2022-model-model.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://profesorjitaruionel.com/wp-content/uploads/2021/11/EN_VIII_2022_Limba_si_literatura_romana_var_model.pdf#subiect",
+    "baremSourceUrl": "https://profesorjitaruionel.com/wp-content/uploads/2021/11/EN_VIII_2022_Limba_si_literatura_romana_var_model.pdf#barem",
+    "sha256": {
+      "exam": "a62aff2333c07017745fecda445dbc19261ad7d68782c1c9b9598bfdad33b48b",
+      "barem": "63853eabfc37bb3ee257bd98662b2adeefa3378451497427bb89ad60e5165be4"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-romana-2021-final-principal",
+    "category": "evaluare-nationala",
+    "subject": "romana",
+    "year": 2021,
+    "order": 17,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "final",
+    "sessionLabel": "Sesiunea iunie/iulie",
+    "dateLabel": "22 iunie 2021",
+    "title": "Sesiunea iunie/iulie 2021",
+    "examPdfPath": "/exams/evaluare-nationala/romana/2021/en-romana-2021-final-principal-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/romana/2021/en-romana-2021-final-principal-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/romana/en-romana-2021-final-principal.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://profesorjitaruionel.com/wp-content/uploads/2021/06/EN_VIII_2021_Limba_si_literatura_romana_var_04.pdf#subiect",
+    "baremSourceUrl": "https://profesorjitaruionel.com/wp-content/uploads/2021/06/EN_VIII_2021_Limba_si_literatura_romana_var_04.pdf#barem",
+    "sha256": {
+      "exam": "f3e2e8e5cecbebc5c45061f994cbe3e3ff03edde3d7f488820345634d47e0e80",
+      "barem": "e902630d023ad69e4c42d33d5c28f17540bf785aea035ec8e12e83359da9e1d1"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-romana-2021-reserve-02",
+    "category": "evaluare-nationala",
+    "subject": "romana",
+    "year": 2021,
+    "order": 18,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "reserve",
+    "sessionLabel": "Rezerva",
+    "dateLabel": "iulie 2021",
+    "title": "Rezerva 2021",
+    "examPdfPath": "/exams/evaluare-nationala/romana/2021/en-romana-2021-reserve-02-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/romana/2021/en-romana-2021-reserve-02-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/romana/en-romana-2021-reserve-02.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://profesorjitaruionel.com/wp-content/uploads/2021/07/EN_VIII_2021_Limba-romana-REZERVA-var_02.pdf#subiect",
+    "baremSourceUrl": "https://profesorjitaruionel.com/wp-content/uploads/2021/07/EN_VIII_2021_Limba-romana-REZERVA-var_02.pdf#barem",
+    "sha256": {
+      "exam": "b7e9a757cd99473eb6efb9275321bc28834bb79d88801e8059063cd1922186a8",
+      "barem": "b02bdf887b3e57740cbbca9da0450e4d60616aeec4a4b95c1f2129def0f94621"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-romana-2021-special-03",
+    "category": "evaluare-nationala",
+    "subject": "romana",
+    "year": 2021,
+    "order": 19,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "special",
+    "sessionLabel": "Sesiunea specială",
+    "dateLabel": "iulie 2021",
+    "title": "Sesiunea specială 2021",
+    "examPdfPath": "/exams/evaluare-nationala/romana/2021/en-romana-2021-special-03-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/romana/2021/en-romana-2021-special-03-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/romana/en-romana-2021-special-03.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://profesorjitaruionel.com/wp-content/uploads/2021/07/EN_VIII_2021_Limba_si_literatura_romana_var_03.pdf#subiect",
+    "baremSourceUrl": "https://profesorjitaruionel.com/wp-content/uploads/2021/07/EN_VIII_2021_Limba_si_literatura_romana_var_03.pdf#barem",
+    "sha256": {
+      "exam": "de52ab4460acb343602d55b5e512d1e5ee2ea4d7918600be70af37da924e9f4e",
+      "barem": "cdb4bc4e6d4a0eae4726b4a6149f91f95e2d3a901c74d38b47bb3e846e49823f"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-romana-2020-final-principal",
+    "category": "evaluare-nationala",
+    "subject": "romana",
+    "year": 2020,
+    "order": 20,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "final",
+    "sessionLabel": "Sesiunea iunie/iulie",
+    "dateLabel": "15 iunie 2020",
+    "title": "Sesiunea iunie/iulie 2020",
+    "examPdfPath": "/exams/evaluare-nationala/romana/2020/en-romana-2020-final-principal-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/romana/2020/en-romana-2020-final-principal-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/romana/en-romana-2020-final-principal.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://profesorjitaruionel.com/wp-content/uploads/2020/06/EN_VIII_Limba_romana_2020_var_05.pdf#subiect",
+    "baremSourceUrl": "https://profesorjitaruionel.com/wp-content/uploads/2020/06/EN_VIII_Limba_romana_2020_var_05.pdf#barem",
+    "sha256": {
+      "exam": "024ca99a243f0c17b44e71898efa34e4a101eb9c6250bb66fee58170d5192c38",
+      "barem": "bc2b52926b455733f318760d17dc78c8b80cb62858242bdf5115f9bfeec5bab2"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-romana-2020-model-model",
+    "category": "evaluare-nationala",
+    "subject": "romana",
+    "year": 2020,
+    "order": 21,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "model",
+    "sessionLabel": "Model",
+    "dateLabel": "2020",
+    "title": "Model 2020",
+    "examPdfPath": "/exams/evaluare-nationala/romana/2020/en-romana-2020-model-model-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/romana/2020/en-romana-2020-model-model-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/romana/en-romana-2020-model-model.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://profesorjitaruionel.com/wp-content/uploads/2019/11/EN_Limba_romana_2020_var_model.pdf#subiect",
+    "baremSourceUrl": "https://profesorjitaruionel.com/wp-content/uploads/2019/11/EN_Limba_romana_2020_var_model.pdf#barem",
+    "sha256": {
+      "exam": "9d51053191919b7089883006725ab48d3ab0e2371f12d2958905a449c16eb51e",
+      "barem": "c833941d7b0d2c5aad0ce0a8b7768185eb89ae81229dcbce396d28006b622835"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-romana-2019-final-principal",
+    "category": "evaluare-nationala",
+    "subject": "romana",
+    "year": 2019,
+    "order": 22,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "final",
+    "sessionLabel": "Sesiunea iunie/iulie",
+    "dateLabel": "18 iunie 2019",
+    "title": "Sesiunea iunie/iulie 2019",
+    "examPdfPath": "/exams/evaluare-nationala/romana/2019/en-romana-2019-final-principal-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/romana/2019/en-romana-2019-final-principal-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/romana/en-romana-2019-final-principal.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://profesorjitaruionel.com/wp-content/uploads/2019/06/EN_limba_romana_2019_var_01.pdf#subiect",
+    "baremSourceUrl": "https://profesorjitaruionel.com/wp-content/uploads/2019/06/EN_limba_romana_2019_var_01.pdf#barem",
+    "sha256": {
+      "exam": "9602fb19f201eda24509311890291a57d12b614de14389c876db1ee5ce7718cf",
+      "barem": "c14526f8d3a49c679a58a2f55f20cb89b675407dcd596651bb1f91e62e6ff992"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-romana-2019-model-model",
+    "category": "evaluare-nationala",
+    "subject": "romana",
+    "year": 2019,
+    "order": 23,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "model",
+    "sessionLabel": "Model",
+    "dateLabel": "2019",
+    "title": "Model 2019",
+    "examPdfPath": "/exams/evaluare-nationala/romana/2019/en-romana-2019-model-model-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/romana/2019/en-romana-2019-model-model-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/romana/en-romana-2019-model-model.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://profesorjitaruionel.com/wp-content/uploads/2018/11/EN_limba_romana_2019_var_model.pdf#subiect",
+    "baremSourceUrl": "https://profesorjitaruionel.com/wp-content/uploads/2018/11/EN_limba_romana_2019_var_model.pdf#barem",
+    "sha256": {
+      "exam": "651d9dee659ea05082e50aa91af4dd067336eb92edebf64d1421e2ff2527ff6c",
+      "barem": "53c10b7e119f6e6a5f2fa7f5468e9d0043f406a11a569a716d2d4abaab722a86"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-romana-2019-simulation-nationala",
+    "category": "evaluare-nationala",
+    "subject": "romana",
+    "year": 2019,
+    "order": 24,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "simulation",
+    "sessionLabel": "Simulare",
+    "dateLabel": "martie 2019",
+    "title": "Simulare 2019",
+    "examPdfPath": "/exams/evaluare-nationala/romana/2019/en-romana-2019-simulation-nationala-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/romana/2019/en-romana-2019-simulation-nationala-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/romana/en-romana-2019-simulation-nationala.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://profesorjitaruionel.com/wp-content/uploads/2019/03/EN_limba_romana_2019_cl_VIII_var_simulare.pdf#subiect",
+    "baremSourceUrl": "https://profesorjitaruionel.com/wp-content/uploads/2019/03/EN_limba_romana_2019_cl_VIII_var_simulare.pdf#barem",
+    "sha256": {
+      "exam": "8ef1c4bec63ad6cb341daabaf3587c17d0c6b13c9ed4821e746682c5a5ee0bc8",
+      "barem": "a0ef64ba6b9ecef410ae4d0fa7907a69551b6c90890d5db78ee7a095241018e8"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-romana-2018-final-principal",
+    "category": "evaluare-nationala",
+    "subject": "romana",
+    "year": 2018,
+    "order": 25,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "final",
+    "sessionLabel": "Sesiunea iunie/iulie",
+    "dateLabel": "11 iunie 2018",
+    "title": "Sesiunea iunie/iulie 2018",
+    "examPdfPath": "/exams/evaluare-nationala/romana/2018/en-romana-2018-final-principal-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/romana/2018/en-romana-2018-final-principal-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/romana/en-romana-2018-final-principal.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://profesorjitaruionel.com/wp-content/uploads/2018/06/EN_limba_romana_2018_var_02.pdf#subiect",
+    "baremSourceUrl": "https://profesorjitaruionel.com/wp-content/uploads/2018/06/EN_limba_romana_2018_var_02.pdf#barem",
+    "sha256": {
+      "exam": "cef86fd09e0b2787b8a888d77d829a2776301ce5b270b8350ed27f257e4a194e",
+      "barem": "ad3ea66ea314f3726862df7028659ec07795c6ce1ec324991a79cb189c0670c6"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-romana-2018-reserve-rezerva",
+    "category": "evaluare-nationala",
+    "subject": "romana",
+    "year": 2018,
+    "order": 26,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "reserve",
+    "sessionLabel": "Rezerva",
+    "dateLabel": "2018",
+    "title": "Rezerva 2018",
+    "examPdfPath": "/exams/evaluare-nationala/romana/2018/en-romana-2018-reserve-rezerva-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/romana/2018/en-romana-2018-reserve-rezerva-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/romana/en-romana-2018-reserve-rezerva.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://profesorjitaruionel.com/wp-content/uploads/2018/09/EN-limba-romana-2018-sesiunea-iunie-REZERVA.pdf#subiect",
+    "baremSourceUrl": "https://profesorjitaruionel.com/wp-content/uploads/2018/09/EN-limba-romana-2018-sesiunea-iunie-REZERVA.pdf#barem",
+    "sha256": {
+      "exam": "f591b6b8f9c4b632a1a3030358b81d8eaef8106c4967d71e73581965645376e4",
+      "barem": "089e3fc4bfe7527ae28685176c29bd1755d2d6a0390ccdf6a2c7ab1289a205e6"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-romana-2018-simulation-nationala",
+    "category": "evaluare-nationala",
+    "subject": "romana",
+    "year": 2018,
+    "order": 27,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "simulation",
+    "sessionLabel": "Simulare",
+    "dateLabel": "2018",
+    "title": "Simulare 2018",
+    "examPdfPath": "/exams/evaluare-nationala/romana/2018/en-romana-2018-simulation-nationala-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/romana/2018/en-romana-2018-simulation-nationala-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/romana/en-romana-2018-simulation-nationala.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://profesorjitaruionel.com/wp-content/uploads/2018/09/en_limba_romana_2018_var_simulare.pdf#subiect",
+    "baremSourceUrl": "https://profesorjitaruionel.com/wp-content/uploads/2018/09/en_limba_romana_2018_var_simulare.pdf#barem",
+    "sha256": {
+      "exam": "2ff62184f3484fecbf2b27b140ed562b38a46e80d0c57d0ef54985ca39752095",
+      "barem": "4c13bf0567b39d4b96d14055bb64102708a09aa17304bd26e74e222f755d7ef0"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-romana-2018-model-model",
+    "category": "evaluare-nationala",
+    "subject": "romana",
+    "year": 2018,
+    "order": 28,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "model",
+    "sessionLabel": "Model",
+    "dateLabel": "2018",
+    "title": "Model 2018",
+    "examPdfPath": "/exams/evaluare-nationala/romana/2018/en-romana-2018-model-model-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/romana/2018/en-romana-2018-model-model-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/romana/en-romana-2018-model-model.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://profesorjitaruionel.com/wp-content/uploads/2018/02/en_limba_romana_2018_var_model.pdf#subiect",
+    "baremSourceUrl": "https://profesorjitaruionel.com/wp-content/uploads/2018/02/en_limba_romana_2018_var_model.pdf#barem",
+    "sha256": {
+      "exam": "6a847e594e024e4f8b053ca2f0e72f33692c6b011df132a015c79e564e3c3e23",
+      "barem": "53a02d4f6df7bf069090be91b9239947e55f323123f9f828f887a9fc611a38f8"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-romana-2017-final-principal",
+    "category": "evaluare-nationala",
+    "subject": "romana",
+    "year": 2017,
+    "order": 29,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "final",
+    "sessionLabel": "Sesiunea iunie/iulie",
+    "dateLabel": "19 iunie 2017",
+    "title": "Sesiunea iunie/iulie 2017",
+    "examPdfPath": "/exams/evaluare-nationala/romana/2017/en-romana-2017-final-principal-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/romana/2017/en-romana-2017-final-principal-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/romana/en-romana-2017-final-principal.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://profesorjitaruionel.com/wp-content/uploads/2017/06/en_limba_romana_2017_var_04.pdf#subiect",
+    "baremSourceUrl": "https://profesorjitaruionel.com/wp-content/uploads/2017/06/en_limba_romana_2017_var_04.pdf#barem",
+    "sha256": {
+      "exam": "b01f46e047f60e36bbc73e41f1c28191b6a612d7a3e41c0995ba0126a9dae09e",
+      "barem": "7ed2b2502532a348e1efee5f3f0e69336105d88737926e2ad9c17b992b29a354"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-romana-2017-reserve-01",
+    "category": "evaluare-nationala",
+    "subject": "romana",
+    "year": 2017,
+    "order": 30,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "reserve",
+    "sessionLabel": "Rezerva",
+    "dateLabel": "2017",
+    "title": "Rezerva 2017",
+    "examPdfPath": "/exams/evaluare-nationala/romana/2017/en-romana-2017-reserve-01-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/romana/2017/en-romana-2017-reserve-01-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/romana/en-romana-2017-reserve-01.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://profesorjitaruionel.com/wp-content/uploads/2018/02/en_limba_romana_2017_var_01-iunie-rezerva.pdf#subiect",
+    "baremSourceUrl": "https://profesorjitaruionel.com/wp-content/uploads/2018/02/en_limba_romana_2017_var_01-iunie-rezerva.pdf#barem",
+    "sha256": {
+      "exam": "6dbca4b9bf7788a8b6740f7870f7476b41b7e8bcc37e49160ddb9c8c3d449308",
+      "barem": "b7703f448b8da002743d22f36073ca89511940dc91d254de21824aea1af3411e"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-romana-2017-special-09",
+    "category": "evaluare-nationala",
+    "subject": "romana",
+    "year": 2017,
+    "order": 31,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "special",
+    "sessionLabel": "Sesiunea specială",
+    "dateLabel": "2017",
+    "title": "Sesiunea specială 2017",
+    "examPdfPath": "/exams/evaluare-nationala/romana/2017/en-romana-2017-special-09-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/romana/2017/en-romana-2017-special-09-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/romana/en-romana-2017-special-09.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://profesorjitaruionel.com/wp-content/uploads/2018/02/en_limba_romana_2017_var_09-sesiune-olimpici13-06-2017.pdf#subiect",
+    "baremSourceUrl": "https://profesorjitaruionel.com/wp-content/uploads/2018/02/en_limba_romana_2017_var_09-sesiune-olimpici13-06-2017.pdf#barem",
+    "sha256": {
+      "exam": "4aed3d0f57c644ede66379495cfd4d57f5470f594953b30369ad562cd0851f53",
+      "barem": "755e64c30c36f9b76e431f88bffe0fdf4da9300e1d9dd46193154adce9df3ab3"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-romana-2017-simulation-nationala",
+    "category": "evaluare-nationala",
+    "subject": "romana",
+    "year": 2017,
+    "order": 32,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "simulation",
+    "sessionLabel": "Simulare",
+    "dateLabel": "13 martie 2017",
+    "title": "Simulare 2017",
+    "examPdfPath": "/exams/evaluare-nationala/romana/2017/en-romana-2017-simulation-nationala-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/romana/2017/en-romana-2017-simulation-nationala-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/romana/en-romana-2017-simulation-nationala.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://profesorjitaruionel.com/wp-content/uploads/2018/02/en_limba_romana_2017_var_simulare-13-03-2017.pdf#subiect",
+    "baremSourceUrl": "https://profesorjitaruionel.com/wp-content/uploads/2018/02/en_limba_romana_2017_var_simulare-13-03-2017.pdf#barem",
+    "sha256": {
+      "exam": "55124ed125f289753697154efd5e0c5efc74a0993865af1330dcb971a1392223",
+      "barem": "a44eddb022019cde96be8e08f067978b953b734aeabe5344257610e83bde593d"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-romana-2017-model-model",
+    "category": "evaluare-nationala",
+    "subject": "romana",
+    "year": 2017,
+    "order": 33,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "model",
+    "sessionLabel": "Model",
+    "dateLabel": "2017",
+    "title": "Model 2017",
+    "examPdfPath": "/exams/evaluare-nationala/romana/2017/en-romana-2017-model-model-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/romana/2017/en-romana-2017-model-model-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/romana/en-romana-2017-model-model.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://profesorjitaruionel.com/wp-content/uploads/2018/02/en_limba_romana_var_model_2017.pdf#subiect",
+    "baremSourceUrl": "https://profesorjitaruionel.com/wp-content/uploads/2018/02/en_limba_romana_var_model_2017.pdf#barem",
+    "sha256": {
+      "exam": "51109fa29fc16520f0115958dbf412e7fbece629d09af1c1489508cea8d78bef",
+      "barem": "08b802c032128017727608f8d78570c0fc275002f96a930609c4077aca9e9c17"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-romana-2016-final-principal",
+    "category": "evaluare-nationala",
+    "subject": "romana",
+    "year": 2016,
+    "order": 34,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "final",
+    "sessionLabel": "Sesiunea iunie/iulie",
+    "dateLabel": "29 iunie 2016",
+    "title": "Sesiunea iunie/iulie 2016",
+    "examPdfPath": "/exams/evaluare-nationala/romana/2016/en-romana-2016-final-principal-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/romana/2016/en-romana-2016-final-principal-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/romana/en-romana-2016-final-principal.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://profesorjitaruionel.com/wp-content/uploads/2018/02/en_limba_romana_2016_var_02.pdf#subiect",
+    "baremSourceUrl": "https://profesorjitaruionel.com/wp-content/uploads/2018/02/en_limba_romana_2016_var_02.pdf#barem",
+    "sha256": {
+      "exam": "58e555c69ca3a267ddd6bc90177b6f8ee25b38d12121fb0468a9fcbeb5cdbf43",
+      "barem": "762b3f83dcef2403c85f7cf28d874d4e051e81d5be3381bc42038c74b74f6f4b"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-romana-2016-simulation-nationala",
+    "category": "evaluare-nationala",
+    "subject": "romana",
+    "year": 2016,
+    "order": 35,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "simulation",
+    "sessionLabel": "Simulare",
+    "dateLabel": "2016",
+    "title": "Simulare 2016",
+    "examPdfPath": "/exams/evaluare-nationala/romana/2016/en-romana-2016-simulation-nationala-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/romana/2016/en-romana-2016-simulation-nationala-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/romana/en-romana-2016-simulation-nationala.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://profesorjitaruionel.com/wp-content/uploads/2018/02/en_limba_romana_2016_var_simulare1.pdf#subiect",
+    "baremSourceUrl": "https://profesorjitaruionel.com/wp-content/uploads/2018/02/en_limba_romana_2016_var_simulare1.pdf#barem",
+    "sha256": {
+      "exam": "e7a3329554f4d61f18eb5b4d1e655edbe528313803f860dc723899c0f80907cd",
+      "barem": "92860eb1d88c02c32b02d23f0dd48d1bc77d1151bb27409654caca978c763744"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-romana-2016-special-08",
+    "category": "evaluare-nationala",
+    "subject": "romana",
+    "year": 2016,
+    "order": 36,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "special",
+    "sessionLabel": "Sesiunea specială",
+    "dateLabel": "2016",
+    "title": "Sesiunea specială 2016",
+    "examPdfPath": "/exams/evaluare-nationala/romana/2016/en-romana-2016-special-08-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/romana/2016/en-romana-2016-special-08-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/romana/en-romana-2016-special-08.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://profesorjitaruionel.com/wp-content/uploads/2018/02/en_limba_romana_2016_var_08.pdf#subiect",
+    "baremSourceUrl": "https://profesorjitaruionel.com/wp-content/uploads/2018/02/en_limba_romana_2016_var_08.pdf#barem",
+    "sha256": {
+      "exam": "fefab357e9a5afa5cbc571803ffeb2aa6e39280863fbd76b784b8a1d1ea8437c",
+      "barem": "6ad262b1b7871f5c4cda42bf0696f86180c0170b011a736449545f11cc87a76f"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-romana-2016-reserve-07",
+    "category": "evaluare-nationala",
+    "subject": "romana",
+    "year": 2016,
+    "order": 37,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "reserve",
+    "sessionLabel": "Rezerva",
+    "dateLabel": "2016",
+    "title": "Rezerva 2016",
+    "examPdfPath": "/exams/evaluare-nationala/romana/2016/en-romana-2016-reserve-07-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/romana/2016/en-romana-2016-reserve-07-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/romana/en-romana-2016-reserve-07.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://profesorjitaruionel.com/wp-content/uploads/2018/02/en_limba_romana_2016_var_07.pdf#subiect",
+    "baremSourceUrl": "https://profesorjitaruionel.com/wp-content/uploads/2018/02/en_limba_romana_2016_var_07.pdf#barem",
+    "sha256": {
+      "exam": "ae50520a8615c1395eb347610837ed9fc6db90ff37a392edd6fe28262e31c4b1",
+      "barem": "c4500868ade39372639ed532705b0f917c304956addc088f18976c5c3b2bd20a"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-romana-2016-model-model",
+    "category": "evaluare-nationala",
+    "subject": "romana",
+    "year": 2016,
+    "order": 38,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "model",
+    "sessionLabel": "Model",
+    "dateLabel": "2016",
+    "title": "Model 2016",
+    "examPdfPath": "/exams/evaluare-nationala/romana/2016/en-romana-2016-model-model-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/romana/2016/en-romana-2016-model-model-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/romana/en-romana-2016-model-model.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://profesorjitaruionel.com/wp-content/uploads/2018/02/en_viii_limba_romana_2016_var_model.pdf#subiect",
+    "baremSourceUrl": "https://profesorjitaruionel.com/wp-content/uploads/2018/02/en_viii_limba_romana_2016_var_model.pdf#barem",
+    "sha256": {
+      "exam": "b71d3e651452ead40a8b848fab5667e9ff2bdebea1224a35421f71e9508e4e8d",
+      "barem": "76a2ae7274a6d61d9ebd5790e9fa58ac4a40279ab4ab5c33aa456e02b95a8e46"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-romana-2015-final-principal",
+    "category": "evaluare-nationala",
+    "subject": "romana",
+    "year": 2015,
+    "order": 39,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "final",
+    "sessionLabel": "Sesiunea iunie/iulie",
+    "dateLabel": "24 iunie 2015",
+    "title": "Sesiunea iunie/iulie 2015",
+    "examPdfPath": "/exams/evaluare-nationala/romana/2015/en-romana-2015-final-principal-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/romana/2015/en-romana-2015-final-principal-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/romana/en-romana-2015-final-principal.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://profesorjitaruionel.com/wp-content/uploads/2018/02/subiectebarem-evaluarea-nationala-limba-romana-sesiunea-iunie-2015.pdf#subiect",
+    "baremSourceUrl": "https://profesorjitaruionel.com/wp-content/uploads/2018/02/subiectebarem-evaluarea-nationala-limba-romana-sesiunea-iunie-2015.pdf#barem",
+    "sha256": {
+      "exam": "8cc2fb5f9d36cea6f4e54212630e8edb872f2af553d6435879aa5e6925f36856",
+      "barem": "8cc2fb5f9d36cea6f4e54212630e8edb872f2af553d6435879aa5e6925f36856"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-romana-2014-final-principal",
+    "category": "evaluare-nationala",
+    "subject": "romana",
+    "year": 2014,
+    "order": 40,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "final",
+    "sessionLabel": "Sesiunea iunie/iulie",
+    "dateLabel": "25 iunie 2014",
+    "title": "Sesiunea iunie/iulie 2014",
+    "examPdfPath": "/exams/evaluare-nationala/romana/2014/en-romana-2014-final-principal-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/romana/2014/en-romana-2014-final-principal-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/romana/en-romana-2014-final-principal.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://profesorjitaruionel.com/wp-content/uploads/2018/02/evaluarea-nationala-limba-romana-sesiunea-iunie-2014.pdf#subiect",
+    "baremSourceUrl": "https://profesorjitaruionel.com/wp-content/uploads/2018/02/evaluarea-nationala-limba-romana-sesiunea-iunie-2014.pdf#barem",
+    "sha256": {
+      "exam": "eab78a9e5734e38b0040021375eb6d5b0e456326cdab8f6fd86d4158f783be08",
+      "barem": "32df7dd0f2404d3e71d369780d3b21e3c18bd3532d6ab2c511f6c798a68a2818"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-romana-2014-model-model",
+    "category": "evaluare-nationala",
+    "subject": "romana",
+    "year": 2014,
+    "order": 41,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "model",
+    "sessionLabel": "Model",
+    "dateLabel": "2014",
+    "title": "Model 2014",
+    "examPdfPath": "/exams/evaluare-nationala/romana/2014/en-romana-2014-model-model-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/romana/2014/en-romana-2014-model-model-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/romana/en-romana-2014-model-model.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://profesorjitaruionel.com/wp-content/uploads/2018/02/evaluarea-nationala-limba-romana-model-2014.pdf#subiect",
+    "baremSourceUrl": "https://profesorjitaruionel.com/wp-content/uploads/2018/02/evaluarea-nationala-limba-romana-model-2014.pdf#barem",
+    "sha256": {
+      "exam": "e8018fd09b8fe3e440da2e5d40363fd1836c53efcc055fc9dec3fcb4e79a921d",
+      "barem": "b4da314d5090f670f3c88925c4808bc5df9842c9cedd3aaad126d76630ecbd79"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-romana-2014-simulation-nationala",
+    "category": "evaluare-nationala",
+    "subject": "romana",
+    "year": 2014,
+    "order": 42,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "simulation",
+    "sessionLabel": "Simulare",
+    "dateLabel": "2014",
+    "title": "Simulare 2014",
+    "examPdfPath": "/exams/evaluare-nationala/romana/2014/en-romana-2014-simulation-nationala-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/romana/2014/en-romana-2014-simulation-nationala-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/romana/en-romana-2014-simulation-nationala.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://profesorjitaruionel.com/wp-content/uploads/2018/02/en_limba_romana_2014_var_simulare1.pdf#subiect",
+    "baremSourceUrl": "https://profesorjitaruionel.com/wp-content/uploads/2018/02/en_limba_romana_2014_var_simulare1.pdf#barem",
+    "sha256": {
+      "exam": "edd7e697a3b211d13e7eb1a8c55de9d5a34622e34b84591784f35c08fd331628",
+      "barem": "9463a9466bccb9554df2e6951d2e2fa722312d8f087018403c445a7031fe2391"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-romana-2014-reserve-rezerva",
+    "category": "evaluare-nationala",
+    "subject": "romana",
+    "year": 2014,
+    "order": 43,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "reserve",
+    "sessionLabel": "Rezerva",
+    "dateLabel": "2014",
+    "title": "Rezerva 2014",
+    "examPdfPath": "/exams/evaluare-nationala/romana/2014/en-romana-2014-reserve-rezerva-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/romana/2014/en-romana-2014-reserve-rezerva-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/romana/en-romana-2014-reserve-rezerva.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://profesorjitaruionel.com/wp-content/uploads/2018/02/evaluarea-nationala-limba-romana-sesiunea-iunie-2014-rezerva.pdf#subiect",
+    "baremSourceUrl": "https://profesorjitaruionel.com/wp-content/uploads/2018/02/evaluarea-nationala-limba-romana-sesiunea-iunie-2014-rezerva.pdf#barem",
+    "sha256": {
+      "exam": "baf3908adc094b28a6dbe178b341906a1bec51ecbed847ddc94bd3158d5797e6",
+      "barem": "e975df1d980b6f3a7b5c87cca41c4c907f24f255e6951fa7a286b7b94e49d0e5"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-romana-2014-special-speciala",
+    "category": "evaluare-nationala",
+    "subject": "romana",
+    "year": 2014,
+    "order": 44,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "special",
+    "sessionLabel": "Sesiunea specială",
+    "dateLabel": "2014",
+    "title": "Sesiunea specială 2014",
+    "examPdfPath": "/exams/evaluare-nationala/romana/2014/en-romana-2014-special-speciala-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/romana/2014/en-romana-2014-special-speciala-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/romana/en-romana-2014-special-speciala.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://profesorjitaruionel.com/wp-content/uploads/2018/02/evaluarea-nationala-limba-romana-2014-sesiunea-olimpici.pdf#subiect",
+    "baremSourceUrl": "https://profesorjitaruionel.com/wp-content/uploads/2018/02/evaluarea-nationala-limba-romana-2014-sesiunea-olimpici.pdf#barem",
+    "sha256": {
+      "exam": "8cc76f2bb80caea30bf7534a86d97531e56c8761b95473f9670e3ab377f42924",
+      "barem": "e59612bb4d8e3e27b7f75cbeb7eff1505812223fdebbc7c360fec9d21c421b86"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-romana-2013-final-principal",
+    "category": "evaluare-nationala",
+    "subject": "romana",
+    "year": 2013,
+    "order": 45,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "final",
+    "sessionLabel": "Sesiunea iunie/iulie",
+    "dateLabel": "27 iunie 2013",
+    "title": "Sesiunea iunie/iulie 2013",
+    "examPdfPath": "/exams/evaluare-nationala/romana/2013/en-romana-2013-final-principal-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/romana/2013/en-romana-2013-final-principal-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/romana/en-romana-2013-final-principal.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://profesorjitaruionel.com/wp-content/uploads/2018/02/subiect-evaluarea-nationala-limba-si-literatura-romana-2013.pdf#subiect",
+    "baremSourceUrl": "https://profesorjitaruionel.com/wp-content/uploads/2018/02/subiect-evaluarea-nationala-limba-si-literatura-romana-2013.pdf#barem",
+    "sha256": {
+      "exam": "3f46c03b7a44d602a9c9df252f3e30dc0313fd5b8ff433c187029bda03e4270f",
+      "barem": "25ee093c0653b32c5d94780c99f8372d75b06cda6824cebf9539b5e392ee290b"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-romana-2013-simulation-nationala",
+    "category": "evaluare-nationala",
+    "subject": "romana",
+    "year": 2013,
+    "order": 46,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "simulation",
+    "sessionLabel": "Simulare",
+    "dateLabel": "2013",
+    "title": "Simulare 2013",
+    "examPdfPath": "/exams/evaluare-nationala/romana/2013/en-romana-2013-simulation-nationala-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/romana/2013/en-romana-2013-simulation-nationala-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/romana/en-romana-2013-simulation-nationala.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://profesorjitaruionel.com/wp-content/uploads/2018/02/simulare-en-2013-romana1.pdf#subiect",
+    "baremSourceUrl": "https://profesorjitaruionel.com/wp-content/uploads/2018/02/simulare-en-2013-romana1.pdf#barem",
+    "sha256": {
+      "exam": "fbd2044619584cdfe111267c08b2d3370110a5824352b9016f8994e07ea444b9",
+      "barem": "da3673e022aabbbccfed2ceae8ebde9054faf387d561c3403a7b7fc639174c34"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-romana-2013-reserve-rezerva",
+    "category": "evaluare-nationala",
+    "subject": "romana",
+    "year": 2013,
+    "order": 47,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "reserve",
+    "sessionLabel": "Rezerva",
+    "dateLabel": "2013",
+    "title": "Rezerva 2013",
+    "examPdfPath": "/exams/evaluare-nationala/romana/2013/en-romana-2013-reserve-rezerva-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/romana/2013/en-romana-2013-reserve-rezerva-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/romana/en-romana-2013-reserve-rezerva.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://profesorjitaruionel.com/wp-content/uploads/2018/02/evaluarea-nationala-limba-romana-sesiunea-iunie-2013-rezerva.pdf#subiect",
+    "baremSourceUrl": "https://profesorjitaruionel.com/wp-content/uploads/2018/02/evaluarea-nationala-limba-romana-sesiunea-iunie-2013-rezerva.pdf#barem",
+    "sha256": {
+      "exam": "6f1eb23c4c23ab211b4a743a14427845af16b3d6cc6a2f141c646d4e85734dda",
+      "barem": "cd20201b0c5fb5d6b3921c3ee4142731ba69c9fe79b3d3f9c09a5aa2d89d63f2"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-romana-2013-special-speciala",
+    "category": "evaluare-nationala",
+    "subject": "romana",
+    "year": 2013,
+    "order": 48,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "special",
+    "sessionLabel": "Sesiunea specială",
+    "dateLabel": "2013",
+    "title": "Sesiunea specială 2013",
+    "examPdfPath": "/exams/evaluare-nationala/romana/2013/en-romana-2013-special-speciala-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/romana/2013/en-romana-2013-special-speciala-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/romana/en-romana-2013-special-speciala.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://profesorjitaruionel.com/wp-content/uploads/2018/02/en-viii-limba-romana-2013-sesiunea-olimpici.pdf#subiect",
+    "baremSourceUrl": "https://profesorjitaruionel.com/wp-content/uploads/2018/02/en-viii-limba-romana-2013-sesiunea-olimpici.pdf#barem",
+    "sha256": {
+      "exam": "9d0ebb428f0b020b4f5d35695a2fce3194593fd9d5e0c7cbfd2b3337b165098b",
+      "barem": "21338f5d16093cf540bbb0c7b1bef77ea135760c6ed7be80a6ed36d4fd4ce159"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-romana-2012-final-principal",
+    "category": "evaluare-nationala",
+    "subject": "romana",
+    "year": 2012,
+    "order": 49,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "final",
+    "sessionLabel": "Sesiunea iunie/iulie",
+    "dateLabel": "27 iunie 2012",
+    "title": "Sesiunea iunie/iulie 2012",
+    "examPdfPath": "/exams/evaluare-nationala/romana/2012/en-romana-2012-final-principal-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/romana/2012/en-romana-2012-final-principal-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/romana/en-romana-2012-final-principal.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://profesorjitaruionel.com/wp-content/uploads/2018/02/evaluarea-nationala-limba-romana-2012-sesiunea-iunie.pdf#subiect",
+    "baremSourceUrl": "https://profesorjitaruionel.com/wp-content/uploads/2018/02/evaluarea-nationala-limba-romana-2012-sesiunea-iunie.pdf#barem",
+    "sha256": {
+      "exam": "aa9b9c40d4c6933bcf1bbc8ebb00f391078218b50041491bc3219ad141a724ae",
+      "barem": "7dfe36f19a2ca37ef5667688a93e3adb9edf3ab05eb5bcf2b172e654beab7039"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-romana-2011-final-principal",
+    "category": "evaluare-nationala",
+    "subject": "romana",
+    "year": 2011,
+    "order": 50,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "final",
+    "sessionLabel": "Sesiunea iunie/iulie",
+    "dateLabel": "22 iunie 2011",
+    "title": "Sesiunea iunie/iulie 2011",
+    "examPdfPath": "/exams/evaluare-nationala/romana/2011/en-romana-2011-final-principal-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/romana/2011/en-romana-2011-final-principal-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/romana/en-romana-2011-final-principal.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://profesorjitaruionel.com/wp-content/uploads/2018/02/evaluare-nationala-2011-subiect-barem-limba-romana-sesiunea-iunie.pdf#subiect",
+    "baremSourceUrl": "https://profesorjitaruionel.com/wp-content/uploads/2018/02/evaluare-nationala-2011-subiect-barem-limba-romana-sesiunea-iunie.pdf#barem",
+    "sha256": {
+      "exam": "18b4586f78bad06b8cc40bc805a5f59651b41eed3d583f26285c96ecf967e52b",
+      "barem": "18b4586f78bad06b8cc40bc805a5f59651b41eed3d583f26285c96ecf967e52b"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-romana-2010-final-principal",
+    "category": "evaluare-nationala",
+    "subject": "romana",
+    "year": 2010,
+    "order": 51,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "final",
+    "sessionLabel": "Sesiunea iunie/iulie",
+    "dateLabel": "12 iunie 2010",
+    "title": "Sesiunea iunie/iulie 2010",
+    "examPdfPath": "/exams/evaluare-nationala/romana/2010/en-romana-2010-final-principal-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/romana/2010/en-romana-2010-final-principal-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/romana/en-romana-2010-final-principal.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://profesorjitaruionel.com/wp-content/uploads/2018/02/en_viii_limba_si_literatura_romana_subiect_7.pdf#subiect",
+    "baremSourceUrl": "https://profesorjitaruionel.com/wp-content/uploads/2018/02/en_viii_limba_si_literatura_romana_subiect_7.pdf#barem",
+    "sha256": {
+      "exam": "dc10b6703c18a777a090ef17f344f3a6bccb1d7ab846ba7a74ba760988839d89",
+      "barem": "0e1294dc00bd607bafa2abd1d7b5ba39503ec9d17160c11d4f3b2c2c56c6b73a"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-romana-2010-model-model",
+    "category": "evaluare-nationala",
+    "subject": "romana",
+    "year": 2010,
+    "order": 52,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "model",
+    "sessionLabel": "Model",
+    "dateLabel": "2010",
+    "title": "Model 2010",
+    "examPdfPath": "/exams/evaluare-nationala/romana/2010/en-romana-2010-model-model-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/romana/2010/en-romana-2010-model-model-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/romana/en-romana-2010-model-model.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://profesorjitaruionel.com/wp-content/uploads/2018/02/evaluarea-nationala-limba-romana-model-2010.pdf#subiect",
+    "baremSourceUrl": "https://profesorjitaruionel.com/wp-content/uploads/2018/02/evaluarea-nationala-limba-romana-model-2010.pdf#barem",
+    "sha256": {
+      "exam": "942fa80435dd2fc209d810a8414452fb8c339c7fb47a81858d5fb218a5083768",
+      "barem": "2e8c9cde04ea7717b98871878d1b48d56d51dbae3f13c6e8bea5ee62266c90bb"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  }
+]

@@ -1,0 +1,612 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": "mate-info-local-master",
+      "type": "catalogue",
+      "stage": "locala",
+      "url": "https://mate.info.ro/Stirea-813-subiectele-olm-2026-2025-2024-2023-2020-2019-2018-2017-2016-2015-2014-2013-din-toate-judetele.html",
+      "parser": "mate-info-olm-archives",
+      "provenance": {
+        "publisher": "mate.info.ro",
+        "label": "Pagina centrală pentru arhivele etapei locale"
+      }
+    },
+    {
+      "id": "timis-2025-gimnaziu",
+      "type": "archive",
+      "stage": "locala",
+      "year": 2025,
+      "county": "Timiș",
+      "url": "https://www.isj.tm.edu.ro/public/data_files/specializari/fisier-6551.zip",
+      "provenance": {
+        "publisher": "Inspectoratul Școlar Județean Timiș",
+        "label": "Arhivă gimnaziu, folosită anterior de importator"
+      }
+    },
+    {
+      "id": "timis-2025-liceu",
+      "type": "archive",
+      "stage": "locala",
+      "year": 2025,
+      "county": "Timiș",
+      "url": "https://www.isj.tm.edu.ro/public/data_files/specializari/fisier-6555.zip",
+      "provenance": {
+        "publisher": "Inspectoratul Școlar Județean Timiș",
+        "label": "Arhivă liceu, folosită anterior de importator"
+      }
+    },
+    {
+      "id": "olimpiade-ro-local-2021-9-subiecte",
+      "type": "pdf",
+      "stage": "locala",
+      "year": 2021,
+      "grade": 9,
+      "kind": "subject",
+      "url": "https://static.olimpiade.ro/uploads/attach_data/74/11/17//onm_2021_locala_etapa_ii_cls_09_subiecte.pdf",
+      "catalogueUrl": "https://www.olimpiade.ro/materiale/olimpiada-de-matematica-2021-etapa-locala-clasa-a-ix-a-subiecte-etapa-ii",
+      "provenance": {
+        "publisher": "olimpiade.ro",
+        "label": "Material local ONM 2021, etapa II"
+      }
+    },
+    {
+      "id": "olimpiade-ro-local-2021-9-barem",
+      "type": "pdf",
+      "stage": "locala",
+      "year": 2021,
+      "grade": 9,
+      "kind": "solution",
+      "url": "https://static.olimpiade.ro/uploads/attach_data/112/26/35//onm_2021_locala_etapa_ii_cls_09_barem.pdf",
+      "catalogueUrl": "https://www.olimpiade.ro/materiale/olimpiada-de-matematica-2021-etapa-locala-clasa-a-ix-a-barem-etapa-ii",
+      "provenance": {
+        "publisher": "olimpiade.ro",
+        "label": "Barem local ONM 2021, etapa II"
+      }
+    },
+    {
+      "id": "olimpiade-ro-local-2021-10-subiecte",
+      "type": "pdf",
+      "stage": "locala",
+      "year": 2021,
+      "grade": 10,
+      "kind": "subject",
+      "url": "https://static.olimpiade.ro/uploads/attach_data/125/37/18//onm_2021_locala_etapa_ii_cls_10_subiecte.pdf",
+      "catalogueUrl": "https://www.olimpiade.ro/materiale/olimpiada-de-matematica-2021-etapa-locala-clasa-a-x-a-subiecte-etapa-ii",
+      "provenance": {
+        "publisher": "olimpiade.ro",
+        "label": "Material local ONM 2021, etapa II"
+      }
+    },
+    {
+      "id": "olimpiade-ro-local-2021-10-barem",
+      "type": "pdf",
+      "stage": "locala",
+      "year": 2021,
+      "grade": 10,
+      "kind": "solution",
+      "url": "https://static.olimpiade.ro/uploads/attach_data/129/38/35//onm_2021_locala_etapa_ii_cls_10_barem.pdf",
+      "catalogueUrl": "https://www.olimpiade.ro/materiale/olimpiada-de-matematica-2021-etapa-locala-clasa-a-x-a-barem-etapa-ii",
+      "provenance": {
+        "publisher": "olimpiade.ro",
+        "label": "Barem local ONM 2021, etapa II"
+      }
+    },
+    {
+      "id": "olimpiade-ro-local-2021-11-subiecte",
+      "type": "pdf",
+      "stage": "locala",
+      "year": 2021,
+      "grade": 11,
+      "kind": "subject",
+      "url": "https://static.olimpiade.ro/uploads/attach_data/9/22/5//onm_2021_locala_etapa_ii_cls_11_subiecte.pdf",
+      "catalogueUrl": "https://www.olimpiade.ro/materiale/olimpiada-de-matematica-2021-etapa-locala-clasa-a-xi-a-subiecte-etapa-ii",
+      "provenance": {
+        "publisher": "olimpiade.ro",
+        "label": "Material local ONM 2021, etapa II"
+      }
+    },
+    {
+      "id": "olimpiade-ro-local-2021-11-barem",
+      "type": "pdf",
+      "stage": "locala",
+      "year": 2021,
+      "grade": 11,
+      "kind": "solution",
+      "url": "https://static.olimpiade.ro/uploads/attach_data/129/42/27//onm_2021_locala_etapa_ii_cls_11_barem.pdf",
+      "catalogueUrl": "https://www.olimpiade.ro/materiale/olimpiada-de-matematica-2021-etapa-locala-clasa-a-xi-a-barem-etapa-ii",
+      "provenance": {
+        "publisher": "olimpiade.ro",
+        "label": "Barem local ONM 2021, etapa II"
+      }
+    },
+    {
+      "id": "olimpiade-ro-local-2021-12-subiecte",
+      "type": "pdf",
+      "stage": "locala",
+      "year": 2021,
+      "grade": 12,
+      "kind": "subject",
+      "url": "https://static.olimpiade.ro/uploads/attach_data/54/24/20//onm_2021_locala_etapa_ii_cls_12_subiecte.pdf",
+      "catalogueUrl": "https://www.olimpiade.ro/materiale/olimpiada-de-matematica-2021-etapa-locala-clasa-a-xii-a-subiecte-etapa-ii",
+      "provenance": {
+        "publisher": "olimpiade.ro",
+        "label": "Material local ONM 2021, etapa II"
+      }
+    },
+    {
+      "id": "olimpiade-ro-local-2021-12-barem",
+      "type": "pdf",
+      "stage": "locala",
+      "year": 2021,
+      "grade": 12,
+      "kind": "solution",
+      "url": "https://static.olimpiade.ro/uploads/attach_data/75/6/11//onm_2021_locala_etapa_ii_cls_12_barem.pdf",
+      "catalogueUrl": "https://www.olimpiade.ro/materiale/olimpiada-de-matematica-2021-etapa-locala-clasa-a-xii-a-barem-etapa-ii",
+      "provenance": {
+        "publisher": "olimpiade.ro",
+        "label": "Barem local ONM 2021, etapa II"
+      }
+    },
+    {
+      "id": "olimpiade-ro-local-2022-9-subiecte",
+      "type": "pdf",
+      "stage": "locala",
+      "year": 2022,
+      "grade": 9,
+      "kind": "subject",
+      "url": "https://static.olimpiade.ro/uploads/attach_data/15/22/6//onm_2022_locala_cls_09_subiecte.pdf",
+      "catalogueUrl": "https://www.olimpiade.ro/materiale/olimpiada-de-matematica-2022-etapa-locala-clasa-a-ix-a-subiecte",
+      "provenance": {
+        "publisher": "olimpiade.ro",
+        "label": "Material local ONM 2022"
+      }
+    },
+    {
+      "id": "olimpiade-ro-local-2022-9-barem",
+      "type": "pdf",
+      "stage": "locala",
+      "year": 2022,
+      "grade": 9,
+      "kind": "solution",
+      "url": "https://static.olimpiade.ro/uploads/attach_data/83/3/6//onm_2022_locala_cls_09_barem.pdf",
+      "catalogueUrl": "https://www.olimpiade.ro/materiale/olimpiada-de-matematica-2022-etapa-locala-clasa-a-ix-a-barem",
+      "provenance": {
+        "publisher": "olimpiade.ro",
+        "label": "Barem local ONM 2022"
+      }
+    },
+    {
+      "id": "olimpiade-ro-local-2022-10-subiecte",
+      "type": "pdf",
+      "stage": "locala",
+      "year": 2022,
+      "grade": 10,
+      "kind": "subject",
+      "url": "https://static.olimpiade.ro/uploads/attach_data/51/52/19//onm_2022_locala_cls_10_subiecte.pdf",
+      "catalogueUrl": "https://www.olimpiade.ro/materiale/olimpiada-de-matematica-2022-etapa-locala-clasa-a-x-a-subiecte",
+      "provenance": {
+        "publisher": "olimpiade.ro",
+        "label": "Material local ONM 2022"
+      }
+    },
+    {
+      "id": "olimpiade-ro-local-2022-10-barem",
+      "type": "pdf",
+      "stage": "locala",
+      "year": 2022,
+      "grade": 10,
+      "kind": "solution",
+      "url": "https://static.olimpiade.ro/uploads/attach_data/19/1/9//onm_2022_locala_cls_10_barem.pdf",
+      "catalogueUrl": "https://www.olimpiade.ro/materiale/olimpiada-de-matematica-2022-etapa-locala-clasa-a-x-a-barem",
+      "provenance": {
+        "publisher": "olimpiade.ro",
+        "label": "Barem local ONM 2022"
+      }
+    },
+    {
+      "id": "olimpiade-ro-local-2022-11-subiecte",
+      "type": "pdf",
+      "stage": "locala",
+      "year": 2022,
+      "grade": 11,
+      "kind": "subject",
+      "url": "https://static.olimpiade.ro/uploads/attach_data/10/18/11//onm_2022_locala_cls_11_subiecte.pdf",
+      "catalogueUrl": "https://www.olimpiade.ro/materiale/olimpiada-de-matematica-2022-etapa-locala-clasa-a-xi-a-subiecte",
+      "provenance": {
+        "publisher": "olimpiade.ro",
+        "label": "Material local ONM 2022"
+      }
+    },
+    {
+      "id": "olimpiade-ro-local-2022-11-barem",
+      "type": "pdf",
+      "stage": "locala",
+      "year": 2022,
+      "grade": 11,
+      "kind": "solution",
+      "url": "https://static.olimpiade.ro/uploads/attach_data/18/33/22//onm_2022_locala_cls_11_barem.pdf",
+      "catalogueUrl": "https://www.olimpiade.ro/materiale/olimpiada-de-matematica-2022-etapa-locala-clasa-a-xi-a-barem",
+      "provenance": {
+        "publisher": "olimpiade.ro",
+        "label": "Barem local ONM 2022"
+      }
+    },
+    {
+      "id": "olimpiade-ro-local-2022-12-subiecte",
+      "type": "pdf",
+      "stage": "locala",
+      "year": 2022,
+      "grade": 12,
+      "kind": "subject",
+      "url": "https://static.olimpiade.ro/uploads/attach_data/12/48/24//onm_2022_locala_cls_12_subiecte.pdf",
+      "catalogueUrl": "https://www.olimpiade.ro/materiale/olimpiada-de-matematica-2022-etapa-locala-clasa-a-xii-a-subiecte",
+      "provenance": {
+        "publisher": "olimpiade.ro",
+        "label": "Material local ONM 2022"
+      }
+    },
+    {
+      "id": "olimpiade-ro-local-2022-12-barem",
+      "type": "pdf",
+      "stage": "locala",
+      "year": 2022,
+      "grade": 12,
+      "kind": "solution",
+      "url": "https://static.olimpiade.ro/uploads/attach_data/26/3/35//onm_2022_locala_cls_12_barem.pdf",
+      "catalogueUrl": "https://www.olimpiade.ro/materiale/olimpiada-de-matematica-2022-etapa-locala-clasa-a-xii-a-barem",
+      "provenance": {
+        "publisher": "olimpiade.ro",
+        "label": "Barem local ONM 2022"
+      }
+    },
+    {
+      "id": "olimpiade-ro-local-2021-9-modele",
+      "type": "pdf",
+      "stage": "locala",
+      "year": 2021,
+      "grade": 9,
+      "kind": "subject",
+      "title": "ONM 2021 locală · clasa a 9-a · modele etapele I-II",
+      "url": "https://static.olimpiade.ro/uploads/attach_data/91/49/32//onm_2021_locala_modele_pentru_etapa_i_i_ii_cls_09_subiecte.pdf",
+      "catalogueUrl": "https://www.olimpiade.ro/materiale/olimpiada-de-matematica-2021-etapa-locala-clasa-a-ix-a-subiecte-modele-pentru-etapa-i-i-ii",
+      "provenance": {
+        "publisher": "olimpiade.ro",
+        "label": "ONM 2021 locală · clasa a 9-a · modele etapele I-II"
+      }
+    },
+    {
+      "id": "olimpiade-ro-local-2022-9-recalificare-subject",
+      "type": "pdf",
+      "stage": "locala",
+      "year": 2022,
+      "grade": 9,
+      "kind": "subject",
+      "title": "ONM 2022 locală · clasa a 9-a · recalificare",
+      "url": "https://static.olimpiade.ro/uploads/attach_data/52/13/35//onm_2022_locala_recalificare_cls_09_subiecte.pdf",
+      "catalogueUrl": "https://www.olimpiade.ro/materiale/olimpiada-de-matematica-2022-etapa-locala-clasa-a-ix-a-subiecte-recalificare",
+      "provenance": {
+        "publisher": "olimpiade.ro",
+        "label": "ONM 2022 locală · clasa a 9-a · recalificare"
+      }
+    },
+    {
+      "id": "olimpiade-ro-local-2022-9-recalificare-solution",
+      "type": "pdf",
+      "stage": "locala",
+      "year": 2022,
+      "grade": 9,
+      "kind": "solution",
+      "title": "ONM 2022 locală · clasa a 9-a · recalificare",
+      "url": "https://static.olimpiade.ro/uploads/attach_data/24/9/2//onm_2022_locala_recalificare_cls_09_barem.pdf",
+      "catalogueUrl": "https://www.olimpiade.ro/materiale/olimpiada-de-matematica-2022-etapa-locala-clasa-a-ix-a-barem-recalificare",
+      "provenance": {
+        "publisher": "olimpiade.ro",
+        "label": "ONM 2022 locală · clasa a 9-a · recalificare"
+      }
+    },
+    {
+      "id": "olimpiade-ro-local-2021-10-modele",
+      "type": "pdf",
+      "stage": "locala",
+      "year": 2021,
+      "grade": 10,
+      "kind": "subject",
+      "title": "ONM 2021 locală · clasa a 10-a · modele etapele I-II",
+      "url": "https://static.olimpiade.ro/uploads/attach_data/42/2/33//onm_2021_locala_modele_pentru_etapa_i_i_ii_cls_10_subiecte.pdf",
+      "catalogueUrl": "https://www.olimpiade.ro/materiale/olimpiada-de-matematica-2021-etapa-locala-clasa-a-x-a-subiecte-modele-pentru-etapa-i-i-ii",
+      "provenance": {
+        "publisher": "olimpiade.ro",
+        "label": "ONM 2021 locală · clasa a 10-a · modele etapele I-II"
+      }
+    },
+    {
+      "id": "olimpiade-ro-local-2022-10-recalificare-subject",
+      "type": "pdf",
+      "stage": "locala",
+      "year": 2022,
+      "grade": 10,
+      "kind": "subject",
+      "title": "ONM 2022 locală · clasa a 10-a · recalificare",
+      "url": "https://static.olimpiade.ro/uploads/attach_data/65/34/36//onm_2022_locala_recalificare_cls_10_subiecte.pdf",
+      "catalogueUrl": "https://www.olimpiade.ro/materiale/olimpiada-de-matematica-2022-etapa-locala-clasa-a-x-a-subiecte-recalificare",
+      "provenance": {
+        "publisher": "olimpiade.ro",
+        "label": "ONM 2022 locală · clasa a 10-a · recalificare"
+      }
+    },
+    {
+      "id": "olimpiade-ro-local-2022-10-recalificare-solution",
+      "type": "pdf",
+      "stage": "locala",
+      "year": 2022,
+      "grade": 10,
+      "kind": "solution",
+      "title": "ONM 2022 locală · clasa a 10-a · recalificare",
+      "url": "https://static.olimpiade.ro/uploads/attach_data/121/22/27//onm_2022_locala_recalificare_cls_10_barem.pdf",
+      "catalogueUrl": "https://www.olimpiade.ro/materiale/olimpiada-de-matematica-2022-etapa-locala-clasa-a-x-a-barem-recalificare",
+      "provenance": {
+        "publisher": "olimpiade.ro",
+        "label": "ONM 2022 locală · clasa a 10-a · recalificare"
+      }
+    },
+    {
+      "id": "olimpiade-ro-local-2021-11-modele",
+      "type": "pdf",
+      "stage": "locala",
+      "year": 2021,
+      "grade": 11,
+      "kind": "subject",
+      "title": "ONM 2021 locală · clasa a 11-a · modele etapele I-II",
+      "url": "https://static.olimpiade.ro/uploads/attach_data/61/17/17//onm_2021_locala_modele_pentru_etapa_i_i_ii_cls_11_subiecte.pdf",
+      "catalogueUrl": "https://www.olimpiade.ro/materiale/olimpiada-de-matematica-2021-etapa-locala-clasa-a-xi-a-subiecte-modele-pentru-etapa-i-i-ii",
+      "provenance": {
+        "publisher": "olimpiade.ro",
+        "label": "ONM 2021 locală · clasa a 11-a · modele etapele I-II"
+      }
+    },
+    {
+      "id": "olimpiade-ro-local-2022-11-recalificare-subject",
+      "type": "pdf",
+      "stage": "locala",
+      "year": 2022,
+      "grade": 11,
+      "kind": "subject",
+      "title": "ONM 2022 locală · clasa a 11-a · recalificare",
+      "url": "https://static.olimpiade.ro/uploads/attach_data/103/24/36//onm_2022_locala_recalificare_cls_11_subiecte.pdf",
+      "catalogueUrl": "https://www.olimpiade.ro/materiale/olimpiada-de-matematica-2022-etapa-locala-clasa-a-xi-a-subiecte-recalificare",
+      "provenance": {
+        "publisher": "olimpiade.ro",
+        "label": "ONM 2022 locală · clasa a 11-a · recalificare"
+      }
+    },
+    {
+      "id": "olimpiade-ro-local-2022-11-recalificare-solution",
+      "type": "pdf",
+      "stage": "locala",
+      "year": 2022,
+      "grade": 11,
+      "kind": "solution",
+      "title": "ONM 2022 locală · clasa a 11-a · recalificare",
+      "url": "https://static.olimpiade.ro/uploads/attach_data/56/28/16//onm_2022_locala_recalificare_cls_11_barem.pdf",
+      "catalogueUrl": "https://www.olimpiade.ro/materiale/olimpiada-de-matematica-2022-etapa-locala-clasa-a-xi-a-barem-recalificare",
+      "provenance": {
+        "publisher": "olimpiade.ro",
+        "label": "ONM 2022 locală · clasa a 11-a · recalificare"
+      }
+    },
+    {
+      "id": "olimpiade-ro-local-2021-12-modele",
+      "type": "pdf",
+      "stage": "locala",
+      "year": 2021,
+      "grade": 12,
+      "kind": "subject",
+      "title": "ONM 2021 locală · clasa a 12-a · modele etapele I-II",
+      "url": "https://static.olimpiade.ro/uploads/attach_data/61/15/8//onm_2021_locala_modele_pentru_etapa_i_i_ii_cls_12_subiecte.pdf",
+      "catalogueUrl": "https://www.olimpiade.ro/materiale/olimpiada-de-matematica-2021-etapa-locala-clasa-a-xii-a-subiecte-modele-pentru-etapa-i-i-ii",
+      "provenance": {
+        "publisher": "olimpiade.ro",
+        "label": "ONM 2021 locală · clasa a 12-a · modele etapele I-II"
+      }
+    },
+    {
+      "id": "olimpiade-ro-local-2022-12-recalificare-subject",
+      "type": "pdf",
+      "stage": "locala",
+      "year": 2022,
+      "grade": 12,
+      "kind": "subject",
+      "title": "ONM 2022 locală · clasa a 12-a · recalificare",
+      "url": "https://static.olimpiade.ro/uploads/attach_data/91/27/4//onm_2022_locala_recalificare_cls_12_subiecte.pdf",
+      "catalogueUrl": "https://www.olimpiade.ro/materiale/olimpiada-de-matematica-2022-etapa-locala-clasa-a-xii-a-subiecte-recalificare",
+      "provenance": {
+        "publisher": "olimpiade.ro",
+        "label": "ONM 2022 locală · clasa a 12-a · recalificare"
+      }
+    },
+    {
+      "id": "olimpiade-ro-local-2022-12-recalificare-solution",
+      "type": "pdf",
+      "stage": "locala",
+      "year": 2022,
+      "grade": 12,
+      "kind": "solution",
+      "title": "ONM 2022 locală · clasa a 12-a · recalificare",
+      "url": "https://static.olimpiade.ro/uploads/attach_data/129/35/16//onm_2022_locala_recalificare_cls_12_barem.pdf",
+      "catalogueUrl": "https://www.olimpiade.ro/materiale/olimpiada-de-matematica-2022-etapa-locala-clasa-a-xii-a-barem-recalificare",
+      "provenance": {
+        "publisher": "olimpiade.ro",
+        "label": "ONM 2022 locală · clasa a 12-a · recalificare"
+      }
+    },
+    {
+      "id": "olimpiade-ro-local-2021-materials",
+      "type": "catalogue",
+      "stage": "locala",
+      "year": 2021,
+      "url": "https://www.olimpiade.ro/materiale?q=Olimpiada%20matematica%202021%20local",
+      "parser": "olimpiade-ro-materials",
+      "provenance": {
+        "publisher": "olimpiade.ro",
+        "label": "Arhiva de materiale locale ONM 2021"
+      }
+    },
+    {
+      "id": "olimpiade-ro-local-2022-materials",
+      "type": "catalogue",
+      "stage": "locala",
+      "year": 2022,
+      "url": "https://www.olimpiade.ro/materiale?q=Olimpiada%20matematica%202022%20local",
+      "parser": "olimpiade-ro-materials",
+      "provenance": {
+        "publisher": "olimpiade.ro",
+        "label": "Arhiva de materiale locale ONM 2022"
+      }
+    },
+    {
+      "id": "olimpiade-ro-local-2013-materials",
+      "type": "catalogue",
+      "stage": "locala",
+      "year": 2013,
+      "url": "https://www.olimpiade.ro/materiale?q=Olimpiada%20matematica%202013%20local",
+      "parser": "olimpiade-ro-materials",
+      "provenance": {
+        "publisher": "olimpiade.ro",
+        "label": "Arhiva de materiale locale ONM 2013"
+      }
+    },
+    {
+      "id": "olimpiade-ro-local-2014-materials",
+      "type": "catalogue",
+      "stage": "locala",
+      "year": 2014,
+      "url": "https://www.olimpiade.ro/materiale?q=Olimpiada%20matematica%202014%20local",
+      "parser": "olimpiade-ro-materials",
+      "provenance": {
+        "publisher": "olimpiade.ro",
+        "label": "Arhiva de materiale locale ONM 2014"
+      }
+    },
+    {
+      "id": "olimpiade-ro-local-2015-materials",
+      "type": "catalogue",
+      "stage": "locala",
+      "year": 2015,
+      "url": "https://www.olimpiade.ro/materiale?q=Olimpiada%20matematica%202015%20local",
+      "parser": "olimpiade-ro-materials",
+      "provenance": {
+        "publisher": "olimpiade.ro",
+        "label": "Arhiva de materiale locale ONM 2015"
+      }
+    },
+    {
+      "id": "olimpiade-ro-local-2016-materials",
+      "type": "catalogue",
+      "stage": "locala",
+      "year": 2016,
+      "url": "https://www.olimpiade.ro/materiale?q=Olimpiada%20matematica%202016%20local",
+      "parser": "olimpiade-ro-materials",
+      "provenance": {
+        "publisher": "olimpiade.ro",
+        "label": "Arhiva de materiale locale ONM 2016"
+      }
+    },
+    {
+      "id": "olimpiade-ro-local-2017-materials",
+      "type": "catalogue",
+      "stage": "locala",
+      "year": 2017,
+      "url": "https://www.olimpiade.ro/materiale?q=Olimpiada%20matematica%202017%20local",
+      "parser": "olimpiade-ro-materials",
+      "provenance": {
+        "publisher": "olimpiade.ro",
+        "label": "Arhiva de materiale locale ONM 2017"
+      }
+    },
+    {
+      "id": "olimpiade-ro-local-2018-materials",
+      "type": "catalogue",
+      "stage": "locala",
+      "year": 2018,
+      "url": "https://www.olimpiade.ro/materiale?q=Olimpiada%20matematica%202018%20local",
+      "parser": "olimpiade-ro-materials",
+      "provenance": {
+        "publisher": "olimpiade.ro",
+        "label": "Arhiva de materiale locale ONM 2018"
+      }
+    },
+    {
+      "id": "olimpiade-ro-local-2019-materials",
+      "type": "catalogue",
+      "stage": "locala",
+      "year": 2019,
+      "url": "https://www.olimpiade.ro/materiale?q=Olimpiada%20matematica%202019%20local",
+      "parser": "olimpiade-ro-materials",
+      "provenance": {
+        "publisher": "olimpiade.ro",
+        "label": "Arhiva de materiale locale ONM 2019"
+      }
+    },
+    {
+      "id": "olimpiade-ro-local-2020-materials",
+      "type": "catalogue",
+      "stage": "locala",
+      "year": 2020,
+      "url": "https://www.olimpiade.ro/materiale?q=Olimpiada%20matematica%202020%20local",
+      "parser": "olimpiade-ro-materials",
+      "provenance": {
+        "publisher": "olimpiade.ro",
+        "label": "Arhiva de materiale locale ONM 2020"
+      }
+    },
+    {
+      "id": "olimpiade-ro-local-2023-materials",
+      "type": "catalogue",
+      "stage": "locala",
+      "year": 2023,
+      "url": "https://www.olimpiade.ro/materiale?q=Olimpiada%20matematica%202023%20local",
+      "parser": "olimpiade-ro-materials",
+      "provenance": {
+        "publisher": "olimpiade.ro",
+        "label": "Arhiva de materiale locale ONM 2023"
+      }
+    },
+    {
+      "id": "olimpiade-ro-local-2024-materials",
+      "type": "catalogue",
+      "stage": "locala",
+      "year": 2024,
+      "url": "https://www.olimpiade.ro/materiale?q=Olimpiada%20matematica%202024%20local",
+      "parser": "olimpiade-ro-materials",
+      "provenance": {
+        "publisher": "olimpiade.ro",
+        "label": "Arhiva de materiale locale ONM 2024"
+      }
+    },
+    {
+      "id": "olimpiade-ro-local-2025-materials",
+      "type": "catalogue",
+      "stage": "locala",
+      "year": 2025,
+      "url": "https://www.olimpiade.ro/materiale?q=Olimpiada%20matematica%202025%20local",
+      "parser": "olimpiade-ro-materials",
+      "provenance": {
+        "publisher": "olimpiade.ro",
+        "label": "Arhiva de materiale locale ONM 2025"
+      }
+    },
+    {
+      "id": "olimpiade-ro-local-2026-materials",
+      "type": "catalogue",
+      "stage": "locala",
+      "year": 2026,
+      "url": "https://www.olimpiade.ro/materiale?q=Olimpiada%20matematica%202026%20local",
+      "parser": "olimpiade-ro-materials",
+      "provenance": {
+        "publisher": "olimpiade.ro",
+        "label": "Arhiva de materiale locale ONM 2026"
+      }
+    }
+  ]
+}

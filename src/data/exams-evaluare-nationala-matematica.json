@@ -1,0 +1,2130 @@
+[
+  {
+    "id": "en-matematica-2026-model-model",
+    "category": "evaluare-nationala",
+    "subject": "matematica",
+    "year": 2026,
+    "order": 0,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "model",
+    "sessionLabel": "Model",
+    "dateLabel": "2026",
+    "title": "Model 2026",
+    "examPdfPath": "/exams/evaluare-nationala/matematica/2026/en-matematica-2026-model-model-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/matematica/2026/en-matematica-2026-model-model-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/matematica/en-matematica-2026-model-model.json",
+    "sourceKind": "ministry",
+    "sourceUrl": "https://subiecte.edu.ro/2026/evaluarenationala/modeledesubiecte/EN_VIII_2026_Matematica_model.zip#subiect",
+    "baremSourceUrl": "https://subiecte.edu.ro/2026/evaluarenationala/modeledesubiecte/EN_VIII_2026_Matematica_model.zip#barem",
+    "sha256": {
+      "exam": "0e124a993180daf5cd396178708b02d81348ab278d800d100b8ede854389524e",
+      "barem": "f4e5eeb77609369e4713b34142446c14fe1a312b107b44a67e69969b372122e0"
+    },
+    "verification": {
+      "subject": "official-source",
+      "barem": "official-source"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-matematica-2026-simulation-nationala-martie",
+    "category": "evaluare-nationala",
+    "subject": "matematica",
+    "year": 2026,
+    "order": 1,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "simulation",
+    "sessionLabel": "Simulare",
+    "dateLabel": "17 martie 2026",
+    "title": "Simulare 2026",
+    "examPdfPath": "/exams/evaluare-nationala/matematica/2026/en-matematica-2026-simulation-nationala-martie-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/matematica/2026/en-matematica-2026-simulation-nationala-martie-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/matematica/en-matematica-2026-simulation-nationala-martie.json",
+    "sourceKind": "ministry",
+    "sourceUrl": "https://subiecte.edu.ro/2026/simulare/simulare_en_VIII/EN_VIII_2026_Matematica_Simulare.zip#subiect",
+    "baremSourceUrl": "https://subiecte.edu.ro/2026/simulare/simulare_en_VIII/EN_VIII_2026_Matematica_Simulare.zip#barem",
+    "sha256": {
+      "exam": "f1386d85a3d780860ca0d1f6d90ddb3741b2f1aa65ca7886d95d3629aa1135c2",
+      "barem": "caeb59302bdd04f12eec684368a2282c8a2c48c5af0a9d8a04004e3b0a51050c"
+    },
+    "verification": {
+      "subject": "official-source",
+      "barem": "official-source"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-matematica-2026-simulation-nationala-aprilie",
+    "category": "evaluare-nationala",
+    "subject": "matematica",
+    "year": 2026,
+    "order": 2,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "simulation",
+    "sessionLabel": "Simulare",
+    "dateLabel": "28 aprilie 2026",
+    "title": "Simulare 2026",
+    "examPdfPath": "/exams/evaluare-nationala/matematica/2026/en-matematica-2026-simulation-nationala-aprilie-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/matematica/2026/en-matematica-2026-simulation-nationala-aprilie-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/matematica/en-matematica-2026-simulation-nationala-aprilie.json",
+    "sourceKind": "ministry",
+    "sourceUrl": "https://subiecte.edu.ro/2026/simulare/simulare_en_VIII/EN_VIII_2026_Matematica_Simulare_2.zip#subiect",
+    "baremSourceUrl": "https://subiecte.edu.ro/2026/simulare/simulare_en_VIII/EN_VIII_2026_Matematica_Simulare_2.zip#barem",
+    "sha256": {
+      "exam": "7d9bcbbb5b450e824246c9aee3bb0cc0d7f8120c2294271f594d50aaece7c699",
+      "barem": "7e78fdadd49ee1b9aedde5f863f103c6fa77ca12cd3c51762f3c8f5d3c440494"
+    },
+    "verification": {
+      "subject": "official-source",
+      "barem": "official-source"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-matematica-2026-final-01",
+    "category": "evaluare-nationala",
+    "subject": "matematica",
+    "year": 2026,
+    "order": 3,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "final",
+    "sessionLabel": "Sesiunea iunie/iulie",
+    "dateLabel": "24 iunie 2026",
+    "title": "Sesiunea iunie/iulie 2026",
+    "examPdfPath": "/exams/evaluare-nationala/matematica/2026/en-matematica-2026-final-01-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/matematica/2026/en-matematica-2026-final-01-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/matematica/en-matematica-2026-final-01.json",
+    "sourceKind": "ministry",
+    "sourceUrl": "https://subiecte.edu.ro/2026/evaluarenationala/Subiecte_si_bareme/EN_VIII_2026_Matematica.zip#subiect",
+    "baremSourceUrl": "https://subiecte.edu.ro/2026/evaluarenationala/Subiecte_si_bareme/EN_VIII_2026_Matematica.zip#barem",
+    "sha256": {
+      "exam": "e594802ebdedabefbc6f9d5b81837052f971f48e367a67a0e6a417cdca7a19c5",
+      "barem": "978015abb7d64b8cb649a3f0918a44a60b930722447fe7795e153c0b66c1e7d8"
+    },
+    "verification": {
+      "subject": "official-source",
+      "barem": "official-source"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-matematica-2026-reserve-05",
+    "category": "evaluare-nationala",
+    "subject": "matematica",
+    "year": 2026,
+    "order": 4,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "reserve",
+    "sessionLabel": "Rezerva",
+    "dateLabel": "24 iunie 2026",
+    "title": "Rezerva 2026",
+    "examPdfPath": "/exams/evaluare-nationala/matematica/2026/en-matematica-2026-reserve-05-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/matematica/2026/en-matematica-2026-reserve-05-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/matematica/en-matematica-2026-reserve-05.json",
+    "sourceKind": "ministry",
+    "sourceUrl": "https://subiecte.edu.ro/2026/evaluarenationala/Subiecte_si_bareme/EN_VIII_2026_Matematica_Rezerva.zip#subiect",
+    "baremSourceUrl": "https://subiecte.edu.ro/2026/evaluarenationala/Subiecte_si_bareme/EN_VIII_2026_Matematica_Rezerva.zip#barem",
+    "sha256": {
+      "exam": "772875b44296a5dd41d5957ecd230823c1c54d39bc07cd040aa55f296d56f30f",
+      "barem": "cccb9c844bb496ab581a0078616dc9439dd25017fa555a3bb5747256ad62fb31"
+    },
+    "verification": {
+      "subject": "official-source",
+      "barem": "official-source"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-matematica-2025-final-07",
+    "category": "evaluare-nationala",
+    "subject": "matematica",
+    "year": 2025,
+    "order": 5,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "final",
+    "sessionLabel": "Sesiunea iunie/iulie",
+    "dateLabel": "2025",
+    "title": "Sesiunea iunie/iulie 2025",
+    "examPdfPath": "/exams/evaluare-nationala/matematica/2025/en-matematica-2025-final-07-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/matematica/2025/en-matematica-2025-final-07-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/matematica/en-matematica-2025-final-07.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1078-matematica-2025-vara#subiect",
+    "baremSourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1078-matematica-2025-vara#barem",
+    "sha256": {
+      "exam": "8595782d9f0ad0c05fef56c48dab1597636d9e6341902cde63cb74919386594e",
+      "barem": "b5d5c294a7aaa81ed0390d8bc43472437a489ab9d7a46269a5b1747219ac9719"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-matematica-2025-special-03",
+    "category": "evaluare-nationala",
+    "subject": "matematica",
+    "year": 2025,
+    "order": 6,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "special",
+    "sessionLabel": "Sesiunea specială",
+    "dateLabel": "2025",
+    "title": "Sesiunea specială 2025",
+    "examPdfPath": "/exams/evaluare-nationala/matematica/2025/en-matematica-2025-special-03-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/matematica/2025/en-matematica-2025-special-03-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/matematica/en-matematica-2025-special-03.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1080-matematica-2025-speciala#subiect",
+    "baremSourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1080-matematica-2025-speciala#barem",
+    "sha256": {
+      "exam": "b806c7dc61e213c5184901ed2333d5691a7df3977564a651f68678b393271c76",
+      "barem": "e7d5cbca14628c92da8b3ef768864a006fa4a4efa55bc9218e15d52e472f2a08"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-matematica-2025-reserve-02",
+    "category": "evaluare-nationala",
+    "subject": "matematica",
+    "year": 2025,
+    "order": 7,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "reserve",
+    "sessionLabel": "Rezerva",
+    "dateLabel": "2025",
+    "title": "Rezerva 2025",
+    "examPdfPath": "/exams/evaluare-nationala/matematica/2025/en-matematica-2025-reserve-02-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/matematica/2025/en-matematica-2025-reserve-02-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/matematica/en-matematica-2025-reserve-02.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1089-matematica-2025-rezerva#subiect",
+    "baremSourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1089-matematica-2025-rezerva#barem",
+    "sha256": {
+      "exam": "5115ecddd930a4199cf9368fc400f3576cdcaabf12db473d99d1d81353ac024a",
+      "barem": "8699b763eb4763a951ecb4dfd207a92e2d7b9140c84a90b333ecd1a21c6c5c0c"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-matematica-2025-model-model",
+    "category": "evaluare-nationala",
+    "subject": "matematica",
+    "year": 2025,
+    "order": 8,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "model",
+    "sessionLabel": "Model",
+    "dateLabel": "2025",
+    "title": "Model 2025",
+    "examPdfPath": "/exams/evaluare-nationala/matematica/2025/en-matematica-2025-model-model-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/matematica/2025/en-matematica-2025-model-model-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/matematica/en-matematica-2025-model-model.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1091-matematica-2025-model#subiect",
+    "baremSourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1091-matematica-2025-model#barem",
+    "sha256": {
+      "exam": "7d6cd1f34ae8910502db41473e1bd51c1ed393d4350363000d1b85d2a19d8175",
+      "barem": "a8baafdadee4383fc748329ebfa62b8a76f598e76c05584cc5fcb612eb182202"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-matematica-2025-simulation-1211",
+    "category": "evaluare-nationala",
+    "subject": "matematica",
+    "year": 2025,
+    "order": 9,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "simulation",
+    "sessionLabel": "Simulare",
+    "dateLabel": "2025",
+    "title": "Simulare 2025",
+    "examPdfPath": "/exams/evaluare-nationala/matematica/2025/en-matematica-2025-simulation-1211-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/matematica/2025/en-matematica-2025-simulation-1211-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/matematica/en-matematica-2025-simulation-1211.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1211-matematica-2025-simulare#subiect",
+    "baremSourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1211-matematica-2025-simulare#barem",
+    "sha256": {
+      "exam": "7f5bce8ed4a8ee242cff013a9864e4c8a4de3d2cfe68caac9b54ee0d9455e25a",
+      "barem": "8532d6ca10b2bd9016800340541cf30a969c5d6633edeea932e467578a8e55dc"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-matematica-2024-model-model",
+    "category": "evaluare-nationala",
+    "subject": "matematica",
+    "year": 2024,
+    "order": 10,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "model",
+    "sessionLabel": "Model",
+    "dateLabel": "2024",
+    "title": "Model 2024",
+    "examPdfPath": "/exams/evaluare-nationala/matematica/2024/en-matematica-2024-model-model-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/matematica/2024/en-matematica-2024-model-model-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/matematica/en-matematica-2024-model-model.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1083-matematica-2024-model#subiect",
+    "baremSourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1083-matematica-2024-model#barem",
+    "sha256": {
+      "exam": "281dacaaaeb409161b45ba2ca99f132f1da6f86fb96fa1cc00d9b8ef57307fa8",
+      "barem": "597999832f54caf08a8252d83b3a93740c63ff77336f8ab32a3571230a7c8d74"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-matematica-2024-final-07",
+    "category": "evaluare-nationala",
+    "subject": "matematica",
+    "year": 2024,
+    "order": 11,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "final",
+    "sessionLabel": "Sesiunea iunie/iulie",
+    "dateLabel": "2024",
+    "title": "Sesiunea iunie/iulie 2024",
+    "examPdfPath": "/exams/evaluare-nationala/matematica/2024/en-matematica-2024-final-07-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/matematica/2024/en-matematica-2024-final-07-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/matematica/en-matematica-2024-final-07.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1086-matematica-2024-vara#subiect",
+    "baremSourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1086-matematica-2024-vara#barem",
+    "sha256": {
+      "exam": "1170b0b5aaa52d24ee7f4d4b5f7863519957f2a07efeb3c859ffc0c9932fb789",
+      "barem": "650c052029783be6a3a0ac80bdf72449d6ae81e8803912064b29d3e49c83b87b"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-matematica-2024-reserve-02",
+    "category": "evaluare-nationala",
+    "subject": "matematica",
+    "year": 2024,
+    "order": 12,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "reserve",
+    "sessionLabel": "Rezerva",
+    "dateLabel": "2024",
+    "title": "Rezerva 2024",
+    "examPdfPath": "/exams/evaluare-nationala/matematica/2024/en-matematica-2024-reserve-02-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/matematica/2024/en-matematica-2024-reserve-02-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/matematica/en-matematica-2024-reserve-02.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1087-matematica-2024-rezerva#subiect",
+    "baremSourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1087-matematica-2024-rezerva#barem",
+    "sha256": {
+      "exam": "d91ab2617f66ea3be2fa6a94ab7a430f094807f365d20c974b69d843eb2a357c",
+      "barem": "d746427942f245f5454b324c78f02a46a0bf493a1e726ecbf38856c1641426db"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-matematica-2024-simulation-1212",
+    "category": "evaluare-nationala",
+    "subject": "matematica",
+    "year": 2024,
+    "order": 13,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "simulation",
+    "sessionLabel": "Simulare",
+    "dateLabel": "2024",
+    "title": "Simulare 2024",
+    "examPdfPath": "/exams/evaluare-nationala/matematica/2024/en-matematica-2024-simulation-1212-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/matematica/2024/en-matematica-2024-simulation-1212-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/matematica/en-matematica-2024-simulation-1212.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1212-matematica-2024-simulare#subiect",
+    "baremSourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1212-matematica-2024-simulare#barem",
+    "sha256": {
+      "exam": "fdfced326c4edcd8f5184230d440bbbf9c4f819808bf496d45189f1dacf3565b",
+      "barem": "3329cd30a64117bdba8d616d128a420553f6923afdc6b69bc11697b9909e3a63"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-matematica-2023-model-model",
+    "category": "evaluare-nationala",
+    "subject": "matematica",
+    "year": 2023,
+    "order": 14,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "model",
+    "sessionLabel": "Model",
+    "dateLabel": "2023",
+    "title": "Model 2023",
+    "examPdfPath": "/exams/evaluare-nationala/matematica/2023/en-matematica-2023-model-model-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/matematica/2023/en-matematica-2023-model-model-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/matematica/en-matematica-2023-model-model.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1074-matematica-2023-model#subiect",
+    "baremSourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1074-matematica-2023-model#barem",
+    "sha256": {
+      "exam": "f50fefd7fa7ce18011af8209696b72e09517b37690a529b01eff10aa9ab75042",
+      "barem": "4f78be110f48bbd5cc72d9cc7618391946b7977dde3a17db8ac48af2e32b707e"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-matematica-2023-final-01",
+    "category": "evaluare-nationala",
+    "subject": "matematica",
+    "year": 2023,
+    "order": 15,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "final",
+    "sessionLabel": "Sesiunea iunie/iulie",
+    "dateLabel": "2023",
+    "title": "Sesiunea iunie/iulie 2023",
+    "examPdfPath": "/exams/evaluare-nationala/matematica/2023/en-matematica-2023-final-01-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/matematica/2023/en-matematica-2023-final-01-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/matematica/en-matematica-2023-final-01.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1076-matematica-2023-vara#subiect",
+    "baremSourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1076-matematica-2023-vara#barem",
+    "sha256": {
+      "exam": "5e27473818632ac1e29bd7690b221c2574dd470193905eeb2dd56c199c194a33",
+      "barem": "db6293782ae8cd273970a07cf8cc6c9055a32e8a25aa6c85c60f25cb46264134"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-matematica-2023-reserve-05",
+    "category": "evaluare-nationala",
+    "subject": "matematica",
+    "year": 2023,
+    "order": 16,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "reserve",
+    "sessionLabel": "Rezerva",
+    "dateLabel": "2023",
+    "title": "Rezerva 2023",
+    "examPdfPath": "/exams/evaluare-nationala/matematica/2023/en-matematica-2023-reserve-05-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/matematica/2023/en-matematica-2023-reserve-05-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/matematica/en-matematica-2023-reserve-05.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1081-matematica-2023-rezerva#subiect",
+    "baremSourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1081-matematica-2023-rezerva#barem",
+    "sha256": {
+      "exam": "7baf807dbd8eabc5ca3ba5114d0858b69e9fd8e4c733686b4c54f8eb6f70dfdc",
+      "barem": "bb0ff5d61d41bb4902a06b725e0fbdccda2648d11a5035ea293cbbed7f953fa7"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-matematica-2023-simulation-1213",
+    "category": "evaluare-nationala",
+    "subject": "matematica",
+    "year": 2023,
+    "order": 17,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "simulation",
+    "sessionLabel": "Simulare",
+    "dateLabel": "2023",
+    "title": "Simulare 2023",
+    "examPdfPath": "/exams/evaluare-nationala/matematica/2023/en-matematica-2023-simulation-1213-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/matematica/2023/en-matematica-2023-simulation-1213-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/matematica/en-matematica-2023-simulation-1213.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1213-matematica-2023-simulare#subiect",
+    "baremSourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1213-matematica-2023-simulare#barem",
+    "sha256": {
+      "exam": "a98b66e2fd096717da345f5560f6a3076996fdaecf724208b19123b713186b57",
+      "barem": "e2f25cee6f33c0da25a24ed80a56b435e9909b67010835fdee9d50916f74d008"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-matematica-2022-reserve-01",
+    "category": "evaluare-nationala",
+    "subject": "matematica",
+    "year": 2022,
+    "order": 18,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "reserve",
+    "sessionLabel": "Rezerva",
+    "dateLabel": "2022",
+    "title": "Rezerva 2022",
+    "examPdfPath": "/exams/evaluare-nationala/matematica/2022/en-matematica-2022-reserve-01-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/matematica/2022/en-matematica-2022-reserve-01-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/matematica/en-matematica-2022-reserve-01.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1092-matematica-2022-rezerva#subiect",
+    "baremSourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1092-matematica-2022-rezerva#barem",
+    "sha256": {
+      "exam": "aa8270adcf24bfec498e786caf97bac590c78e51136ab2d6c4e0cda7bf772969",
+      "barem": "56b12c9b624f27634c623ee3e099e378da58dfd69a71ad6aee938f6759e27e3c"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-matematica-2022-final-02",
+    "category": "evaluare-nationala",
+    "subject": "matematica",
+    "year": 2022,
+    "order": 19,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "final",
+    "sessionLabel": "Sesiunea iunie/iulie",
+    "dateLabel": "2022",
+    "title": "Sesiunea iunie/iulie 2022",
+    "examPdfPath": "/exams/evaluare-nationala/matematica/2022/en-matematica-2022-final-02-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/matematica/2022/en-matematica-2022-final-02-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/matematica/en-matematica-2022-final-02.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1093-matematica-2022-vara#subiect",
+    "baremSourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1093-matematica-2022-vara#barem",
+    "sha256": {
+      "exam": "a1e75ea5281b057d40636b1312470ee3c9d2fd4f0d0aa2b4cfe07c18b565a814",
+      "barem": "86d517ad7b77405f1d4ae4afc0f5024f132d823c713efe69180fd351c4514f2e"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-matematica-2022-simulation-1100",
+    "category": "evaluare-nationala",
+    "subject": "matematica",
+    "year": 2022,
+    "order": 20,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "simulation",
+    "sessionLabel": "Simulare",
+    "dateLabel": "2022",
+    "title": "Simulare 2022",
+    "examPdfPath": "/exams/evaluare-nationala/matematica/2022/en-matematica-2022-simulation-1100-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/matematica/2022/en-matematica-2022-simulation-1100-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/matematica/en-matematica-2022-simulation-1100.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1100-matematica-2022-simulare#subiect",
+    "baremSourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1100-matematica-2022-simulare#barem",
+    "sha256": {
+      "exam": "e64ecb9fd97dc51c6b3fea0694bc4304ed958d4cc14a6535af2ab75a229dd8c7",
+      "barem": "607ab17a2396edf9599a5249a3f58a9b10100b54dad6881cd733cf0493232ed6"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-matematica-2022-model-1101",
+    "category": "evaluare-nationala",
+    "subject": "matematica",
+    "year": 2022,
+    "order": 21,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "model",
+    "sessionLabel": "Model",
+    "dateLabel": "2022",
+    "title": "Model 2022",
+    "examPdfPath": "/exams/evaluare-nationala/matematica/2022/en-matematica-2022-model-1101-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/matematica/2022/en-matematica-2022-model-1101-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/matematica/en-matematica-2022-model-1101.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1101-matematica-2022-model#subiect",
+    "baremSourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1101-matematica-2022-model#barem",
+    "sha256": {
+      "exam": "5a541165bc1c9be53c92247f38c18ea003b40866ec9818611e408f192c62a5f0",
+      "barem": "14c40eb50a6ebd117c5cf20c80aea8145692ce0c2aa1ec107d7dbe3269f1a19f"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-matematica-2021-special-04",
+    "category": "evaluare-nationala",
+    "subject": "matematica",
+    "year": 2021,
+    "order": 22,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "special",
+    "sessionLabel": "Sesiunea specială",
+    "dateLabel": "2021",
+    "title": "Sesiunea specială 2021",
+    "examPdfPath": "/exams/evaluare-nationala/matematica/2021/en-matematica-2021-special-04-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/matematica/2021/en-matematica-2021-special-04-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/matematica/en-matematica-2021-special-04.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1102-matematica-2021-speciala#subiect",
+    "baremSourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1102-matematica-2021-speciala#barem",
+    "sha256": {
+      "exam": "afa3b3b86f27bca85e567aa915fe3e0257ff061b15a038666febb771b08b8534",
+      "barem": "e8b24809ac5a39365c8f1ecef13556eaab4d5a811f7b8a93abcda71adef040d9"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-matematica-2021-reserve-02",
+    "category": "evaluare-nationala",
+    "subject": "matematica",
+    "year": 2021,
+    "order": 23,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "reserve",
+    "sessionLabel": "Rezerva",
+    "dateLabel": "2021",
+    "title": "Rezerva 2021",
+    "examPdfPath": "/exams/evaluare-nationala/matematica/2021/en-matematica-2021-reserve-02-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/matematica/2021/en-matematica-2021-reserve-02-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/matematica/en-matematica-2021-reserve-02.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1103-matematica-2021-rezerva#subiect",
+    "baremSourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1103-matematica-2021-rezerva#barem",
+    "sha256": {
+      "exam": "2aca558d1c090f5a66f1f9d36251b3f5504d4ba90643b18e850781e9b954aa87",
+      "barem": "de64dc89e8e57fbcdbdb9e74282ebc4bff81e8693cda7fafd107dc27d363e168"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-matematica-2021-final-03",
+    "category": "evaluare-nationala",
+    "subject": "matematica",
+    "year": 2021,
+    "order": 24,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "final",
+    "sessionLabel": "Sesiunea iunie/iulie",
+    "dateLabel": "2021",
+    "title": "Sesiunea iunie/iulie 2021",
+    "examPdfPath": "/exams/evaluare-nationala/matematica/2021/en-matematica-2021-final-03-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/matematica/2021/en-matematica-2021-final-03-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/matematica/en-matematica-2021-final-03.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1104-matematica-2021-vara#subiect",
+    "baremSourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1104-matematica-2021-vara#barem",
+    "sha256": {
+      "exam": "3da97a68e2dfa5de42c251abf8165b9d76eb4ef2111073043ee89e3c930581c2",
+      "barem": "4653ac437c0a6faff8cebdbc838fdb1084ca60eb27798a29a1e9efe3a0ab9bdf"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-matematica-2021-simulation-1115",
+    "category": "evaluare-nationala",
+    "subject": "matematica",
+    "year": 2021,
+    "order": 25,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "simulation",
+    "sessionLabel": "Simulare",
+    "dateLabel": "2021",
+    "title": "Simulare 2021",
+    "examPdfPath": "/exams/evaluare-nationala/matematica/2021/en-matematica-2021-simulation-1115-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/matematica/2021/en-matematica-2021-simulation-1115-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/matematica/en-matematica-2021-simulation-1115.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1115-matematica-2021-simulare#subiect",
+    "baremSourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1115-matematica-2021-simulare#barem",
+    "sha256": {
+      "exam": "9bb6d98888a3c67aff060e04548e48da35d2582e23b66019c49108565cc38321",
+      "barem": "b6339947d5c95890acc566984b1905e3e8b3fc7a8be8d0e9a9536079a7b29a8f"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-matematica-2021-model-1121",
+    "category": "evaluare-nationala",
+    "subject": "matematica",
+    "year": 2021,
+    "order": 26,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "model",
+    "sessionLabel": "Model",
+    "dateLabel": "2021",
+    "title": "Model 2021",
+    "examPdfPath": "/exams/evaluare-nationala/matematica/2021/en-matematica-2021-model-1121-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/matematica/2021/en-matematica-2021-model-1121-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/matematica/en-matematica-2021-model-1121.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1121-matematica-2021-model#subiect",
+    "baremSourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1121-matematica-2021-model#barem",
+    "sha256": {
+      "exam": "4ce7fc492f6f235f13ddb2e7beacf6762512c3c8fbb9963599e44def4544890a",
+      "barem": "d433ebde936f44053cce5c8385a440a5a9d86007cae2c8c3f9e9c41c6b623f62"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-matematica-2021-model-1122",
+    "category": "evaluare-nationala",
+    "subject": "matematica",
+    "year": 2021,
+    "order": 27,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "model",
+    "sessionLabel": "Model",
+    "dateLabel": "2021",
+    "title": "Model 2021",
+    "examPdfPath": "/exams/evaluare-nationala/matematica/2021/en-matematica-2021-model-1122-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/matematica/2021/en-matematica-2021-model-1122-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/matematica/en-matematica-2021-model-1122.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1122-matematica-2021-model#subiect",
+    "baremSourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1122-matematica-2021-model#barem",
+    "sha256": {
+      "exam": "93305c258f6754aec8faba5a6a72a9f5871f2c2d96d5be3da248210848dfca2e",
+      "barem": "367fdcf94ad1a47856148de33d3bae90ae16cdcf0c0c55f97d4ffc762ada9d67"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-matematica-2020-special-04",
+    "category": "evaluare-nationala",
+    "subject": "matematica",
+    "year": 2020,
+    "order": 28,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "special",
+    "sessionLabel": "Sesiunea specială",
+    "dateLabel": "2020",
+    "title": "Sesiunea specială 2020",
+    "examPdfPath": "/exams/evaluare-nationala/matematica/2020/en-matematica-2020-special-04-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/matematica/2020/en-matematica-2020-special-04-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/matematica/en-matematica-2020-special-04.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1123-matematica-2020-speciala#subiect",
+    "baremSourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1123-matematica-2020-speciala#barem",
+    "sha256": {
+      "exam": "6b0915f826f9c28db7b64f332a9a82bd2a099accc3ba19c091292578842a0426",
+      "barem": "8ad28621b868eb35253d037159fba58bbdc119867bcbd0ba41076f24a15aca23"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-matematica-2020-reserve-03",
+    "category": "evaluare-nationala",
+    "subject": "matematica",
+    "year": 2020,
+    "order": 29,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "reserve",
+    "sessionLabel": "Rezerva",
+    "dateLabel": "2020",
+    "title": "Rezerva 2020",
+    "examPdfPath": "/exams/evaluare-nationala/matematica/2020/en-matematica-2020-reserve-03-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/matematica/2020/en-matematica-2020-reserve-03-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/matematica/en-matematica-2020-reserve-03.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1124-matematica-2020-rezerva#subiect",
+    "baremSourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1124-matematica-2020-rezerva#barem",
+    "sha256": {
+      "exam": "66af025953c9d9552cb8c90a447fcfeb675323e9307bc51948a3910854d56063",
+      "barem": "5cfa8af8ce659271b65ab42f32b3dd518d521f004188022229c26634c5c89067"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-matematica-2020-final-01",
+    "category": "evaluare-nationala",
+    "subject": "matematica",
+    "year": 2020,
+    "order": 30,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "final",
+    "sessionLabel": "Sesiunea iunie/iulie",
+    "dateLabel": "2020",
+    "title": "Sesiunea iunie/iulie 2020",
+    "examPdfPath": "/exams/evaluare-nationala/matematica/2020/en-matematica-2020-final-01-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/matematica/2020/en-matematica-2020-final-01-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/matematica/en-matematica-2020-final-01.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1125-matematica-2020-vara#subiect",
+    "baremSourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1125-matematica-2020-vara#barem",
+    "sha256": {
+      "exam": "05732af02a761f867d0f62ad9e29d965622e8f660a0016c0e90843413b5bdf68",
+      "barem": "bebd8846d1c2f1f0ec726b536be7378aababdce1dbc7e489fbca126cf5e2096c"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-matematica-2020-model-1166",
+    "category": "evaluare-nationala",
+    "subject": "matematica",
+    "year": 2020,
+    "order": 31,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "model",
+    "sessionLabel": "Model",
+    "dateLabel": "2020",
+    "title": "Model 2020",
+    "examPdfPath": "/exams/evaluare-nationala/matematica/2020/en-matematica-2020-model-1166-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/matematica/2020/en-matematica-2020-model-1166-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/matematica/en-matematica-2020-model-1166.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1166-matematica-2020-model#subiect",
+    "baremSourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1166-matematica-2020-model#barem",
+    "sha256": {
+      "exam": "c4f2492a2f3c19860ab853099587617c80c8a7c362f393917c6eddcaf00052ea",
+      "barem": "3f94e148fde56bc5f4dd6c4e7c3bb870626600a4e14d9a656716a0277bd9596c"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-matematica-2019-reserve-02",
+    "category": "evaluare-nationala",
+    "subject": "matematica",
+    "year": 2019,
+    "order": 32,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "reserve",
+    "sessionLabel": "Rezerva",
+    "dateLabel": "2019",
+    "title": "Rezerva 2019",
+    "examPdfPath": "/exams/evaluare-nationala/matematica/2019/en-matematica-2019-reserve-02-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/matematica/2019/en-matematica-2019-reserve-02-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/matematica/en-matematica-2019-reserve-02.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1167-matematica-2019-rezerva#subiect",
+    "baremSourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1167-matematica-2019-rezerva#barem",
+    "sha256": {
+      "exam": "4d650910ede9bf70a69d2d18995be4369ff0ff6d0be6a84d202ac29e442e6a9e",
+      "barem": "fd3f45deeda320fffbb38082d604e2192144d2b97366d571e29bce9bb35dc2e6"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-matematica-2019-final-01",
+    "category": "evaluare-nationala",
+    "subject": "matematica",
+    "year": 2019,
+    "order": 33,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "final",
+    "sessionLabel": "Sesiunea iunie/iulie",
+    "dateLabel": "2019",
+    "title": "Sesiunea iunie/iulie 2019",
+    "examPdfPath": "/exams/evaluare-nationala/matematica/2019/en-matematica-2019-final-01-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/matematica/2019/en-matematica-2019-final-01-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/matematica/en-matematica-2019-final-01.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1168-matematica-2019-vara#subiect",
+    "baremSourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1168-matematica-2019-vara#barem",
+    "sha256": {
+      "exam": "bbb3870e148ffd523402d31238786b62650bb7293697731a248959c7cc067de1",
+      "barem": "41f4da1b2cae7a86b3cf1458436b61d9ec56aac2281d6044acc7357fdb2c0b5a"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-matematica-2019-simulation-1169",
+    "category": "evaluare-nationala",
+    "subject": "matematica",
+    "year": 2019,
+    "order": 34,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "simulation",
+    "sessionLabel": "Simulare",
+    "dateLabel": "2019",
+    "title": "Simulare 2019",
+    "examPdfPath": "/exams/evaluare-nationala/matematica/2019/en-matematica-2019-simulation-1169-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/matematica/2019/en-matematica-2019-simulation-1169-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/matematica/en-matematica-2019-simulation-1169.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1169-matematica-2019-simulare#subiect",
+    "baremSourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1169-matematica-2019-simulare#barem",
+    "sha256": {
+      "exam": "f6cb3568e8b3e1a1fa669bd2b97c7b54bc56180359e499b1968b5e784732b555",
+      "barem": "fc4f0ff1c89c4192d7d602104cf9e7b1677d7b2514a80a763e7ce572899847db"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-matematica-2019-simulation-1170",
+    "category": "evaluare-nationala",
+    "subject": "matematica",
+    "year": 2019,
+    "order": 35,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "simulation",
+    "sessionLabel": "Simulare",
+    "dateLabel": "2019",
+    "title": "Simulare 2019",
+    "examPdfPath": "/exams/evaluare-nationala/matematica/2019/en-matematica-2019-simulation-1170-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/matematica/2019/en-matematica-2019-simulation-1170-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/matematica/en-matematica-2019-simulation-1170.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1170-matematica-2019-simulare#subiect",
+    "baremSourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1170-matematica-2019-simulare#barem",
+    "sha256": {
+      "exam": "4d6a04aeadda0cf05a8da1a3c1b766e37a9cf91d008cace61d5775dfd6521b1b",
+      "barem": "0e1589a3abaa7c99b5942f241d40ce41406a4b5bff2b2eda2a02970c7609c277"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-matematica-2019-model-1171",
+    "category": "evaluare-nationala",
+    "subject": "matematica",
+    "year": 2019,
+    "order": 36,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "model",
+    "sessionLabel": "Model",
+    "dateLabel": "2019",
+    "title": "Model 2019",
+    "examPdfPath": "/exams/evaluare-nationala/matematica/2019/en-matematica-2019-model-1171-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/matematica/2019/en-matematica-2019-model-1171-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/matematica/en-matematica-2019-model-1171.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1171-matematica-2019-model#subiect",
+    "baremSourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1171-matematica-2019-model#barem",
+    "sha256": {
+      "exam": "c8d8b6b6192eec2fbb02fcb9ef1badd79786ab484d96f98c6886ffa552701dd4",
+      "barem": "4dd2e36d39e7e8d6344ded75bbdf6685d701c218f08eebb88e322adf81743e71"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-matematica-2018-reserve-04",
+    "category": "evaluare-nationala",
+    "subject": "matematica",
+    "year": 2018,
+    "order": 37,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "reserve",
+    "sessionLabel": "Rezerva",
+    "dateLabel": "2018",
+    "title": "Rezerva 2018",
+    "examPdfPath": "/exams/evaluare-nationala/matematica/2018/en-matematica-2018-reserve-04-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/matematica/2018/en-matematica-2018-reserve-04-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/matematica/en-matematica-2018-reserve-04.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1172-matematica-2018-rezerva#subiect",
+    "baremSourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1172-matematica-2018-rezerva#barem",
+    "sha256": {
+      "exam": "45858687a26c72ba4e06958998973a936e82dc5f67963a702d81aba02d1ae14f",
+      "barem": "507d6de3f05ea26b6f83b22c082d1a3b605b687e7226ba421e5ad0a7d3dcbf84"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-matematica-2018-final-06",
+    "category": "evaluare-nationala",
+    "subject": "matematica",
+    "year": 2018,
+    "order": 38,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "final",
+    "sessionLabel": "Sesiunea iunie/iulie",
+    "dateLabel": "2018",
+    "title": "Sesiunea iunie/iulie 2018",
+    "examPdfPath": "/exams/evaluare-nationala/matematica/2018/en-matematica-2018-final-06-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/matematica/2018/en-matematica-2018-final-06-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/matematica/en-matematica-2018-final-06.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1173-matematica-2018-vara#subiect",
+    "baremSourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1173-matematica-2018-vara#barem",
+    "sha256": {
+      "exam": "d46bb3d72e2654a17b0739815a99a4aeeba078d394ea90722ff73de2836854b2",
+      "barem": "77bdee5c34d1cbc7a7c2010d7d2c4691a107543de4b00b378d8cd11156906c8c"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-matematica-2018-simulation-1174",
+    "category": "evaluare-nationala",
+    "subject": "matematica",
+    "year": 2018,
+    "order": 39,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "simulation",
+    "sessionLabel": "Simulare",
+    "dateLabel": "2018",
+    "title": "Simulare 2018",
+    "examPdfPath": "/exams/evaluare-nationala/matematica/2018/en-matematica-2018-simulation-1174-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/matematica/2018/en-matematica-2018-simulation-1174-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/matematica/en-matematica-2018-simulation-1174.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1174-matematica-2018-simulare#subiect",
+    "baremSourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1174-matematica-2018-simulare#barem",
+    "sha256": {
+      "exam": "fbb247dd2c216db2ae03b0c0ca7c8639cb4533b4cd3b3e4b1188f0ab9acb477e",
+      "barem": "59baa0df905f888b05980d850c83208c3703a838237c7cc408c172ef34394e67"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-matematica-2018-model-1175",
+    "category": "evaluare-nationala",
+    "subject": "matematica",
+    "year": 2018,
+    "order": 40,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "model",
+    "sessionLabel": "Model",
+    "dateLabel": "2018",
+    "title": "Model 2018",
+    "examPdfPath": "/exams/evaluare-nationala/matematica/2018/en-matematica-2018-model-1175-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/matematica/2018/en-matematica-2018-model-1175-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/matematica/en-matematica-2018-model-1175.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1175-matematica-2018-model#subiect",
+    "baremSourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1175-matematica-2018-model#barem",
+    "sha256": {
+      "exam": "e45ce51f4be0f6b60f4b2d329d7084bb86d21d51aff18738e8df0ad6a46c2300",
+      "barem": "59baa0df905f888b05980d850c83208c3703a838237c7cc408c172ef34394e67"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-matematica-2017-reserve-02",
+    "category": "evaluare-nationala",
+    "subject": "matematica",
+    "year": 2017,
+    "order": 41,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "reserve",
+    "sessionLabel": "Rezerva",
+    "dateLabel": "2017",
+    "title": "Rezerva 2017",
+    "examPdfPath": "/exams/evaluare-nationala/matematica/2017/en-matematica-2017-reserve-02-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/matematica/2017/en-matematica-2017-reserve-02-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/matematica/en-matematica-2017-reserve-02.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1176-matematica-2017-rezerva#subiect",
+    "baremSourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1176-matematica-2017-rezerva#barem",
+    "sha256": {
+      "exam": "d9640a238f88f60008d9d875a8f4a51cf4fcef22d02b55f12aaa085cbfa41f7c",
+      "barem": "5fff6b3e87461b4415e0f4c678158e9b2d021a397f1f9d1f61b620ede7de12f4"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-matematica-2017-final-06",
+    "category": "evaluare-nationala",
+    "subject": "matematica",
+    "year": 2017,
+    "order": 42,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "final",
+    "sessionLabel": "Sesiunea iunie/iulie",
+    "dateLabel": "2017",
+    "title": "Sesiunea iunie/iulie 2017",
+    "examPdfPath": "/exams/evaluare-nationala/matematica/2017/en-matematica-2017-final-06-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/matematica/2017/en-matematica-2017-final-06-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/matematica/en-matematica-2017-final-06.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1177-matematica-2017-vara#subiect",
+    "baremSourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1177-matematica-2017-vara#barem",
+    "sha256": {
+      "exam": "34c9c0bf469c22511aa4ad41c74933cae56e6dc9d9f90910b5d7f2f1a58322fd",
+      "barem": "4a2929dadc9bdde0955ce5cc9a2412058917eedd16f61a9101fefe4faedd9c71"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-matematica-2017-special-04",
+    "category": "evaluare-nationala",
+    "subject": "matematica",
+    "year": 2017,
+    "order": 43,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "special",
+    "sessionLabel": "Sesiunea specială",
+    "dateLabel": "2017",
+    "title": "Sesiunea specială 2017",
+    "examPdfPath": "/exams/evaluare-nationala/matematica/2017/en-matematica-2017-special-04-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/matematica/2017/en-matematica-2017-special-04-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/matematica/en-matematica-2017-special-04.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1178-matematica-2017-speciala#subiect",
+    "baremSourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1178-matematica-2017-speciala#barem",
+    "sha256": {
+      "exam": "8ae9d8667298378bbe8a578e88466ca8cf9921bb6af76eb13a5cf9d10954f530",
+      "barem": "83cf3efdd5058aafbe85916e5ccfcedee03b96d69c51f2538ecb10fd5e2684ef"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-matematica-2017-simulation-1179",
+    "category": "evaluare-nationala",
+    "subject": "matematica",
+    "year": 2017,
+    "order": 44,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "simulation",
+    "sessionLabel": "Simulare",
+    "dateLabel": "2017",
+    "title": "Simulare 2017",
+    "examPdfPath": "/exams/evaluare-nationala/matematica/2017/en-matematica-2017-simulation-1179-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/matematica/2017/en-matematica-2017-simulation-1179-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/matematica/en-matematica-2017-simulation-1179.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1179-matematica-2017-simulare#subiect",
+    "baremSourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1179-matematica-2017-simulare#barem",
+    "sha256": {
+      "exam": "5b0cd1b8f439d56f39f7eb09664950d49e5926058cab46f43ae853460792357a",
+      "barem": "32e1f3e5b13c326226bda71c311422dc03cb4eaef05b63a8b966643a10f7a024"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-matematica-2017-model-1180",
+    "category": "evaluare-nationala",
+    "subject": "matematica",
+    "year": 2017,
+    "order": 45,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "model",
+    "sessionLabel": "Model",
+    "dateLabel": "2017",
+    "title": "Model 2017",
+    "examPdfPath": "/exams/evaluare-nationala/matematica/2017/en-matematica-2017-model-1180-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/matematica/2017/en-matematica-2017-model-1180-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/matematica/en-matematica-2017-model-1180.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1180-matematica-2017-model#subiect",
+    "baremSourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1180-matematica-2017-model#barem",
+    "sha256": {
+      "exam": "ff1effac18d4551546ac9a4ce9884b9e592cbca689c5404f293da2859ae4157b",
+      "barem": "875dfecffbf2e1f4823220554cf9960d5981e6a9b204ccb057e4688b2a07f2f7"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-matematica-2016-reserve-09",
+    "category": "evaluare-nationala",
+    "subject": "matematica",
+    "year": 2016,
+    "order": 46,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "reserve",
+    "sessionLabel": "Rezerva",
+    "dateLabel": "2016",
+    "title": "Rezerva 2016",
+    "examPdfPath": "/exams/evaluare-nationala/matematica/2016/en-matematica-2016-reserve-09-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/matematica/2016/en-matematica-2016-reserve-09-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/matematica/en-matematica-2016-reserve-09.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1181-matematica-2016-rezerva#subiect",
+    "baremSourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1181-matematica-2016-rezerva#barem",
+    "sha256": {
+      "exam": "e842048424880b52cd36b306f08ce4fdc9bec8bd9733b0446ecf8e8392c89501",
+      "barem": "8da5e3707c176c1fedd6d34f5dee4eb982692ddea96355991511bb3ea578393b"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-matematica-2016-reserve-03",
+    "category": "evaluare-nationala",
+    "subject": "matematica",
+    "year": 2016,
+    "order": 47,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "reserve",
+    "sessionLabel": "Rezerva",
+    "dateLabel": "2016",
+    "title": "Rezerva 2016",
+    "examPdfPath": "/exams/evaluare-nationala/matematica/2016/en-matematica-2016-reserve-03-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/matematica/2016/en-matematica-2016-reserve-03-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/matematica/en-matematica-2016-reserve-03.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1182-matematica-2016-rezerva#subiect",
+    "baremSourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1182-matematica-2016-rezerva#barem",
+    "sha256": {
+      "exam": "e7160c18ca6f31841840ba2d2c4bef1a18c9f27e52af30d9f251ab4f8e08f73b",
+      "barem": "a155c1139933c46e83b45b0af2e9576fe55a1959ab495f373f0d9f34d715c1bb"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-matematica-2016-final-07",
+    "category": "evaluare-nationala",
+    "subject": "matematica",
+    "year": 2016,
+    "order": 48,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "final",
+    "sessionLabel": "Sesiunea iunie/iulie",
+    "dateLabel": "2016",
+    "title": "Sesiunea iunie/iulie 2016",
+    "examPdfPath": "/exams/evaluare-nationala/matematica/2016/en-matematica-2016-final-07-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/matematica/2016/en-matematica-2016-final-07-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/matematica/en-matematica-2016-final-07.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1183-matematica-2016-vara#subiect",
+    "baremSourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1183-matematica-2016-vara#barem",
+    "sha256": {
+      "exam": "29b7c5d1bad017058fe757b7da5d5e97a8d326dd17e40e44e0e0a48bdbc028c6",
+      "barem": "0fe97a1a01b6eba1d6e631cb58db90611ff4ee7e545a5d31678132d0df32f269"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-matematica-2016-special-04",
+    "category": "evaluare-nationala",
+    "subject": "matematica",
+    "year": 2016,
+    "order": 49,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "special",
+    "sessionLabel": "Sesiunea specială",
+    "dateLabel": "2016",
+    "title": "Sesiunea specială 2016",
+    "examPdfPath": "/exams/evaluare-nationala/matematica/2016/en-matematica-2016-special-04-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/matematica/2016/en-matematica-2016-special-04-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/matematica/en-matematica-2016-special-04.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1184-matematica-2016-speciala#subiect",
+    "baremSourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1184-matematica-2016-speciala#barem",
+    "sha256": {
+      "exam": "1caf51a29a2a44c3e1197ffa5da8b2ffe43daa940c9776ed7a133b32665a426c",
+      "barem": "e43307321e53bfc43229b30c654d93819012e465582dedc9e6f59ceeaa658e13"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-matematica-2016-simulation-1185",
+    "category": "evaluare-nationala",
+    "subject": "matematica",
+    "year": 2016,
+    "order": 50,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "simulation",
+    "sessionLabel": "Simulare",
+    "dateLabel": "2016",
+    "title": "Simulare 2016",
+    "examPdfPath": "/exams/evaluare-nationala/matematica/2016/en-matematica-2016-simulation-1185-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/matematica/2016/en-matematica-2016-simulation-1185-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/matematica/en-matematica-2016-simulation-1185.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1185-matematica-2016-simulare#subiect",
+    "baremSourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1185-matematica-2016-simulare#barem",
+    "sha256": {
+      "exam": "206b6d16feb5a8d48e5e8e84902a040348785b77d7bf33ac5d72b6c730f4b097",
+      "barem": "72c358a019ce294c6ed95f18eff92c70f74945231eb86d83dbee38d962c8ca75"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-matematica-2016-model-1186",
+    "category": "evaluare-nationala",
+    "subject": "matematica",
+    "year": 2016,
+    "order": 51,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "model",
+    "sessionLabel": "Model",
+    "dateLabel": "2016",
+    "title": "Model 2016",
+    "examPdfPath": "/exams/evaluare-nationala/matematica/2016/en-matematica-2016-model-1186-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/matematica/2016/en-matematica-2016-model-1186-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/matematica/en-matematica-2016-model-1186.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1186-matematica-2016-model#subiect",
+    "baremSourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1186-matematica-2016-model#barem",
+    "sha256": {
+      "exam": "1571900029ada654febb0b28bfa86a3ce1aaa6723c58bb5211e70b73e93fd68f",
+      "barem": "01a80ee72368909da8ec112d5dd817e61169352408219621cdf6217afb9f6b05"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-matematica-2015-reserve-03",
+    "category": "evaluare-nationala",
+    "subject": "matematica",
+    "year": 2015,
+    "order": 52,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "reserve",
+    "sessionLabel": "Rezerva",
+    "dateLabel": "2015",
+    "title": "Rezerva 2015",
+    "examPdfPath": "/exams/evaluare-nationala/matematica/2015/en-matematica-2015-reserve-03-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/matematica/2015/en-matematica-2015-reserve-03-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/matematica/en-matematica-2015-reserve-03.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1187-matematica-2015-rezerva#subiect",
+    "baremSourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1187-matematica-2015-rezerva#barem",
+    "sha256": {
+      "exam": "bd625fe908ed986d29d42c24442903295895c6589abdfd29f263ea5a18b1bf09",
+      "barem": "6bc4754be0517a3afcddfd9ce8632b6c37253e850ca27751518fc014796bc099"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-matematica-2015-final-07",
+    "category": "evaluare-nationala",
+    "subject": "matematica",
+    "year": 2015,
+    "order": 53,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "final",
+    "sessionLabel": "Sesiunea iunie/iulie",
+    "dateLabel": "2015",
+    "title": "Sesiunea iunie/iulie 2015",
+    "examPdfPath": "/exams/evaluare-nationala/matematica/2015/en-matematica-2015-final-07-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/matematica/2015/en-matematica-2015-final-07-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/matematica/en-matematica-2015-final-07.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1188-matematica-2015-vara#subiect",
+    "baremSourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1188-matematica-2015-vara#barem",
+    "sha256": {
+      "exam": "255d81559afc37de350dce481ddbe1bacd4a38dd5955bf72311d24c932bab6b4",
+      "barem": "147d03f5adeee491ee0c43a0dc10eecc5402aa713f147523e4b9da5da5f3a164"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-matematica-2015-special-05",
+    "category": "evaluare-nationala",
+    "subject": "matematica",
+    "year": 2015,
+    "order": 54,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "special",
+    "sessionLabel": "Sesiunea specială",
+    "dateLabel": "2015",
+    "title": "Sesiunea specială 2015",
+    "examPdfPath": "/exams/evaluare-nationala/matematica/2015/en-matematica-2015-special-05-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/matematica/2015/en-matematica-2015-special-05-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/matematica/en-matematica-2015-special-05.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1189-matematica-2015-speciala#subiect",
+    "baremSourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1189-matematica-2015-speciala#barem",
+    "sha256": {
+      "exam": "18119b71e00ab774472d97801df0e76d8c67b7fec662e41cee7b18b82436951d",
+      "barem": "af5a3f631e1b3c2692b07bdddfb1e98cddd39edb7de63d638e356e569eceb48f"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-matematica-2015-simulation-1190",
+    "category": "evaluare-nationala",
+    "subject": "matematica",
+    "year": 2015,
+    "order": 55,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "simulation",
+    "sessionLabel": "Simulare",
+    "dateLabel": "2015",
+    "title": "Simulare 2015",
+    "examPdfPath": "/exams/evaluare-nationala/matematica/2015/en-matematica-2015-simulation-1190-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/matematica/2015/en-matematica-2015-simulation-1190-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/matematica/en-matematica-2015-simulation-1190.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1190-matematica-2015-simulare#subiect",
+    "baremSourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1190-matematica-2015-simulare#barem",
+    "sha256": {
+      "exam": "0a04531a8dda7cde7236f5dc01c4243c6ea945a082e64d2e33c8442ae0cdd3d5",
+      "barem": "3677dd714c20c62254b5c933bf4875dd76aa5791e52b556410c273941f0ce183"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-matematica-2015-model-1191",
+    "category": "evaluare-nationala",
+    "subject": "matematica",
+    "year": 2015,
+    "order": 56,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "model",
+    "sessionLabel": "Model",
+    "dateLabel": "2015",
+    "title": "Model 2015",
+    "examPdfPath": "/exams/evaluare-nationala/matematica/2015/en-matematica-2015-model-1191-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/matematica/2015/en-matematica-2015-model-1191-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/matematica/en-matematica-2015-model-1191.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1191-matematica-2015-model#subiect",
+    "baremSourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1191-matematica-2015-model#barem",
+    "sha256": {
+      "exam": "5c8f1447ec9889ca56357b9fe3265e7b90d98f91a6502bdf944c67998177a7d8",
+      "barem": "1c5508421b5da5ea7cc1f953e20878ea4eb18bb5a13edfa50cef15b9079dbd6e"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-matematica-2014-reserve-06",
+    "category": "evaluare-nationala",
+    "subject": "matematica",
+    "year": 2014,
+    "order": 57,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "reserve",
+    "sessionLabel": "Rezerva",
+    "dateLabel": "2014",
+    "title": "Rezerva 2014",
+    "examPdfPath": "/exams/evaluare-nationala/matematica/2014/en-matematica-2014-reserve-06-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/matematica/2014/en-matematica-2014-reserve-06-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/matematica/en-matematica-2014-reserve-06.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1192-matematica-2014-rezerva#subiect",
+    "baremSourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1192-matematica-2014-rezerva#barem",
+    "sha256": {
+      "exam": "fbf41338aac3330233d54f00e39015de8a9a88b1bc974cf0fc7b12f3328f1aa8",
+      "barem": "20f3629019bce4248cf009792d16a2205f905312f397fb3192f88e36c7df7d23"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-matematica-2014-final-03",
+    "category": "evaluare-nationala",
+    "subject": "matematica",
+    "year": 2014,
+    "order": 58,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "final",
+    "sessionLabel": "Sesiunea iunie/iulie",
+    "dateLabel": "2014",
+    "title": "Sesiunea iunie/iulie 2014",
+    "examPdfPath": "/exams/evaluare-nationala/matematica/2014/en-matematica-2014-final-03-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/matematica/2014/en-matematica-2014-final-03-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/matematica/en-matematica-2014-final-03.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1193-matematica-2014-vara#subiect",
+    "baremSourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1193-matematica-2014-vara#barem",
+    "sha256": {
+      "exam": "d142cf763fd8534c11a7b40a99d1df028dc9e73f55373619b72beeba5397db10",
+      "barem": "9ee46b6ac93826d769ce9dfab5061b098af4132dc843b72923b980089ecca661"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-matematica-2014-special-09",
+    "category": "evaluare-nationala",
+    "subject": "matematica",
+    "year": 2014,
+    "order": 59,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "special",
+    "sessionLabel": "Sesiunea specială",
+    "dateLabel": "2014",
+    "title": "Sesiunea specială 2014",
+    "examPdfPath": "/exams/evaluare-nationala/matematica/2014/en-matematica-2014-special-09-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/matematica/2014/en-matematica-2014-special-09-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/matematica/en-matematica-2014-special-09.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1194-matematica-2014-speciala#subiect",
+    "baremSourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1194-matematica-2014-speciala#barem",
+    "sha256": {
+      "exam": "86e396c173b0f5ab198a5bd41dce7cc27dd7032b82530b6a9208dca3a9e649cc",
+      "barem": "83e0712ca70b2c2f5c74bab7a53d1a80c1fa6e7478f5cf556084dd2c73a4a81b"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-matematica-2014-simulation-1195",
+    "category": "evaluare-nationala",
+    "subject": "matematica",
+    "year": 2014,
+    "order": 60,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "simulation",
+    "sessionLabel": "Simulare",
+    "dateLabel": "2014",
+    "title": "Simulare 2014",
+    "examPdfPath": "/exams/evaluare-nationala/matematica/2014/en-matematica-2014-simulation-1195-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/matematica/2014/en-matematica-2014-simulation-1195-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/matematica/en-matematica-2014-simulation-1195.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1195-matematica-2014-simulare#subiect",
+    "baremSourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1195-matematica-2014-simulare#barem",
+    "sha256": {
+      "exam": "18aa65ec9067b6fa6afd7e410b85f4a5253a9892997ad341d356c2ba54323d08",
+      "barem": "d9cdc546ca9b3bb689ef435969306814fa3c37732613ba32d8e82d0adc4c1b7a"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-matematica-2014-model-1196",
+    "category": "evaluare-nationala",
+    "subject": "matematica",
+    "year": 2014,
+    "order": 61,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "model",
+    "sessionLabel": "Model",
+    "dateLabel": "2014",
+    "title": "Model 2014",
+    "examPdfPath": "/exams/evaluare-nationala/matematica/2014/en-matematica-2014-model-1196-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/matematica/2014/en-matematica-2014-model-1196-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/matematica/en-matematica-2014-model-1196.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1196-matematica-2014-model#subiect",
+    "baremSourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1196-matematica-2014-model#barem",
+    "sha256": {
+      "exam": "1873310d709ef54c180fbd964df5b3923c732ed1528fc1fd1c30899c93a848a5",
+      "barem": "85f7cd3e4a6d0dccfe59478ff48cce727c8983e9fb5a0e02bac81c7c3b8279ff"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-matematica-2013-reserve-01",
+    "category": "evaluare-nationala",
+    "subject": "matematica",
+    "year": 2013,
+    "order": 62,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "reserve",
+    "sessionLabel": "Rezerva",
+    "dateLabel": "2013",
+    "title": "Rezerva 2013",
+    "examPdfPath": "/exams/evaluare-nationala/matematica/2013/en-matematica-2013-reserve-01-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/matematica/2013/en-matematica-2013-reserve-01-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/matematica/en-matematica-2013-reserve-01.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1197-matematica-2013-rezerva#subiect",
+    "baremSourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1197-matematica-2013-rezerva#barem",
+    "sha256": {
+      "exam": "6d75d2035f0f155e1518b573838e1f2bd5693dbc785024789423f5ae8016456f",
+      "barem": "0cad0e2c52005246264fccab69fec81a70ce97c403ab779f0835b7e6a3656442"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-matematica-2013-final-03",
+    "category": "evaluare-nationala",
+    "subject": "matematica",
+    "year": 2013,
+    "order": 63,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "final",
+    "sessionLabel": "Sesiunea iunie/iulie",
+    "dateLabel": "2013",
+    "title": "Sesiunea iunie/iulie 2013",
+    "examPdfPath": "/exams/evaluare-nationala/matematica/2013/en-matematica-2013-final-03-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/matematica/2013/en-matematica-2013-final-03-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/matematica/en-matematica-2013-final-03.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1198-matematica-2013-vara#subiect",
+    "baremSourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1198-matematica-2013-vara#barem",
+    "sha256": {
+      "exam": "38d3bf003500f80a73d243113ac545ea678f3e077851a11b32fe80e462fc3ffb",
+      "barem": "99e5814abe5e35c73f2e7128841fe6ee43f8e7e05f03e34b2245a56773bdff8a"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-matematica-2013-special-06",
+    "category": "evaluare-nationala",
+    "subject": "matematica",
+    "year": 2013,
+    "order": 64,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "special",
+    "sessionLabel": "Sesiunea specială",
+    "dateLabel": "2013",
+    "title": "Sesiunea specială 2013",
+    "examPdfPath": "/exams/evaluare-nationala/matematica/2013/en-matematica-2013-special-06-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/matematica/2013/en-matematica-2013-special-06-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/matematica/en-matematica-2013-special-06.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1199-matematica-2013-speciala#subiect",
+    "baremSourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1199-matematica-2013-speciala#barem",
+    "sha256": {
+      "exam": "17cd91065cbf130af47225e0b23662f5d76da3e9bd1b86e2d6c721aeaa1cef0f",
+      "barem": "dc469485ed03716b704467aea715d52f64fc870a7066792f74536f5d177f7d68"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-matematica-2013-model-1200",
+    "category": "evaluare-nationala",
+    "subject": "matematica",
+    "year": 2013,
+    "order": 65,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "model",
+    "sessionLabel": "Model",
+    "dateLabel": "2013",
+    "title": "Model 2013",
+    "examPdfPath": "/exams/evaluare-nationala/matematica/2013/en-matematica-2013-model-1200-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/matematica/2013/en-matematica-2013-model-1200-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/matematica/en-matematica-2013-model-1200.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1200-matematica-2013-model#subiect",
+    "baremSourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1200-matematica-2013-model#barem",
+    "sha256": {
+      "exam": "72e92e5c2281466fae10182df80465329562ec987af32cbb6ced96b035267f22",
+      "barem": "c390eb698f142761434fc8a0cd2e52869387cd705be1b9d3468509018abc6847"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-matematica-2012-reserve-07",
+    "category": "evaluare-nationala",
+    "subject": "matematica",
+    "year": 2012,
+    "order": 66,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "reserve",
+    "sessionLabel": "Rezerva",
+    "dateLabel": "2012",
+    "title": "Rezerva 2012",
+    "examPdfPath": "/exams/evaluare-nationala/matematica/2012/en-matematica-2012-reserve-07-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/matematica/2012/en-matematica-2012-reserve-07-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/matematica/en-matematica-2012-reserve-07.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1201-matematica-2012-rezerva#subiect",
+    "baremSourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1201-matematica-2012-rezerva#barem",
+    "sha256": {
+      "exam": "32f0d534c9b3dc2973bcedc70ac5e9e4c0629a038db72d5816750153793e9195",
+      "barem": "96d63507448de2106d08785bd583bac264fbceada8290d6b0ce22eab0beeeb7f"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-matematica-2012-final-02",
+    "category": "evaluare-nationala",
+    "subject": "matematica",
+    "year": 2012,
+    "order": 67,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "final",
+    "sessionLabel": "Sesiunea iunie/iulie",
+    "dateLabel": "2012",
+    "title": "Sesiunea iunie/iulie 2012",
+    "examPdfPath": "/exams/evaluare-nationala/matematica/2012/en-matematica-2012-final-02-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/matematica/2012/en-matematica-2012-final-02-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/matematica/en-matematica-2012-final-02.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1202-matematica-2012-vara#subiect",
+    "baremSourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1202-matematica-2012-vara#barem",
+    "sha256": {
+      "exam": "b52589527e585477feed80bde5c7b24354613f9446107939785ba9736cd81ee6",
+      "barem": "9ce253df956562b5e6354bb209d40595edc492011d19347e962586028350b93f"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-matematica-2012-special-10",
+    "category": "evaluare-nationala",
+    "subject": "matematica",
+    "year": 2012,
+    "order": 68,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "special",
+    "sessionLabel": "Sesiunea specială",
+    "dateLabel": "2012",
+    "title": "Sesiunea specială 2012",
+    "examPdfPath": "/exams/evaluare-nationala/matematica/2012/en-matematica-2012-special-10-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/matematica/2012/en-matematica-2012-special-10-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/matematica/en-matematica-2012-special-10.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1203-matematica-2012-speciala#subiect",
+    "baremSourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1203-matematica-2012-speciala#barem",
+    "sha256": {
+      "exam": "c0037ce35322c44a57f50a3d3388996ab2e1fff5336f02b5d4b76065b2f3ba63",
+      "barem": "fefe1d93dc567f1347192caa2df1e6b3384857df21c148dfc99cc803a7677169"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-matematica-2012-model-1204",
+    "category": "evaluare-nationala",
+    "subject": "matematica",
+    "year": 2012,
+    "order": 69,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "model",
+    "sessionLabel": "Model",
+    "dateLabel": "2012",
+    "title": "Model 2012",
+    "examPdfPath": "/exams/evaluare-nationala/matematica/2012/en-matematica-2012-model-1204-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/matematica/2012/en-matematica-2012-model-1204-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/matematica/en-matematica-2012-model-1204.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1204-matematica-2012-model#subiect",
+    "baremSourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1204-matematica-2012-model#barem",
+    "sha256": {
+      "exam": "e5560d8f3b341f5361f42a29665619fb94b6bc7c444a374765ee5c6b2c64a87f",
+      "barem": "651ad697abc39f06b04a0836b254be677939548ca5a9c814becb0d246a421274"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-matematica-2011-final-08",
+    "category": "evaluare-nationala",
+    "subject": "matematica",
+    "year": 2011,
+    "order": 70,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "final",
+    "sessionLabel": "Sesiunea iunie/iulie",
+    "dateLabel": "2011",
+    "title": "Sesiunea iunie/iulie 2011",
+    "examPdfPath": "/exams/evaluare-nationala/matematica/2011/en-matematica-2011-final-08-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/matematica/2011/en-matematica-2011-final-08-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/matematica/en-matematica-2011-final-08.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1205-matematica-2011-vara#subiect",
+    "baremSourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1205-matematica-2011-vara#barem",
+    "sha256": {
+      "exam": "f287a75f4e46229079dc874ab8ccc59376d8e3c61dcb3fadf81569a7eb45608e",
+      "barem": "15e5f2aebc03f2a81cd9d72033775851ced5b69aab0eb9634b0276ca27fc1921"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-matematica-2011-special-09",
+    "category": "evaluare-nationala",
+    "subject": "matematica",
+    "year": 2011,
+    "order": 71,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "special",
+    "sessionLabel": "Sesiunea specială",
+    "dateLabel": "2011",
+    "title": "Sesiunea specială 2011",
+    "examPdfPath": "/exams/evaluare-nationala/matematica/2011/en-matematica-2011-special-09-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/matematica/2011/en-matematica-2011-special-09-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/matematica/en-matematica-2011-special-09.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1206-matematica-2011-speciala#subiect",
+    "baremSourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1206-matematica-2011-speciala#barem",
+    "sha256": {
+      "exam": "fbac7eac131819f1457d1bb262d8656861df167f44a8a858f2c144fbe27a2412",
+      "barem": "757f49cd3eff2c5ec7dc187a661d85186382c23a94c4ebaf997f7ae259340188"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-matematica-2011-model-1207",
+    "category": "evaluare-nationala",
+    "subject": "matematica",
+    "year": 2011,
+    "order": 72,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "model",
+    "sessionLabel": "Model",
+    "dateLabel": "2011",
+    "title": "Model 2011",
+    "examPdfPath": "/exams/evaluare-nationala/matematica/2011/en-matematica-2011-model-1207-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/matematica/2011/en-matematica-2011-model-1207-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/matematica/en-matematica-2011-model-1207.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1207-matematica-2011-model#subiect",
+    "baremSourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1207-matematica-2011-model#barem",
+    "sha256": {
+      "exam": "5280e0fb3c38b56e59772a8258764f1a2ad004d9e24475eadb904d969e1f0bf9",
+      "barem": "3f5dd76823f94bc2856fa4354abdf4da945598baba89c6e193ab97a090c113fe"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-matematica-2010-final-05",
+    "category": "evaluare-nationala",
+    "subject": "matematica",
+    "year": 2010,
+    "order": 73,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "final",
+    "sessionLabel": "Sesiunea iunie/iulie",
+    "dateLabel": "2010",
+    "title": "Sesiunea iunie/iulie 2010",
+    "examPdfPath": "/exams/evaluare-nationala/matematica/2010/en-matematica-2010-final-05-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/matematica/2010/en-matematica-2010-final-05-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/matematica/en-matematica-2010-final-05.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1208-matematica-2010-vara#subiect",
+    "baremSourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1208-matematica-2010-vara#barem",
+    "sha256": {
+      "exam": "0f1ee0c3aac69bce7eff52acf8e66b04215e1590785486028bba0a9eeb874536",
+      "barem": "6a68786f774771f58a422733cc4b935850b41412ed7d79fc07eef783a63ce11c"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-matematica-2010-special-07",
+    "category": "evaluare-nationala",
+    "subject": "matematica",
+    "year": 2010,
+    "order": 74,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "special",
+    "sessionLabel": "Sesiunea specială",
+    "dateLabel": "2010",
+    "title": "Sesiunea specială 2010",
+    "examPdfPath": "/exams/evaluare-nationala/matematica/2010/en-matematica-2010-special-07-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/matematica/2010/en-matematica-2010-special-07-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/matematica/en-matematica-2010-special-07.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1209-matematica-2010-speciala#subiect",
+    "baremSourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1209-matematica-2010-speciala#barem",
+    "sha256": {
+      "exam": "6a52470e949c36e99052c851343d6029fa58060b45446232cab3ee2c63eb41d5",
+      "barem": "439eac21d621f37f0a5b47b6005e09883790f91f8b5ca31201605882ea2ca9ba"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  },
+  {
+    "id": "en-matematica-2010-model-1210",
+    "category": "evaluare-nationala",
+    "subject": "matematica",
+    "year": 2010,
+    "order": 75,
+    "profile": "Clasa a VIII-a",
+    "language": "LRO",
+    "sessionType": "model",
+    "sessionLabel": "Model",
+    "dateLabel": "2010",
+    "title": "Model 2010",
+    "examPdfPath": "/exams/evaluare-nationala/matematica/2010/en-matematica-2010-model-1210-subiect.pdf",
+    "baremPdfPath": "/exams/evaluare-nationala/matematica/2010/en-matematica-2010-model-1210-barem.pdf",
+    "contextPath": "src/data/exam-text/evaluare-nationala/matematica/en-matematica-2010-model-1210.json",
+    "sourceKind": "vetted-mirror",
+    "sourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1210-matematica-2010-model#subiect",
+    "baremSourceUrl": "https://www.arhivabac.com/evaluare-nationala/matematica/1210-matematica-2010-model#barem",
+    "sha256": {
+      "exam": "dd13303272e0288411bfc42a479ac773d0670326907af46a3f98bd8a62226250",
+      "barem": "4d8c20daf092b64674701b4c07a7c39a64c7ae15684408f2ee23282919a6c27c"
+    },
+    "verification": {
+      "subject": "verified-copy",
+      "barem": "verified-copy"
+    },
+    "durationMinutes": 120
+  }
+]

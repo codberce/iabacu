@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "version": "offline-assets-v1",
+  "repository": "codberce/iabacu",
+  "requiredFreeBytes": 8589934592,
+  "archives": [
+    {
+      "name": "iabacu-archive.tar.gz",
+      "size": 250288609,
+      "sha256": "ae5b585bbf7a3fe866a39e081b4189ddd34815d893532134438235c0e53083bd"
+    },
+    {
+      "name": "iabacu-exams.tar.gz",
+      "size": 110797015,
+      "sha256": "bb982e8a5ad349787ea8d959a9333184bec2a0c71eb927d08547f1628b209278"
+    },
+    {
+      "name": "iabacu-olympiad-pdf-0-3.tar.gz",
+      "size": 1028170961,
+      "sha256": "88bfb816e4da9fdb6c14c8108fbed9849bf9941ca8a5cef95c06aefa2b59f1bd"
+    },
+    {
+      "name": "iabacu-olympiad-pdf-4-7.tar.gz",
+      "size": 1005319415,
+      "sha256": "b1f0f26585c63d404b168dac2d0c39ef1823d5be79a424d42200d3fac15ffc3c"
+    },
+    {
+      "name": "iabacu-olympiad-pdf-8-b.tar.gz",
+      "size": 956204665,
+      "sha256": "5e01b32735305642e3c604c3ce2acd7ee0fd643dcc39cb09c684f5c85a4a1476"
+    },
+    {
+      "name": "iabacu-olympiad-pdf-c-f.tar.gz",
+      "size": 1020866328,
+      "sha256": "ab47c14ca5b01575d040785875c255e324e6912f9ade407047a0551a90c31a79"
+    },
+    {
+      "name": "iabacu-olympiad-text.tar.gz",
+      "size": 19322105,
+      "sha256": "ccb9ea1a4a804dae41215d1c618103ddaabb34f7b8b4909fc81d2ffa6b8f38eb"
+    }
+  ]
+}
