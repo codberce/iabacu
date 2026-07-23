@@ -2,8 +2,10 @@ import { describe, expect, it } from "vitest";
 import { bacTextObjectKey } from "@/lib/bac-index";
 import { getExamById } from "@/lib/exams";
 import { ZERO_SHA256 } from "@/lib/document-integrity";
+import { bacManifestSchema } from "@/lib/archive-schema";
 
-const manifest = await import("@/data/bac-manifest.json");
+const { default: rawManifest } = await import("@/data/bac-manifest.json");
+const manifest = bacManifestSchema.parse(rawManifest);
 const decisions = await import("@/data/bac-canonical-decisions.json");
 
 describe("generated Bac migration data", () => {
@@ -17,11 +19,13 @@ describe("generated Bac migration data", () => {
   });
 
   it("does not publish a zero hash as an immutable asset", () => {
-    expect(manifest.default.assets.every((asset) => asset.sha256 !== ZERO_SHA256)).toBe(true);
-    expect(manifest.default.exams.every((exam) =>
-      Object.values(exam.documents).flatMap((reference) => reference.copies).every((copy) =>
-        copy.assetSha256 !== ZERO_SHA256 || copy.verificationStatus === "verification-pending",
-      ),
+    expect(manifest.assets.every((asset) => asset.sha256 !== ZERO_SHA256)).toBe(true);
+    expect(manifest.exams.every((exam) =>
+      (["subject", "rubric", "combined"] as const)
+        .flatMap((key) => exam.documents[key]?.copies ?? [])
+        .every((copy) =>
+          copy.assetSha256 !== ZERO_SHA256 || copy.verificationStatus === "verification-pending",
+        ),
     )).toBe(true);
   });
 

@@ -11,6 +11,7 @@ import { getExamById } from "@/lib/exams";
 import { buildOlympiadBaremChatPayload } from "@/lib/olympiad-barem-chat";
 import { loadOlympiadContext } from "@/lib/olympiad-context";
 import { normalizeAiProviderConfig, aiProviderHeaders } from "@/lib/ai-provider";
+import { requestBodyTooLarge, unsupportedContentType } from "@/lib/api-safety";
 import { aiUsageErrorResponse, claimAiUsage } from "@/lib/ai-usage";
 import type { AiUsageAllowance } from "@/lib/ai-usage";
 import {
@@ -56,6 +57,19 @@ export async function POST(request: Request) {
     env = getEnv();
   } catch (error) {
     return jsonError(error instanceof Error ? error.message : "Env invalid.", 500);
+  }
+
+  if (unsupportedContentType(request, "application/json")) {
+    return NextResponse.json(
+      { error: "Conținutul cererii nu este acceptat." },
+      { status: 415 },
+    );
+  }
+  if (requestBodyTooLarge(request, "json")) {
+    return NextResponse.json(
+      { error: "Corpul cererii depășește limita." },
+      { status: 413 },
+    );
   }
 
   let payload: unknown;

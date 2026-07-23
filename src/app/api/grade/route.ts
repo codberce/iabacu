@@ -5,7 +5,6 @@ import {
   collectStreamingGradeResponse,
   parseAiProviderGradeResponse,
   platformGradeContext,
-  type WorkImage,
 } from "@/lib/grading";
 import { getExamById } from "@/lib/exams";
 import { getOlympiadWorkspaceByExamId } from "@/lib/competitions";
@@ -13,6 +12,12 @@ import { loadOlympiadContext } from "@/lib/olympiad-context";
 import { normalizeAiProviderConfig, aiProviderHeaders } from "@/lib/ai-provider";
 import { aiUsageErrorResponse, claimAiUsage } from "@/lib/ai-usage";
 import type { AiUsageAllowance } from "@/lib/ai-usage";
+import { unsupportedContentType, requestBodyTooLarge } from "@/lib/api-safety";
+import {
+  validateAndNormalizeWorkImage,
+  WorkImageValidationError,
+  type NormalizedWorkImage,
+} from "@/lib/work-image-validation";
 import {
   aiProviderSignal,
   AI_PIPELINE_VERSION,
@@ -28,7 +33,8 @@ export const maxDuration = 60;
 const maxFiles = 8;
 const maxFileBytes = 7 * 1024 * 1024;
 const maxTotalBytes = 28 * 1024 * 1024;
-const supportedTypes = new Set(["image/jpeg", "image/png", "image/webp"]);
+const maxPixels = 40_000_000;
+const maxEdge = 2048;
 
 function jsonError(
   message: string,
@@ -52,14 +58,6 @@ function getEnv() {
   return normalizeAiProviderConfig({ apiKey: apiKey ?? "", apiUrl, model });
 }
 
-async function fileToWorkImage(file: File): Promise<WorkImage> {
-  const bytes = Buffer.from(await file.arrayBuffer());
-  return {
-    mimeType: file.type,
-    base64: bytes.toString("base64"),
-  };
-}
-
 export async function POST(request: Request) {
   const requestId = crypto.randomUUID();
   const startedAt = Date.now();
@@ -68,6 +66,13 @@ export async function POST(request: Request) {
     env = getEnv();
   } catch (error) {
     return jsonError(error instanceof Error ? error.message : "Env invalid.", 500);
+  }
+
+  if (unsupportedContentType(request, "multipart/form-data")) {
+    return jsonError("Tip de conținut neacceptat.", 415);
+  }
+  if (requestBodyTooLarge(request, "multipart")) {
+    return jsonError("Cererea depășește limita de dimensiune.", 413);
   }
 
   let formData: FormData;
@@ -96,13 +101,22 @@ export async function POST(request: Request) {
     return jsonError("Pozele depășesc limita totală de 28 MB.", 413);
   }
 
-  for (const file of files) {
-    if (!supportedTypes.has(file.type)) {
-      return jsonError("Sunt acceptate doar imagini JPEG, PNG sau WebP.", 415);
+  const images: NormalizedWorkImage[] = [];
+  try {
+    // Decode sequentially to avoid multiplying Sharp's peak memory use when a
+    // student uploads several high-resolution phone photos at once.
+    for (const file of files) {
+      images.push(await validateAndNormalizeWorkImage(file, {
+        maxBytes: maxFileBytes,
+        maxPixels,
+        maxEdge,
+      }));
     }
-    if (file.size > maxFileBytes) {
-      return jsonError("O poză depășește limita de 7 MB.", 413);
+  } catch (error) {
+    if (error instanceof WorkImageValidationError) {
+      return jsonError(error.message, error.status);
     }
+    return jsonError("Imaginea nu poate fi procesată.", 400);
   }
 
   let allowance: AiUsageAllowance | undefined;
@@ -124,7 +138,6 @@ export async function POST(request: Request) {
             olympiadWorkspace.solutionDocument,
           )
         : await loadExamContext(exam.contextPath));
-    const images = await Promise.all(files.map(fileToWorkImage));
     const payload = buildAiProviderGradePayload(
       env.endpointKind,
       env.model,

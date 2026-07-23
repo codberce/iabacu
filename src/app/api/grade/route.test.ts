@@ -17,8 +17,40 @@ vi.mock("@/lib/ai-usage", () => ({
   aiUsageErrorResponse: vi.fn(() => null),
 }));
 
+vi.mock("@/lib/work-image-validation", () => {
+  class MockWorkImageValidationError extends Error {
+    override name = "WorkImageValidationError";
+    readonly status: number;
+    constructor(message: string, status = 415) {
+      super(message);
+      this.status = status;
+    }
+  }
+  return {
+    validateAndNormalizeWorkImage: vi.fn(
+      async (file: File) => {
+        const bytes = Buffer.from(
+          file.size > 0 ? [0xff, 0xd8, 0xff] : [],
+        );
+        return {
+          mimeType: "image/jpeg" as const,
+          base64: bytes.toString("base64"),
+          width: 200,
+          height: 300,
+          bytes: file.size > 0 ? file.size : 1024,
+        };
+      },
+    ),
+    WorkImageValidationError: MockWorkImageValidationError,
+  };
+});
+
 import { POST } from "./route";
 import { releaseAiUsage } from "@/lib/ai-usage";
+import {
+  validateAndNormalizeWorkImage,
+  WorkImageValidationError,
+} from "@/lib/work-image-validation";
 
 const gradeJson = {
   totalScore: 8.75,
@@ -177,7 +209,42 @@ describe.skipIf(exams.length === 0)("grade API route", () => {
     expect(response.status).toBe(500);
   });
 
+  it("rejects a non-multipart request", async () => {
+    const response = await POST(
+      new Request("http://localhost/api/grade", {
+        method: "POST",
+        headers: { "content-type": "application/json" },
+        body: JSON.stringify({ examId: "test" }),
+      }),
+    );
+    expect(response.status).toBe(415);
+    await expect(response.json()).resolves.toEqual({
+      error: "Tip de conținut neacceptat.",
+    });
+  });
+
+  it("rejects oversized request body by declared length", async () => {
+    const response = await POST(
+      new Request("http://localhost/api/grade", {
+        method: "POST",
+        headers: {
+          "content-type": "multipart/form-data",
+          "content-length": String(50 * 1024 * 1024),
+        },
+      }),
+    );
+    expect(response.status).toBe(413);
+    await expect(response.json()).resolves.toEqual({
+      error: "Cererea depășește limita de dimensiune.",
+    });
+  });
+
   it("rejects an unsupported file type", async () => {
+    vi.mocked(validateAndNormalizeWorkImage).mockRejectedValueOnce(
+      new WorkImageValidationError(
+        "Fișierul nu este o imagine JPEG, PNG sau WebP validă.",
+      ),
+    );
     const response = await POST(
       gradeRequest(
         exams[0].id,
@@ -188,6 +255,12 @@ describe.skipIf(exams.length === 0)("grade API route", () => {
   });
 
   it("rejects oversized uploads", async () => {
+    vi.mocked(validateAndNormalizeWorkImage).mockRejectedValueOnce(
+      new WorkImageValidationError(
+        "O pagină depășește limita permisă de dimensiune.",
+        413,
+      ),
+    );
     const response = await POST(
       gradeRequest(
         exams[0].id,
@@ -197,6 +270,52 @@ describe.skipIf(exams.length === 0)("grade API route", () => {
       ),
     );
     expect(response.status).toBe(413);
+    await expect(response.json()).resolves.toEqual({
+      error: "O pagină depășește limita permisă de dimensiune.",
+    });
+  });
+
+  it("rejects a spoofed file whose declared type does not match content", async () => {
+    vi.mocked(validateAndNormalizeWorkImage).mockRejectedValueOnce(
+      new WorkImageValidationError(
+        "Tipul declarat al imaginii nu corespunde conținutului fișierului.",
+      ),
+    );
+    const response = await POST(
+      gradeRequest(
+        exams[0].id,
+        new File(
+          [new Uint8Array([0x89, 0x50, 0x4e, 0x47])],
+          "work.jpg",
+          { type: "image/jpeg" },
+        ),
+      ),
+    );
+    expect(response.status).toBe(415);
+    await expect(response.json()).resolves.toEqual({
+      error: "Tipul declarat al imaginii nu corespunde conținutului fișierului.",
+    });
+  });
+
+  it("returns a safe generic error when normalization fails unexpectedly", async () => {
+    vi.mocked(validateAndNormalizeWorkImage).mockRejectedValueOnce(
+      new Error("sharp internal error"),
+    );
+    const response = await POST(gradeRequest());
+    expect(response.status).toBe(400);
+    await expect(response.json()).resolves.toEqual({
+      error: "Imaginea nu poate fi procesată.",
+    });
+  });
+
+  it("does not claim quota when image validation rejects", async () => {
+    const { claimAiUsage } = await import("@/lib/ai-usage");
+    vi.mocked(validateAndNormalizeWorkImage).mockRejectedValueOnce(
+      new WorkImageValidationError("Invalid image"),
+    );
+    const response = await POST(gradeRequest());
+    expect(response.status).toBe(415);
+    expect(claimAiUsage).not.toHaveBeenCalled();
   });
 
   it("rejects an unknown exam", async () => {
@@ -235,7 +354,8 @@ describe.skipIf(exams.length === 0)("grade API route", () => {
       "data: [DONE]\n\n",
     ].join("");
 
-    const mockFetch = vi.fn(async () => {
+    const mockFetch = vi.fn(async (...args: [string, RequestInit?]) => {
+      void args;
       return new Response(sseBody, {
         headers: { "content-type": "text/event-stream" },
       });
@@ -270,7 +390,8 @@ describe.skipIf(exams.length === 0)("grade API route", () => {
     expect(body.result.breakdown).toHaveLength(1);
 
     expect(mockFetch).toHaveBeenCalledTimes(1);
-    const [calledUrl, calledInit] = mockFetch.mock.calls[0];
+    const calledUrl = mockFetch.mock.calls[0][0] as string;
+    const calledInit = mockFetch.mock.calls[0][1] as RequestInit;
     expect(calledUrl).toBe("https://api.together.test/v1/chat/completions");
     expect(calledInit.headers).toMatchObject({
       authorization: "Bearer test-key",

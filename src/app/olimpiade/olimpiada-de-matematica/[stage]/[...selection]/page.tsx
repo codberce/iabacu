@@ -35,9 +35,9 @@ export async function generateMetadata({
 }: ArchivePageProps): Promise<Metadata> {
   const { stage: stageSlug, selection } = await params;
   const stage = getOlympiadStage(stageSlug);
-  if (!stage) return {};
+  if (!stage) notFound();
   const resolved = resolveSelection(stage.slug, selection);
-  if (!resolved) return {};
+  if (!resolved) notFound();
   const label = resolved.county
     ? `${resolved.county} ${resolved.year}`
     : `${stage.name} ${resolved.year}`;

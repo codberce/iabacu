@@ -14,6 +14,8 @@ import type { Exam } from "@/lib/schemas";
 
 const dynamicSubjects = ["istorie", "biologie", "chimie", "geografie", "logica", "psihologie", "sociologie", "economie", "filosofie"] as const;
 
+export const dynamicParams = false;
+
 export function generateStaticParams() {
   return dynamicSubjects.map((subject) => ({ subject }));
 }
@@ -25,14 +27,13 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { subject } = await params;
   const seo = subjectSeo[subject as Exam["subject"]];
-  return seo
-    ? createPageMetadata({
-        title: seo.title,
-        description: seo.description,
-        path: seo.path,
-        keywords: seo.keywords,
-      })
-    : {};
+  if (!seo) notFound();
+  return createPageMetadata({
+    title: seo.title,
+    description: seo.description,
+    path: seo.path,
+    keywords: seo.keywords,
+  });
 }
 
 export default async function SubjectPage({

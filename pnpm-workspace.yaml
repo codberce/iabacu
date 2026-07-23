@@ -6,3 +6,5 @@ allowBuilds:
 overrides:
   # GHSA-qx2v-qp2m-jg93: Next.js otherwise resolves PostCSS 8.4.31.
   postcss: 8.5.16
+  # GHSA-f88m-g3jw-g9cj: Next.js 16.x ships sharp@0.34.5; use the patched direct version.
+  sharp: 0.35.3

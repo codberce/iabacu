@@ -703,29 +703,7 @@
       "barem": "0000000000000000000000000000000000000000000000000000000000000000"
     }
   },
-  {
-    "id": "archive-romana-275",
-    "subject": "romana",
-    "year": 2020,
-    "order": 32,
-    "profile": "Real-Tehnologic",
-    "language": "LRO",
-    "sessionType": "special",
-    "sessionLabel": "Sesiunea specială",
-    "dateLabel": "2020",
-    "title": "Sesiunea specială 2020 · Real-Tehnologic",
-    "examPdfPath": "/api/archive-pdf/275/subject.pdf",
-    "baremPdfPath": "/api/archive-pdf/275/barem.pdf",
-    "contextPath": "src/data/exam-text/archive/archive-romana-275.json",
-    "sourceKind": "vetted-mirror",
-    "sourceUrl": "https://www.arhivabac.com/subiecte-bac/romana/275-romana-real-tehnologic-2020-speciala",
-    "baremSourceUrl": "https://www.arhivabac.com/subiecte-bac/romana/275-romana-real-tehnologic-2020-speciala#barem",
-    "sha256": {
-      "exam": "0000000000000000000000000000000000000000000000000000000000000000",
-      "barem": "0000000000000000000000000000000000000000000000000000000000000000"
-    }
-  },
-  {
+{
     "id": "archive-romana-276",
     "subject": "romana",
     "year": 2020,

@@ -44,7 +44,7 @@ export async function generateMetadata({
   const { examId } = await params;
   const olympiadWorkspace = getOlympiadWorkspaceByExamId(examId);
   const exam = olympiadWorkspace?.exam ?? getExamById(examId);
-  if (!exam) return {};
+  if (!exam) notFound();
 
   if (olympiadWorkspace) {
     return createPageMetadata({

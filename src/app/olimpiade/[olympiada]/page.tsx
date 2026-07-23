@@ -20,6 +20,7 @@ import {
 } from "@/lib/competitions";
 import {
   getOlympiadSubjectByPathSegment,
+  olympiadSubjects,
   type OlympiadSubjectId,
 } from "@/lib/olympiad-subjects";
 import { absoluteUrl, createPageMetadata, siteName, siteUrl } from "@/lib/seo";
@@ -49,6 +50,14 @@ type PageProps = {
   searchParams: Promise<ExamGridSearchParams>;
 };
 
+export const dynamicParams = false;
+
+export function generateStaticParams() {
+  return olympiadSubjects
+    .filter((subject) => subject.id !== "matematica")
+    .map((subject) => ({ olympiada: subject.path.split("/").at(-1)! }));
+}
+
 function readSearchParam(value: string | string[] | undefined): string | undefined {
   if (Array.isArray(value)) return value[0];
   return value;
@@ -56,7 +65,7 @@ function readSearchParam(value: string | string[] | undefined): string | undefin
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const subject = getOlympiadSubjectByPathSegment((await params).olympiada);
-  if (!subject || subject.id === "matematica") return {};
+  if (!subject || subject.id === "matematica") notFound();
   if (subject.mode === "platform") {
     return createPageMetadata({
       title: `${subject.olympiadName}: probe`,
