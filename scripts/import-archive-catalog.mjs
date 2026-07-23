@@ -11,6 +11,11 @@ const sessionTypes = {
   0: "final", 1: "autumn", 2: "special", 3: "simulation", 4: "model",
 };
 
+// The upstream record has a malformed barem object path and consistently
+// returns 404. Keep incomplete pairs out of the user-facing archive until the
+// source publishes a valid document.
+const excludedIncompleteRecords = new Set(["romana:275"]);
+
 const slugify = (value) => value.normalize("NFD").replace(/[\u0300-\u036f]/g, "")
   .toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 
@@ -21,9 +26,9 @@ for (const category of categories) {
     continue;
   }
   const data = await response.json();
-  const rows = Object.values(data.exams).flatMap((sessions) =>
-    Object.values(sessions).flat(),
-  );
+  const rows = Object.values(data.exams)
+    .flatMap((sessions) => Object.values(sessions).flat())
+    .filter((item) => !excludedIncompleteRecords.has(`${category}:${item.examID}`));
   const exams = rows.map((item, order) => {
     const profile = item.specialization?.label || "General";
     const id = `archive-${category}-${item.examID}`;

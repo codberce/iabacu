@@ -13,6 +13,8 @@ type StagePageProps = {
   searchParams: Promise<{ clasa?: string }>;
 };
 
+export const dynamicParams = false;
+
 export function generateStaticParams() {
   return olympiadStages.map((stage) => ({ stage: stage.slug }));
 }
@@ -22,7 +24,7 @@ export async function generateMetadata({
 }: StagePageProps): Promise<Metadata> {
   const { stage: stageSlug } = await params;
   const stage = getOlympiadStage(stageSlug);
-  if (!stage) return {};
+  if (!stage) notFound();
 
   return createPageMetadata({
     title: `Olimpiada de Matematică: etapa ${stage.name.toLocaleLowerCase("ro")}`,

@@ -20,7 +20,7 @@ export async function generateMetadata({
   const grade = parseOlympiadGrade((await searchParams).clasa);
   if (!grade) return {};
   const workspace = getOlympiadWorkspace((await params).documentId, grade);
-  if (!workspace) return {};
+  if (!workspace) notFound();
   return createPageMetadata({
     title: workspace.exam.title,
     description: `${workspace.exam.sessionLabel}, cu subiect PDF, barem și spațiu de corectare.`,

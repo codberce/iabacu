@@ -45,7 +45,7 @@ export async function generateMetadata({
   const { examId } = await params;
   const olympiadWorkspace = getOlympiadWorkspaceByExamId(examId);
   const exam = olympiadWorkspace?.exam ?? getExamById(examId);
-  if (!exam) return {};
+  if (!exam) notFound();
   const olympiadSubject = getOlympiadSubject(exam.olympiadSubject ?? "");
   const olympiadGrade = olympiadWorkspace?.grade ?? parseOlympiadGrade(exam.profile.match(/clasa a (\d+)-a/i)?.[1]);
 

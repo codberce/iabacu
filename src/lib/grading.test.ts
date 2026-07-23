@@ -454,10 +454,10 @@ describe("grading adapter", () => {
     );
 
     const userContent = payload.messages[1].content;
-    const imageBlocks = userContent.filter(
-      (block: Record<string, unknown>) =>
-        typeof block === "object" && block !== null && "type" in block && block.type === "image_url",
-    );
+    if (!Array.isArray(userContent)) throw new Error("Expected array content");
+    const isImageUrl = (block: unknown): block is { type: "image_url"; image_url: { url: string } } =>
+      typeof block === "object" && block !== null && "type" in block && (block as Record<string, unknown>).type === "image_url";
+    const imageBlocks = userContent.filter(isImageUrl);
 
     expect(imageBlocks).toHaveLength(2);
     expect(imageBlocks[0]).toMatchObject({
@@ -485,14 +485,14 @@ describe("grading adapter", () => {
     );
 
     const userContent = payload.messages[1].content;
-    const textBlocks = userContent.filter(
-      (block: Record<string, unknown>) =>
-        typeof block === "object" && block !== null && "type" in block && block.type === "text",
-    );
+    if (!Array.isArray(userContent)) throw new Error("Expected array content");
+    const isTextBlock = (block: unknown): block is { type: "text"; text: string } =>
+      typeof block === "object" && block !== null && "type" in block && (block as Record<string, unknown>).type === "text";
+    const textBlocks = userContent.filter(isTextBlock);
 
     const labels = textBlocks
-      .map((block: Record<string, unknown>) => ("text" in block ? block.text : ""))
-      .filter((text: string) => text.startsWith("Poza "));
+      .map((block) => block.text)
+      .filter((text): text is string => text.startsWith("Poza "));
 
     expect(labels).toEqual([
       "Poza 1 din lucrarea elevului:",

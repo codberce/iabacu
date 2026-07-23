@@ -19,13 +19,15 @@ function parseYear(value: string) {
   return Number.isInteger(year) && bacYears.includes(year) ? year : undefined;
 }
 
+export const dynamicParams = false;
+
 export function generateStaticParams() {
   return bacYears.map((year) => ({ year: String(year) }));
 }
 
 export async function generateMetadata({ params }: BacYearPageProps): Promise<Metadata> {
   const year = parseYear((await params).year);
-  if (!year) return {};
+  if (!year) notFound();
   return createPageMetadata({
     title: `Bac ${year}: subiecte și bareme`,
     description: `Subiectele și baremele de bacalaureat din ${year}, organizate pe materii, sesiuni și profiluri. Deschide PDF-urile direct în browser.`,

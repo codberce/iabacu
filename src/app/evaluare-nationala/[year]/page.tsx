@@ -6,9 +6,10 @@ import { createPageMetadata } from "@/lib/seo";
 
 type Props = { params: Promise<{ year: string }> };
 function parseYear(value: string) { const year = Number(value); return nationalEvaluationYears.includes(year) ? year : undefined; }
+export const dynamicParams = false;
 export function generateStaticParams() { return nationalEvaluationYears.map((year) => ({ year: String(year) })); }
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const year = parseYear((await params).year); if (!year) return {};
+  const year = parseYear((await params).year); if (!year) notFound();
   return createPageMetadata({ title: `Evaluarea Națională ${year}: subiecte și bareme`, description: `Subiecte și bareme ${year} pentru clasa a VIII-a, la Română și Matematică.`, path: `/evaluare-nationala/${year}`, keywords: [`evaluarea nationala ${year}`, `subiecte clasa a 8-a ${year}`] });
 }
 export default async function NationalEvaluationYearPage({ params }: Props) {

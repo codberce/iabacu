@@ -131,4 +131,35 @@ describe.skipIf(exams.length === 0)("barem chat API route", () => {
     );
     expect(response.status).toBe(404);
   });
+
+  it("rejects unsupported content type", async () => {
+    const request = new Request("http://localhost/api/barem-chat", {
+      method: "POST",
+      headers: { "content-type": "text/plain" },
+      body: JSON.stringify({
+        examId: exams[0].id,
+        messages: [{ role: "user", content: "Explica." }],
+      }),
+    });
+    const response = await POST(request);
+    expect(response.status).toBe(415);
+    await expect(response.json()).resolves.toEqual({
+      error: "Conținutul cererii nu este acceptat.",
+    });
+  });
+
+  it("rejects request body exceeding size limit", async () => {
+    const request = new Request("http://localhost/api/barem-chat", {
+      method: "POST",
+      headers: {
+        "content-type": "application/json",
+        "content-length": String(256 * 1024 + 1),
+      },
+    });
+    const response = await POST(request);
+    expect(response.status).toBe(413);
+    await expect(response.json()).resolves.toEqual({
+      error: "Corpul cererii depășește limita.",
+    });
+  });
 });

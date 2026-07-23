@@ -6,6 +6,7 @@
   --surface: #ffffff;
   --line: #e4e4e7;
   --brand: #166534;
+  --header-height: 56px;
 }
 
 @theme inline {
