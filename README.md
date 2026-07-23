@@ -6,7 +6,11 @@ Arhivă locală cu subiecte și bareme pentru Bacalaureat, Evaluarea Națională
 
 Ai nevoie de [Node.js LTS](https://nodejs.org/) 22 sau mai nou și de aproximativ **8 GB liberi**.
 
-1. Apasă **Code → Download ZIP** pe această pagină.
+1. Descarcă pachetul pentru sistemul tău din
+   [cea mai nouă versiune](https://github.com/codberce/iabacu/releases/latest):
+   - `iabacu-windows-….zip` pentru Windows;
+   - `iabacu-macos-….tar.gz` pentru macOS;
+   - `iabacu-linux-….tar.gz` pentru Linux.
 2. Dezarhivează fișierul.
 3. Pornește:
    - **Windows:** dublu clic pe `start-windows.bat`;
