@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import type { PDFDocumentProxy, RenderTask, TextLayer as PDFTextLayer } from "pdfjs-dist";
 import { clearCitedHighlights, highlightCitedText } from "@/lib/pdf-highlight";
+import { syncTextLayerSpanWidths } from "@/lib/pdf-text-layer";
 
 type PdfPageProps = {
   pdf: PDFDocumentProxy;
@@ -93,12 +94,22 @@ export function PdfPage({
         if (cancelled) return;
 
         currentTextLayerContainer.replaceChildren();
+        const textContent = await page.getTextContent();
         textLayer = new TextLayer({
-          textContentSource: await page.getTextContent(),
+          textContentSource: textContent,
           container: currentTextLayerContainer,
           viewport: cssViewport,
         });
         await textLayer.render();
+        // pdf.js leaves single-character spans (most math symbols) with
+        // fallback-font widths, so selection hitboxes miss the drawn
+        // glyphs. Re-sync them to the exact PDF advances.
+        syncTextLayerSpanWidths(
+          currentTextLayerContainer,
+          textContent.items,
+          textContent.styles,
+          cssScale,
+        );
         page.cleanup();
         if (cancelled) return;
         setTextLayerVersion((version) => version + 1);

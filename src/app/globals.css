@@ -134,6 +134,19 @@ iframe {
   color: transparent;
 }
 
+/* Stretched layout-spacer spans fill selection dead zones between
+   formula tokens; hide their paint so selecting across a gap does not
+   highlight a huge invisible box. */
+.pdf-text-layer span.pdf-spacer::selection {
+  background: transparent;
+  color: transparent;
+}
+
+.pdf-text-layer span.pdf-gap-anchor::selection {
+  background: transparent;
+  color: transparent;
+}
+
 .pdf-cite-layer {
   position: absolute;
   inset: 0;
