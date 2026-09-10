@@ -4,6 +4,7 @@ import ReactMarkdown from "react-markdown";
 import rehypeKatex from "rehype-katex";
 import remarkGfm from "remark-gfm";
 import remarkMath from "remark-math";
+import { normalizeMathDelimiters } from "@/lib/normalize-math-delimiters";
 import {
   AiSectionCard,
   hasSectionMarkers,
@@ -80,7 +81,7 @@ function MarkdownBlock({ content }: { content: string }) {
       rehypePlugins={[rehypeKatex]}
       components={markdownComponents}
     >
-      {content}
+      {normalizeMathDelimiters(content)}
     </ReactMarkdown>
   );
 }
