@@ -95,7 +95,8 @@ export function ArchiveFilters({
         <FilterSelect label="Progres" icon={<Trophy className="h-4 w-4 shrink-0 text-zinc-500" />} value={filters.progress} options={[
           { value: "all", label: "Tot progresul" },
           { value: "not-started", label: "Neîncepute" },
-          { value: "started", label: "Rezolvate" },
+          { value: "in-progress", label: "În lucru" },
+          { value: "started", label: "Evaluate" },
           { value: "high", label: "9.00+" },
           { value: "needs-work", label: "Sub 7.00" },
         ]} onChange={(progress) => update({ progress })} />

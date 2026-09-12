@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { ContinueStudy } from "@/components/continue-study";
 import {
   ArrowRight,
   Atom,
@@ -149,6 +150,8 @@ export function SubjectPicker() {
             </Link>
           </div>
         </header>
+
+        <ContinueStudy />
 
         <section className="pt-7" aria-labelledby="subjects-heading">
           <h2

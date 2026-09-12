@@ -30,6 +30,7 @@ import {
   CameraCapture,
   supportsCameraCapture,
 } from "@/components/camera-capture";
+import { startStudy, studyAttempts } from "@/lib/study-history";
 import { saveGradingAttempt } from "@/lib/attempts";
 import type { Exam, GradeResult } from "@/lib/schemas";
 import { formatScore, scoreBand } from "@/lib/score";
@@ -411,6 +412,7 @@ export function ExamWorkspace({ exam, backHref, baremHref }: ExamWorkspaceProps)
 
   function startTimer() {
     if (isTimerRunning || remaining === 0) return;
+    startStudy(exam, studyAttempts(), undefined, { backHref });
     setStartedAt(Date.now());
     setIsTimerRunning(true);
   }
@@ -458,6 +460,7 @@ export function ExamWorkspace({ exam, backHref, baremHref }: ExamWorkspaceProps)
       );
     }
 
+    if (accepted.length) startStudy(exam, studyAttempts(), undefined, { backHref });
     const nextFiles = accepted.map((file) => ({
       id: crypto.randomUUID(),
       file,

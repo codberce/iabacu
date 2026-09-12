@@ -1,6 +1,7 @@
 import { cleanup, fireEvent, render, screen, waitFor } from "@testing-library/react";
 import { afterEach, beforeEach, describe, expect, it } from "vitest";
 import { ExamGrid } from "./exam-grid";
+import { rememberVariant, startStudy } from "@/lib/study-history";
 import { saveAttemptRecord } from "@/lib/attempts";
 import type { Exam } from "@/lib/schemas";
 
@@ -49,6 +50,7 @@ class TestStorage implements Storage {
 }
 
 beforeEach(() => {
+  window.history.replaceState({}, "", "/");
   Object.defineProperty(window, "localStorage", {
     configurable: true,
     value: new TestStorage(),
@@ -61,6 +63,29 @@ afterEach(() => {
 });
 
 describe("ExamGrid profile selection", () => {
+  it("remembers the variant but lets explicit shared filters take precedence", async () => {
+    rememberVariant("biologie", "Anatomie și Fiziologie");
+    const view = render(<ExamGrid exams={exams} subject="biologie" />);
+    await waitFor(() => expect(screen.getByText("1 rezultat")).toBeInTheDocument());
+    expect(document.querySelector('a[href*="bio-anatomie"]')).toBeInTheDocument();
+    view.unmount();
+    render(<ExamGrid exams={exams} subject="biologie" initialSearchParams={{ profile: "all" }} />);
+    expect(screen.getByText("3 rezultate")).toBeInTheDocument();
+  });
+
+  it("keeps unfinished papers out of the unstarted filter and links back to the selection", () => {
+    startStudy(exams[0], []);
+    render(<ExamGrid exams={exams} subject="biologie" initialSearchParams={{ profile: "all" }} />);
+    fireEvent.click(screen.getByRole("button", { name: "Filtre" }));
+    fireEvent.change(screen.getByLabelText("Progres"), { target: { value: "in-progress" } });
+    expect(screen.getByText("1 rezultat")).toBeInTheDocument();
+    expect(document.querySelector('a[href*="bio-anatomie"]')).toHaveTextContent("În lucru");
+    expect(decodeURIComponent(document.querySelector('a[href*="bio-anatomie"]')!.getAttribute("href")!)).toContain("progress=in-progress");
+    fireEvent.change(screen.getByLabelText("Progres"), { target: { value: "not-started" } });
+    expect(document.querySelector('a[href*="bio-anatomie"]')).not.toBeInTheDocument();
+    expect(screen.getByText("2 rezultate")).toBeInTheDocument();
+  });
+
   it("shows the highest saved score and includes it in progress filters", async () => {
     const result = {
       totalScore: 5.75,

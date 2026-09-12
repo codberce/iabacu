@@ -22,7 +22,9 @@ vi.mock("@/components/ai-feature-access", () => ({
   AiFeatureAccessSkeleton: () => <div>Se verifică accesul</div>,
 }));
 
-vi.mock("@/lib/attempts", () => ({
+vi.mock("@/lib/attempts", async (importOriginal) => ({
+  ...await importOriginal<typeof import("@/lib/attempts")>(),
+  loadAttempts: () => [],
   saveGradingAttempt: vi.fn(),
 }));
 
