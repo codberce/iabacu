@@ -263,3 +263,36 @@ describe("ExamWorkspace camera capture", () => {
     ).toBeInTheDocument();
   });
 });
+
+describe("independent exam practice", () => {
+  beforeEach(() => {
+    const data = new Map<string, string>();
+    vi.stubGlobal("localStorage", { getItem: (key: string) => data.get(key) ?? null, setItem: (key: string, value: string) => data.set(key, value), removeItem: (key: string) => data.delete(key), clear: () => data.clear() });
+    aiAccessMock.mockReturnValue({ isLoading: false, isLocked: true, userId: null });
+    gradingSessionMock.mockReturnValue(undefined);
+  });
+  afterEach(() => { cleanup(); vi.unstubAllGlobals(); vi.useRealTimers(); });
+  it("offers self-assessment without an account and hides help throughout simulation", () => {
+    const view = render(<ExamWorkspace exam={exam} />);
+    expect(screen.getByText("Autoevaluare și istoric")).toBeInTheDocument();
+    fireEvent.click(screen.getByRole("button", { name: "Începe simularea" }));
+    expect(screen.queryByRole("link", { name: /^Barem$/ })).not.toBeInTheDocument();
+    expect(screen.queryByText("Autoevaluare și istoric")).not.toBeInTheDocument();
+    expect(screen.getByRole("button", { name: "Pauzează timerul" })).toBeDisabled();
+    view.unmount();
+    render(<ExamWorkspace exam={exam} />);
+    expect(screen.getByText("Simulare în desfășurare")).toBeInTheDocument();
+    fireEvent.click(screen.getByRole("button", { name: "Încheie și verifică lucrarea" }));
+    expect(screen.getByText("Autoevaluare și istoric")).toBeInTheDocument();
+    expect(screen.getByRole("link", { name: /^Barem$/ })).toBeInTheDocument();
+  });
+  it("keeps elapsed time across unmount and time spent away", () => {
+    vi.useFakeTimers(); vi.setSystemTime(new Date("2026-09-12T10:00:00Z"));
+    const view = render(<ExamWorkspace exam={exam} />);
+    fireEvent.click(screen.getByRole("button", { name: "Începe simularea" }));
+    view.unmount();
+    vi.setSystemTime(new Date("2026-09-12T10:15:00Z"));
+    render(<ExamWorkspace exam={exam} />);
+    expect(screen.getByText("02:45:00")).toBeInTheDocument();
+  });
+});

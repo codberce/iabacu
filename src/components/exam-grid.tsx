@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useRef, useState, type ReactNode } from "react";
+import { RememberOlympiad } from "@/components/olympiad-preference";
 import Link from "next/link";
 import { CalendarDays, FileText } from "lucide-react";
 import {
@@ -58,6 +59,7 @@ type ExamGridProps = {
   initialSearchParams?: ExamGridSearchParams;
   showProfilePicker?: boolean;
   footerContent?: ReactNode;
+  olympiadContext?: { subject: string; grade: number };
 };
 
 const defaultSessionLabels: Record<Exam["sessionType"], string> = {
@@ -100,6 +102,7 @@ export function ExamGrid({
   initialSearchParams = {},
   showProfilePicker = true,
   footerContent,
+  olympiadContext,
 }: ExamGridProps) {
   const history = useStudyHistory();
   const [attempts, setAttempts] = useState<AttemptRecord[]>([]);
@@ -271,6 +274,7 @@ export function ExamGrid({
   return (
     <main className="min-h-[calc(100vh-3.5rem)] bg-[#f7f8f5] text-zinc-950">
       <div className="mx-auto flex w-full max-w-7xl flex-col gap-6 px-4 py-5 sm:px-6 sm:py-8 lg:px-8">
+        {olympiadContext ? <RememberOlympiad subject={olympiadContext.subject} grade={olympiadContext.grade} stage={filters.session === "model" ? "locala" : filters.session === "simulation" ? "judeteana" : filters.session === "final" ? "nationala" : undefined} /> : null}
         <header className="border-b border-zinc-200/80 pb-5">
           <div className="min-w-0">
               <Link
@@ -301,6 +305,7 @@ export function ExamGrid({
               })}
             </nav>
           </div>
+          {subject === "matematica" && archiveHref === "/matematica" ? <Link href="/matematica/exerseaza" className="mt-4 inline-flex min-h-11 items-center text-sm font-semibold text-emerald-800">Exerciții pe teme · Mate-Info →</Link> : null}
         </header>
 
         <ArchiveFilters

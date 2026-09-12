@@ -152,6 +152,7 @@ export function SubjectPicker() {
         </header>
 
         <ContinueStudy />
+        <Link href="/matematica/exerseaza" className="mt-4 inline-flex min-h-11 items-center gap-2 text-sm font-semibold text-emerald-800">Exerciții pe teme · Matematică Mate-Info <ArrowRight className="h-4 w-4" /></Link>
 
         <section className="pt-7" aria-labelledby="subjects-heading">
           <h2

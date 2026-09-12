@@ -148,3 +148,16 @@ describe("attempt storage", () => {
     expect(updateSource).toBe("sync");
   });
 });
+
+it("keeps original AI grading when a student adjusts its score", () => {
+  const values = new Map<string, string>();
+  const storage = { getItem: (key: string) => values.get(key) ?? null, setItem: (key: string, value: string) => { values.set(key, value); } };
+  const date = "2026-09-12T12:00:00.000Z";
+  saveGradingAttempt("exam", gradeResult, date, storage);
+  saveGradingAttempt("exam", { ...gradeResult, totalScore: 8 }, date, storage, "adjusted");
+  const attempts = loadAttempts(storage);
+  expect(attempts).toHaveLength(2);
+  expect(attempts.find((attempt) => attempt.source === "ai")?.score).toBe(9.6);
+  expect(attempts.find((attempt) => attempt.source === "adjusted")?.score).toBe(8);
+  expect(bestScoreForExam("exam", attempts)).toBe(8);
+});

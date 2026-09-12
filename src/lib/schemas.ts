@@ -65,6 +65,8 @@ export const examSchema = z.object({
   }).optional(),
   durationMinutes: z.number().int().positive().optional(),
   format: z.string().min(1).optional(),
+  olympiadGrade: z.number().int().min(5).max(12).optional(),
+  olympiadStage: z.enum(["locala", "judeteana", "nationala"]).optional(),
   olympiadSubject: z.string().min(1).optional(),
   platform: z.object({
     provider: z.enum(["kilonova", "mlcompete", "cyberedu"]),
@@ -106,9 +108,11 @@ export const attemptRecordSchema = z.object({
   examId: z.string().min(1),
   score: z.number().min(1).max(10),
   createdAt: z.string().datetime(),
-  source: z.literal("ai"),
-  gradeResult: gradeResultSchema,
-});
+  source: z.enum(["ai", "self", "adjusted"]),
+  gradeResult: gradeResultSchema.optional(),
+  mode: z.enum(["practice", "simulation"]).optional(),
+  elapsedSeconds: z.number().int().min(0).max(86400).optional(),
+}).refine((attempt) => attempt.source === "self" ? !attempt.gradeResult : Boolean(attempt.gradeResult), { message: "Rezultatul trebuie să corespundă sursei evaluării." });
 
 export const attemptStoreSchema = z.object({
   version: z.literal(1),

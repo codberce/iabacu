@@ -50,17 +50,17 @@ type PageProps = {
   searchParams: Promise<ExamGridSearchParams>;
 };
 
+function readSearchParam(value: string | string[] | undefined): string | undefined {
+  if (Array.isArray(value)) return value[0];
+  return value;
+}
+
 export const dynamicParams = false;
 
 export function generateStaticParams() {
   return olympiadSubjects
     .filter((subject) => subject.id !== "matematica")
     .map((subject) => ({ olympiada: subject.path.split("/").at(-1)! }));
-}
-
-function readSearchParam(value: string | string[] | undefined): string | undefined {
-  if (Array.isArray(value)) return value[0];
-  return value;
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
@@ -145,6 +145,7 @@ export default async function OlympiadSubjectPage({ params, searchParams }: Page
         }}
       />
       <ExamGrid
+        olympiadContext={{ subject: subject.id, grade }}
         key={`${subject.id}-${grade}-${initialSessionFilter}`}
         exams={exams}
         subject={subject.examSubject}

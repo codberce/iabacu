@@ -120,6 +120,7 @@ export default async function MathematicsOlympiadPage({
         }}
       />
       <ExamGrid
+        olympiadContext={{ subject: "matematica", grade }}
         key={`${grade ?? "all"}-${initialSessionFilter}`}
         exams={exams}
         subject="matematica"

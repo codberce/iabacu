@@ -1,3 +1,4 @@
+import { RememberOlympiad } from "@/components/olympiad-preference";
 import Link from "next/link";
 import { ArrowRight, MapPin, Trophy } from "lucide-react";
 import {
@@ -26,6 +27,7 @@ export function CompetitionArchive({
   return (
     <main className="min-h-[calc(100vh-3.5rem)] bg-[#f7f8f5] text-zinc-950">
       <div className="mx-auto flex w-full max-w-7xl flex-col gap-6 px-4 py-5 sm:px-6 sm:py-8 lg:px-8">
+        <RememberOlympiad subject="matematica" grade={grade} stage={stage} />
         <header className="border-b border-zinc-200 pb-5">
           <div>
             <Link
