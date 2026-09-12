@@ -173,15 +173,14 @@ export function saveGradingAttempt(
   gradeResult: GradeResult,
   createdAt: string,
   storage?: BrowserStorage,
-  source: "ai" | "adjusted" = "ai",
 ): AttemptStore {
   return saveAttemptRecord(
     {
-      id: `${source === "adjusted" ? "adjusted" : "grading"}:${examId}:${createdAt}`,
+      id: `grading:${examId}:${createdAt}`,
       examId,
       score: gradeResult.totalScore,
       createdAt,
-      source,
+      source: "ai",
       gradeResult,
     },
     storage,
@@ -192,10 +191,8 @@ export function bestScoreForExam(
   examId: string,
   attempts: AttemptRecord[],
 ): number | undefined {
-  const examAttempts = attempts.filter((attempt) => attempt.examId === examId);
-  const adjustedDates = new Set(examAttempts.filter((attempt) => attempt.source === "adjusted").map((attempt) => attempt.createdAt));
-  return examAttempts
-    .filter((attempt) => attempt.source !== "ai" || !adjustedDates.has(attempt.createdAt))
+  return attempts
+    .filter((attempt) => attempt.examId === examId)
     .reduce<number | undefined>(
       (best, attempt) =>
         best == null ? attempt.score : Math.max(best, attempt.score),

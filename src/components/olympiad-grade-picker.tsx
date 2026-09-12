@@ -1,4 +1,3 @@
-import { ContinueOlympiad } from "@/components/olympiad-preference";
 import Link from "next/link";
 import { ArrowRight, Trophy } from "lucide-react";
 import {
@@ -60,7 +59,6 @@ export function OlympiadGradePicker({
           <h1 className="mt-2 text-3xl font-semibold tracking-[-0.04em] sm:text-4xl">
             {subject.olympiadName}
           </h1>
-          <ContinueOlympiad subject={olympiadSubject} />
         </header>
 
         <div className="mt-7 space-y-8">

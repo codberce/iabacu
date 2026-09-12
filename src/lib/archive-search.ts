@@ -66,7 +66,7 @@ export function archiveFiltersFromSearchParams(
     profile: options.profiles.includes(searchParams.get("profile") ?? "")
       ? searchParams.get("profile")!
       : "all",
-    progress: ["not-started", "in-progress", "started", "high", "needs-work"].includes(
+    progress: ["not-started", "started", "high", "needs-work"].includes(
       searchParams.get("progress") ?? "",
     )
       ? searchParams.get("progress")!

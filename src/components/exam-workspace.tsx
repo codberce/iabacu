@@ -18,8 +18,6 @@ import {
   Camera,
   Clock,
   FileText,
-  PanelRightClose,
-  PanelRightOpen,
   Pause,
   Play,
   RotateCcw,
@@ -32,8 +30,6 @@ import {
   CameraCapture,
   supportsCameraCapture,
 } from "@/components/camera-capture";
-import { ExamSelfAssessment } from "@/components/exam-self-assessment";
-import { startStudy, studyAttempts } from "@/lib/study-history";
 import { saveGradingAttempt } from "@/lib/attempts";
 import type { Exam, GradeResult } from "@/lib/schemas";
 import { formatScore, scoreBand } from "@/lib/score";
@@ -117,9 +113,9 @@ function readSavedTimer(
     const saved = window.localStorage.getItem(timerStorageKey);
     if (saved) {
       const parsed = JSON.parse(saved);
-      const elapsed = typeof parsed.elapsed === "number" && Number.isFinite(parsed.elapsed) ? Math.max(0, parsed.elapsed) : 0;
+      const elapsed = typeof parsed.elapsed === "number" ? parsed.elapsed : 0;
       const wasRunning = parsed.wasRunning === true;
-      const leftAt = typeof parsed.leftAt === "number" && Number.isFinite(parsed.leftAt) ? parsed.leftAt : null;
+      const leftAt = typeof parsed.leftAt === "number" ? parsed.leftAt : null;
       return { elapsed, wasRunning, leftAt };
     }
   } catch {
@@ -162,10 +158,6 @@ export function ExamWorkspace({ exam, backHref, baremHref }: ExamWorkspaceProps)
   const { isLoading: isAiAccessLoading, isLocked: isAiLocked, userId } =
     useAiFeatureAccess();
   const [activePanel, setActivePanel] = useState<ActivePanel>("subject");
-  const [isCorrectorHidden, setIsCorrectorHidden] = useState(false);
-  const [simulation, setSimulation] = useState<"off" | "running" | "finished">("off");
-  const simulationKey = `exam-simulation:${exam.id}`;
-  const simulationActive = simulation === "running";
   const timerStorageKey = `exam-timer:${exam.id}`;
 
   const [isTimerRunning, setIsTimerRunning] = useState(false);
@@ -230,7 +222,7 @@ export function ExamWorkspace({ exam, backHref, baremHref }: ExamWorkspaceProps)
     ) {
       return;
     }
-    saveGradingAttempt(exam.id, displayedGrade, gradingSession.updatedAt, undefined, hasUserEdits ? "adjusted" : "ai");
+    saveGradingAttempt(exam.id, displayedGrade, gradingSession.updatedAt);
   }, [
     displayedGrade,
     exam.id,
@@ -249,14 +241,10 @@ export function ExamWorkspace({ exam, backHref, baremHref }: ExamWorkspaceProps)
   // block intentionally. See https://react.dev/learn/you-might-not-need-an-effect
   /* eslint-disable react-hooks/set-state-in-effect */
   useEffect(() => {
-    try {
-      const saved = window.localStorage.getItem(simulationKey);
-      if (saved === "running" || saved === "finished") setSimulation(saved);
-    } catch { /* Optional local persistence. */ }
     const { elapsed, wasRunning, leftAt } = readSavedTimer(timerStorageKey);
     let totalElapsed = Math.min(examDurationSeconds, elapsed);
     if (wasRunning && leftAt != null) {
-      const awaySeconds = Math.max(0, Math.floor((Date.now() - leftAt) / 1000));
+      const awaySeconds = Math.floor((Date.now() - leftAt) / 1000);
       totalElapsed = Math.min(examDurationSeconds, elapsed + awaySeconds);
     }
     setElapsedBeforePause(totalElapsed);
@@ -271,7 +259,7 @@ export function ExamWorkspace({ exam, backHref, baremHref }: ExamWorkspaceProps)
       elapsedBeforePauseRef.current = totalElapsed;
     }
     setTimerHydrated(true);
-  }, [examDurationSeconds, timerStorageKey, simulationKey]);
+  }, [examDurationSeconds, timerStorageKey]);
   /* eslint-enable react-hooks/set-state-in-effect */
 
   useEffect(() => {
@@ -308,7 +296,6 @@ export function ExamWorkspace({ exam, backHref, baremHref }: ExamWorkspaceProps)
   }, [exam.id, userId]);
 
   useEffect(() => {
-    if (!timerHydrated) return;
     function computeElapsed() {
       if (isTimerRunning && startedAt != null) {
         return elapsedBeforePause + Math.floor((Date.now() - startedAt) / 1000);
@@ -327,7 +314,7 @@ export function ExamWorkspace({ exam, backHref, baremHref }: ExamWorkspaceProps)
     } catch {
       // ignore
     }
-  }, [timerStorageKey, elapsedBeforePause, isTimerRunning, startedAt, timerHydrated]);
+  }, [timerStorageKey, elapsedBeforePause, isTimerRunning, startedAt]);
 
   useEffect(() => {
     return () => {
@@ -424,7 +411,6 @@ export function ExamWorkspace({ exam, backHref, baremHref }: ExamWorkspaceProps)
 
   function startTimer() {
     if (isTimerRunning || remaining === 0) return;
-    startStudy(exam, studyAttempts(), undefined, { backHref });
     setStartedAt(Date.now());
     setIsTimerRunning(true);
   }
@@ -472,7 +458,6 @@ export function ExamWorkspace({ exam, backHref, baremHref }: ExamWorkspaceProps)
       );
     }
 
-    if (accepted.length) startStudy(exam, studyAttempts(), undefined, { backHref });
     const nextFiles = accepted.map((file) => ({
       id: crypto.randomUUID(),
       file,
@@ -630,17 +615,6 @@ export function ExamWorkspace({ exam, backHref, baremHref }: ExamWorkspaceProps)
     });
   }
 
-  function changeSimulation(next: "off" | "running" | "finished") {
-    setSimulation(next);
-    try { window.localStorage.setItem(simulationKey, next); } catch { /* Still usable without storage. */ }
-    if (next === "running") {
-      resetTimer();
-      setStartedAt(Date.now()); setIsTimerRunning(true);
-      setActivePanel("subject"); setIsCorrectorHidden(false);
-      startStudy(exam, studyAttempts(), undefined, { backHref });
-    } else { pauseTimer(); setActivePanel("work"); }
-  }
-
   function resetAllEdits() {
     setAppliedOverrides({});
   }
@@ -677,7 +651,7 @@ export function ExamWorkspace({ exam, backHref, baremHref }: ExamWorkspaceProps)
               <button
                 type="button"
                 onClick={timerHydrated ? (isTimerRunning ? pauseTimer : startTimer) : undefined}
-                disabled={!timerHydrated || remaining === 0 || simulationActive}
+                disabled={timerHydrated ? remaining === 0 : true}
                 className="inline-flex h-7 w-7 items-center justify-center rounded-lg bg-white text-zinc-700 shadow-sm ring-1 ring-inset ring-zinc-200 transition hover:bg-zinc-100 hover:text-zinc-950 disabled:cursor-not-allowed disabled:opacity-50"
                 aria-label={timerHydrated ? (isTimerRunning ? "Pauzează timerul" : "Pornește timerul") : "Pornește timerul"}
                 title={timerHydrated ? (isTimerRunning ? "Pauzează" : "Pornește") : "Pornește"}
@@ -690,8 +664,7 @@ export function ExamWorkspace({ exam, backHref, baremHref }: ExamWorkspaceProps)
               </button>
               <button
                 type="button"
-                onClick={timerHydrated ? () => { resetTimer(); if (simulation === "finished") { setSimulation("off"); try { window.localStorage.setItem(simulationKey, "off"); } catch { /* Local-only timer. */ } } } : undefined}
-                disabled={!timerHydrated || simulationActive}
+                onClick={timerHydrated ? resetTimer : undefined}
                 className="inline-flex h-7 w-7 items-center justify-center rounded-lg bg-white text-zinc-700 shadow-sm ring-1 ring-inset ring-zinc-200 transition hover:bg-zinc-100 hover:text-zinc-950"
                 aria-label="Resetează timerul"
                 title="Resetează"
@@ -699,14 +672,13 @@ export function ExamWorkspace({ exam, backHref, baremHref }: ExamWorkspaceProps)
                 <RotateCcw className="h-4 w-4" />
               </button>
             </div>
-            {!isPlatformExam ? <button type="button" disabled={!timerHydrated || isGrading} onClick={() => changeSimulation(simulationActive ? "finished" : "running")} className="min-h-10 rounded-xl border border-zinc-300 bg-white px-3 text-sm font-semibold disabled:opacity-50">{simulationActive ? "Încheie simularea" : "Începe simularea"}</button> : null}
-            {!simulationActive ? <Link
+            <Link
               href={baremHref ?? `/exam/${exam.id}/barem`}
               className="inline-flex h-10 shrink-0 items-center justify-center gap-2 rounded-xl border border-zinc-200 bg-zinc-50 px-3 text-sm font-semibold text-zinc-800 transition hover:border-zinc-300 hover:bg-zinc-100 hover:text-zinc-950"
             >
               <FileText className="h-4 w-4" />
               <span>{isPlatformExam ? "Rezultat" : "Barem"}</span>
-            </Link> : null}
+            </Link>
           </div>
         </header>
 
@@ -734,13 +706,19 @@ export function ExamWorkspace({ exam, backHref, baremHref }: ExamWorkspaceProps)
                 : "text-zinc-600 hover:text-zinc-950"
             }`}
           >
-            {simulationActive ? "Simulare" : "Evaluare"}
+            Corector AI
           </button>
         </nav>
 
-        <div className="relative grid min-h-0 min-w-0 flex-1 grid-cols-[minmax(0,1fr)] gap-3 lg:flex lg:flex-row">
+        <div
+          className={`grid min-h-0 min-w-0 flex-1 grid-cols-[minmax(0,1fr)] gap-3 lg:grid-rows-1 ${
+            grade
+              ? "lg:grid-cols-[minmax(0,1fr)_560px]"
+              : "lg:grid-cols-[minmax(0,1fr)_410px]"
+          }`}
+        >
           <section
-            className={`min-h-[420px] min-w-0 overflow-hidden rounded-2xl border border-zinc-200/80 bg-white shadow-[0_1px_2px_rgba(0,0,0,0.04),0_10px_30px_rgba(0,0,0,0.04)] lg:block lg:min-h-0 lg:flex-1 ${
+            className={`min-h-[420px] min-w-0 overflow-hidden rounded-2xl border border-zinc-200/80 bg-white shadow-[0_1px_2px_rgba(0,0,0,0.04),0_10px_30px_rgba(0,0,0,0.04)] lg:block lg:min-h-0 ${
               activePanel === "subject" ? "block" : "hidden"
             }`}
           >
@@ -751,28 +729,17 @@ export function ExamWorkspace({ exam, backHref, baremHref }: ExamWorkspaceProps)
             )}
           </section>
 
-          <div
-            className={`${
-              activePanel === "work" ? "block" : "hidden"
-            } lg:block lg:h-full lg:min-w-0 lg:shrink-0 lg:overflow-hidden lg:transition-[width,margin-right] lg:duration-300 lg:ease-out ${
-              isCorrectorHidden
-                ? "lg:-mr-3 lg:w-0"
-                : grade
-                  ? "lg:w-[560px]"
-                  : "lg:w-[410px]"
-            }`}
-          >
           <aside
-            className={`min-h-[520px] min-w-0 overflow-hidden rounded-2xl border border-zinc-200/80 bg-white shadow-[0_1px_2px_rgba(0,0,0,0.04),0_10px_30px_rgba(0,0,0,0.04)] lg:h-full lg:min-h-0 lg:transition-transform lg:duration-300 lg:ease-out ${
-              isCorrectorHidden ? "lg:translate-x-full" : "lg:translate-x-0"
-            } ${grade ? "lg:w-[560px]" : "lg:w-[410px]"}`}
+            className={`min-h-[520px] min-w-0 overflow-hidden rounded-2xl border border-zinc-200/80 bg-white shadow-[0_1px_2px_rgba(0,0,0,0.04),0_10px_30px_rgba(0,0,0,0.04)] lg:block lg:min-h-0 ${
+              activePanel === "work" ? "block" : "hidden"
+            }`}
           >
             <div className="grid h-full min-h-0 grid-rows-[auto_minmax(0,1fr)]">
               <div className="flex items-center justify-between border-b border-zinc-100 px-4 py-3.5">
                 <div>
                   <h2 className="flex items-center gap-2 text-lg font-semibold leading-6">
                     <Sparkles className="h-4 w-4 text-emerald-700" aria-hidden="true" />
-                    {simulationActive ? "Simulare" : "Evaluarea lucrării"}
+                    Corectare AI
                   </h2>
                   {!grade && files.length > 0 ? (
                     <p className="text-sm text-zinc-500">
@@ -780,27 +747,14 @@ export function ExamWorkspace({ exam, backHref, baremHref }: ExamWorkspaceProps)
                     </p>
                   ) : null}
                 </div>
-                <div className="flex items-center gap-2">
-                  {!isAiAccessLoading && !isAiLocked ? (
-                    <span className="rounded-full bg-emerald-50 px-2.5 py-1 text-xs font-semibold text-emerald-800 ring-1 ring-inset ring-emerald-100">
-                      Pasul {gradingStep} din 3
-                    </span>
-                  ) : null}
-                  <button
-                    type="button"
-                    onClick={() => setIsCorrectorHidden(true)}
-                    className="hidden h-8 w-8 items-center justify-center rounded-lg border border-zinc-200 bg-white text-zinc-500 transition hover:bg-zinc-100 hover:text-zinc-950 lg:inline-flex"
-                    aria-label="Ascunde corectorul AI"
-                    title="Ascunde corectorul AI"
-                  >
-                    <PanelRightClose className="h-4 w-4" aria-hidden="true" />
-                  </button>
-                </div>
+                {!isAiAccessLoading && !isAiLocked ? (
+                  <span className="rounded-full bg-emerald-50 px-2.5 py-1 text-xs font-semibold text-emerald-800 ring-1 ring-inset ring-emerald-100">
+                    Pasul {gradingStep} din 3
+                  </span>
+                ) : null}
               </div>
 
               <div className="min-h-0 overflow-auto">
-                {simulationActive ? <div className="p-5 text-sm leading-6 text-zinc-600"><h3 className="font-semibold text-zinc-950">Simulare în desfășurare</h3><p className="mt-2">Lucrează pe hârtie, fără barem sau ajutor. Cronometrul continuă și dacă închizi pagina. Încheie simularea pentru a-ți verifica lucrarea.</p>{remaining === 0 ? <p role="status" className="mt-3 font-semibold">Timpul a expirat. Poți încheia simularea.</p> : null}<button type="button" onClick={() => changeSimulation("finished")} className="mt-4 min-h-11 rounded-lg bg-emerald-800 px-3 font-semibold text-white">Încheie și verifică lucrarea</button></div> : <>
-                {!isOlympiad ? <ExamSelfAssessment exam={exam} baremHref={baremHref} simulation={simulation === "finished"} elapsedSeconds={Math.max(0, examDurationSeconds - remaining)} /> : null}
                 {isAiAccessLoading ? (
                   <AiFeatureAccessSkeleton />
                 ) : isAiLocked ? (
@@ -1034,7 +988,7 @@ export function ExamWorkspace({ exam, backHref, baremHref }: ExamWorkspaceProps)
                   {displayedRemainingCorrections
                     ? displayedRemainingCorrections === "unlimited"
                       ? " Ai acces nelimitat."
-                      : ` Mai ai ${displayedRemainingCorrections} unități disponibile.`
+                      : ` Mai ai ${displayedRemainingCorrections} corectări disponibile.`
                     : ""}
                 </p>
                 ) : null}
@@ -1224,7 +1178,6 @@ export function ExamWorkspace({ exam, backHref, baremHref }: ExamWorkspaceProps)
                                 ) : null}
                               </details>
                             ) : null}
-
                           </li>
                         );
                       })}
@@ -1234,23 +1187,9 @@ export function ExamWorkspace({ exam, backHref, baremHref }: ExamWorkspaceProps)
                 ) : null}
                   </div>
                 )}
-                </>}
               </div>
             </div>
           </aside>
-          </div>
-
-          {isCorrectorHidden ? (
-            <button
-              type="button"
-              onClick={() => setIsCorrectorHidden(false)}
-              className="absolute right-0 top-1/2 z-10 hidden h-28 w-8 -translate-y-1/2 items-center justify-center rounded-l-xl border border-zinc-200 bg-white text-zinc-500 shadow-[0_4px_16px_rgba(0,0,0,0.10)] transition hover:w-10 hover:text-zinc-950 lg:inline-flex"
-              aria-label="Afișează corectorul AI"
-              title="Afișează corectorul AI"
-            >
-              <PanelRightOpen className="h-4 w-4" aria-hidden="true" />
-            </button>
-          ) : null}
         </div>
       </div>
 

@@ -1,7 +1,6 @@
 "use client";
 
 import { useCallback, useEffect, useRef, useState } from "react";
-import { downloadPdf, printPdf } from "@/lib/pdf-actions";
 import { Loader2 } from "lucide-react";
 import type { PDFDocumentLoadingTask, PDFDocumentProxy } from "pdfjs-dist";
 import { PdfPage } from "@/components/pdf-page";
@@ -32,8 +31,6 @@ export function PdfViewer({
   documentId,
   documentSha256,
 }: PdfViewerProps) {
-  const [action, setAction] = useState<"download" | "print" | null>(null);
-  const [actionError, setActionError] = useState<string | null>(null);
   const containerRef = useRef<HTMLDivElement | null>(null);
   const [containerWidth, setContainerWidth] = useState(0);
   const [shouldLoad, setShouldLoad] = useState(false);
@@ -41,19 +38,6 @@ export function PdfViewer({
   const [pageCount, setPageCount] = useState(0);
   const [isLoading, setIsLoading] = useState(Boolean(src));
   const [error, setError] = useState<string | null>(null);
-
-  async function runAction(kind: "download" | "print") {
-    if (!src || action) return;
-    const popup = kind === "print" ? window.open("", "_blank") : null;
-    if (kind === "print" && !popup) { setActionError("Permite deschiderea unei ferestre pentru tipărire."); return; }
-    setAction(kind); setActionError(null);
-    try {
-      if (kind === "download") await downloadPdf(src, title);
-      else if (pdf && popup) await printPdf(pdf, title, popup);
-    } catch {
-      popup?.close(); setActionError("Documentul nu a putut fi pregătit. Încearcă «Deschide PDF».");
-    } finally { setAction(null); }
-  }
 
   const handleRenderError = useCallback(() => {
     setError("PDF-ul nu a putut fi afișat.");
@@ -173,13 +157,6 @@ export function PdfViewer({
       className={`min-h-0 bg-zinc-100 lg:h-full lg:overflow-auto ${className}`}
       aria-label={title}
     >
-      <div className="sticky top-0 z-10 flex flex-wrap items-center gap-2 border-b border-zinc-200 bg-white/95 px-3 py-2 text-xs font-semibold backdrop-blur">
-        <a href={src} target="_blank" rel="noreferrer" className="inline-flex min-h-9 items-center rounded-lg border border-zinc-300 px-3 hover:bg-zinc-50">Deschide PDF</a>
-        <button type="button" disabled={action !== null} onClick={() => void runAction("download")} className="min-h-9 rounded-lg border border-zinc-300 px-3 hover:bg-zinc-50 disabled:opacity-50">{action === "download" ? "Se descarcă…" : "Descarcă"}</button>
-        <button type="button" disabled={!pdf || action !== null} onClick={() => void runAction("print")} className="min-h-9 rounded-lg border border-zinc-300 px-3 hover:bg-zinc-50 disabled:opacity-50">{action === "print" ? "Se pregătește…" : "Tipărește"}</button>
-        {pageCount ? <span className="ml-auto text-zinc-500">{pageCount} {pageCount === 1 ? "pagină" : "pagini"}</span> : null}
-        {actionError ? <p role="alert" className="w-full font-normal text-red-700">{actionError}</p> : null}
-      </div>
       {!shouldLoad || isLoading ? (
         <div className="flex min-h-[420px] items-center justify-center text-zinc-600">
           <Loader2 className="h-6 w-6 animate-spin" aria-hidden="true" />
@@ -189,7 +166,14 @@ export function PdfViewer({
       {error ? (
         <div className="flex min-h-[420px] flex-col items-center justify-center gap-3 px-4 text-center text-sm text-zinc-700">
           <p>{error}</p>
-
+          <a
+            href={src}
+            target="_blank"
+            rel="noreferrer"
+            className="inline-flex min-h-10 items-center justify-center border border-zinc-950 bg-white px-4 font-semibold text-zinc-950 transition hover:bg-zinc-950 hover:text-white"
+          >
+            Deschide PDF
+          </a>
         </div>
       ) : null}
 

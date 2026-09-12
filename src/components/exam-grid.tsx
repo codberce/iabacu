@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useMemo, useRef, useState, type ReactNode } from "react";
-import { RememberOlympiad } from "@/components/olympiad-preference";
 import Link from "next/link";
 import { CalendarDays, FileText } from "lucide-react";
 import {
@@ -12,6 +11,7 @@ import { subjects } from "@/components/subject-picker";
 import {
   ATTEMPTS_UPDATED_EVENT,
   bestScoreForExam,
+  loadAttempts,
 } from "@/lib/attempts";
 import {
   archiveDefaultFilters,
@@ -24,8 +24,6 @@ import {
 import { groupExamsByYear } from "@/lib/exams";
 import { getExamVariants, subjectVariants } from "@/lib/exam-variants";
 import type { AttemptRecord, Exam } from "@/lib/schemas";
-import { useStudyHistory } from "@/components/use-study-history";
-import { rememberVariant, studyAttempts, studyStatus } from "@/lib/study-history";
 import { formatScore, scoreBand } from "@/lib/score";
 
 export type ExamGridNavItem = {
@@ -59,7 +57,6 @@ type ExamGridProps = {
   initialSearchParams?: ExamGridSearchParams;
   showProfilePicker?: boolean;
   footerContent?: ReactNode;
-  olympiadContext?: { subject: string; grade: number };
 };
 
 const defaultSessionLabels: Record<Exam["sessionType"], string> = {
@@ -77,9 +74,7 @@ function archivePathWithFilters(
   defaults: ArchiveFilterValues,
 ) {
   const url = new URL(archiveHref, "https://iabacu.local");
-  const params = new URLSearchParams(archiveSearchParams(url.searchParams, filters, defaults));
-  params.set("profile", filters.profile);
-  const query = params.toString();
+  const query = archiveSearchParams(url.searchParams, filters, defaults);
   return `${url.pathname}${query ? `?${query}` : ""}`;
 }
 
@@ -102,9 +97,7 @@ export function ExamGrid({
   initialSearchParams = {},
   showProfilePicker = true,
   footerContent,
-  olympiadContext,
 }: ExamGridProps) {
-  const history = useStudyHistory();
   const [attempts, setAttempts] = useState<AttemptRecord[]>([]);
   const profiles = useMemo(
     () => (showProfilePicker ? subjectVariants[subject] ?? [] : []),
@@ -156,15 +149,9 @@ export function ExamGrid({
     }),
     [filterOptions.defaultSession, filterOptions.defaultYear],
   );
-  const [storedFilters, setFilters] = useState<ArchiveFilterValues>(() =>
+  const [filters, setFilters] = useState<ArchiveFilterValues>(() =>
     archiveFiltersFromRecord(initialSearchParams, filterOptions),
   );
-  const [hasProfileSelection, setHasProfileSelection] = useState(initialSearchParams.profile != null);
-  const rememberedVariant = history.variants[subject];
-  const filters = useMemo(() => !hasProfileSelection && showProfilePicker && homeHref === "/bacalaureat" && profiles.includes(rememberedVariant)
-    ? { ...storedFilters, profile: rememberedVariant }
-    : storedFilters,
-  [hasProfileSelection, homeHref, profiles, rememberedVariant, showProfilePicker, storedFilters]);
   const addressTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   const filteredExams = useMemo(() => {
@@ -187,17 +174,15 @@ export function ExamGrid({
         getExamVariants(exam).includes(filters.profile);
       const sessionMatch =
         filters.session === "all" || exam.sessionType === filters.session;
-      const status = studyStatus(exam.id, history, attempts);
       const statusMatch =
         filters.progress === "all" ||
-        (filters.progress === "not-started" && status === "not-started") ||
-        (filters.progress === "in-progress" && status === "in-progress") ||
-        (filters.progress === "started" && status === "evaluated") ||
+        (filters.progress === "not-started" && bestScore == null) ||
+        (filters.progress === "started" && bestScore != null) ||
         (filters.progress === "high" && bestScore != null && bestScore >= 9) ||
         (filters.progress === "needs-work" && bestScore != null && bestScore < 7);
       return textMatch && yearMatch && profileMatch && sessionMatch && statusMatch;
     });
-  }, [attempts, effectiveSessionLabels, exams, filters, history]);
+  }, [attempts, effectiveSessionLabels, exams, filters]);
   const grouped = useMemo(() => {
     let groups = groupExamsByYear(filteredExams);
     if (filters.sort === "oldest") groups = groups.toReversed();
@@ -205,14 +190,14 @@ export function ExamGrid({
       groups = groups.map((group) => ({
         ...group,
         exams: group.exams.toSorted((a, b) => {
-          const aStarted = studyStatus(a.id, history, attempts) === "not-started" ? 0 : 1;
-          const bStarted = studyStatus(b.id, history, attempts) === "not-started" ? 0 : 1;
+          const aStarted = bestScoreForExam(a.id, attempts) == null ? 0 : 1;
+          const bStarted = bestScoreForExam(b.id, attempts) == null ? 0 : 1;
           return aStarted - bStarted || a.order - b.order;
         }),
       }));
     }
     return groups;
-  }, [attempts, filteredExams, filters.sort, history]);
+  }, [attempts, filteredExams, filters.sort]);
   const returnHref = archivePathWithFilters(archiveHref, filters, defaultFilters);
   const sessionOptions: ArchiveFilterOption[] = sessionTypes.map((value) => ({
     value,
@@ -224,7 +209,7 @@ export function ExamGrid({
   }));
 
   useEffect(() => {
-    const refresh = () => setAttempts(studyAttempts());
+    const refresh = () => setAttempts(loadAttempts());
     refresh();
     window.addEventListener("storage", refresh);
     window.addEventListener(ATTEMPTS_UPDATED_EVENT, refresh);
@@ -236,7 +221,6 @@ export function ExamGrid({
 
   useEffect(() => {
     const restoreFilters = () => {
-      setHasProfileSelection(new URLSearchParams(window.location.search).has("profile"));
       setFilters(archiveFiltersFromSearchParams(
         new URLSearchParams(window.location.search),
         filterOptions,
@@ -256,8 +240,6 @@ export function ExamGrid({
     next: ArchiveFilterValues,
     options?: { debounce?: boolean },
   ) {
-    if (showProfilePicker && homeHref === "/bacalaureat") rememberVariant(subject, next.profile);
-    setHasProfileSelection(true);
     setFilters(next);
     if (addressTimerRef.current) clearTimeout(addressTimerRef.current);
     const updateAddress = () => {
@@ -274,7 +256,6 @@ export function ExamGrid({
   return (
     <main className="min-h-[calc(100vh-3.5rem)] bg-[#f7f8f5] text-zinc-950">
       <div className="mx-auto flex w-full max-w-7xl flex-col gap-6 px-4 py-5 sm:px-6 sm:py-8 lg:px-8">
-        {olympiadContext ? <RememberOlympiad subject={olympiadContext.subject} grade={olympiadContext.grade} stage={filters.session === "model" ? "locala" : filters.session === "simulation" ? "judeteana" : filters.session === "final" ? "nationala" : undefined} /> : null}
         <header className="border-b border-zinc-200/80 pb-5">
           <div className="min-w-0">
               <Link
@@ -305,7 +286,6 @@ export function ExamGrid({
               })}
             </nav>
           </div>
-          {subject === "matematica" && archiveHref === "/matematica" ? <Link href="/matematica/exerseaza" className="mt-4 inline-flex min-h-11 items-center text-sm font-semibold text-emerald-800">Exerciții pe teme · Mate-Info →</Link> : null}
         </header>
 
         <ArchiveFilters
@@ -335,7 +315,6 @@ export function ExamGrid({
                 {yearExams.map((exam) => {
                   const bestScore = bestScoreForExam(exam.id, attempts);
                   const band = scoreBand(bestScore);
-                  const status = studyStatus(exam.id, history, attempts);
                   const profileLabels = getExamVariants(exam);
                   const cardTitle = homeHref.startsWith("/olimpiade/")
                     ? exam.sessionLabel.replace(/^Etapa locală ·\s*/, "")
@@ -360,7 +339,7 @@ export function ExamGrid({
                         <FileText className="h-5 w-5 shrink-0 opacity-70 transition group-hover:opacity-100" />
                       </span>
 
-                      {showProfilePicker || bestScore != null || status === "in-progress" ? (
+                      {showProfilePicker || bestScore != null ? (
                         <span className="mt-4 flex flex-wrap items-end gap-2 sm:mt-6">
                           {showProfilePicker
                             ? (profileLabels.length > 0
@@ -375,7 +354,6 @@ export function ExamGrid({
                                 </span>
                               ))
                             : null}
-                          {status === "in-progress" ? <span className="px-2.5 py-1 text-xs font-semibold text-emerald-900">În lucru</span> : null}
                           {bestScore != null ? (
                             <span className={`px-2.5 py-1 text-xs ${band.badgeClass}`}>
                               Max {formatScore(bestScore)}
