@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { ExamGrid, type ExamGridSearchParams } from "@/components/exam-grid";
+import { ExamGrid } from "@/components/exam-grid";
 import { JsonLd } from "@/components/json-ld";
 import { examsBySubject } from "@/lib/exams";
 import { absoluteUrl, createPageMetadata, siteName, siteUrl, subjectSeo } from "@/lib/seo";
@@ -13,13 +13,8 @@ export const metadata: Metadata = createPageMetadata({
   keywords: subject.keywords,
 });
 
-export default async function MathematicsPage({
-  searchParams,
-}: {
-  searchParams: Promise<ExamGridSearchParams>;
-}) {
+export default function MathematicsPage() {
   const exams = examsBySubject.matematica ?? [];
-  const filters = await searchParams;
 
   return (
     <>
@@ -52,7 +47,7 @@ export default async function MathematicsPage({
         subject="matematica"
         title={subject.shortName}
         archiveHref={subject.path}
-        initialSearchParams={filters}
+        readFiltersFromUrl
         showProfilePicker
       />
     </>

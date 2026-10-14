@@ -55,6 +55,7 @@ type ExamGridProps = {
   initialSessionFilter?: Exam["sessionType"] | "all";
   defaultYearFilter?: number | "all";
   initialSearchParams?: ExamGridSearchParams;
+  readFiltersFromUrl?: boolean;
   showProfilePicker?: boolean;
   footerContent?: ReactNode;
 };
@@ -95,6 +96,7 @@ export function ExamGrid({
   initialSessionFilter = "all",
   defaultYearFilter = "all",
   initialSearchParams = {},
+  readFiltersFromUrl = false,
   showProfilePicker = true,
   footerContent,
 }: ExamGridProps) {
@@ -226,9 +228,10 @@ export function ExamGrid({
         filterOptions,
       ));
     };
+    if (readFiltersFromUrl) restoreFilters();
     window.addEventListener("popstate", restoreFilters);
     return () => window.removeEventListener("popstate", restoreFilters);
-  }, [defaultFilters.session, filterOptions]);
+  }, [defaultFilters.session, filterOptions, readFiltersFromUrl]);
 
   useEffect(() => {
     return () => {

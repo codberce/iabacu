@@ -1,23 +1,16 @@
 import type { Metadata } from "next";
-import dynamic from "next/dynamic";
+import { Suspense } from "react";
 import { notFound, permanentRedirect } from "next/navigation";
 import { RouteLoading } from "@/components/route-loading";
 
-const BaremWorkspace = dynamic(
-  () =>
-    import("@/components/barem-workspace").then((mod) => mod.BaremWorkspace),
-  {
-    loading: () => <RouteLoading label="Se încarcă spațiul de lucru" />,
-  },
-);
+import { BaremRouteWorkspace } from "@/components/exam-route-workspace";
 import { ExamSeoDetails } from "@/components/exam-seo-details";
 import { JsonLd } from "@/components/json-ld";
 import {
   getOlympiadWorkspaceByExamId,
   olympiadArchivePath,
 } from "@/lib/competitions";
-import { getCanonicalExamId, getExamById } from "@/lib/exams";
-import { safeReturnPath, withReturnPath } from "@/lib/return-path";
+import { exams, getCanonicalExamId, getExamById } from "@/lib/exams";
 import {
   absoluteUrl,
   bacExamTitle,
@@ -33,10 +26,15 @@ import {
 
 type BaremPageProps = {
   params: Promise<{ examId: string }>;
-  searchParams: Promise<{ from?: string | string[] }>;
 };
 
-export const revalidate = 86400;
+// The archive is deployed with the application. Render known IDs at build
+// time so neither page rendering nor visitor query context enters runtime ISR.
+export const dynamicParams = false;
+
+export function generateStaticParams() {
+  return exams.map((exam) => ({ examId: exam.id }));
+}
 
 export async function generateMetadata({
   params,
@@ -76,25 +74,15 @@ export async function generateMetadata({
   });
 }
 
-export default async function BaremPage({ params, searchParams }: BaremPageProps) {
+export default async function BaremPage({ params }: BaremPageProps) {
   const { examId } = await params;
-  const rawReturnPath = (await searchParams).from;
-  const redirectReturnPath = safeReturnPath(rawReturnPath, "/");
   const canonicalExamId = getCanonicalExamId(examId);
   if (canonicalExamId !== examId) {
-    permanentRedirect(
-      rawReturnPath
-        ? withReturnPath(`/exam/${canonicalExamId}/barem`, redirectReturnPath)
-        : `/exam/${canonicalExamId}/barem`,
-    );
+    permanentRedirect(`/exam/${canonicalExamId}/barem`);
   }
   const olympiadWorkspace = getOlympiadWorkspaceByExamId(examId);
   if (olympiadWorkspace && olympiadWorkspace.exam.id !== examId) {
-    permanentRedirect(
-      rawReturnPath
-        ? withReturnPath(`/exam/${olympiadWorkspace.exam.id}/barem`, redirectReturnPath)
-        : `/exam/${olympiadWorkspace.exam.id}/barem`,
-    );
+    permanentRedirect(`/exam/${olympiadWorkspace.exam.id}/barem`);
   }
   const exam = olympiadWorkspace?.exam ?? getExamById(examId);
   if (!exam) notFound();
@@ -113,7 +101,6 @@ export default async function BaremPage({ params, searchParams }: BaremPageProps
   const pageName = olympiadWorkspace
     ? `Barem ${exam.title}`
     : isNationalEvaluation ? `Barem ${subject.shortName} Evaluarea Națională ${exam.title}` : `Barem ${subject.shortName} bac ${exam.title}`;
-  const returnPath = safeReturnPath(rawReturnPath, collectionPath);
 
   return (
     <>
@@ -176,14 +163,9 @@ export default async function BaremPage({ params, searchParams }: BaremPageProps
         }}
       />
       <main>
-        <BaremWorkspace
-          key={exam.id}
-          exam={exam}
-          backHref={
-            returnPath
-          }
-          subjectHref={withReturnPath(`/exam/${exam.id}`, returnPath)}
-        />
+        <Suspense fallback={<RouteLoading label="Se încarcă spațiul de lucru" />}>
+          <BaremRouteWorkspace key={exam.id} exam={exam} collectionPath={collectionPath} />
+        </Suspense>
         <ExamSeoDetails
           exam={exam}
           documentKind="barem"

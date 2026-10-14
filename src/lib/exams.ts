@@ -1,3 +1,4 @@
+import { examAliases } from "@/lib/exam-aliases";
 import rawNationalEvaluationMathematics from "@/data/exams-evaluare-nationala-matematica.json";
 import rawNationalEvaluationRomanian from "@/data/exams-evaluare-nationala-romana.json";
 import rawMathematicsExams from "@/data/exams.json";
@@ -55,18 +56,6 @@ export const archiveExams: Exam[] = parseExams([
   baremPdfPath: localArchivePdfPath(exam.baremPdfPath),
 })));
 
-const verifiedDuplicateAliases: Record<string, string> = {
-  "archive-logica-872": "archive-logica-143",
-  "archive-logica-871": "archive-logica-142",
-  "archive-logica-870": "archive-logica-141",
-  "archive-logica-869": "archive-logica-140",
-  "archive-logica-868": "archive-logica-139",
-  "archive-logica-867": "archive-logica-138",
-  "archive-logica-865": "archive-logica-137",
-  "archive-logica-864": "archive-logica-135",
-  "archive-logica-866": "archive-logica-136",
-};
-
 const rawBacExams: Exam[] = [
   ...mathematicsExams,
   ...romanianExams,
@@ -75,9 +64,7 @@ const rawBacExams: Exam[] = [
   ...archiveExams,
 ];
 
-export const examAliases: Readonly<Record<string, string>> = {
-  ...verifiedDuplicateAliases,
-};
+export { examAliases } from "@/lib/exam-aliases";
 
 export function getCanonicalExamId(examId: string): string {
   return examAliases[examId] ?? examId;

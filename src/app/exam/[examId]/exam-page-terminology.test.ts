@@ -11,7 +11,6 @@ describe("platform exam page metadata", () => {
 
     const metadata = await generateMetadata({
       params: Promise.resolve({ examId: platformExam!.id }),
-      searchParams: Promise.resolve({}),
     });
 
     const title = String(metadata.title ?? "");
@@ -39,7 +38,6 @@ describe("platform exam page metadata", () => {
 
     const metadata = await generateMetadata({
       params: Promise.resolve({ examId: documentExam!.id }),
-      searchParams: Promise.resolve({}),
     });
 
     const keywords = [
@@ -57,7 +55,6 @@ describe("platform exam page metadata", () => {
     );
     const element = await ExamPage({
       params: Promise.resolve({ examId: platformExam!.id }),
-      searchParams: Promise.resolve({}),
     });
     const html = JSON.stringify(element).replace(/\\u003c/g, "<");
     expect(html).toContain("Kilonova");

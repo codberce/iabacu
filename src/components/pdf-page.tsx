@@ -34,6 +34,7 @@ export function PdfPage({
   const lastScrolledRequestRef = useRef<number | null>(null);
   const [isVisible, setIsVisible] = useState(eager);
   const [textLayerVersion, setTextLayerVersion] = useState(0);
+  const [pageRatio, setPageRatio] = useState(Math.SQRT2);
 
   useEffect(() => {
     if (eager || isVisible) return;
@@ -74,6 +75,7 @@ export function PdfPage({
         const page = await pdf.getPage(pageNumber);
         if (cancelled) return;
         const baseViewport = page.getViewport({ scale: 1 });
+        setPageRatio(baseViewport.height / baseViewport.width);
         const cssScale = width / baseViewport.width;
         const cssViewport = page.getViewport({ scale: cssScale });
         const outputScale = Math.min(window.devicePixelRatio || 1, 2);
@@ -156,7 +158,8 @@ export function PdfPage({
     <div
       ref={rootRef}
       data-pdf-page={pageNumber}
-      className="relative min-h-[720px] bg-white shadow-sm"
+      className="relative bg-white shadow-sm"
+      style={{ width, minHeight: Math.round(width * pageRatio) }}
       aria-busy={!isVisible}
     >
       <canvas

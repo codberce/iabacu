@@ -58,9 +58,29 @@ beforeEach(() => {
 afterEach(() => {
   cleanup();
   window.localStorage.clear();
+  window.history.replaceState({}, "", "/");
 });
 
 describe("ExamGrid profile selection", () => {
+  it("restores shared filters on a static archive and retains them in exam return links", () => {
+    window.history.replaceState({}, "", "/biologie?year=2025&q=2025");
+    render(<ExamGrid exams={exams} subject="biologie" readFiltersFromUrl />);
+
+    expect(screen.getByRole("option", { name: "2025" })).toHaveProperty("selected", true);
+    expect(document.querySelector('a[href*="bio-anatomie"]')).not.toBeInTheDocument();
+    const card = document.querySelector('a[href*="bio-legacy"]');
+    expect(card).toBeInTheDocument();
+    const href = card!.getAttribute("href")!;
+    expect(new URL(href, "https://iabacu.ro").searchParams.get("from"))
+      .toBe("/biologie?q=2025&year=2025");
+
+    window.history.replaceState({}, "", "/biologie?year=2026");
+    fireEvent(window, new PopStateEvent("popstate"));
+    expect(screen.getByRole("option", { name: "2026" })).toHaveProperty("selected", true);
+    expect(document.querySelector('a[href*="bio-legacy"]')).not.toBeInTheDocument();
+    expect(document.querySelector('a[href*="bio-anatomie"]')).toBeInTheDocument();
+  });
+
   it("shows the highest saved score and includes it in progress filters", async () => {
     const result = {
       totalScore: 5.75,

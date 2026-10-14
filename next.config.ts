@@ -1,8 +1,16 @@
 import type { NextConfig } from "next";
+import { examAliases } from "./src/lib/exam-aliases";
 
 const nextConfig: NextConfig = {
   async redirects() {
     return [
+      ...Object.entries(examAliases).flatMap(([alias, canonical]) =>
+        ["", "/barem"].map((suffix) => ({
+          source: `/exam/${alias}${suffix}`,
+          destination: `/exam/${canonical}${suffix}`,
+          permanent: true,
+        })),
+      ),
       {
         source: "/bac/:year",
         destination: "/bacalaureat/:year",
@@ -16,6 +24,18 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
     ];
+  },
+  async rewrites() {
+    return {
+      // Legacy document IDs need lookup, but only these redirects need a
+      // request-time function. Keep queries out of the cached exam pages.
+      beforeFiles: [
+        { source: "/exam/:examId(olympiad(?::|%3[Aa]).*)/barem", destination: "/legacy-exam/:examId/barem" },
+        { source: "/exam/:examId(olympiad(?::|%3[Aa]).*)", destination: "/legacy-exam/:examId" },
+      ],
+      afterFiles: [],
+      fallback: [],
+    };
   },
   async headers() {
     return [
@@ -32,6 +52,7 @@ const nextConfig: NextConfig = {
               "style-src 'self' 'unsafe-inline'",
               "img-src 'self' data: blob:",
               "font-src 'self' data:",
+              "worker-src 'self' blob:",
               "frame-ancestors 'self'",
               "base-uri 'self'",
               "form-action 'self'",

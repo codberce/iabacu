@@ -1,15 +1,9 @@
 import type { Metadata } from "next";
-import dynamic from "next/dynamic";
+import { Suspense } from "react";
 import { notFound, permanentRedirect } from "next/navigation";
 import { RouteLoading } from "@/components/route-loading";
 
-const ExamWorkspace = dynamic(
-  () =>
-    import("@/components/exam-workspace").then((mod) => mod.ExamWorkspace),
-  {
-    loading: () => <RouteLoading label="Se încarcă spațiul de lucru" />,
-  },
-);
+import { ExamRouteWorkspace } from "@/components/exam-route-workspace";
 import { ExamSeoDetails } from "@/components/exam-seo-details";
 import { JsonLd } from "@/components/json-ld";
 import {
@@ -17,9 +11,8 @@ import {
   olympiadArchivePathForSubject,
   parseOlympiadGrade,
 } from "@/lib/competitions";
-import { getCanonicalExamId, getExamById } from "@/lib/exams";
+import { exams, getCanonicalExamId, getExamById } from "@/lib/exams";
 import { getOlympiadSubject } from "@/lib/olympiad-subjects";
-import { safeReturnPath, withReturnPath } from "@/lib/return-path";
 import {
   absoluteUrl,
   bacExamTitle,
@@ -34,10 +27,15 @@ import {
 
 type ExamPageProps = {
   params: Promise<{ examId: string }>;
-  searchParams: Promise<{ from?: string | string[] }>;
 };
 
-export const revalidate = 86400;
+// The archive is deployed with the application. Render known IDs at build
+// time so neither page rendering nor visitor query context enters runtime ISR.
+export const dynamicParams = false;
+
+export function generateStaticParams() {
+  return exams.map((exam) => ({ examId: exam.id }));
+}
 
 export async function generateMetadata({
   params,
@@ -90,25 +88,15 @@ export async function generateMetadata({
   });
 }
 
-export default async function ExamPage({ params, searchParams }: ExamPageProps) {
+export default async function ExamPage({ params }: ExamPageProps) {
   const { examId } = await params;
-  const rawReturnPath = (await searchParams).from;
-  const redirectReturnPath = safeReturnPath(rawReturnPath, "/");
   const canonicalExamId = getCanonicalExamId(examId);
   if (canonicalExamId !== examId) {
-    permanentRedirect(
-      rawReturnPath
-        ? withReturnPath(`/exam/${canonicalExamId}`, redirectReturnPath)
-        : `/exam/${canonicalExamId}`,
-    );
+    permanentRedirect(`/exam/${canonicalExamId}`);
   }
   const olympiadWorkspace = getOlympiadWorkspaceByExamId(examId);
   if (olympiadWorkspace && olympiadWorkspace.exam.id !== examId) {
-    permanentRedirect(
-      rawReturnPath
-        ? withReturnPath(`/exam/${olympiadWorkspace.exam.id}`, redirectReturnPath)
-        : `/exam/${olympiadWorkspace.exam.id}`,
-    );
+    permanentRedirect(`/exam/${olympiadWorkspace.exam.id}`);
   }
   const exam = olympiadWorkspace?.exam ?? getExamById(examId);
   if (!exam) notFound();
@@ -137,7 +125,6 @@ export default async function ExamPage({ params, searchParams }: ExamPageProps) 
       ? `${exam.sessionLabel}, clasa a ${olympiadGrade}-a: probă pe ${platformName} și rezultat salvat în iabacu.`
       : `${exam.sessionLabel}, clasa a ${olympiadGrade}-a: subiect, barem PDF și corectare AI.`
     : isNationalEvaluation ? `${exam.sessionLabel}: subiect, barem și corectare pentru Evaluarea Națională, clasa a VIII-a.` : examDescription(exam);
-  const returnPath = safeReturnPath(rawReturnPath, collectionPath);
 
   return (
     <>
@@ -209,14 +196,9 @@ export default async function ExamPage({ params, searchParams }: ExamPageProps) 
         }}
       />
       <main>
-        <ExamWorkspace
-          key={exam.id}
-          exam={exam}
-          backHref={
-            returnPath
-          }
-          baremHref={withReturnPath(`/exam/${exam.id}/barem`, returnPath)}
-        />
+        <Suspense fallback={<RouteLoading label="Se încarcă spațiul de lucru" />}>
+          <ExamRouteWorkspace key={exam.id} exam={exam} collectionPath={collectionPath} />
+        </Suspense>
         <ExamSeoDetails
           exam={exam}
           documentKind="subject"

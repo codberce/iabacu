@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { ExamGrid, type ExamGridSearchParams } from "@/components/exam-grid";
+import { ExamGrid } from "@/components/exam-grid";
 import { JsonLd } from "@/components/json-ld";
 import { examsBySubject } from "@/lib/exams";
 import {
@@ -38,17 +38,14 @@ export async function generateMetadata({
 
 export default async function SubjectPage({
   params,
-  searchParams,
 }: {
   params: Promise<{ subject: string }>;
-  searchParams: Promise<ExamGridSearchParams>;
 }) {
   const { subject } = await params;
   if (!dynamicSubjects.includes(subject as (typeof dynamicSubjects)[number])) notFound();
   const typedSubject = subject as Exam["subject"];
   const seo = subjectSeo[typedSubject];
   const exams = examsBySubject[typedSubject] ?? [];
-  const filters = await searchParams;
 
   return (
     <>
@@ -81,7 +78,7 @@ export default async function SubjectPage({
         subject={typedSubject}
         title={seo.shortName}
         archiveHref={seo.path}
-        initialSearchParams={filters}
+        readFiltersFromUrl
       />
     </>
   );

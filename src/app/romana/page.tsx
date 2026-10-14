@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { ExamGrid, type ExamGridSearchParams } from "@/components/exam-grid";
+import { ExamGrid } from "@/components/exam-grid";
 import { JsonLd } from "@/components/json-ld";
 import { examsBySubject } from "@/lib/exams";
 import { absoluteUrl, createPageMetadata, siteName, siteUrl, subjectSeo } from "@/lib/seo";
@@ -13,13 +13,8 @@ export const metadata: Metadata = createPageMetadata({
   keywords: subject.keywords,
 });
 
-export default async function RomanianPage({
-  searchParams,
-}: {
-  searchParams: Promise<ExamGridSearchParams>;
-}) {
+export default function RomanianPage() {
   const exams = examsBySubject.romana ?? [];
-  const filters = await searchParams;
 
   return (
     <>
@@ -52,7 +47,7 @@ export default async function RomanianPage({
         subject="romana"
         title={subject.shortName}
         archiveHref={subject.path}
-        initialSearchParams={filters}
+        readFiltersFromUrl
         showProfilePicker
       />
     </>
