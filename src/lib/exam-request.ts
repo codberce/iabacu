@@ -5,14 +5,11 @@ import { isKnownExamRoute } from "@/lib/exam-route-exists";
 export function publicExamResponse(request: NextRequest): NextResponse | null {
   const destination = examQueryRedirect(new URL(request.url));
   if (destination) {
-    if (request.headers.get("RSC") === "1") {
-      // Fetch redirects lose URL fragments. Older cached clients must first
-      // perform a full navigation, whose redirect preserves the context.
-      return new NextResponse("", {
-        headers: { "content-type": "text/html; charset=utf-8", "cache-control": "private, no-store" },
-      });
-    }
-    const response = NextResponse.redirect(destination, 307);
+    // Proxy normalization hides Flight headers. A route handler can see them
+    // and preserve old in-app links as well as full document visits.
+    const headers = new Headers(request.headers);
+    headers.set("x-exam-navigation-destination", `${destination.pathname}${destination.hash}`);
+    const response = NextResponse.rewrite(new URL("/document-context", request.url), { request: { headers } });
     response.headers.set("cache-control", "private, no-store");
     return response;
   }

@@ -6,19 +6,20 @@ import { publicExamResponse } from "./exam-request";
 const path = "https://iabacu.ro/exam/archive-logica-143?from=%2Flogica%3Fyear%3D2014&learningWorkspace=private-id";
 
 describe("cache-safe document requests", () => {
-  it("redirects old document visits to browser-only context before rendering", () => {
+  it("routes old document visits through the private context handler before rendering", () => {
     const response = publicExamResponse(new NextRequest(path))!;
-    expect(response.status).toBe(307);
+    expect(response.status).toBe(200);
     expect(response.headers.get("cache-control")).toBe("private, no-store");
-    const url = new URL(response.headers.get("location")!);
+    expect(new URL(response.headers.get("x-middleware-rewrite")!).pathname).toBe("/document-context");
+    const url = new URL(response.headers.get("x-middleware-request-x-exam-navigation-destination")!, "https://iabacu.ro");
     expect(url.search).toBe("");
     expect(new URLSearchParams(url.hash.slice(1)).get("learningWorkspace")).toBe("private-id");
   });
 
-  it("makes legacy in-app RSC links fall back to a full navigation without losing fragments", async () => {
+  it("also forwards context when the proxy receives an RSC request", async () => {
     const response = publicExamResponse(new NextRequest(path, { headers: { RSC: "1" } }))!;
     expect(response.status).toBe(200);
-    expect(response.headers.get("content-type")).toContain("text/html");
+    expect(new URL(response.headers.get("x-middleware-rewrite")!).pathname).toBe("/document-context");
     expect(response.headers.get("cache-control")).toBe("private, no-store");
     expect(response.headers.get("location")).toBeNull();
     expect(await response.text()).toBe("");
