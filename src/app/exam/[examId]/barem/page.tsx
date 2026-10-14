@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { getPrerenderedExamParams } from "@/lib/exam-prerender";
 import { Suspense } from "react";
 import { notFound, permanentRedirect } from "next/navigation";
 import { RouteLoading } from "@/components/route-loading";
@@ -28,12 +29,14 @@ type BaremPageProps = {
   params: Promise<{ examId: string }>;
 };
 
-// The archive is deployed with the application. Render known IDs at build
-// time so neither page rendering nor visitor query context enters runtime ISR.
-export const dynamicParams = false;
+// Keep deployment output bounded; older documents are cached on first access.
+// Per-visitor navigation lives in URL fragments, outside server rendering.
+export const dynamic = "force-static";
+export const dynamicParams = true;
+export const revalidate = false;
 
 export function generateStaticParams() {
-  return exams.map((exam) => ({ examId: exam.id }));
+  return getPrerenderedExamParams(exams);
 }
 
 export async function generateMetadata({

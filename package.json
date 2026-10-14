@@ -17,13 +17,14 @@
   },
   "packageManager": "pnpm@11.3.0",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
+    "dev": "tsx scripts/build-exam-route-index.ts && next dev",
+    "build": "tsx scripts/build-exam-route-index.ts && next build",
     "start": "next start",
     "assets": "node scripts/install-assets.mjs",
     "assets:verify": "node scripts/verify-local-assets.mjs",
     "local:prepare": "node scripts/prepare-local.mjs",
     "lint": "eslint",
+    "build:exam-route-index": "tsx scripts/build-exam-route-index.ts",
     "test": "vitest run",
     "test:watch": "vitest",
     "eval:ai": "vitest run src/evals --reporter=verbose",
@@ -71,6 +72,7 @@
     "eslint-config-next": "16.2.10",
     "jsdom": "^29.1.1",
     "tailwindcss": "^4",
+    "tsx": "^4.23.15",
     "typescript": "^6",
     "vitest": "^4.0.16"
   }

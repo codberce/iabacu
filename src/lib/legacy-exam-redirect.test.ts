@@ -14,14 +14,14 @@ describe("legacy document redirects", () => {
     expect(response.headers.get("cache-control")).toBe("private, no-store");
     const destination = new URL(response.headers.get("location")!);
     expect(decodeURIComponent(destination.pathname)).toBe(`/exam/${workspace.exam.id}${kind === "barem" ? "/barem" : ""}`);
-    expect(destination.searchParams.get("from")).toBe("/matematica?year=2025");
-    expect(destination.searchParams.get("learningWorkspace")).toBe("workspace");
-    expect(destination.searchParams.get("learningActivity")).toBe("activity");
+    expect(new URLSearchParams(destination.hash.slice(1)).get("from")).toBe("/matematica?year=2025");
+    expect(new URLSearchParams(destination.hash.slice(1)).get("learningWorkspace")).toBe("workspace");
+    expect(new URLSearchParams(destination.hash.slice(1)).get("learningActivity")).toBe("activity");
   });
 
   it("sanitizes an unsafe return path", () => {
     const response = legacyExamRedirect(new Request("https://www.iabacu.ro/exam/legacy?from=https%3A%2F%2Fexample.com"), legacyId, "subject");
-    expect(new URL(response.headers.get("location")!).searchParams.get("from")).toBe("/");
+    expect(new URLSearchParams(new URL(response.headers.get("location")!).hash.slice(1)).get("from")).toBe("/");
   });
 
   it.each(["olympiad:5:does-not-exist", "arbitrary-id", "olympiad:4:invalid"])("returns 404 for unknown legacy IDs: %s", (id) => {

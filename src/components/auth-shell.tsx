@@ -87,6 +87,14 @@ function SkipLink() {
   return (
     <a
       href="#main-content"
+      onClick={(event) => {
+        const content = document.getElementById("main-content");
+        if (!content) return;
+        // Keep the document's navigation fragment while moving keyboard focus.
+        event.preventDefault();
+        content.focus({ preventScroll: true });
+        content.scrollIntoView({ block: "start" });
+      }}
       className="fixed left-3 z-[60] -translate-y-full rounded-b bg-zinc-950 px-4 py-2 text-sm font-semibold text-white shadow-lg transition-transform focus-visible:translate-y-0"
     >
       Sari la conținut

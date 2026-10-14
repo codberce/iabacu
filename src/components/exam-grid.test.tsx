@@ -71,7 +71,7 @@ describe("ExamGrid profile selection", () => {
     const card = document.querySelector('a[href*="bio-legacy"]');
     expect(card).toBeInTheDocument();
     const href = card!.getAttribute("href")!;
-    expect(new URL(href, "https://iabacu.ro").searchParams.get("from"))
+    expect(new URLSearchParams(new URL(href, "https://iabacu.ro").hash.slice(1)).get("from"))
       .toBe("/biologie?q=2025&year=2025");
 
     window.history.replaceState({}, "", "/biologie?year=2026");

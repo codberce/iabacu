@@ -91,7 +91,7 @@ describe("PlatformArchive", () => {
     expect(firstCard).not.toBeNull();
     expect(within(firstCard!).getByRole("link", { name: "Deschide proba" })).toHaveAttribute(
       "href",
-      `/exam/${firstTask.id}?from=${encodeURIComponent(returnPath)}`,
+      `/exam/${firstTask.id}#from=${encodeURIComponent(returnPath)}`,
     );
   });
 

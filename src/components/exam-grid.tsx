@@ -2,6 +2,7 @@
 
 import { useEffect, useMemo, useRef, useState, type ReactNode } from "react";
 import Link from "next/link";
+import { withReturnPath } from "@/lib/return-path";
 import { CalendarDays, FileText } from "lucide-react";
 import {
   ArchiveFilters,
@@ -322,7 +323,7 @@ export function ExamGrid({
                   const cardTitle = homeHref.startsWith("/olimpiade/")
                     ? exam.sessionLabel.replace(/^Etapa locală ·\s*/, "")
                     : exam.sessionLabel;
-                  const examHref = `/exam/${exam.id}?from=${encodeURIComponent(returnHref)}`;
+                  const examHref = withReturnPath(`/exam/${exam.id}`, returnHref);
                   return (
                     <Link
                       key={exam.id}
