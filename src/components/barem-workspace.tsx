@@ -262,8 +262,8 @@ export function BaremWorkspace({
   }
 
   return (
-    <section aria-labelledby="barem-workspace-title" className="h-[calc(100dvh-3.5rem)] min-h-[540px] overflow-hidden bg-[#f3f5f1] text-zinc-950">
-      <div className="mx-auto flex h-full w-full min-w-0 max-w-[1800px] flex-col gap-3 overflow-hidden p-3 lg:grid lg:grid-rows-[auto_minmax(0,1fr)] lg:p-4">
+    <section aria-labelledby="barem-workspace-title" className="min-h-[calc(100vh-3.5rem)] bg-[#f3f5f1] text-zinc-950">
+      <div className="mx-auto flex min-h-[calc(100vh-3.5rem)] w-full min-w-0 max-w-[1800px] flex-col gap-3 p-3 lg:grid lg:h-[calc(100dvh-3.5rem)] lg:min-h-[540px] lg:grid-rows-[auto_minmax(0,1fr)] lg:p-4">
         <header className="grid min-h-0 gap-3 rounded-2xl border border-zinc-200/80 bg-white px-4 py-2.5 shadow-[0_1px_2px_rgba(0,0,0,0.04),0_8px_24px_rgba(0,0,0,0.035)] sm:grid-cols-[minmax(0,1fr)_auto] sm:items-center">
           <div className="flex min-w-0 items-center gap-3">
             <Link
